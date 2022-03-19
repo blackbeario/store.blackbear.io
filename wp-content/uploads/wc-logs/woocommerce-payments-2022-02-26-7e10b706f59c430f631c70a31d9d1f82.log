@@ -1,0 +1,5923 @@
+2022-02-26T16:08:25+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/accounts?test_mode=0
+2022-02-26T16:08:25+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/3.6.1',
+)
+2022-02-26T16:08:27+00:00 INFO RESPONSE: array (
+  'account_id' => 'acct_1KN0mD2EExDbvmHH',
+  'email' => '(redacted)',
+  'live_publishable_key' => 'pk_live_iBIpeqzKOOx2Y8PFCRBfyMU000Q7xVG4Sn',
+  'test_publishable_key' => 'pk_test_51ETDmyFuiXB5oUVxwSobQMW5Tno1GclIq7ePZWzLeW4q8oa7Zb8hI5VfwI5sNT5nXuKYinLukNvGCXmsQXAoDGHG00MqHqlYHR',
+  'is_live' => true,
+  'has_pending_requirements' => false,
+  'has_overdue_requirements' => false,
+  'current_deadline' => NULL,
+  'status' => 'complete',
+  'capabilities' => 
+  array (
+    'bancontact_payments' => 'active',
+    'card_payments' => 'active',
+    'eps_payments' => 'active',
+    'giropay_payments' => 'active',
+    'ideal_payments' => 'active',
+    'p24_payments' => 'active',
+    'sepa_debit_payments' => 'active',
+    'sofort_payments' => 'active',
+    'tax_reporting_us_1099_k' => 'active',
+    'transfers' => 'active',
+    'acss_debit_payments' => 'unrequested',
+    'afterpay_clearpay_payments' => 'unrequested',
+    'klarna' => 'unrequested',
+    'link_payments' => 'unrequested',
+    'tax_reporting_us_1099_misc' => 'unrequested',
+    'us_bank_account_ach_payments' => 'unrequested',
+  ),
+  'capability_requirements' => 
+  array (
+    'acss_debit_payments' => 
+    array (
+    ),
+    'afterpay_clearpay_payments' => 
+    array (
+      0 => 'business_profile.support_phone',
+    ),
+    'bancontact_payments' => 
+    array (
+    ),
+    'card_payments' => 
+    array (
+    ),
+    'eps_payments' => 
+    array (
+    ),
+    'giropay_payments' => 
+    array (
+    ),
+    'ideal_payments' => 
+    array (
+    ),
+    'klarna' => 
+    array (
+    ),
+    'link_payments' => 
+    array (
+    ),
+    'p24_payments' => 
+    array (
+    ),
+    'sepa_debit_payments' => 
+    array (
+    ),
+    'sofort_payments' => 
+    array (
+    ),
+    'tax_reporting_us_1099_k' => 
+    array (
+    ),
+    'tax_reporting_us_1099_misc' => 
+    array (
+    ),
+    'transfers' => 
+    array (
+    ),
+    'us_bank_account_ach_payments' => 
+    array (
+    ),
+  ),
+  'payments_enabled' => true,
+  'deposits_status' => 'daily',
+  'statement_descriptor' => 'STORE.BLACKBEAR.IO',
+  'latest_tos_agreement' => 
+  array (
+    'date' => '2022-01-28 20:10:35',
+    'source' => 'signup',
+    'is_current_version' => true,
+  ),
+  'fees' => 
+  array (
+    'base' => 
+    array (
+      'percentage_rate' => 0.029,
+      'fixed_rate' => 30,
+      'currency' => 'usd',
+    ),
+    'discount' => 
+    array (
+    ),
+    'bancontact' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.014,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'card' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.029,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'card_present' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.026,
+        'fixed_rate' => 10,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'eps' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.018,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'ideal' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0,
+        'fixed_rate' => 80,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'giropay' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.014,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'p24' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.022,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'sofort' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.014,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'sepa_debit' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.008,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+        'fee_cap' => 600,
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+  ),
+  'capital' => 
+  array (
+    'has_active_loan' => false,
+    'has_previous_loans' => false,
+    'loans' => 
+    array (
+    ),
+  ),
+  'fraud_services' => 
+  array (
+    'stripe' => 
+    array (
+    ),
+    'sift' => 
+    array (
+      'beacon_key' => 'affbdadb36',
+      'sandbox_beacon_key' => '6ad0ad748b',
+    ),
+  ),
+  'store_currencies' => 
+  array (
+    'default' => 'usd',
+    'supported' => 
+    array (
+      0 => 'usd',
+    ),
+  ),
+  'customer_currencies' => 
+  array (
+    'supported' => 
+    array (
+      0 => 'usd',
+      1 => 'aed',
+      2 => 'afn',
+      3 => 'all',
+      4 => 'amd',
+      5 => 'ang',
+      6 => 'aoa',
+      7 => 'ars',
+      8 => 'aud',
+      9 => 'awg',
+      10 => 'azn',
+      11 => 'bam',
+      12 => 'bbd',
+      13 => 'bdt',
+      14 => 'bgn',
+      15 => 'bif',
+      16 => 'bmd',
+      17 => 'bnd',
+      18 => 'bob',
+      19 => 'brl',
+      20 => 'bsd',
+      21 => 'bwp',
+      22 => 'byn',
+      23 => 'bzd',
+      24 => 'cad',
+      25 => 'cdf',
+      26 => 'chf',
+      27 => 'clp',
+      28 => 'cny',
+      29 => 'cop',
+      30 => 'crc',
+      31 => 'cve',
+      32 => 'czk',
+      33 => 'djf',
+      34 => 'dkk',
+      35 => 'dop',
+      36 => 'dzd',
+      37 => 'egp',
+      38 => 'etb',
+      39 => 'eur',
+      40 => 'fjd',
+      41 => 'fkp',
+      42 => 'gbp',
+      43 => 'gel',
+      44 => 'gip',
+      45 => 'gmd',
+      46 => 'gnf',
+      47 => 'gtq',
+      48 => 'gyd',
+      49 => 'hkd',
+      50 => 'hnl',
+      51 => 'hrk',
+      52 => 'htg',
+      53 => 'huf',
+      54 => 'idr',
+      55 => 'ils',
+      56 => 'inr',
+      57 => 'isk',
+      58 => 'jmd',
+      59 => 'jpy',
+      60 => 'kes',
+      61 => 'kgs',
+      62 => 'khr',
+      63 => 'kmf',
+      64 => 'krw',
+      65 => 'kyd',
+      66 => 'kzt',
+      67 => 'lak',
+      68 => 'lbp',
+      69 => 'lkr',
+      70 => 'lrd',
+      71 => 'lsl',
+      72 => 'mad',
+      73 => 'mdl',
+      74 => 'mga',
+      75 => 'mkd',
+      76 => 'mmk',
+      77 => 'mnt',
+      78 => 'mop',
+      79 => 'mro',
+      80 => 'mur',
+      81 => 'mvr',
+      82 => 'mwk',
+      83 => 'mxn',
+      84 => 'myr',
+      85 => 'mzn',
+      86 => 'nad',
+      87 => 'ngn',
+      88 => 'nio',
+      89 => 'nok',
+      90 => 'npr',
+      91 => 'nzd',
+      92 => 'pab',
+      93 => 'pen',
+      94 => 'pgk',
+      95 => 'php',
+      96 => 'pkr',
+      97 => 'pln',
+      98 => 'pyg',
+      99 => 'qar',
+      100 => 'ron',
+      101 => 'rsd',
+      102 => 'rub',
+      103 => 'rwf',
+      104 => 'sar',
+      105 => 'sbd',
+      106 => 'scr',
+      107 => 'sek',
+      108 => 'sgd',
+      109 => 'shp',
+      110 => 'sll',
+      111 => 'sos',
+      112 => 'srd',
+      113 => 'std',
+      114 => 'szl',
+      115 => 'thb',
+      116 => 'tjs',
+      117 => 'top',
+      118 => 'try',
+      119 => 'ttd',
+      120 => 'twd',
+      121 => 'tzs',
+      122 => 'uah',
+      123 => 'ugx',
+      124 => 'uyu',
+      125 => 'uzs',
+      126 => 'vnd',
+      127 => 'vuv',
+      128 => 'wst',
+      129 => 'xaf',
+      130 => 'xcd',
+      131 => 'xof',
+      132 => 'xpf',
+      133 => 'yer',
+      134 => 'zar',
+      135 => 'zmw',
+    ),
+  ),
+  'country' => '(redacted)',
+  'instant_deposits_eligible' => false,
+  'card_present_eligible' => true,
+  'business_profile' => 
+  array (
+    'name' => '(redacted)',
+    'url' => 'https://store.blackbear.io',
+    'support_address' => 
+    array (
+    ),
+    'support_email' => NULL,
+    'support_phone' => NULL,
+  ),
+  'branding' => 
+  array (
+    'icon' => NULL,
+    'logo' => NULL,
+    'primary_color' => NULL,
+    'secondary_color' => NULL,
+  ),
+)
+2022-02-26T16:08:27+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/currency/rates?test_mode=1&currency_from=USD
+2022-02-26T16:08:27+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/3.6.1',
+)
+2022-02-26T16:08:27+00:00 INFO RESPONSE: array (
+  'AED' => 3.6731,
+  'AFN' => 91.799997,
+  'ALL' => 108,
+  'AMD' => 480.411005,
+  'ANG' => 1.797857,
+  'AOA' => 496.6,
+  'ARS' => 107.459553,
+  'AUD' => 1.38393,
+  'AWG' => 1.80025,
+  'AZN' => 1.7,
+  'BAM' => 1.744594,
+  'BBD' => 2,
+  'BDT' => 85.763273,
+  'BGN' => 1.737448,
+  'BHD' => 0.376997,
+  'BIF' => 2013,
+  'BMD' => 1,
+  'BND' => 1.351537,
+  'BOB' => 6.866693,
+  'BRL' => 5.163,
+  'BSD' => 1,
+  'BTC' => 2.5E-5,
+  'BTN' => 75.106735,
+  'BWP' => 11.574647,
+  'BYN' => 2.751365,
+  'BZD' => 2.010797,
+  'CAD' => 1.270822,
+  'CDF' => 2014,
+  'CHF' => 0.926177,
+  'CLF' => 0.029072,
+  'CLP' => 802.19,
+  'CNH' => 6.313995,
+  'CNY' => 6.3171,
+  'COP' => 3898.076712,
+  'CRC' => 639.724304,
+  'CUC' => 1,
+  'CUP' => 25.75,
+  'CVE' => 98.85,
+  'CZK' => 21.94985,
+  'DJF' => 177.618394,
+  'DKK' => 6.602375,
+  'DOP' => 55.813102,
+  'DZD' => 141.183311,
+  'EGP' => 15.746361,
+  'ERN' => 15.00001,
+  'ETB' => 50.81,
+  'EUR' => 0.886997,
+  'FJD' => 2.13,
+  'FKP' => 0.745851,
+  'GBP' => 0.745851,
+  'GEL' => 3.17,
+  'GGP' => 0.745851,
+  'GHS' => 6.8,
+  'GIP' => 0.745851,
+  'GMD' => 53.3,
+  'GNF' => 8978.5,
+  'GTQ' => 7.69755,
+  'GYD' => 208.713741,
+  'HKD' => 7.808395,
+  'HNL' => 24.515001,
+  'HRK' => 6.7162,
+  'HTG' => 103.958356,
+  'HUF' => 323.905,
+  'IDR' => 14334.25,
+  'ILS' => 3.232405,
+  'IMP' => 0.745851,
+  'INR' => 75.0554,
+  'IQD' => 1459.5,
+  'IRR' => 42250,
+  'ISK' => 125.26,
+  'JEP' => 0.745851,
+  'JMD' => 155.205652,
+  'JOD' => 0.709,
+  'JPY' => 115.5565,
+  'KES' => 113.85,
+  'KGS' => 89.781752,
+  'KHR' => 4065,
+  'KMF' => 438.375102,
+  'KPW' => 900,
+  'KRW' => 1197.83,
+  'KWD' => 0.303044,
+  'KYD' => 0.831268,
+  'KZT' => 459.057461,
+  'LAK' => 11385,
+  'LBP' => 1517,
+  'LKR' => 202.007167,
+  'LRD' => 154.199965,
+  'LSL' => 15.2,
+  'LYD' => 4.585,
+  'MAD' => 9.5,
+  'MDL' => 18.002848,
+  'MGA' => 3985,
+  'MKD' => 54.559625,
+  'MMK' => 1774.158099,
+  'MNT' => 2865.605582,
+  'MOP' => 8.024709,
+  'MUR' => 44.00071,
+  'MVR' => 15.45,
+  'MWK' => 803.5,
+  'MXN' => 20.3544,
+  'MYR' => 4.2,
+  'MZN' => 63.830002,
+  'NAD' => 15.2,
+  'NGN' => 415.56,
+  'NIO' => 35.46,
+  'NOK' => 8.8285,
+  'NPR' => 120.171285,
+  'NZD' => 1.482515,
+  'OMR' => 0.385046,
+  'PAB' => 1,
+  'PEN' => 3.799,
+  'PGK' => 3.515,
+  'PHP' => 51.178,
+  'PKR' => 175.25,
+  'PLN' => 4.113846,
+  'PYG' => 6924.039049,
+  'QAR' => 3.641,
+  'RON' => 4.3896,
+  'RSD' => 104.317375,
+  'RUB' => 83.8629,
+  'RWF' => 1015,
+  'SAR' => 3.751437,
+  'SBD' => 8.080841,
+  'SCR' => 14.401846,
+  'SDG' => 445.5,
+  'SEK' => 9.39475,
+  'SGD' => 1.35345,
+  'SHP' => 0.745851,
+  'SLL' => 11531.25017,
+  'SOS' => 586,
+  'SRD' => 20.6495,
+  'SSP' => 130.26,
+  'STD' => 21146.190504,
+  'SVC' => 8.728065,
+  'SYP' => 2512,
+  'SZL' => 15.2,
+  'THB' => 32.446751,
+  'TJS' => 11.264235,
+  'TMT' => 3.51,
+  'TND' => 2.889,
+  'TOP' => 2.278816,
+  'TRY' => 13.8238,
+  'TTD' => 6.782065,
+  'TWD' => 27.9778,
+  'TZS' => 2315,
+  'UAH' => 29.981,
+  'UGX' => 3517.667298,
+  'USD' => 1,
+  'UYU' => 42.289226,
+  'UZS' => 10865,
+  'VND' => 22831.054989,
+  'VUV' => 113.920207,
+  'WST' => 2.622912,
+  'XAF' => 581.831653,
+  'XAG' => 0.041235,
+  'XAU' => 0.000529,
+  'XCD' => 2.70255,
+  'XDR' => 0.713676,
+  'XOF' => 581.831653,
+  'XPD' => 0.000422,
+  'XPF' => 105.846854,
+  'XPT' => 0.000943,
+  'YER' => 250.249937,
+  'ZAR' => 15.13419,
+  'ZMW' => 17.684602,
+  'ZWL' => 322,
+)
+2022-02-26T16:08:27+00:00 DEBUG Saved currencies fetched from the server to the cache. Expiry: 2022-02-26 22:08:27
+2022-02-26T18:02:07+00:00 INFO REQUEST POST https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/customers
+2022-02-26T18:02:07+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/3.6.1',
+  'Idempotency-Key' => '980c4690-5a3d-4015-87dc-3ae885511396',
+)
+2022-02-26T18:02:07+00:00 INFO BODY: array (
+  'test_mode' => true,
+  'name' => '(redacted)',
+  'description' => 'Name: El Jeffe, Guest',
+  'email' => '(redacted)',
+  'phone' => '(redacted)',
+  'address' => 
+  array (
+    'line1' => '(redacted)',
+    'line2' => '(redacted)',
+    'postal_code' => '(redacted)',
+    'city' => '(redacted)',
+    'state' => '(redacted)',
+    'country' => '(redacted)',
+  ),
+  'session_id' => '202255454_2d99bebd45f9218641487d9d926ae542',
+)
+2022-02-26T18:02:08+00:00 INFO RESPONSE: array (
+  'id' => 'cus_LDwTXZIIsHnSa1',
+  'object' => 'customer',
+  'address' => 
+  array (
+    'city' => '(redacted)',
+    'country' => '(redacted)',
+    'line1' => '(redacted)',
+    'line2' => '(redacted)',
+    'postal_code' => '(redacted)',
+    'state' => '(redacted)',
+  ),
+  'balance' => 0,
+  'created' => 1645898528,
+  'currency' => NULL,
+  'default_source' => NULL,
+  'delinquent' => false,
+  'description' => 'Name: El Jeffe, Guest',
+  'discount' => NULL,
+  'email' => '(redacted)',
+  'invoice_prefix' => '05C218AB',
+  'invoice_settings' => 
+  array (
+    'custom_fields' => NULL,
+    'default_payment_method' => NULL,
+    'footer' => NULL,
+  ),
+  'livemode' => false,
+  'metadata' => 'stdClass()',
+  'name' => '(redacted)',
+  'next_invoice_sequence' => 1,
+  'phone' => '(redacted)',
+  'preferred_locales' => 
+  array (
+  ),
+  'shipping' => NULL,
+  'tax_exempt' => 'none',
+)
+2022-02-26T18:02:08+00:00 INFO REQUEST POST https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/intentions
+2022-02-26T18:02:08+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/3.6.1',
+  'Idempotency-Key' => '7d684264-124f-482a-9d88-fe96348b01eb',
+)
+2022-02-26T18:02:08+00:00 INFO BODY: array (
+  'test_mode' => true,
+  'amount' => 2669,
+  'currency' => 'usd',
+  'confirm' => 'true',
+  'payment_method' => 'pm_1KXUak2EExDbvmHHS1TIzy3L',
+  'customer' => 'cus_LDwTXZIIsHnSa1',
+  'capture_method' => 'automatic',
+  'metadata' => 
+  array (
+    'customer_name' => '(redacted)',
+    'customer_email' => '(redacted)',
+    'site_url' => 'https://store.blackbear.io',
+    'order_id' => 29,
+    'order_key' => 'wc_order_1nvpK2ZO0tPXt',
+    'payment_type' => 'WCPay\\Constants\\Payment_Type()',
+  ),
+  'level3' => 
+  array (
+    'merchant_reference' => '29',
+    'customer_reference' => '29',
+    'shipping_amount' => 0,
+    'line_items' => 
+    array (
+      0 => 'stdClass()',
+    ),
+    'shipping_from_zip' => '28742',
+  ),
+  'description' => 'Online Payment for Order #29 for store.blackbear.io blog_id 202255454',
+  'payment_method_types' => 
+  array (
+    0 => 'card',
+  ),
+)
+2022-02-26T18:02:10+00:00 INFO RESPONSE: array (
+  'id' => 'pi_3KXUar2EExDbvmHH1hdP8L4G',
+  'object' => 'payment_intent',
+  'amount' => 2669,
+  'amount_capturable' => 0,
+  'amount_received' => 2669,
+  'amount_subtotal' => 2669,
+  'application' => 'ca_Ex84e31yMTLaNU5ozQvi5woLclpIDVpX',
+  'application_fee_amount' => 107,
+  'automatic_payment_methods' => NULL,
+  'canceled_at' => NULL,
+  'cancellation_reason' => NULL,
+  'capture_method' => 'automatic',
+  'charges' => 
+  array (
+    'object' => 'list',
+    'data' => 
+    array (
+      0 => 
+      array (
+        'id' => 'ch_3KXUar2EExDbvmHH1l3xgKAb',
+        'object' => 'charge',
+        'amount' => 2669,
+        'amount_captured' => 2669,
+        'amount_refunded' => 0,
+        'application' => 'ca_Ex84e31yMTLaNU5ozQvi5woLclpIDVpX',
+        'application_fee' => 'fee_1KXUas2EExDbvmHHbh1W3pGz',
+        'application_fee_amount' => 107,
+        'balance_transaction' => 
+        array (
+          'id' => 'txn_3KXUar2EExDbvmHH14Wuh2ti',
+          'object' => 'balance_transaction',
+          'amount' => 2669,
+          'available_on' => 1646438400,
+          'created' => 1645898529,
+          'currency' => 'usd',
+          'description' => 'Online Payment for Order #29 for store.blackbear.io blog_id 202255454',
+          'exchange_rate' => NULL,
+          'fee' => 107,
+          'fee_details' => 
+          array (
+            0 => 
+            array (
+              'amount' => 107,
+              'application' => 'ca_Ex84e31yMTLaNU5ozQvi5woLclpIDVpX',
+              'currency' => 'usd',
+              'description' => 'WooCommerce Payments application fee',
+              'type' => 'application_fee',
+            ),
+          ),
+          'net' => 2562,
+          'reporting_category' => 'charge',
+          'source' => 'ch_3KXUar2EExDbvmHH1l3xgKAb',
+          'status' => 'pending',
+          'type' => 'charge',
+        ),
+        'billing_details' => 
+        array (
+          'address' => 
+          array (
+            'city' => '(redacted)',
+            'country' => '(redacted)',
+            'line1' => '(redacted)',
+            'line2' => '(redacted)',
+            'postal_code' => '(redacted)',
+            'state' => '(redacted)',
+          ),
+          'email' => '(redacted)',
+          'name' => '(redacted)',
+          'phone' => '(redacted)',
+        ),
+        'calculated_statement_descriptor' => 'STORE.BLACKBEAR.IO',
+        'captured' => true,
+        'created' => 1645898529,
+        'currency' => 'usd',
+        'customer' => 'cus_LDwTXZIIsHnSa1',
+        'description' => 'Online Payment for Order #29 for store.blackbear.io blog_id 202255454',
+        'destination' => NULL,
+        'dispute' => NULL,
+        'disputed' => false,
+        'failure_code' => NULL,
+        'failure_message' => NULL,
+        'fraud_details' => 
+        array (
+        ),
+        'invoice' => NULL,
+        'level3' => 
+        array (
+          'customer_reference' => '29',
+          'line_items' => 
+          array (
+            0 => 
+            array (
+              'discount_amount' => 0,
+              'product_code' => '10',
+              'product_description' => 'Day Pass',
+              'quantity' => 1,
+              'tax_amount' => 169,
+              'unit_cost' => 2500,
+            ),
+          ),
+          'merchant_reference' => '29',
+          'shipping_amount' => 0,
+          'shipping_from_zip' => '28742',
+        ),
+        'livemode' => false,
+        'metadata' => 
+        array (
+          'customer_name' => '(redacted)',
+          'customer_email' => '(redacted)',
+          'site_url' => 'https://store.blackbear.io',
+          'order_id' => '29',
+          'order_key' => 'wc_order_1nvpK2ZO0tPXt',
+          'payment_type' => 'single',
+        ),
+        'on_behalf_of' => NULL,
+        'order' => NULL,
+        'outcome' => 
+        array (
+          'network_status' => 'approved_by_network',
+          'reason' => NULL,
+          'risk_level' => 'normal',
+          'risk_score' => 36,
+          'seller_message' => 'Payment complete.',
+          'type' => 'authorized',
+        ),
+        'paid' => true,
+        'payment_intent' => 'pi_3KXUar2EExDbvmHH1hdP8L4G',
+        'payment_method' => 'pm_1KXUak2EExDbvmHHS1TIzy3L',
+        'payment_method_details' => 
+        array (
+          'card' => 
+          array (
+            'brand' => 'visa',
+            'checks' => 
+            array (
+              'address_line1_check' => 'pass',
+              'address_postal_code_check' => 'pass',
+              'cvc_check' => 'pass',
+            ),
+            'country' => '(redacted)',
+            'exp_month' => 4,
+            'exp_year' => 2024,
+            'fingerprint' => '0SEufZLr8JkcLcfi',
+            'funding' => 'credit',
+            'installments' => NULL,
+            'last4' => '4242',
+            'mandate' => NULL,
+            'network' => 'visa',
+            'three_d_secure' => NULL,
+            'wallet' => NULL,
+          ),
+          'type' => 'card',
+        ),
+        'receipt_email' => NULL,
+        'receipt_number' => NULL,
+        'receipt_url' => 'https://pay.stripe.com/receipts/acct_1KN0mD2EExDbvmHH/ch_3KXUar2EExDbvmHH1l3xgKAb/rcpt_LDwTioBMBx9Urx7OWGBvXMYoLY8TIfB',
+        'refunded' => false,
+        'refunds' => 
+        array (
+          'object' => 'list',
+          'data' => 
+          array (
+          ),
+          'has_more' => false,
+          'total_count' => 0,
+          'url' => '/v1/charges/ch_3KXUar2EExDbvmHH1l3xgKAb/refunds',
+        ),
+        'review' => NULL,
+        'shipping' => NULL,
+        'source' => NULL,
+        'source_transfer' => NULL,
+        'statement_descriptor' => NULL,
+        'statement_descriptor_suffix' => NULL,
+        'status' => 'succeeded',
+        'transfer_data' => NULL,
+        'transfer_group' => NULL,
+      ),
+    ),
+    'has_more' => false,
+    'total_count' => 1,
+    'url' => '/v1/charges?payment_intent=pi_3KXUar2EExDbvmHH1hdP8L4G',
+  ),
+  'client_secret' => '(redacted)',
+  'confirmation_method' => 'automatic',
+  'created' => 1645898529,
+  'currency' => 'usd',
+  'customer' => 'cus_LDwTXZIIsHnSa1',
+  'description' => 'Online Payment for Order #29 for store.blackbear.io blog_id 202255454',
+  'invoice' => NULL,
+  'last_payment_error' => NULL,
+  'level3' => 
+  array (
+    'customer_reference' => '29',
+    'line_items' => 
+    array (
+      0 => 
+      array (
+        'discount_amount' => 0,
+        'product_code' => '10',
+        'product_description' => 'Day Pass',
+        'quantity' => 1,
+        'tax_amount' => 169,
+        'unit_cost' => 2500,
+      ),
+    ),
+    'merchant_reference' => '29',
+    'shipping_amount' => 0,
+    'shipping_from_zip' => '28742',
+  ),
+  'livemode' => false,
+  'metadata' => 
+  array (
+    'customer_name' => '(redacted)',
+    'customer_email' => '(redacted)',
+    'site_url' => 'https://store.blackbear.io',
+    'order_id' => '29',
+    'order_key' => 'wc_order_1nvpK2ZO0tPXt',
+    'payment_type' => 'single',
+  ),
+  'next_action' => NULL,
+  'on_behalf_of' => NULL,
+  'payment_method' => 'pm_1KXUak2EExDbvmHHS1TIzy3L',
+  'payment_method_options' => 
+  array (
+    'card' => 
+    array (
+      'installments' => NULL,
+      'mandate_options' => NULL,
+      'network' => NULL,
+      'request_three_d_secure' => 'automatic',
+    ),
+  ),
+  'payment_method_types' => 
+  array (
+    0 => 'card',
+  ),
+  'processing' => NULL,
+  'receipt_email' => NULL,
+  'review' => NULL,
+  'setup_future_usage' => NULL,
+  'shipping' => NULL,
+  'source' => NULL,
+  'statement_descriptor' => NULL,
+  'statement_descriptor_suffix' => NULL,
+  'status' => 'succeeded',
+  'total_details' => 
+  array (
+    'amount_discount' => 0,
+    'amount_tax' => 0,
+  ),
+  'transfer_data' => NULL,
+  'transfer_group' => NULL,
+  'fee_history' => 
+  array (
+    0 => 
+    array (
+      'type' => 'base',
+      'percentage_rate' => 0.029,
+      'fixed_rate' => 30,
+      'currency' => 'usd',
+    ),
+  ),
+)
+2022-02-26T18:02:13+00:00 DEBUG Webhook recieved: payment_intent.succeeded
+2022-02-26T18:02:13+00:00 DEBUG Webhook body: array (
+  'id' => 'evt_3KXUar2EExDbvmHH1K2rbfik',
+  'type' => 'payment_intent.succeeded',
+  'livemode' => false,
+  'account' => 'acct_1KN0mD2EExDbvmHH',
+  'data' => 
+  array (
+    'object' => 
+    array (
+      'id' => 'pi_3KXUar2EExDbvmHH1hdP8L4G',
+      'object' => 'payment_intent',
+      'amount' => 2669,
+      'amount_capturable' => 0,
+      'amount_received' => 2669,
+      'application' => 'ca_Ex84e31yMTLaNU5ozQvi5woLclpIDVpX',
+      'application_fee_amount' => 107,
+      'automatic_payment_methods' => NULL,
+      'canceled_at' => NULL,
+      'cancellation_reason' => NULL,
+      'capture_method' => 'automatic',
+      'charges' => 
+      array (
+        'object' => 'list',
+        'data' => 
+        array (
+          0 => 
+          array (
+            'id' => 'ch_3KXUar2EExDbvmHH1l3xgKAb',
+            'object' => 'charge',
+            'amount' => 2669,
+            'amount_captured' => 2669,
+            'amount_refunded' => 0,
+            'application' => 'ca_Ex84e31yMTLaNU5ozQvi5woLclpIDVpX',
+            'application_fee' => 'fee_1KXUas2EExDbvmHHbh1W3pGz',
+            'application_fee_amount' => 107,
+            'balance_transaction' => 'txn_3KXUar2EExDbvmHH14Wuh2ti',
+            'billing_details' => 
+            array (
+              'address' => 
+              array (
+                'city' => '(redacted)',
+                'country' => '(redacted)',
+                'line1' => '(redacted)',
+                'line2' => '(redacted)',
+                'postal_code' => '(redacted)',
+                'state' => '(redacted)',
+              ),
+              'email' => '(redacted)',
+              'name' => '(redacted)',
+              'phone' => '(redacted)',
+            ),
+            'calculated_statement_descriptor' => 'STORE.BLACKBEAR.IO',
+            'captured' => true,
+            'created' => 1645898529,
+            'currency' => 'usd',
+            'customer' => 'cus_LDwTXZIIsHnSa1',
+            'description' => 'Online Payment for Order #29 for store.blackbear.io blog_id 202255454',
+            'destination' => NULL,
+            'dispute' => NULL,
+            'disputed' => false,
+            'failure_code' => NULL,
+            'failure_message' => NULL,
+            'fraud_details' => 
+            array (
+            ),
+            'invoice' => NULL,
+            'livemode' => false,
+            'metadata' => 
+            array (
+              'customer_name' => '(redacted)',
+              'customer_email' => '(redacted)',
+              'site_url' => 'https://store.blackbear.io',
+              'order_id' => '29',
+              'order_key' => 'wc_order_1nvpK2ZO0tPXt',
+              'payment_type' => 'single',
+            ),
+            'on_behalf_of' => NULL,
+            'order' => NULL,
+            'outcome' => 
+            array (
+              'network_status' => 'approved_by_network',
+              'reason' => NULL,
+              'risk_level' => 'normal',
+              'risk_score' => 36,
+              'seller_message' => 'Payment complete.',
+              'type' => 'authorized',
+            ),
+            'paid' => true,
+            'payment_intent' => 'pi_3KXUar2EExDbvmHH1hdP8L4G',
+            'payment_method' => 'pm_1KXUak2EExDbvmHHS1TIzy3L',
+            'payment_method_details' => 
+            array (
+              'card' => 
+              array (
+                'brand' => 'visa',
+                'checks' => 
+                array (
+                  'address_line1_check' => 'pass',
+                  'address_postal_code_check' => 'pass',
+                  'cvc_check' => 'pass',
+                ),
+                'country' => '(redacted)',
+                'exp_month' => 4,
+                'exp_year' => 2024,
+                'fingerprint' => '0SEufZLr8JkcLcfi',
+                'funding' => 'credit',
+                'installments' => NULL,
+                'last4' => '4242',
+                'network' => 'visa',
+                'three_d_secure' => NULL,
+                'wallet' => NULL,
+              ),
+              'type' => 'card',
+            ),
+            'receipt_email' => NULL,
+            'receipt_number' => NULL,
+            'receipt_url' => 'https://pay.stripe.com/receipts/acct_1KN0mD2EExDbvmHH/ch_3KXUar2EExDbvmHH1l3xgKAb/rcpt_LDwTioBMBx9Urx7OWGBvXMYoLY8TIfB',
+            'refunded' => false,
+            'refunds' => 
+            array (
+              'object' => 'list',
+              'data' => 
+              array (
+              ),
+              'has_more' => false,
+              'total_count' => 0,
+              'url' => '/v1/charges/ch_3KXUar2EExDbvmHH1l3xgKAb/refunds',
+            ),
+            'review' => NULL,
+            'shipping' => NULL,
+            'source' => NULL,
+            'source_transfer' => NULL,
+            'statement_descriptor' => NULL,
+            'statement_descriptor_suffix' => NULL,
+            'status' => 'succeeded',
+            'transfer_data' => NULL,
+            'transfer_group' => NULL,
+            'level3' => 
+            array (
+              'customer_reference' => '29',
+              'line_items' => 
+              array (
+                0 => 
+                array (
+                  'discount_amount' => 0,
+                  'product_code' => '10',
+                  'product_description' => 'Day Pass',
+                  'quantity' => 1,
+                  'tax_amount' => 169,
+                  'unit_cost' => 2500,
+                ),
+              ),
+              'merchant_reference' => '29',
+              'shipping_amount' => 0,
+              'shipping_from_zip' => '28742',
+            ),
+          ),
+        ),
+        'has_more' => false,
+        'total_count' => 1,
+        'url' => '/v1/charges?payment_intent=pi_3KXUar2EExDbvmHH1hdP8L4G',
+      ),
+      'client_secret' => '(redacted)',
+      'confirmation_method' => 'automatic',
+      'created' => 1645898529,
+      'currency' => 'usd',
+      'customer' => 'cus_LDwTXZIIsHnSa1',
+      'description' => 'Online Payment for Order #29 for store.blackbear.io blog_id 202255454',
+      'invoice' => NULL,
+      'last_payment_error' => NULL,
+      'livemode' => false,
+      'metadata' => 
+      array (
+        'customer_name' => '(redacted)',
+        'customer_email' => '(redacted)',
+        'site_url' => 'https://store.blackbear.io',
+        'order_id' => '29',
+        'order_key' => 'wc_order_1nvpK2ZO0tPXt',
+        'payment_type' => 'single',
+      ),
+      'next_action' => NULL,
+      'on_behalf_of' => NULL,
+      'payment_method' => 'pm_1KXUak2EExDbvmHHS1TIzy3L',
+      'payment_method_options' => 
+      array (
+        'card' => 
+        array (
+          'installments' => NULL,
+          'network' => NULL,
+          'request_three_d_secure' => 'automatic',
+        ),
+      ),
+      'payment_method_types' => 
+      array (
+        0 => 'card',
+      ),
+      'processing' => NULL,
+      'receipt_email' => NULL,
+      'review' => NULL,
+      'setup_future_usage' => NULL,
+      'shipping' => NULL,
+      'source' => NULL,
+      'statement_descriptor' => NULL,
+      'statement_descriptor_suffix' => NULL,
+      'status' => 'succeeded',
+      'transfer_data' => NULL,
+      'transfer_group' => NULL,
+      'amount_subtotal' => 2669,
+      'level3' => 
+      array (
+        'customer_reference' => '29',
+        'line_items' => 
+        array (
+          0 => 
+          array (
+            'discount_amount' => 0,
+            'product_code' => '10',
+            'product_description' => 'Day Pass',
+            'quantity' => 1,
+            'tax_amount' => 169,
+            'unit_cost' => 2500,
+          ),
+        ),
+        'merchant_reference' => '29',
+        'shipping_amount' => 0,
+        'shipping_from_zip' => '28742',
+      ),
+      'total_details' => 
+      array (
+        'amount_discount' => 0,
+        'amount_tax' => 0,
+      ),
+    ),
+  ),
+)
+2022-02-26T18:08:14+00:00 INFO REQUEST POST https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/tracking/order
+2022-02-26T18:08:14+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/3.6.1',
+  'Idempotency-Key' => '0cf3cbe0-9357-49c6-89c5-4a6b900299be',
+)
+2022-02-26T18:08:14+00:00 INFO BODY: array (
+  'test_mode' => true,
+  'order_data' => 
+  array (
+    'id' => 29,
+    'parent_id' => 0,
+    'status' => 'processing',
+    'currency' => 'USD',
+    'version' => '6.1.1',
+    'prices_include_tax' => false,
+    'date_created' => 'WC_DateTime()',
+    'date_modified' => 'WC_DateTime()',
+    'discount_total' => '0',
+    'discount_tax' => '0',
+    'shipping_total' => '0',
+    'shipping_tax' => '0',
+    'cart_tax' => '1.69',
+    'total' => '26.69',
+    'total_tax' => '1.69',
+    'customer_id' => 0,
+    'order_key' => 'wc_order_1nvpK2ZO0tPXt',
+    'billing' => 
+    array (
+      'first_name' => 'El',
+      'last_name' => 'Jeffe',
+      'company' => '',
+      'address_1' => '123 Any St',
+      'address_2' => '',
+      'city' => '(redacted)',
+      'state' => '(redacted)',
+      'postcode' => '28742',
+      'country' => '(redacted)',
+      'email' => '(redacted)',
+      'phone' => '(redacted)',
+    ),
+    'shipping' => 
+    array (
+      'first_name' => '',
+      'last_name' => '',
+      'company' => '',
+      'address_1' => '',
+      'address_2' => '',
+      'city' => '(redacted)',
+      'state' => '(redacted)',
+      'postcode' => '',
+      'country' => '(redacted)',
+      'phone' => '(redacted)',
+    ),
+    'payment_method' => 'woocommerce_payments',
+    'payment_method_title' => 'Credit card / debit card',
+    'transaction_id' => 'pi_3KXUar2EExDbvmHH1hdP8L4G',
+    'customer_ip_address' => '24.246.140.208',
+    'customer_user_agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148',
+    'created_via' => 'checkout',
+    'customer_note' => '',
+    'date_completed' => NULL,
+    'date_paid' => 'WC_DateTime()',
+    'cart_hash' => '14683e6a62f76c85f8ca842fb458bcb9',
+    'number' => '29',
+    'meta_data' => 
+    array (
+      0 => 'WC_Meta_Data()',
+      1 => 'WC_Meta_Data()',
+      2 => 'WC_Meta_Data()',
+      3 => 'WC_Meta_Data()',
+      4 => 'WC_Meta_Data()',
+      5 => 'WC_Meta_Data()',
+      6 => 'WC_Meta_Data()',
+      7 => 'WC_Meta_Data()',
+    ),
+    'line_items' => 
+    array (
+      37 => 'WC_Order_Item_Product()',
+    ),
+    'tax_lines' => 
+    array (
+      38 => 'WC_Order_Item_Tax()',
+    ),
+    'shipping_lines' => 
+    array (
+    ),
+    'fee_lines' => 
+    array (
+    ),
+    'coupon_lines' => 
+    array (
+    ),
+    '_payment_method_id' => 'pm_1KXUak2EExDbvmHHS1TIzy3L',
+    '_stripe_customer_id' => 'cus_LDwTXZIIsHnSa1',
+  ),
+  'update' => false,
+)
+2022-02-26T18:08:15+00:00 INFO RESPONSE: array (
+  'result' => 'error',
+)
+2022-02-26T18:09:52+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/accounts?test_mode=0
+2022-02-26T18:09:52+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/3.6.1',
+)
+2022-02-26T18:09:54+00:00 INFO RESPONSE: array (
+  'account_id' => 'acct_1KN0mD2EExDbvmHH',
+  'email' => '(redacted)',
+  'live_publishable_key' => 'pk_live_iBIpeqzKOOx2Y8PFCRBfyMU000Q7xVG4Sn',
+  'test_publishable_key' => 'pk_test_51ETDmyFuiXB5oUVxwSobQMW5Tno1GclIq7ePZWzLeW4q8oa7Zb8hI5VfwI5sNT5nXuKYinLukNvGCXmsQXAoDGHG00MqHqlYHR',
+  'is_live' => true,
+  'has_pending_requirements' => false,
+  'has_overdue_requirements' => false,
+  'current_deadline' => NULL,
+  'status' => 'complete',
+  'capabilities' => 
+  array (
+    'bancontact_payments' => 'active',
+    'card_payments' => 'active',
+    'eps_payments' => 'active',
+    'giropay_payments' => 'active',
+    'ideal_payments' => 'active',
+    'p24_payments' => 'active',
+    'sepa_debit_payments' => 'active',
+    'sofort_payments' => 'active',
+    'tax_reporting_us_1099_k' => 'active',
+    'transfers' => 'active',
+    'acss_debit_payments' => 'unrequested',
+    'afterpay_clearpay_payments' => 'unrequested',
+    'klarna' => 'unrequested',
+    'link_payments' => 'unrequested',
+    'tax_reporting_us_1099_misc' => 'unrequested',
+    'us_bank_account_ach_payments' => 'unrequested',
+  ),
+  'capability_requirements' => 
+  array (
+    'acss_debit_payments' => 
+    array (
+    ),
+    'afterpay_clearpay_payments' => 
+    array (
+      0 => 'business_profile.support_phone',
+    ),
+    'bancontact_payments' => 
+    array (
+    ),
+    'card_payments' => 
+    array (
+    ),
+    'eps_payments' => 
+    array (
+    ),
+    'giropay_payments' => 
+    array (
+    ),
+    'ideal_payments' => 
+    array (
+    ),
+    'klarna' => 
+    array (
+    ),
+    'link_payments' => 
+    array (
+    ),
+    'p24_payments' => 
+    array (
+    ),
+    'sepa_debit_payments' => 
+    array (
+    ),
+    'sofort_payments' => 
+    array (
+    ),
+    'tax_reporting_us_1099_k' => 
+    array (
+    ),
+    'tax_reporting_us_1099_misc' => 
+    array (
+    ),
+    'transfers' => 
+    array (
+    ),
+    'us_bank_account_ach_payments' => 
+    array (
+    ),
+  ),
+  'payments_enabled' => true,
+  'deposits_status' => 'daily',
+  'statement_descriptor' => 'STORE.BLACKBEAR.IO',
+  'latest_tos_agreement' => 
+  array (
+    'date' => '2022-01-28 20:10:35',
+    'source' => 'signup',
+    'is_current_version' => true,
+  ),
+  'fees' => 
+  array (
+    'base' => 
+    array (
+      'percentage_rate' => 0.029,
+      'fixed_rate' => 30,
+      'currency' => 'usd',
+    ),
+    'discount' => 
+    array (
+    ),
+    'bancontact' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.014,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'card' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.029,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'card_present' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.026,
+        'fixed_rate' => 10,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'eps' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.018,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'ideal' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0,
+        'fixed_rate' => 80,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'giropay' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.014,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'p24' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.022,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'sofort' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.014,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'sepa_debit' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.008,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+        'fee_cap' => 600,
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+  ),
+  'capital' => 
+  array (
+    'has_active_loan' => false,
+    'has_previous_loans' => false,
+    'loans' => 
+    array (
+    ),
+  ),
+  'fraud_services' => 
+  array (
+    'stripe' => 
+    array (
+    ),
+    'sift' => 
+    array (
+      'beacon_key' => 'affbdadb36',
+      'sandbox_beacon_key' => '6ad0ad748b',
+    ),
+  ),
+  'store_currencies' => 
+  array (
+    'default' => 'usd',
+    'supported' => 
+    array (
+      0 => 'usd',
+    ),
+  ),
+  'customer_currencies' => 
+  array (
+    'supported' => 
+    array (
+      0 => 'usd',
+      1 => 'aed',
+      2 => 'afn',
+      3 => 'all',
+      4 => 'amd',
+      5 => 'ang',
+      6 => 'aoa',
+      7 => 'ars',
+      8 => 'aud',
+      9 => 'awg',
+      10 => 'azn',
+      11 => 'bam',
+      12 => 'bbd',
+      13 => 'bdt',
+      14 => 'bgn',
+      15 => 'bif',
+      16 => 'bmd',
+      17 => 'bnd',
+      18 => 'bob',
+      19 => 'brl',
+      20 => 'bsd',
+      21 => 'bwp',
+      22 => 'byn',
+      23 => 'bzd',
+      24 => 'cad',
+      25 => 'cdf',
+      26 => 'chf',
+      27 => 'clp',
+      28 => 'cny',
+      29 => 'cop',
+      30 => 'crc',
+      31 => 'cve',
+      32 => 'czk',
+      33 => 'djf',
+      34 => 'dkk',
+      35 => 'dop',
+      36 => 'dzd',
+      37 => 'egp',
+      38 => 'etb',
+      39 => 'eur',
+      40 => 'fjd',
+      41 => 'fkp',
+      42 => 'gbp',
+      43 => 'gel',
+      44 => 'gip',
+      45 => 'gmd',
+      46 => 'gnf',
+      47 => 'gtq',
+      48 => 'gyd',
+      49 => 'hkd',
+      50 => 'hnl',
+      51 => 'hrk',
+      52 => 'htg',
+      53 => 'huf',
+      54 => 'idr',
+      55 => 'ils',
+      56 => 'inr',
+      57 => 'isk',
+      58 => 'jmd',
+      59 => 'jpy',
+      60 => 'kes',
+      61 => 'kgs',
+      62 => 'khr',
+      63 => 'kmf',
+      64 => 'krw',
+      65 => 'kyd',
+      66 => 'kzt',
+      67 => 'lak',
+      68 => 'lbp',
+      69 => 'lkr',
+      70 => 'lrd',
+      71 => 'lsl',
+      72 => 'mad',
+      73 => 'mdl',
+      74 => 'mga',
+      75 => 'mkd',
+      76 => 'mmk',
+      77 => 'mnt',
+      78 => 'mop',
+      79 => 'mro',
+      80 => 'mur',
+      81 => 'mvr',
+      82 => 'mwk',
+      83 => 'mxn',
+      84 => 'myr',
+      85 => 'mzn',
+      86 => 'nad',
+      87 => 'ngn',
+      88 => 'nio',
+      89 => 'nok',
+      90 => 'npr',
+      91 => 'nzd',
+      92 => 'pab',
+      93 => 'pen',
+      94 => 'pgk',
+      95 => 'php',
+      96 => 'pkr',
+      97 => 'pln',
+      98 => 'pyg',
+      99 => 'qar',
+      100 => 'ron',
+      101 => 'rsd',
+      102 => 'rub',
+      103 => 'rwf',
+      104 => 'sar',
+      105 => 'sbd',
+      106 => 'scr',
+      107 => 'sek',
+      108 => 'sgd',
+      109 => 'shp',
+      110 => 'sll',
+      111 => 'sos',
+      112 => 'srd',
+      113 => 'std',
+      114 => 'szl',
+      115 => 'thb',
+      116 => 'tjs',
+      117 => 'top',
+      118 => 'try',
+      119 => 'ttd',
+      120 => 'twd',
+      121 => 'tzs',
+      122 => 'uah',
+      123 => 'ugx',
+      124 => 'uyu',
+      125 => 'uzs',
+      126 => 'vnd',
+      127 => 'vuv',
+      128 => 'wst',
+      129 => 'xaf',
+      130 => 'xcd',
+      131 => 'xof',
+      132 => 'xpf',
+      133 => 'yer',
+      134 => 'zar',
+      135 => 'zmw',
+    ),
+  ),
+  'country' => '(redacted)',
+  'instant_deposits_eligible' => false,
+  'card_present_eligible' => true,
+  'business_profile' => 
+  array (
+    'name' => '(redacted)',
+    'url' => 'https://store.blackbear.io',
+    'support_address' => 
+    array (
+    ),
+    'support_email' => NULL,
+    'support_phone' => NULL,
+  ),
+  'branding' => 
+  array (
+    'icon' => NULL,
+    'logo' => NULL,
+    'primary_color' => NULL,
+    'secondary_color' => NULL,
+  ),
+)
+2022-02-26T18:43:45+00:00 INFO REQUEST POST https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/customers/cus_LDwTXZIIsHnSa1
+2022-02-26T18:43:45+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/3.6.1',
+  'Idempotency-Key' => '6b246d82-476b-419a-91f5-9054b9d83df8',
+)
+2022-02-26T18:43:45+00:00 INFO BODY: array (
+  'test_mode' => true,
+  'name' => '(redacted)',
+  'description' => 'Name: El Jeffe, Guest',
+  'email' => '(redacted)',
+  'phone' => '(redacted)',
+  'address' => 
+  array (
+    'line1' => '(redacted)',
+    'line2' => '(redacted)',
+    'postal_code' => '(redacted)',
+    'city' => '(redacted)',
+    'state' => '(redacted)',
+    'country' => '(redacted)',
+  ),
+)
+2022-02-26T18:43:46+00:00 INFO RESPONSE: array (
+  'id' => 'cus_LDwTXZIIsHnSa1',
+  'object' => 'customer',
+  'address' => 
+  array (
+    'city' => '(redacted)',
+    'country' => '(redacted)',
+    'line1' => '(redacted)',
+    'line2' => '(redacted)',
+    'postal_code' => '(redacted)',
+    'state' => '(redacted)',
+  ),
+  'balance' => 0,
+  'created' => 1645898528,
+  'currency' => NULL,
+  'default_source' => NULL,
+  'delinquent' => false,
+  'description' => 'Name: El Jeffe, Guest',
+  'discount' => NULL,
+  'email' => '(redacted)',
+  'invoice_prefix' => '05C218AB',
+  'invoice_settings' => 
+  array (
+    'custom_fields' => NULL,
+    'default_payment_method' => NULL,
+    'footer' => NULL,
+  ),
+  'livemode' => false,
+  'metadata' => 'stdClass()',
+  'name' => '(redacted)',
+  'next_invoice_sequence' => 1,
+  'phone' => '(redacted)',
+  'preferred_locales' => 
+  array (
+  ),
+  'shipping' => NULL,
+  'tax_exempt' => 'none',
+)
+2022-02-26T18:43:46+00:00 INFO REQUEST POST https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/intentions
+2022-02-26T18:43:46+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/3.6.1',
+  'Idempotency-Key' => '5f6b1380-df21-4598-b610-62087ec7042d',
+)
+2022-02-26T18:43:46+00:00 INFO BODY: array (
+  'test_mode' => true,
+  'amount' => 34694,
+  'currency' => 'usd',
+  'confirm' => 'true',
+  'payment_method' => 'pm_1KXVF22EExDbvmHHFkZiPzuY',
+  'customer' => 'cus_LDwTXZIIsHnSa1',
+  'capture_method' => 'automatic',
+  'metadata' => 
+  array (
+    'customer_name' => '(redacted)',
+    'customer_email' => '(redacted)',
+    'site_url' => 'https://store.blackbear.io',
+    'order_id' => 30,
+    'order_key' => 'wc_order_bZObwWQ6BV5Tx',
+    'payment_type' => 'WCPay\\Constants\\Payment_Type()',
+  ),
+  'level3' => 
+  array (
+    'merchant_reference' => '30',
+    'customer_reference' => '30',
+    'shipping_amount' => 0,
+    'line_items' => 
+    array (
+      0 => 'stdClass()',
+    ),
+    'shipping_from_zip' => '28742',
+  ),
+  'description' => 'Online Payment for Order #30 for store.blackbear.io blog_id 202255454',
+  'payment_method_types' => 
+  array (
+    0 => 'card',
+  ),
+)
+2022-02-26T18:43:48+00:00 INFO RESPONSE: array (
+  'id' => 'pi_3KXVF82EExDbvmHH1bSpldL5',
+  'object' => 'payment_intent',
+  'amount' => 34694,
+  'amount_capturable' => 0,
+  'amount_received' => 34694,
+  'amount_subtotal' => 34694,
+  'application' => 'ca_Ex84e31yMTLaNU5ozQvi5woLclpIDVpX',
+  'application_fee_amount' => 1036,
+  'automatic_payment_methods' => NULL,
+  'canceled_at' => NULL,
+  'cancellation_reason' => NULL,
+  'capture_method' => 'automatic',
+  'charges' => 
+  array (
+    'object' => 'list',
+    'data' => 
+    array (
+      0 => 
+      array (
+        'id' => 'ch_3KXVF82EExDbvmHH1RLp7KoE',
+        'object' => 'charge',
+        'amount' => 34694,
+        'amount_captured' => 34694,
+        'amount_refunded' => 0,
+        'application' => 'ca_Ex84e31yMTLaNU5ozQvi5woLclpIDVpX',
+        'application_fee' => 'fee_1KXVF92EExDbvmHHPN0bdOp3',
+        'application_fee_amount' => 1036,
+        'balance_transaction' => 
+        array (
+          'id' => 'txn_3KXVF82EExDbvmHH1FY5OYTA',
+          'object' => 'balance_transaction',
+          'amount' => 34694,
+          'available_on' => 1646438400,
+          'created' => 1645901027,
+          'currency' => 'usd',
+          'description' => 'Online Payment for Order #30 for store.blackbear.io blog_id 202255454',
+          'exchange_rate' => NULL,
+          'fee' => 1036,
+          'fee_details' => 
+          array (
+            0 => 
+            array (
+              'amount' => 1036,
+              'application' => 'ca_Ex84e31yMTLaNU5ozQvi5woLclpIDVpX',
+              'currency' => 'usd',
+              'description' => 'WooCommerce Payments application fee',
+              'type' => 'application_fee',
+            ),
+          ),
+          'net' => 33658,
+          'reporting_category' => 'charge',
+          'source' => 'ch_3KXVF82EExDbvmHH1RLp7KoE',
+          'status' => 'pending',
+          'type' => 'charge',
+        ),
+        'billing_details' => 
+        array (
+          'address' => 
+          array (
+            'city' => '(redacted)',
+            'country' => '(redacted)',
+            'line1' => '(redacted)',
+            'line2' => '(redacted)',
+            'postal_code' => '(redacted)',
+            'state' => '(redacted)',
+          ),
+          'email' => '(redacted)',
+          'name' => '(redacted)',
+          'phone' => '(redacted)',
+        ),
+        'calculated_statement_descriptor' => 'STORE.BLACKBEAR.IO',
+        'captured' => true,
+        'created' => 1645901027,
+        'currency' => 'usd',
+        'customer' => 'cus_LDwTXZIIsHnSa1',
+        'description' => 'Online Payment for Order #30 for store.blackbear.io blog_id 202255454',
+        'destination' => NULL,
+        'dispute' => NULL,
+        'disputed' => false,
+        'failure_code' => NULL,
+        'failure_message' => NULL,
+        'fraud_details' => 
+        array (
+        ),
+        'invoice' => NULL,
+        'level3' => 
+        array (
+          'customer_reference' => '30',
+          'line_items' => 
+          array (
+            0 => 
+            array (
+              'discount_amount' => 0,
+              'product_code' => '13',
+              'product_description' => 'Season Pass',
+              'quantity' => 1,
+              'tax_amount' => 2194,
+              'unit_cost' => 32500,
+            ),
+          ),
+          'merchant_reference' => '30',
+          'shipping_amount' => 0,
+          'shipping_from_zip' => '28742',
+        ),
+        'livemode' => false,
+        'metadata' => 
+        array (
+          'customer_name' => '(redacted)',
+          'customer_email' => '(redacted)',
+          'site_url' => 'https://store.blackbear.io',
+          'order_id' => '30',
+          'order_key' => 'wc_order_bZObwWQ6BV5Tx',
+          'payment_type' => 'single',
+        ),
+        'on_behalf_of' => NULL,
+        'order' => NULL,
+        'outcome' => 
+        array (
+          'network_status' => 'approved_by_network',
+          'reason' => NULL,
+          'risk_level' => 'normal',
+          'risk_score' => 35,
+          'seller_message' => 'Payment complete.',
+          'type' => 'authorized',
+        ),
+        'paid' => true,
+        'payment_intent' => 'pi_3KXVF82EExDbvmHH1bSpldL5',
+        'payment_method' => 'pm_1KXVF22EExDbvmHHFkZiPzuY',
+        'payment_method_details' => 
+        array (
+          'card' => 
+          array (
+            'brand' => 'visa',
+            'checks' => 
+            array (
+              'address_line1_check' => 'pass',
+              'address_postal_code_check' => 'pass',
+              'cvc_check' => 'pass',
+            ),
+            'country' => '(redacted)',
+            'exp_month' => 4,
+            'exp_year' => 2024,
+            'fingerprint' => '0SEufZLr8JkcLcfi',
+            'funding' => 'credit',
+            'installments' => NULL,
+            'last4' => '4242',
+            'mandate' => NULL,
+            'network' => 'visa',
+            'three_d_secure' => NULL,
+            'wallet' => NULL,
+          ),
+          'type' => 'card',
+        ),
+        'receipt_email' => NULL,
+        'receipt_number' => NULL,
+        'receipt_url' => 'https://pay.stripe.com/receipts/acct_1KN0mD2EExDbvmHH/ch_3KXVF82EExDbvmHH1RLp7KoE/rcpt_LDx9skkYTvouIQLiIQmqUlfRdG1gAdB',
+        'refunded' => false,
+        'refunds' => 
+        array (
+          'object' => 'list',
+          'data' => 
+          array (
+          ),
+          'has_more' => false,
+          'total_count' => 0,
+          'url' => '/v1/charges/ch_3KXVF82EExDbvmHH1RLp7KoE/refunds',
+        ),
+        'review' => NULL,
+        'shipping' => NULL,
+        'source' => NULL,
+        'source_transfer' => NULL,
+        'statement_descriptor' => NULL,
+        'statement_descriptor_suffix' => NULL,
+        'status' => 'succeeded',
+        'transfer_data' => NULL,
+        'transfer_group' => NULL,
+      ),
+    ),
+    'has_more' => false,
+    'total_count' => 1,
+    'url' => '/v1/charges?payment_intent=pi_3KXVF82EExDbvmHH1bSpldL5',
+  ),
+  'client_secret' => '(redacted)',
+  'confirmation_method' => 'automatic',
+  'created' => 1645901026,
+  'currency' => 'usd',
+  'customer' => 'cus_LDwTXZIIsHnSa1',
+  'description' => 'Online Payment for Order #30 for store.blackbear.io blog_id 202255454',
+  'invoice' => NULL,
+  'last_payment_error' => NULL,
+  'level3' => 
+  array (
+    'customer_reference' => '30',
+    'line_items' => 
+    array (
+      0 => 
+      array (
+        'discount_amount' => 0,
+        'product_code' => '13',
+        'product_description' => 'Season Pass',
+        'quantity' => 1,
+        'tax_amount' => 2194,
+        'unit_cost' => 32500,
+      ),
+    ),
+    'merchant_reference' => '30',
+    'shipping_amount' => 0,
+    'shipping_from_zip' => '28742',
+  ),
+  'livemode' => false,
+  'metadata' => 
+  array (
+    'customer_name' => '(redacted)',
+    'customer_email' => '(redacted)',
+    'site_url' => 'https://store.blackbear.io',
+    'order_id' => '30',
+    'order_key' => 'wc_order_bZObwWQ6BV5Tx',
+    'payment_type' => 'single',
+  ),
+  'next_action' => NULL,
+  'on_behalf_of' => NULL,
+  'payment_method' => 'pm_1KXVF22EExDbvmHHFkZiPzuY',
+  'payment_method_options' => 
+  array (
+    'card' => 
+    array (
+      'installments' => NULL,
+      'mandate_options' => NULL,
+      'network' => NULL,
+      'request_three_d_secure' => 'automatic',
+    ),
+  ),
+  'payment_method_types' => 
+  array (
+    0 => 'card',
+  ),
+  'processing' => NULL,
+  'receipt_email' => NULL,
+  'review' => NULL,
+  'setup_future_usage' => NULL,
+  'shipping' => NULL,
+  'source' => NULL,
+  'statement_descriptor' => NULL,
+  'statement_descriptor_suffix' => NULL,
+  'status' => 'succeeded',
+  'total_details' => 
+  array (
+    'amount_discount' => 0,
+    'amount_tax' => 0,
+  ),
+  'transfer_data' => NULL,
+  'transfer_group' => NULL,
+  'fee_history' => 
+  array (
+    0 => 
+    array (
+      'type' => 'base',
+      'percentage_rate' => 0.029,
+      'fixed_rate' => 30,
+      'currency' => 'usd',
+    ),
+  ),
+)
+2022-02-26T18:43:53+00:00 DEBUG Webhook recieved: payment_intent.succeeded
+2022-02-26T18:43:53+00:00 DEBUG Webhook body: array (
+  'id' => 'evt_3KXVF82EExDbvmHH1N8m2TNu',
+  'type' => 'payment_intent.succeeded',
+  'livemode' => false,
+  'account' => 'acct_1KN0mD2EExDbvmHH',
+  'data' => 
+  array (
+    'object' => 
+    array (
+      'id' => 'pi_3KXVF82EExDbvmHH1bSpldL5',
+      'object' => 'payment_intent',
+      'amount' => 34694,
+      'amount_capturable' => 0,
+      'amount_received' => 34694,
+      'application' => 'ca_Ex84e31yMTLaNU5ozQvi5woLclpIDVpX',
+      'application_fee_amount' => 1036,
+      'automatic_payment_methods' => NULL,
+      'canceled_at' => NULL,
+      'cancellation_reason' => NULL,
+      'capture_method' => 'automatic',
+      'charges' => 
+      array (
+        'object' => 'list',
+        'data' => 
+        array (
+          0 => 
+          array (
+            'id' => 'ch_3KXVF82EExDbvmHH1RLp7KoE',
+            'object' => 'charge',
+            'amount' => 34694,
+            'amount_captured' => 34694,
+            'amount_refunded' => 0,
+            'application' => 'ca_Ex84e31yMTLaNU5ozQvi5woLclpIDVpX',
+            'application_fee' => 'fee_1KXVF92EExDbvmHHPN0bdOp3',
+            'application_fee_amount' => 1036,
+            'balance_transaction' => 'txn_3KXVF82EExDbvmHH1FY5OYTA',
+            'billing_details' => 
+            array (
+              'address' => 
+              array (
+                'city' => '(redacted)',
+                'country' => '(redacted)',
+                'line1' => '(redacted)',
+                'line2' => '(redacted)',
+                'postal_code' => '(redacted)',
+                'state' => '(redacted)',
+              ),
+              'email' => '(redacted)',
+              'name' => '(redacted)',
+              'phone' => '(redacted)',
+            ),
+            'calculated_statement_descriptor' => 'STORE.BLACKBEAR.IO',
+            'captured' => true,
+            'created' => 1645901027,
+            'currency' => 'usd',
+            'customer' => 'cus_LDwTXZIIsHnSa1',
+            'description' => 'Online Payment for Order #30 for store.blackbear.io blog_id 202255454',
+            'destination' => NULL,
+            'dispute' => NULL,
+            'disputed' => false,
+            'failure_code' => NULL,
+            'failure_message' => NULL,
+            'fraud_details' => 
+            array (
+            ),
+            'invoice' => NULL,
+            'livemode' => false,
+            'metadata' => 
+            array (
+              'customer_name' => '(redacted)',
+              'customer_email' => '(redacted)',
+              'site_url' => 'https://store.blackbear.io',
+              'order_id' => '30',
+              'order_key' => 'wc_order_bZObwWQ6BV5Tx',
+              'payment_type' => 'single',
+            ),
+            'on_behalf_of' => NULL,
+            'order' => NULL,
+            'outcome' => 
+            array (
+              'network_status' => 'approved_by_network',
+              'reason' => NULL,
+              'risk_level' => 'normal',
+              'risk_score' => 35,
+              'seller_message' => 'Payment complete.',
+              'type' => 'authorized',
+            ),
+            'paid' => true,
+            'payment_intent' => 'pi_3KXVF82EExDbvmHH1bSpldL5',
+            'payment_method' => 'pm_1KXVF22EExDbvmHHFkZiPzuY',
+            'payment_method_details' => 
+            array (
+              'card' => 
+              array (
+                'brand' => 'visa',
+                'checks' => 
+                array (
+                  'address_line1_check' => 'pass',
+                  'address_postal_code_check' => 'pass',
+                  'cvc_check' => 'pass',
+                ),
+                'country' => '(redacted)',
+                'exp_month' => 4,
+                'exp_year' => 2024,
+                'fingerprint' => '0SEufZLr8JkcLcfi',
+                'funding' => 'credit',
+                'installments' => NULL,
+                'last4' => '4242',
+                'network' => 'visa',
+                'three_d_secure' => NULL,
+                'wallet' => NULL,
+              ),
+              'type' => 'card',
+            ),
+            'receipt_email' => NULL,
+            'receipt_number' => NULL,
+            'receipt_url' => 'https://pay.stripe.com/receipts/acct_1KN0mD2EExDbvmHH/ch_3KXVF82EExDbvmHH1RLp7KoE/rcpt_LDx9skkYTvouIQLiIQmqUlfRdG1gAdB',
+            'refunded' => false,
+            'refunds' => 
+            array (
+              'object' => 'list',
+              'data' => 
+              array (
+              ),
+              'has_more' => false,
+              'total_count' => 0,
+              'url' => '/v1/charges/ch_3KXVF82EExDbvmHH1RLp7KoE/refunds',
+            ),
+            'review' => NULL,
+            'shipping' => NULL,
+            'source' => NULL,
+            'source_transfer' => NULL,
+            'statement_descriptor' => NULL,
+            'statement_descriptor_suffix' => NULL,
+            'status' => 'succeeded',
+            'transfer_data' => NULL,
+            'transfer_group' => NULL,
+            'level3' => 
+            array (
+              'customer_reference' => '30',
+              'line_items' => 
+              array (
+                0 => 
+                array (
+                  'discount_amount' => 0,
+                  'product_code' => '13',
+                  'product_description' => 'Season Pass',
+                  'quantity' => 1,
+                  'tax_amount' => 2194,
+                  'unit_cost' => 32500,
+                ),
+              ),
+              'merchant_reference' => '30',
+              'shipping_amount' => 0,
+              'shipping_from_zip' => '28742',
+            ),
+          ),
+        ),
+        'has_more' => false,
+        'total_count' => 1,
+        'url' => '/v1/charges?payment_intent=pi_3KXVF82EExDbvmHH1bSpldL5',
+      ),
+      'client_secret' => '(redacted)',
+      'confirmation_method' => 'automatic',
+      'created' => 1645901026,
+      'currency' => 'usd',
+      'customer' => 'cus_LDwTXZIIsHnSa1',
+      'description' => 'Online Payment for Order #30 for store.blackbear.io blog_id 202255454',
+      'invoice' => NULL,
+      'last_payment_error' => NULL,
+      'livemode' => false,
+      'metadata' => 
+      array (
+        'customer_name' => '(redacted)',
+        'customer_email' => '(redacted)',
+        'site_url' => 'https://store.blackbear.io',
+        'order_id' => '30',
+        'order_key' => 'wc_order_bZObwWQ6BV5Tx',
+        'payment_type' => 'single',
+      ),
+      'next_action' => NULL,
+      'on_behalf_of' => NULL,
+      'payment_method' => 'pm_1KXVF22EExDbvmHHFkZiPzuY',
+      'payment_method_options' => 
+      array (
+        'card' => 
+        array (
+          'installments' => NULL,
+          'network' => NULL,
+          'request_three_d_secure' => 'automatic',
+        ),
+      ),
+      'payment_method_types' => 
+      array (
+        0 => 'card',
+      ),
+      'processing' => NULL,
+      'receipt_email' => NULL,
+      'review' => NULL,
+      'setup_future_usage' => NULL,
+      'shipping' => NULL,
+      'source' => NULL,
+      'statement_descriptor' => NULL,
+      'statement_descriptor_suffix' => NULL,
+      'status' => 'succeeded',
+      'transfer_data' => NULL,
+      'transfer_group' => NULL,
+      'amount_subtotal' => 34694,
+      'level3' => 
+      array (
+        'customer_reference' => '30',
+        'line_items' => 
+        array (
+          0 => 
+          array (
+            'discount_amount' => 0,
+            'product_code' => '13',
+            'product_description' => 'Season Pass',
+            'quantity' => 1,
+            'tax_amount' => 2194,
+            'unit_cost' => 32500,
+          ),
+        ),
+        'merchant_reference' => '30',
+        'shipping_amount' => 0,
+        'shipping_from_zip' => '28742',
+      ),
+      'total_details' => 
+      array (
+        'amount_discount' => 0,
+        'amount_tax' => 0,
+      ),
+    ),
+  ),
+)
+2022-02-26T18:56:10+00:00 INFO REQUEST POST https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/tracking/order
+2022-02-26T18:56:10+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/3.6.1',
+  'Idempotency-Key' => '4d946ca2-a1c7-458c-8691-a13846f15fc7',
+)
+2022-02-26T18:56:10+00:00 INFO BODY: array (
+  'test_mode' => true,
+  'order_data' => 
+  array (
+    'id' => 30,
+    'parent_id' => 0,
+    'status' => 'processing',
+    'currency' => 'USD',
+    'version' => '6.1.1',
+    'prices_include_tax' => false,
+    'date_created' => 'WC_DateTime()',
+    'date_modified' => 'WC_DateTime()',
+    'discount_total' => '0',
+    'discount_tax' => '0',
+    'shipping_total' => '0',
+    'shipping_tax' => '0',
+    'cart_tax' => '21.94',
+    'total' => '346.94',
+    'total_tax' => '21.94',
+    'customer_id' => 0,
+    'order_key' => 'wc_order_bZObwWQ6BV5Tx',
+    'billing' => 
+    array (
+      'first_name' => 'El',
+      'last_name' => 'Jeffe',
+      'company' => '',
+      'address_1' => '123 Any St',
+      'address_2' => '',
+      'city' => '(redacted)',
+      'state' => '(redacted)',
+      'postcode' => '28742',
+      'country' => '(redacted)',
+      'email' => '(redacted)',
+      'phone' => '(redacted)',
+    ),
+    'shipping' => 
+    array (
+      'first_name' => '',
+      'last_name' => '',
+      'company' => '',
+      'address_1' => '',
+      'address_2' => '',
+      'city' => '(redacted)',
+      'state' => '(redacted)',
+      'postcode' => '',
+      'country' => '(redacted)',
+      'phone' => '(redacted)',
+    ),
+    'payment_method' => 'woocommerce_payments',
+    'payment_method_title' => 'Credit card / debit card',
+    'transaction_id' => 'pi_3KXVF82EExDbvmHH1bSpldL5',
+    'customer_ip_address' => '24.246.140.208',
+    'customer_user_agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148',
+    'created_via' => 'checkout',
+    'customer_note' => '',
+    'date_completed' => NULL,
+    'date_paid' => 'WC_DateTime()',
+    'cart_hash' => 'dbb227f94e697fb030be1e29074168e5',
+    'number' => '30',
+    'meta_data' => 
+    array (
+      0 => 'WC_Meta_Data()',
+      1 => 'WC_Meta_Data()',
+      2 => 'WC_Meta_Data()',
+      3 => 'WC_Meta_Data()',
+      4 => 'WC_Meta_Data()',
+      5 => 'WC_Meta_Data()',
+      6 => 'WC_Meta_Data()',
+      7 => 'WC_Meta_Data()',
+    ),
+    'line_items' => 
+    array (
+      39 => 'WC_Order_Item_Product()',
+    ),
+    'tax_lines' => 
+    array (
+      40 => 'WC_Order_Item_Tax()',
+    ),
+    'shipping_lines' => 
+    array (
+    ),
+    'fee_lines' => 
+    array (
+    ),
+    'coupon_lines' => 
+    array (
+    ),
+    '_payment_method_id' => 'pm_1KXVF22EExDbvmHHFkZiPzuY',
+    '_stripe_customer_id' => 'cus_LDwTXZIIsHnSa1',
+  ),
+  'update' => false,
+)
+2022-02-26T18:56:11+00:00 INFO RESPONSE: array (
+  'result' => 'error',
+)
+2022-02-26T18:57:11+00:00 INFO REQUEST POST https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/customers/cus_LDwTXZIIsHnSa1
+2022-02-26T18:57:11+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/3.6.1',
+  'Idempotency-Key' => 'baf1db5f-76b6-42e9-83eb-4bab18920a43',
+)
+2022-02-26T18:57:11+00:00 INFO BODY: array (
+  'test_mode' => true,
+  'name' => '(redacted)',
+  'description' => 'Name: Jeff Frazier, Guest',
+  'email' => '(redacted)',
+  'phone' => '(redacted)',
+  'address' => 
+  array (
+    'line1' => '(redacted)',
+    'line2' => '(redacted)',
+    'postal_code' => '(redacted)',
+    'city' => '(redacted)',
+    'state' => '(redacted)',
+    'country' => '(redacted)',
+  ),
+)
+2022-02-26T18:57:12+00:00 INFO RESPONSE: array (
+  'id' => 'cus_LDwTXZIIsHnSa1',
+  'object' => 'customer',
+  'address' => 
+  array (
+    'city' => '(redacted)',
+    'country' => '(redacted)',
+    'line1' => '(redacted)',
+    'line2' => '(redacted)',
+    'postal_code' => '(redacted)',
+    'state' => '(redacted)',
+  ),
+  'balance' => 0,
+  'created' => 1645898528,
+  'currency' => NULL,
+  'default_source' => NULL,
+  'delinquent' => false,
+  'description' => 'Name: Jeff Frazier, Guest',
+  'discount' => NULL,
+  'email' => '(redacted)',
+  'invoice_prefix' => '05C218AB',
+  'invoice_settings' => 
+  array (
+    'custom_fields' => NULL,
+    'default_payment_method' => NULL,
+    'footer' => NULL,
+  ),
+  'livemode' => false,
+  'metadata' => 'stdClass()',
+  'name' => '(redacted)',
+  'next_invoice_sequence' => 1,
+  'phone' => '(redacted)',
+  'preferred_locales' => 
+  array (
+  ),
+  'shipping' => NULL,
+  'tax_exempt' => 'none',
+)
+2022-02-26T18:57:12+00:00 INFO REQUEST POST https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/intentions
+2022-02-26T18:57:12+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/3.6.1',
+  'Idempotency-Key' => '2ffd668d-6659-455e-8a24-9bde2e8a338f',
+)
+2022-02-26T18:57:12+00:00 INFO BODY: array (
+  'test_mode' => true,
+  'amount' => 2669,
+  'currency' => 'usd',
+  'confirm' => 'true',
+  'payment_method' => 'pm_1KXVS32EExDbvmHHYrPu7LaN',
+  'customer' => 'cus_LDwTXZIIsHnSa1',
+  'capture_method' => 'automatic',
+  'metadata' => 
+  array (
+    'customer_name' => '(redacted)',
+    'customer_email' => '(redacted)',
+    'site_url' => 'https://store.blackbear.io',
+    'order_id' => 31,
+    'order_key' => 'wc_order_GWw4wK2hzGvoq',
+    'payment_type' => 'WCPay\\Constants\\Payment_Type()',
+  ),
+  'level3' => 
+  array (
+    'merchant_reference' => '31',
+    'customer_reference' => '31',
+    'shipping_amount' => 0,
+    'line_items' => 
+    array (
+      0 => 'stdClass()',
+    ),
+    'shipping_from_zip' => '28742',
+  ),
+  'description' => 'Online Payment for Order #31 for store.blackbear.io blog_id 202255454',
+  'payment_method_types' => 
+  array (
+    0 => 'card',
+  ),
+)
+2022-02-26T18:57:14+00:00 INFO RESPONSE: array (
+  'id' => 'pi_3KXVS82EExDbvmHH1PGoYL9m',
+  'object' => 'payment_intent',
+  'amount' => 2669,
+  'amount_capturable' => 0,
+  'amount_received' => 2669,
+  'amount_subtotal' => 2669,
+  'application' => 'ca_Ex84e31yMTLaNU5ozQvi5woLclpIDVpX',
+  'application_fee_amount' => 107,
+  'automatic_payment_methods' => NULL,
+  'canceled_at' => NULL,
+  'cancellation_reason' => NULL,
+  'capture_method' => 'automatic',
+  'charges' => 
+  array (
+    'object' => 'list',
+    'data' => 
+    array (
+      0 => 
+      array (
+        'id' => 'ch_3KXVS82EExDbvmHH1YsSRWLG',
+        'object' => 'charge',
+        'amount' => 2669,
+        'amount_captured' => 2669,
+        'amount_refunded' => 0,
+        'application' => 'ca_Ex84e31yMTLaNU5ozQvi5woLclpIDVpX',
+        'application_fee' => 'fee_1KXVS92EExDbvmHH7HP834BN',
+        'application_fee_amount' => 107,
+        'balance_transaction' => 
+        array (
+          'id' => 'txn_3KXVS82EExDbvmHH1QUsYeC3',
+          'object' => 'balance_transaction',
+          'amount' => 2669,
+          'available_on' => 1646438400,
+          'created' => 1645901833,
+          'currency' => 'usd',
+          'description' => 'Online Payment for Order #31 for store.blackbear.io blog_id 202255454',
+          'exchange_rate' => NULL,
+          'fee' => 107,
+          'fee_details' => 
+          array (
+            0 => 
+            array (
+              'amount' => 107,
+              'application' => 'ca_Ex84e31yMTLaNU5ozQvi5woLclpIDVpX',
+              'currency' => 'usd',
+              'description' => 'WooCommerce Payments application fee',
+              'type' => 'application_fee',
+            ),
+          ),
+          'net' => 2562,
+          'reporting_category' => 'charge',
+          'source' => 'ch_3KXVS82EExDbvmHH1YsSRWLG',
+          'status' => 'pending',
+          'type' => 'charge',
+        ),
+        'billing_details' => 
+        array (
+          'address' => 
+          array (
+            'city' => '(redacted)',
+            'country' => '(redacted)',
+            'line1' => '(redacted)',
+            'line2' => '(redacted)',
+            'postal_code' => '(redacted)',
+            'state' => '(redacted)',
+          ),
+          'email' => '(redacted)',
+          'name' => '(redacted)',
+          'phone' => '(redacted)',
+        ),
+        'calculated_statement_descriptor' => 'STORE.BLACKBEAR.IO',
+        'captured' => true,
+        'created' => 1645901833,
+        'currency' => 'usd',
+        'customer' => 'cus_LDwTXZIIsHnSa1',
+        'description' => 'Online Payment for Order #31 for store.blackbear.io blog_id 202255454',
+        'destination' => NULL,
+        'dispute' => NULL,
+        'disputed' => false,
+        'failure_code' => NULL,
+        'failure_message' => NULL,
+        'fraud_details' => 
+        array (
+        ),
+        'invoice' => NULL,
+        'level3' => 
+        array (
+          'customer_reference' => '31',
+          'line_items' => 
+          array (
+            0 => 
+            array (
+              'discount_amount' => 0,
+              'product_code' => '10',
+              'product_description' => 'Day Pass',
+              'quantity' => 1,
+              'tax_amount' => 169,
+              'unit_cost' => 2500,
+            ),
+          ),
+          'merchant_reference' => '31',
+          'shipping_amount' => 0,
+          'shipping_from_zip' => '28742',
+        ),
+        'livemode' => false,
+        'metadata' => 
+        array (
+          'customer_name' => '(redacted)',
+          'customer_email' => '(redacted)',
+          'site_url' => 'https://store.blackbear.io',
+          'order_id' => '31',
+          'order_key' => 'wc_order_GWw4wK2hzGvoq',
+          'payment_type' => 'single',
+        ),
+        'on_behalf_of' => NULL,
+        'order' => NULL,
+        'outcome' => 
+        array (
+          'network_status' => 'approved_by_network',
+          'reason' => NULL,
+          'risk_level' => 'normal',
+          'risk_score' => 47,
+          'seller_message' => 'Payment complete.',
+          'type' => 'authorized',
+        ),
+        'paid' => true,
+        'payment_intent' => 'pi_3KXVS82EExDbvmHH1PGoYL9m',
+        'payment_method' => 'pm_1KXVS32EExDbvmHHYrPu7LaN',
+        'payment_method_details' => 
+        array (
+          'card' => 
+          array (
+            'brand' => 'visa',
+            'checks' => 
+            array (
+              'address_line1_check' => 'pass',
+              'address_postal_code_check' => 'pass',
+              'cvc_check' => 'pass',
+            ),
+            'country' => '(redacted)',
+            'exp_month' => 4,
+            'exp_year' => 2024,
+            'fingerprint' => '0SEufZLr8JkcLcfi',
+            'funding' => 'credit',
+            'installments' => NULL,
+            'last4' => '4242',
+            'mandate' => NULL,
+            'network' => 'visa',
+            'three_d_secure' => NULL,
+            'wallet' => NULL,
+          ),
+          'type' => 'card',
+        ),
+        'receipt_email' => NULL,
+        'receipt_number' => NULL,
+        'receipt_url' => 'https://pay.stripe.com/receipts/acct_1KN0mD2EExDbvmHH/ch_3KXVS82EExDbvmHH1YsSRWLG/rcpt_LDxMRuWnpjxvOu1Vx9Q1ORpm4B7KoTF',
+        'refunded' => false,
+        'refunds' => 
+        array (
+          'object' => 'list',
+          'data' => 
+          array (
+          ),
+          'has_more' => false,
+          'total_count' => 0,
+          'url' => '/v1/charges/ch_3KXVS82EExDbvmHH1YsSRWLG/refunds',
+        ),
+        'review' => NULL,
+        'shipping' => NULL,
+        'source' => NULL,
+        'source_transfer' => NULL,
+        'statement_descriptor' => NULL,
+        'statement_descriptor_suffix' => NULL,
+        'status' => 'succeeded',
+        'transfer_data' => NULL,
+        'transfer_group' => NULL,
+      ),
+    ),
+    'has_more' => false,
+    'total_count' => 1,
+    'url' => '/v1/charges?payment_intent=pi_3KXVS82EExDbvmHH1PGoYL9m',
+  ),
+  'client_secret' => '(redacted)',
+  'confirmation_method' => 'automatic',
+  'created' => 1645901832,
+  'currency' => 'usd',
+  'customer' => 'cus_LDwTXZIIsHnSa1',
+  'description' => 'Online Payment for Order #31 for store.blackbear.io blog_id 202255454',
+  'invoice' => NULL,
+  'last_payment_error' => NULL,
+  'level3' => 
+  array (
+    'customer_reference' => '31',
+    'line_items' => 
+    array (
+      0 => 
+      array (
+        'discount_amount' => 0,
+        'product_code' => '10',
+        'product_description' => 'Day Pass',
+        'quantity' => 1,
+        'tax_amount' => 169,
+        'unit_cost' => 2500,
+      ),
+    ),
+    'merchant_reference' => '31',
+    'shipping_amount' => 0,
+    'shipping_from_zip' => '28742',
+  ),
+  'livemode' => false,
+  'metadata' => 
+  array (
+    'customer_name' => '(redacted)',
+    'customer_email' => '(redacted)',
+    'site_url' => 'https://store.blackbear.io',
+    'order_id' => '31',
+    'order_key' => 'wc_order_GWw4wK2hzGvoq',
+    'payment_type' => 'single',
+  ),
+  'next_action' => NULL,
+  'on_behalf_of' => NULL,
+  'payment_method' => 'pm_1KXVS32EExDbvmHHYrPu7LaN',
+  'payment_method_options' => 
+  array (
+    'card' => 
+    array (
+      'installments' => NULL,
+      'mandate_options' => NULL,
+      'network' => NULL,
+      'request_three_d_secure' => 'automatic',
+    ),
+  ),
+  'payment_method_types' => 
+  array (
+    0 => 'card',
+  ),
+  'processing' => NULL,
+  'receipt_email' => NULL,
+  'review' => NULL,
+  'setup_future_usage' => NULL,
+  'shipping' => NULL,
+  'source' => NULL,
+  'statement_descriptor' => NULL,
+  'statement_descriptor_suffix' => NULL,
+  'status' => 'succeeded',
+  'total_details' => 
+  array (
+    'amount_discount' => 0,
+    'amount_tax' => 0,
+  ),
+  'transfer_data' => NULL,
+  'transfer_group' => NULL,
+  'fee_history' => 
+  array (
+    0 => 
+    array (
+      'type' => 'base',
+      'percentage_rate' => 0.029,
+      'fixed_rate' => 30,
+      'currency' => 'usd',
+    ),
+  ),
+)
+2022-02-26T18:57:19+00:00 DEBUG Webhook recieved: payment_intent.succeeded
+2022-02-26T18:57:19+00:00 DEBUG Webhook body: array (
+  'id' => 'evt_3KXVS82EExDbvmHH1cTVFOgU',
+  'type' => 'payment_intent.succeeded',
+  'livemode' => false,
+  'account' => 'acct_1KN0mD2EExDbvmHH',
+  'data' => 
+  array (
+    'object' => 
+    array (
+      'id' => 'pi_3KXVS82EExDbvmHH1PGoYL9m',
+      'object' => 'payment_intent',
+      'amount' => 2669,
+      'amount_capturable' => 0,
+      'amount_received' => 2669,
+      'application' => 'ca_Ex84e31yMTLaNU5ozQvi5woLclpIDVpX',
+      'application_fee_amount' => 107,
+      'automatic_payment_methods' => NULL,
+      'canceled_at' => NULL,
+      'cancellation_reason' => NULL,
+      'capture_method' => 'automatic',
+      'charges' => 
+      array (
+        'object' => 'list',
+        'data' => 
+        array (
+          0 => 
+          array (
+            'id' => 'ch_3KXVS82EExDbvmHH1YsSRWLG',
+            'object' => 'charge',
+            'amount' => 2669,
+            'amount_captured' => 2669,
+            'amount_refunded' => 0,
+            'application' => 'ca_Ex84e31yMTLaNU5ozQvi5woLclpIDVpX',
+            'application_fee' => 'fee_1KXVS92EExDbvmHH7HP834BN',
+            'application_fee_amount' => 107,
+            'balance_transaction' => 'txn_3KXVS82EExDbvmHH1QUsYeC3',
+            'billing_details' => 
+            array (
+              'address' => 
+              array (
+                'city' => '(redacted)',
+                'country' => '(redacted)',
+                'line1' => '(redacted)',
+                'line2' => '(redacted)',
+                'postal_code' => '(redacted)',
+                'state' => '(redacted)',
+              ),
+              'email' => '(redacted)',
+              'name' => '(redacted)',
+              'phone' => '(redacted)',
+            ),
+            'calculated_statement_descriptor' => 'STORE.BLACKBEAR.IO',
+            'captured' => true,
+            'created' => 1645901833,
+            'currency' => 'usd',
+            'customer' => 'cus_LDwTXZIIsHnSa1',
+            'description' => 'Online Payment for Order #31 for store.blackbear.io blog_id 202255454',
+            'destination' => NULL,
+            'dispute' => NULL,
+            'disputed' => false,
+            'failure_code' => NULL,
+            'failure_message' => NULL,
+            'fraud_details' => 
+            array (
+            ),
+            'invoice' => NULL,
+            'livemode' => false,
+            'metadata' => 
+            array (
+              'customer_name' => '(redacted)',
+              'customer_email' => '(redacted)',
+              'site_url' => 'https://store.blackbear.io',
+              'order_id' => '31',
+              'order_key' => 'wc_order_GWw4wK2hzGvoq',
+              'payment_type' => 'single',
+            ),
+            'on_behalf_of' => NULL,
+            'order' => NULL,
+            'outcome' => 
+            array (
+              'network_status' => 'approved_by_network',
+              'reason' => NULL,
+              'risk_level' => 'normal',
+              'risk_score' => 47,
+              'seller_message' => 'Payment complete.',
+              'type' => 'authorized',
+            ),
+            'paid' => true,
+            'payment_intent' => 'pi_3KXVS82EExDbvmHH1PGoYL9m',
+            'payment_method' => 'pm_1KXVS32EExDbvmHHYrPu7LaN',
+            'payment_method_details' => 
+            array (
+              'card' => 
+              array (
+                'brand' => 'visa',
+                'checks' => 
+                array (
+                  'address_line1_check' => 'pass',
+                  'address_postal_code_check' => 'pass',
+                  'cvc_check' => 'pass',
+                ),
+                'country' => '(redacted)',
+                'exp_month' => 4,
+                'exp_year' => 2024,
+                'fingerprint' => '0SEufZLr8JkcLcfi',
+                'funding' => 'credit',
+                'installments' => NULL,
+                'last4' => '4242',
+                'network' => 'visa',
+                'three_d_secure' => NULL,
+                'wallet' => NULL,
+              ),
+              'type' => 'card',
+            ),
+            'receipt_email' => NULL,
+            'receipt_number' => NULL,
+            'receipt_url' => 'https://pay.stripe.com/receipts/acct_1KN0mD2EExDbvmHH/ch_3KXVS82EExDbvmHH1YsSRWLG/rcpt_LDxMRuWnpjxvOu1Vx9Q1ORpm4B7KoTF',
+            'refunded' => false,
+            'refunds' => 
+            array (
+              'object' => 'list',
+              'data' => 
+              array (
+              ),
+              'has_more' => false,
+              'total_count' => 0,
+              'url' => '/v1/charges/ch_3KXVS82EExDbvmHH1YsSRWLG/refunds',
+            ),
+            'review' => NULL,
+            'shipping' => NULL,
+            'source' => NULL,
+            'source_transfer' => NULL,
+            'statement_descriptor' => NULL,
+            'statement_descriptor_suffix' => NULL,
+            'status' => 'succeeded',
+            'transfer_data' => NULL,
+            'transfer_group' => NULL,
+            'level3' => 
+            array (
+              'customer_reference' => '31',
+              'line_items' => 
+              array (
+                0 => 
+                array (
+                  'discount_amount' => 0,
+                  'product_code' => '10',
+                  'product_description' => 'Day Pass',
+                  'quantity' => 1,
+                  'tax_amount' => 169,
+                  'unit_cost' => 2500,
+                ),
+              ),
+              'merchant_reference' => '31',
+              'shipping_amount' => 0,
+              'shipping_from_zip' => '28742',
+            ),
+          ),
+        ),
+        'has_more' => false,
+        'total_count' => 1,
+        'url' => '/v1/charges?payment_intent=pi_3KXVS82EExDbvmHH1PGoYL9m',
+      ),
+      'client_secret' => '(redacted)',
+      'confirmation_method' => 'automatic',
+      'created' => 1645901832,
+      'currency' => 'usd',
+      'customer' => 'cus_LDwTXZIIsHnSa1',
+      'description' => 'Online Payment for Order #31 for store.blackbear.io blog_id 202255454',
+      'invoice' => NULL,
+      'last_payment_error' => NULL,
+      'livemode' => false,
+      'metadata' => 
+      array (
+        'customer_name' => '(redacted)',
+        'customer_email' => '(redacted)',
+        'site_url' => 'https://store.blackbear.io',
+        'order_id' => '31',
+        'order_key' => 'wc_order_GWw4wK2hzGvoq',
+        'payment_type' => 'single',
+      ),
+      'next_action' => NULL,
+      'on_behalf_of' => NULL,
+      'payment_method' => 'pm_1KXVS32EExDbvmHHYrPu7LaN',
+      'payment_method_options' => 
+      array (
+        'card' => 
+        array (
+          'installments' => NULL,
+          'network' => NULL,
+          'request_three_d_secure' => 'automatic',
+        ),
+      ),
+      'payment_method_types' => 
+      array (
+        0 => 'card',
+      ),
+      'processing' => NULL,
+      'receipt_email' => NULL,
+      'review' => NULL,
+      'setup_future_usage' => NULL,
+      'shipping' => NULL,
+      'source' => NULL,
+      'statement_descriptor' => NULL,
+      'statement_descriptor_suffix' => NULL,
+      'status' => 'succeeded',
+      'transfer_data' => NULL,
+      'transfer_group' => NULL,
+      'amount_subtotal' => 2669,
+      'level3' => 
+      array (
+        'customer_reference' => '31',
+        'line_items' => 
+        array (
+          0 => 
+          array (
+            'discount_amount' => 0,
+            'product_code' => '10',
+            'product_description' => 'Day Pass',
+            'quantity' => 1,
+            'tax_amount' => 169,
+            'unit_cost' => 2500,
+          ),
+        ),
+        'merchant_reference' => '31',
+        'shipping_amount' => 0,
+        'shipping_from_zip' => '28742',
+      ),
+      'total_details' => 
+      array (
+        'amount_discount' => 0,
+        'amount_tax' => 0,
+      ),
+    ),
+  ),
+)
+2022-02-26T19:01:13+00:00 INFO REQUEST POST https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/tracking/order
+2022-02-26T19:01:13+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/3.6.1',
+  'Idempotency-Key' => 'a2b5f46b-832b-411c-aa91-cec21b50a90a',
+)
+2022-02-26T19:01:13+00:00 INFO BODY: array (
+  'test_mode' => true,
+  'order_data' => 
+  array (
+    'id' => 31,
+    'parent_id' => 0,
+    'status' => 'processing',
+    'currency' => 'USD',
+    'version' => '6.1.1',
+    'prices_include_tax' => false,
+    'date_created' => 'WC_DateTime()',
+    'date_modified' => 'WC_DateTime()',
+    'discount_total' => '0',
+    'discount_tax' => '0',
+    'shipping_total' => '0',
+    'shipping_tax' => '0',
+    'cart_tax' => '1.69',
+    'total' => '26.69',
+    'total_tax' => '1.69',
+    'customer_id' => 0,
+    'order_key' => 'wc_order_GWw4wK2hzGvoq',
+    'billing' => 
+    array (
+      'first_name' => 'Jeff',
+      'last_name' => 'Frazier',
+      'company' => '',
+      'address_1' => '123 Any St',
+      'address_2' => '',
+      'city' => '(redacted)',
+      'state' => '(redacted)',
+      'postcode' => '28742',
+      'country' => '(redacted)',
+      'email' => '(redacted)',
+      'phone' => '(redacted)',
+    ),
+    'shipping' => 
+    array (
+      'first_name' => '',
+      'last_name' => '',
+      'company' => '',
+      'address_1' => '',
+      'address_2' => '',
+      'city' => '(redacted)',
+      'state' => '(redacted)',
+      'postcode' => '',
+      'country' => '(redacted)',
+      'phone' => '(redacted)',
+    ),
+    'payment_method' => 'woocommerce_payments',
+    'payment_method_title' => 'Credit card / debit card',
+    'transaction_id' => 'pi_3KXVS82EExDbvmHH1PGoYL9m',
+    'customer_ip_address' => '24.246.140.208',
+    'customer_user_agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148',
+    'created_via' => 'checkout',
+    'customer_note' => '',
+    'date_completed' => NULL,
+    'date_paid' => 'WC_DateTime()',
+    'cart_hash' => '14683e6a62f76c85f8ca842fb458bcb9',
+    'number' => '31',
+    'meta_data' => 
+    array (
+      0 => 'WC_Meta_Data()',
+      1 => 'WC_Meta_Data()',
+      2 => 'WC_Meta_Data()',
+      3 => 'WC_Meta_Data()',
+      4 => 'WC_Meta_Data()',
+      5 => 'WC_Meta_Data()',
+      6 => 'WC_Meta_Data()',
+      7 => 'WC_Meta_Data()',
+    ),
+    'line_items' => 
+    array (
+      41 => 'WC_Order_Item_Product()',
+    ),
+    'tax_lines' => 
+    array (
+      42 => 'WC_Order_Item_Tax()',
+    ),
+    'shipping_lines' => 
+    array (
+    ),
+    'fee_lines' => 
+    array (
+    ),
+    'coupon_lines' => 
+    array (
+    ),
+    '_payment_method_id' => 'pm_1KXVS32EExDbvmHHYrPu7LaN',
+    '_stripe_customer_id' => 'cus_LDwTXZIIsHnSa1',
+  ),
+  'update' => false,
+)
+2022-02-26T19:01:13+00:00 INFO RESPONSE: array (
+  'result' => 'error',
+)
+2022-02-26T19:29:14+00:00 INFO REQUEST POST https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/customers/cus_LDwTXZIIsHnSa1
+2022-02-26T19:29:14+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/3.6.1',
+  'Idempotency-Key' => 'ccfce3c5-f9a3-4e9b-b6b5-c524ee14d4c1',
+)
+2022-02-26T19:29:14+00:00 INFO BODY: array (
+  'test_mode' => true,
+  'name' => '(redacted)',
+  'description' => 'Name: Jeff Frazier, Guest',
+  'email' => '(redacted)',
+  'phone' => '(redacted)',
+  'address' => 
+  array (
+    'line1' => '(redacted)',
+    'line2' => '(redacted)',
+    'postal_code' => '(redacted)',
+    'city' => '(redacted)',
+    'state' => '(redacted)',
+    'country' => '(redacted)',
+  ),
+)
+2022-02-26T19:29:15+00:00 INFO RESPONSE: array (
+  'id' => 'cus_LDwTXZIIsHnSa1',
+  'object' => 'customer',
+  'address' => 
+  array (
+    'city' => '(redacted)',
+    'country' => '(redacted)',
+    'line1' => '(redacted)',
+    'line2' => '(redacted)',
+    'postal_code' => '(redacted)',
+    'state' => '(redacted)',
+  ),
+  'balance' => 0,
+  'created' => 1645898528,
+  'currency' => NULL,
+  'default_source' => NULL,
+  'delinquent' => false,
+  'description' => 'Name: Jeff Frazier, Guest',
+  'discount' => NULL,
+  'email' => '(redacted)',
+  'invoice_prefix' => '05C218AB',
+  'invoice_settings' => 
+  array (
+    'custom_fields' => NULL,
+    'default_payment_method' => NULL,
+    'footer' => NULL,
+  ),
+  'livemode' => false,
+  'metadata' => 'stdClass()',
+  'name' => '(redacted)',
+  'next_invoice_sequence' => 1,
+  'phone' => '(redacted)',
+  'preferred_locales' => 
+  array (
+  ),
+  'shipping' => NULL,
+  'tax_exempt' => 'none',
+)
+2022-02-26T19:29:15+00:00 INFO REQUEST POST https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/intentions
+2022-02-26T19:29:15+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/3.6.1',
+  'Idempotency-Key' => '33765ec3-133e-4624-91c5-ffecb1de6fae',
+)
+2022-02-26T19:29:15+00:00 INFO BODY: array (
+  'test_mode' => true,
+  'amount' => 2669,
+  'currency' => 'usd',
+  'confirm' => 'true',
+  'payment_method' => 'pm_1KXVx32EExDbvmHH9gDBzkV2',
+  'customer' => 'cus_LDwTXZIIsHnSa1',
+  'capture_method' => 'automatic',
+  'metadata' => 
+  array (
+    'customer_name' => '(redacted)',
+    'customer_email' => '(redacted)',
+    'site_url' => 'https://store.blackbear.io',
+    'order_id' => 32,
+    'order_key' => 'wc_order_GUfN58NdWcaKz',
+    'payment_type' => 'WCPay\\Constants\\Payment_Type()',
+  ),
+  'level3' => 
+  array (
+    'merchant_reference' => '32',
+    'customer_reference' => '32',
+    'shipping_amount' => 0,
+    'line_items' => 
+    array (
+      0 => 'stdClass()',
+    ),
+    'shipping_from_zip' => '28742',
+  ),
+  'description' => 'Online Payment for Order #32 for store.blackbear.io blog_id 202255454',
+  'payment_method_types' => 
+  array (
+    0 => 'card',
+  ),
+)
+2022-02-26T19:29:17+00:00 INFO RESPONSE: array (
+  'id' => 'pi_3KXVx92EExDbvmHH0k2EKgS7',
+  'object' => 'payment_intent',
+  'amount' => 2669,
+  'amount_capturable' => 0,
+  'amount_received' => 2669,
+  'amount_subtotal' => 2669,
+  'application' => 'ca_Ex84e31yMTLaNU5ozQvi5woLclpIDVpX',
+  'application_fee_amount' => 107,
+  'automatic_payment_methods' => NULL,
+  'canceled_at' => NULL,
+  'cancellation_reason' => NULL,
+  'capture_method' => 'automatic',
+  'charges' => 
+  array (
+    'object' => 'list',
+    'data' => 
+    array (
+      0 => 
+      array (
+        'id' => 'ch_3KXVx92EExDbvmHH07rIa3e8',
+        'object' => 'charge',
+        'amount' => 2669,
+        'amount_captured' => 2669,
+        'amount_refunded' => 0,
+        'application' => 'ca_Ex84e31yMTLaNU5ozQvi5woLclpIDVpX',
+        'application_fee' => 'fee_1KXVxA2EExDbvmHHdFvmdrHN',
+        'application_fee_amount' => 107,
+        'balance_transaction' => 
+        array (
+          'id' => 'txn_3KXVx92EExDbvmHH0szinpmF',
+          'object' => 'balance_transaction',
+          'amount' => 2669,
+          'available_on' => 1646438400,
+          'created' => 1645903756,
+          'currency' => 'usd',
+          'description' => 'Online Payment for Order #32 for store.blackbear.io blog_id 202255454',
+          'exchange_rate' => NULL,
+          'fee' => 107,
+          'fee_details' => 
+          array (
+            0 => 
+            array (
+              'amount' => 107,
+              'application' => 'ca_Ex84e31yMTLaNU5ozQvi5woLclpIDVpX',
+              'currency' => 'usd',
+              'description' => 'WooCommerce Payments application fee',
+              'type' => 'application_fee',
+            ),
+          ),
+          'net' => 2562,
+          'reporting_category' => 'charge',
+          'source' => 'ch_3KXVx92EExDbvmHH07rIa3e8',
+          'status' => 'pending',
+          'type' => 'charge',
+        ),
+        'billing_details' => 
+        array (
+          'address' => 
+          array (
+            'city' => '(redacted)',
+            'country' => '(redacted)',
+            'line1' => '(redacted)',
+            'line2' => '(redacted)',
+            'postal_code' => '(redacted)',
+            'state' => '(redacted)',
+          ),
+          'email' => '(redacted)',
+          'name' => '(redacted)',
+          'phone' => '(redacted)',
+        ),
+        'calculated_statement_descriptor' => 'STORE.BLACKBEAR.IO',
+        'captured' => true,
+        'created' => 1645903756,
+        'currency' => 'usd',
+        'customer' => 'cus_LDwTXZIIsHnSa1',
+        'description' => 'Online Payment for Order #32 for store.blackbear.io blog_id 202255454',
+        'destination' => NULL,
+        'dispute' => NULL,
+        'disputed' => false,
+        'failure_code' => NULL,
+        'failure_message' => NULL,
+        'fraud_details' => 
+        array (
+        ),
+        'invoice' => NULL,
+        'level3' => 
+        array (
+          'customer_reference' => '32',
+          'line_items' => 
+          array (
+            0 => 
+            array (
+              'discount_amount' => 0,
+              'product_code' => '10',
+              'product_description' => 'Day Pass',
+              'quantity' => 1,
+              'tax_amount' => 169,
+              'unit_cost' => 2500,
+            ),
+          ),
+          'merchant_reference' => '32',
+          'shipping_amount' => 0,
+          'shipping_from_zip' => '28742',
+        ),
+        'livemode' => false,
+        'metadata' => 
+        array (
+          'customer_email' => '(redacted)',
+          'customer_name' => '(redacted)',
+          'order_id' => '32',
+          'order_key' => 'wc_order_GUfN58NdWcaKz',
+          'payment_type' => 'single',
+          'site_url' => 'https://store.blackbear.io',
+        ),
+        'on_behalf_of' => NULL,
+        'order' => NULL,
+        'outcome' => 
+        array (
+          'network_status' => 'approved_by_network',
+          'reason' => NULL,
+          'risk_level' => 'normal',
+          'risk_score' => 29,
+          'seller_message' => 'Payment complete.',
+          'type' => 'authorized',
+        ),
+        'paid' => true,
+        'payment_intent' => 'pi_3KXVx92EExDbvmHH0k2EKgS7',
+        'payment_method' => 'pm_1KXVx32EExDbvmHH9gDBzkV2',
+        'payment_method_details' => 
+        array (
+          'card' => 
+          array (
+            'brand' => 'visa',
+            'checks' => 
+            array (
+              'address_line1_check' => 'pass',
+              'address_postal_code_check' => 'pass',
+              'cvc_check' => 'pass',
+            ),
+            'country' => '(redacted)',
+            'exp_month' => 4,
+            'exp_year' => 2024,
+            'fingerprint' => '0SEufZLr8JkcLcfi',
+            'funding' => 'credit',
+            'installments' => NULL,
+            'last4' => '4242',
+            'mandate' => NULL,
+            'network' => 'visa',
+            'three_d_secure' => NULL,
+            'wallet' => NULL,
+          ),
+          'type' => 'card',
+        ),
+        'receipt_email' => NULL,
+        'receipt_number' => NULL,
+        'receipt_url' => 'https://pay.stripe.com/receipts/acct_1KN0mD2EExDbvmHH/ch_3KXVx92EExDbvmHH07rIa3e8/rcpt_LDxs8eLZ3s50NQXDEBhi6yUE9iivHHO',
+        'refunded' => false,
+        'refunds' => 
+        array (
+          'object' => 'list',
+          'data' => 
+          array (
+          ),
+          'has_more' => false,
+          'total_count' => 0,
+          'url' => '/v1/charges/ch_3KXVx92EExDbvmHH07rIa3e8/refunds',
+        ),
+        'review' => NULL,
+        'shipping' => NULL,
+        'source' => NULL,
+        'source_transfer' => NULL,
+        'statement_descriptor' => NULL,
+        'statement_descriptor_suffix' => NULL,
+        'status' => 'succeeded',
+        'transfer_data' => NULL,
+        'transfer_group' => NULL,
+      ),
+    ),
+    'has_more' => false,
+    'total_count' => 1,
+    'url' => '/v1/charges?payment_intent=pi_3KXVx92EExDbvmHH0k2EKgS7',
+  ),
+  'client_secret' => '(redacted)',
+  'confirmation_method' => 'automatic',
+  'created' => 1645903755,
+  'currency' => 'usd',
+  'customer' => 'cus_LDwTXZIIsHnSa1',
+  'description' => 'Online Payment for Order #32 for store.blackbear.io blog_id 202255454',
+  'invoice' => NULL,
+  'last_payment_error' => NULL,
+  'level3' => 
+  array (
+    'customer_reference' => '32',
+    'line_items' => 
+    array (
+      0 => 
+      array (
+        'discount_amount' => 0,
+        'product_code' => '10',
+        'product_description' => 'Day Pass',
+        'quantity' => 1,
+        'tax_amount' => 169,
+        'unit_cost' => 2500,
+      ),
+    ),
+    'merchant_reference' => '32',
+    'shipping_amount' => 0,
+    'shipping_from_zip' => '28742',
+  ),
+  'livemode' => false,
+  'metadata' => 
+  array (
+    'customer_email' => '(redacted)',
+    'customer_name' => '(redacted)',
+    'order_id' => '32',
+    'order_key' => 'wc_order_GUfN58NdWcaKz',
+    'payment_type' => 'single',
+    'site_url' => 'https://store.blackbear.io',
+  ),
+  'next_action' => NULL,
+  'on_behalf_of' => NULL,
+  'payment_method' => 'pm_1KXVx32EExDbvmHH9gDBzkV2',
+  'payment_method_options' => 
+  array (
+    'card' => 
+    array (
+      'installments' => NULL,
+      'mandate_options' => NULL,
+      'network' => NULL,
+      'request_three_d_secure' => 'automatic',
+    ),
+  ),
+  'payment_method_types' => 
+  array (
+    0 => 'card',
+  ),
+  'processing' => NULL,
+  'receipt_email' => NULL,
+  'review' => NULL,
+  'setup_future_usage' => NULL,
+  'shipping' => NULL,
+  'source' => NULL,
+  'statement_descriptor' => NULL,
+  'statement_descriptor_suffix' => NULL,
+  'status' => 'succeeded',
+  'total_details' => 
+  array (
+    'amount_discount' => 0,
+    'amount_tax' => 0,
+  ),
+  'transfer_data' => NULL,
+  'transfer_group' => NULL,
+  'fee_history' => 
+  array (
+    0 => 
+    array (
+      'type' => 'base',
+      'percentage_rate' => 0.029,
+      'fixed_rate' => 30,
+      'currency' => 'usd',
+    ),
+  ),
+)
+2022-02-26T19:29:24+00:00 DEBUG Webhook recieved: payment_intent.succeeded
+2022-02-26T19:29:24+00:00 DEBUG Webhook body: array (
+  'id' => 'evt_3KXVx92EExDbvmHH0eZTaeaG',
+  'type' => 'payment_intent.succeeded',
+  'livemode' => false,
+  'account' => 'acct_1KN0mD2EExDbvmHH',
+  'data' => 
+  array (
+    'object' => 
+    array (
+      'id' => 'pi_3KXVx92EExDbvmHH0k2EKgS7',
+      'object' => 'payment_intent',
+      'amount' => 2669,
+      'amount_capturable' => 0,
+      'amount_received' => 2669,
+      'application' => 'ca_Ex84e31yMTLaNU5ozQvi5woLclpIDVpX',
+      'application_fee_amount' => 107,
+      'automatic_payment_methods' => NULL,
+      'canceled_at' => NULL,
+      'cancellation_reason' => NULL,
+      'capture_method' => 'automatic',
+      'charges' => 
+      array (
+        'object' => 'list',
+        'data' => 
+        array (
+          0 => 
+          array (
+            'id' => 'ch_3KXVx92EExDbvmHH07rIa3e8',
+            'object' => 'charge',
+            'amount' => 2669,
+            'amount_captured' => 2669,
+            'amount_refunded' => 0,
+            'application' => 'ca_Ex84e31yMTLaNU5ozQvi5woLclpIDVpX',
+            'application_fee' => 'fee_1KXVxA2EExDbvmHHdFvmdrHN',
+            'application_fee_amount' => 107,
+            'balance_transaction' => 'txn_3KXVx92EExDbvmHH0szinpmF',
+            'billing_details' => 
+            array (
+              'address' => 
+              array (
+                'city' => '(redacted)',
+                'country' => '(redacted)',
+                'line1' => '(redacted)',
+                'line2' => '(redacted)',
+                'postal_code' => '(redacted)',
+                'state' => '(redacted)',
+              ),
+              'email' => '(redacted)',
+              'name' => '(redacted)',
+              'phone' => '(redacted)',
+            ),
+            'calculated_statement_descriptor' => 'STORE.BLACKBEAR.IO',
+            'captured' => true,
+            'created' => 1645903756,
+            'currency' => 'usd',
+            'customer' => 'cus_LDwTXZIIsHnSa1',
+            'description' => 'Online Payment for Order #32 for store.blackbear.io blog_id 202255454',
+            'destination' => NULL,
+            'dispute' => NULL,
+            'disputed' => false,
+            'failure_code' => NULL,
+            'failure_message' => NULL,
+            'fraud_details' => 
+            array (
+            ),
+            'invoice' => NULL,
+            'livemode' => false,
+            'metadata' => 
+            array (
+              'order_key' => 'wc_order_GUfN58NdWcaKz',
+              'site_url' => 'https://store.blackbear.io',
+              'order_id' => '32',
+              'payment_type' => 'single',
+              'customer_email' => '(redacted)',
+              'customer_name' => '(redacted)',
+            ),
+            'on_behalf_of' => NULL,
+            'order' => NULL,
+            'outcome' => 
+            array (
+              'network_status' => 'approved_by_network',
+              'reason' => NULL,
+              'risk_level' => 'normal',
+              'risk_score' => 29,
+              'seller_message' => 'Payment complete.',
+              'type' => 'authorized',
+            ),
+            'paid' => true,
+            'payment_intent' => 'pi_3KXVx92EExDbvmHH0k2EKgS7',
+            'payment_method' => 'pm_1KXVx32EExDbvmHH9gDBzkV2',
+            'payment_method_details' => 
+            array (
+              'card' => 
+              array (
+                'brand' => 'visa',
+                'checks' => 
+                array (
+                  'address_line1_check' => 'pass',
+                  'address_postal_code_check' => 'pass',
+                  'cvc_check' => 'pass',
+                ),
+                'country' => '(redacted)',
+                'exp_month' => 4,
+                'exp_year' => 2024,
+                'fingerprint' => '0SEufZLr8JkcLcfi',
+                'funding' => 'credit',
+                'installments' => NULL,
+                'last4' => '4242',
+                'network' => 'visa',
+                'three_d_secure' => NULL,
+                'wallet' => NULL,
+              ),
+              'type' => 'card',
+            ),
+            'receipt_email' => NULL,
+            'receipt_number' => NULL,
+            'receipt_url' => 'https://pay.stripe.com/receipts/acct_1KN0mD2EExDbvmHH/ch_3KXVx92EExDbvmHH07rIa3e8/rcpt_LDxs8eLZ3s50NQXDEBhi6yUE9iivHHO',
+            'refunded' => false,
+            'refunds' => 
+            array (
+              'object' => 'list',
+              'data' => 
+              array (
+              ),
+              'has_more' => false,
+              'total_count' => 0,
+              'url' => '/v1/charges/ch_3KXVx92EExDbvmHH07rIa3e8/refunds',
+            ),
+            'review' => NULL,
+            'shipping' => NULL,
+            'source' => NULL,
+            'source_transfer' => NULL,
+            'statement_descriptor' => NULL,
+            'statement_descriptor_suffix' => NULL,
+            'status' => 'succeeded',
+            'transfer_data' => NULL,
+            'transfer_group' => NULL,
+            'level3' => 
+            array (
+              'customer_reference' => '32',
+              'line_items' => 
+              array (
+                0 => 
+                array (
+                  'discount_amount' => 0,
+                  'product_code' => '10',
+                  'product_description' => 'Day Pass',
+                  'quantity' => 1,
+                  'tax_amount' => 169,
+                  'unit_cost' => 2500,
+                ),
+              ),
+              'merchant_reference' => '32',
+              'shipping_amount' => 0,
+              'shipping_from_zip' => '28742',
+            ),
+          ),
+        ),
+        'has_more' => false,
+        'total_count' => 1,
+        'url' => '/v1/charges?payment_intent=pi_3KXVx92EExDbvmHH0k2EKgS7',
+      ),
+      'client_secret' => '(redacted)',
+      'confirmation_method' => 'automatic',
+      'created' => 1645903755,
+      'currency' => 'usd',
+      'customer' => 'cus_LDwTXZIIsHnSa1',
+      'description' => 'Online Payment for Order #32 for store.blackbear.io blog_id 202255454',
+      'invoice' => NULL,
+      'last_payment_error' => NULL,
+      'livemode' => false,
+      'metadata' => 
+      array (
+        'order_key' => 'wc_order_GUfN58NdWcaKz',
+        'site_url' => 'https://store.blackbear.io',
+        'order_id' => '32',
+        'payment_type' => 'single',
+        'customer_email' => '(redacted)',
+        'customer_name' => '(redacted)',
+      ),
+      'next_action' => NULL,
+      'on_behalf_of' => NULL,
+      'payment_method' => 'pm_1KXVx32EExDbvmHH9gDBzkV2',
+      'payment_method_options' => 
+      array (
+        'card' => 
+        array (
+          'installments' => NULL,
+          'network' => NULL,
+          'request_three_d_secure' => 'automatic',
+        ),
+      ),
+      'payment_method_types' => 
+      array (
+        0 => 'card',
+      ),
+      'processing' => NULL,
+      'receipt_email' => NULL,
+      'review' => NULL,
+      'setup_future_usage' => NULL,
+      'shipping' => NULL,
+      'source' => NULL,
+      'statement_descriptor' => NULL,
+      'statement_descriptor_suffix' => NULL,
+      'status' => 'succeeded',
+      'transfer_data' => NULL,
+      'transfer_group' => NULL,
+      'amount_subtotal' => 2669,
+      'level3' => 
+      array (
+        'customer_reference' => '32',
+        'line_items' => 
+        array (
+          0 => 
+          array (
+            'discount_amount' => 0,
+            'product_code' => '10',
+            'product_description' => 'Day Pass',
+            'quantity' => 1,
+            'tax_amount' => 169,
+            'unit_cost' => 2500,
+          ),
+        ),
+        'merchant_reference' => '32',
+        'shipping_amount' => 0,
+        'shipping_from_zip' => '28742',
+      ),
+      'total_details' => 
+      array (
+        'amount_discount' => 0,
+        'amount_tax' => 0,
+      ),
+    ),
+  ),
+)
+2022-02-26T19:33:09+00:00 INFO REQUEST POST https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/tracking/order
+2022-02-26T19:33:09+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/3.6.1',
+  'Idempotency-Key' => 'bb0dc17b-cbdb-4cb9-b65b-f099fc57d292',
+)
+2022-02-26T19:33:09+00:00 INFO BODY: array (
+  'test_mode' => true,
+  'order_data' => 
+  array (
+    'id' => 32,
+    'parent_id' => 0,
+    'status' => 'processing',
+    'currency' => 'USD',
+    'version' => '6.1.1',
+    'prices_include_tax' => false,
+    'date_created' => 'WC_DateTime()',
+    'date_modified' => 'WC_DateTime()',
+    'discount_total' => '0',
+    'discount_tax' => '0',
+    'shipping_total' => '0',
+    'shipping_tax' => '0',
+    'cart_tax' => '1.69',
+    'total' => '26.69',
+    'total_tax' => '1.69',
+    'customer_id' => 0,
+    'order_key' => 'wc_order_GUfN58NdWcaKz',
+    'billing' => 
+    array (
+      'first_name' => 'Jeff',
+      'last_name' => 'Frazier',
+      'company' => '',
+      'address_1' => '123 Any St',
+      'address_2' => '',
+      'city' => '(redacted)',
+      'state' => '(redacted)',
+      'postcode' => '28742',
+      'country' => '(redacted)',
+      'email' => '(redacted)',
+      'phone' => '(redacted)',
+    ),
+    'shipping' => 
+    array (
+      'first_name' => '',
+      'last_name' => '',
+      'company' => '',
+      'address_1' => '',
+      'address_2' => '',
+      'city' => '(redacted)',
+      'state' => '(redacted)',
+      'postcode' => '',
+      'country' => '(redacted)',
+      'phone' => '(redacted)',
+    ),
+    'payment_method' => 'woocommerce_payments',
+    'payment_method_title' => 'Credit card / debit card',
+    'transaction_id' => 'pi_3KXVx92EExDbvmHH0k2EKgS7',
+    'customer_ip_address' => '24.246.140.208',
+    'customer_user_agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148',
+    'created_via' => 'checkout',
+    'customer_note' => '',
+    'date_completed' => NULL,
+    'date_paid' => 'WC_DateTime()',
+    'cart_hash' => '14683e6a62f76c85f8ca842fb458bcb9',
+    'number' => '32',
+    'meta_data' => 
+    array (
+      0 => 'WC_Meta_Data()',
+      1 => 'WC_Meta_Data()',
+      2 => 'WC_Meta_Data()',
+      3 => 'WC_Meta_Data()',
+      4 => 'WC_Meta_Data()',
+      5 => 'WC_Meta_Data()',
+      6 => 'WC_Meta_Data()',
+      7 => 'WC_Meta_Data()',
+    ),
+    'line_items' => 
+    array (
+      43 => 'WC_Order_Item_Product()',
+    ),
+    'tax_lines' => 
+    array (
+      44 => 'WC_Order_Item_Tax()',
+    ),
+    'shipping_lines' => 
+    array (
+    ),
+    'fee_lines' => 
+    array (
+    ),
+    'coupon_lines' => 
+    array (
+    ),
+    '_payment_method_id' => 'pm_1KXVx32EExDbvmHH9gDBzkV2',
+    '_stripe_customer_id' => 'cus_LDwTXZIIsHnSa1',
+  ),
+  'update' => false,
+)
+2022-02-26T19:33:10+00:00 INFO RESPONSE: array (
+  'result' => 'error',
+)
+2022-02-26T19:34:02+00:00 INFO REQUEST POST https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/customers/cus_LDwTXZIIsHnSa1
+2022-02-26T19:34:02+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/3.6.1',
+  'Idempotency-Key' => 'c4da8cfa-72ed-4621-890b-4b8e6c15acfb',
+)
+2022-02-26T19:34:02+00:00 INFO BODY: array (
+  'test_mode' => true,
+  'name' => '(redacted)',
+  'description' => 'Name: Jeff Frazier, Guest',
+  'email' => '(redacted)',
+  'phone' => '(redacted)',
+  'address' => 
+  array (
+    'line1' => '(redacted)',
+    'line2' => '(redacted)',
+    'postal_code' => '(redacted)',
+    'city' => '(redacted)',
+    'state' => '(redacted)',
+    'country' => '(redacted)',
+  ),
+)
+2022-02-26T19:34:03+00:00 INFO RESPONSE: array (
+  'id' => 'cus_LDwTXZIIsHnSa1',
+  'object' => 'customer',
+  'address' => 
+  array (
+    'city' => '(redacted)',
+    'country' => '(redacted)',
+    'line1' => '(redacted)',
+    'line2' => '(redacted)',
+    'postal_code' => '(redacted)',
+    'state' => '(redacted)',
+  ),
+  'balance' => 0,
+  'created' => 1645898528,
+  'currency' => NULL,
+  'default_source' => NULL,
+  'delinquent' => false,
+  'description' => 'Name: Jeff Frazier, Guest',
+  'discount' => NULL,
+  'email' => '(redacted)',
+  'invoice_prefix' => '05C218AB',
+  'invoice_settings' => 
+  array (
+    'custom_fields' => NULL,
+    'default_payment_method' => NULL,
+    'footer' => NULL,
+  ),
+  'livemode' => false,
+  'metadata' => 'stdClass()',
+  'name' => '(redacted)',
+  'next_invoice_sequence' => 1,
+  'phone' => '(redacted)',
+  'preferred_locales' => 
+  array (
+  ),
+  'shipping' => NULL,
+  'tax_exempt' => 'none',
+)
+2022-02-26T19:34:03+00:00 INFO REQUEST POST https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/intentions
+2022-02-26T19:34:03+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/3.6.1',
+  'Idempotency-Key' => 'a9219fbd-3b49-4593-8469-4099fe9d9458',
+)
+2022-02-26T19:34:03+00:00 INFO BODY: array (
+  'test_mode' => true,
+  'amount' => 2669,
+  'currency' => 'usd',
+  'confirm' => 'true',
+  'payment_method' => 'pm_1KXW1j2EExDbvmHHw4Dk7CGE',
+  'customer' => 'cus_LDwTXZIIsHnSa1',
+  'capture_method' => 'automatic',
+  'metadata' => 
+  array (
+    'customer_name' => '(redacted)',
+    'customer_email' => '(redacted)',
+    'site_url' => 'https://store.blackbear.io',
+    'order_id' => 33,
+    'order_key' => 'wc_order_Upp0u5Jrd9H38',
+    'payment_type' => 'WCPay\\Constants\\Payment_Type()',
+  ),
+  'level3' => 
+  array (
+    'merchant_reference' => '33',
+    'customer_reference' => '33',
+    'shipping_amount' => 0,
+    'line_items' => 
+    array (
+      0 => 'stdClass()',
+    ),
+    'shipping_from_zip' => '28742',
+  ),
+  'description' => 'Online Payment for Order #33 for store.blackbear.io blog_id 202255454',
+  'payment_method_types' => 
+  array (
+    0 => 'card',
+  ),
+)
+2022-02-26T19:34:05+00:00 INFO RESPONSE: array (
+  'id' => 'pi_3KXW1o2EExDbvmHH1FcDYs4z',
+  'object' => 'payment_intent',
+  'amount' => 2669,
+  'amount_capturable' => 0,
+  'amount_received' => 2669,
+  'amount_subtotal' => 2669,
+  'application' => 'ca_Ex84e31yMTLaNU5ozQvi5woLclpIDVpX',
+  'application_fee_amount' => 107,
+  'automatic_payment_methods' => NULL,
+  'canceled_at' => NULL,
+  'cancellation_reason' => NULL,
+  'capture_method' => 'automatic',
+  'charges' => 
+  array (
+    'object' => 'list',
+    'data' => 
+    array (
+      0 => 
+      array (
+        'id' => 'ch_3KXW1o2EExDbvmHH1dZWMZJ6',
+        'object' => 'charge',
+        'amount' => 2669,
+        'amount_captured' => 2669,
+        'amount_refunded' => 0,
+        'application' => 'ca_Ex84e31yMTLaNU5ozQvi5woLclpIDVpX',
+        'application_fee' => 'fee_1KXW1p2EExDbvmHHAAZz97Vo',
+        'application_fee_amount' => 107,
+        'balance_transaction' => 
+        array (
+          'id' => 'txn_3KXW1o2EExDbvmHH1Sw83CyA',
+          'object' => 'balance_transaction',
+          'amount' => 2669,
+          'available_on' => 1646438400,
+          'created' => 1645904044,
+          'currency' => 'usd',
+          'description' => 'Online Payment for Order #33 for store.blackbear.io blog_id 202255454',
+          'exchange_rate' => NULL,
+          'fee' => 107,
+          'fee_details' => 
+          array (
+            0 => 
+            array (
+              'amount' => 107,
+              'application' => 'ca_Ex84e31yMTLaNU5ozQvi5woLclpIDVpX',
+              'currency' => 'usd',
+              'description' => 'WooCommerce Payments application fee',
+              'type' => 'application_fee',
+            ),
+          ),
+          'net' => 2562,
+          'reporting_category' => 'charge',
+          'source' => 'ch_3KXW1o2EExDbvmHH1dZWMZJ6',
+          'status' => 'pending',
+          'type' => 'charge',
+        ),
+        'billing_details' => 
+        array (
+          'address' => 
+          array (
+            'city' => '(redacted)',
+            'country' => '(redacted)',
+            'line1' => '(redacted)',
+            'line2' => '(redacted)',
+            'postal_code' => '(redacted)',
+            'state' => '(redacted)',
+          ),
+          'email' => '(redacted)',
+          'name' => '(redacted)',
+          'phone' => '(redacted)',
+        ),
+        'calculated_statement_descriptor' => 'STORE.BLACKBEAR.IO',
+        'captured' => true,
+        'created' => 1645904044,
+        'currency' => 'usd',
+        'customer' => 'cus_LDwTXZIIsHnSa1',
+        'description' => 'Online Payment for Order #33 for store.blackbear.io blog_id 202255454',
+        'destination' => NULL,
+        'dispute' => NULL,
+        'disputed' => false,
+        'failure_code' => NULL,
+        'failure_message' => NULL,
+        'fraud_details' => 
+        array (
+        ),
+        'invoice' => NULL,
+        'level3' => 
+        array (
+          'customer_reference' => '33',
+          'line_items' => 
+          array (
+            0 => 
+            array (
+              'discount_amount' => 0,
+              'product_code' => '10',
+              'product_description' => 'Day Pass',
+              'quantity' => 1,
+              'tax_amount' => 169,
+              'unit_cost' => 2500,
+            ),
+          ),
+          'merchant_reference' => '33',
+          'shipping_amount' => 0,
+          'shipping_from_zip' => '28742',
+        ),
+        'livemode' => false,
+        'metadata' => 
+        array (
+          'customer_name' => '(redacted)',
+          'customer_email' => '(redacted)',
+          'site_url' => 'https://store.blackbear.io',
+          'order_id' => '33',
+          'order_key' => 'wc_order_Upp0u5Jrd9H38',
+          'payment_type' => 'single',
+        ),
+        'on_behalf_of' => NULL,
+        'order' => NULL,
+        'outcome' => 
+        array (
+          'network_status' => 'approved_by_network',
+          'reason' => NULL,
+          'risk_level' => 'normal',
+          'risk_score' => 29,
+          'seller_message' => 'Payment complete.',
+          'type' => 'authorized',
+        ),
+        'paid' => true,
+        'payment_intent' => 'pi_3KXW1o2EExDbvmHH1FcDYs4z',
+        'payment_method' => 'pm_1KXW1j2EExDbvmHHw4Dk7CGE',
+        'payment_method_details' => 
+        array (
+          'card' => 
+          array (
+            'brand' => 'visa',
+            'checks' => 
+            array (
+              'address_line1_check' => 'pass',
+              'address_postal_code_check' => 'pass',
+              'cvc_check' => 'pass',
+            ),
+            'country' => '(redacted)',
+            'exp_month' => 4,
+            'exp_year' => 2024,
+            'fingerprint' => '0SEufZLr8JkcLcfi',
+            'funding' => 'credit',
+            'installments' => NULL,
+            'last4' => '4242',
+            'mandate' => NULL,
+            'network' => 'visa',
+            'three_d_secure' => NULL,
+            'wallet' => NULL,
+          ),
+          'type' => 'card',
+        ),
+        'receipt_email' => NULL,
+        'receipt_number' => NULL,
+        'receipt_url' => 'https://pay.stripe.com/receipts/acct_1KN0mD2EExDbvmHH/ch_3KXW1o2EExDbvmHH1dZWMZJ6/rcpt_LDxxUs4nJwTw3p3ANiAbWbUqBkQV2L9',
+        'refunded' => false,
+        'refunds' => 
+        array (
+          'object' => 'list',
+          'data' => 
+          array (
+          ),
+          'has_more' => false,
+          'total_count' => 0,
+          'url' => '/v1/charges/ch_3KXW1o2EExDbvmHH1dZWMZJ6/refunds',
+        ),
+        'review' => NULL,
+        'shipping' => NULL,
+        'source' => NULL,
+        'source_transfer' => NULL,
+        'statement_descriptor' => NULL,
+        'statement_descriptor_suffix' => NULL,
+        'status' => 'succeeded',
+        'transfer_data' => NULL,
+        'transfer_group' => NULL,
+      ),
+    ),
+    'has_more' => false,
+    'total_count' => 1,
+    'url' => '/v1/charges?payment_intent=pi_3KXW1o2EExDbvmHH1FcDYs4z',
+  ),
+  'client_secret' => '(redacted)',
+  'confirmation_method' => 'automatic',
+  'created' => 1645904044,
+  'currency' => 'usd',
+  'customer' => 'cus_LDwTXZIIsHnSa1',
+  'description' => 'Online Payment for Order #33 for store.blackbear.io blog_id 202255454',
+  'invoice' => NULL,
+  'last_payment_error' => NULL,
+  'level3' => 
+  array (
+    'customer_reference' => '33',
+    'line_items' => 
+    array (
+      0 => 
+      array (
+        'discount_amount' => 0,
+        'product_code' => '10',
+        'product_description' => 'Day Pass',
+        'quantity' => 1,
+        'tax_amount' => 169,
+        'unit_cost' => 2500,
+      ),
+    ),
+    'merchant_reference' => '33',
+    'shipping_amount' => 0,
+    'shipping_from_zip' => '28742',
+  ),
+  'livemode' => false,
+  'metadata' => 
+  array (
+    'customer_name' => '(redacted)',
+    'customer_email' => '(redacted)',
+    'site_url' => 'https://store.blackbear.io',
+    'order_id' => '33',
+    'order_key' => 'wc_order_Upp0u5Jrd9H38',
+    'payment_type' => 'single',
+  ),
+  'next_action' => NULL,
+  'on_behalf_of' => NULL,
+  'payment_method' => 'pm_1KXW1j2EExDbvmHHw4Dk7CGE',
+  'payment_method_options' => 
+  array (
+    'card' => 
+    array (
+      'installments' => NULL,
+      'mandate_options' => NULL,
+      'network' => NULL,
+      'request_three_d_secure' => 'automatic',
+    ),
+  ),
+  'payment_method_types' => 
+  array (
+    0 => 'card',
+  ),
+  'processing' => NULL,
+  'receipt_email' => NULL,
+  'review' => NULL,
+  'setup_future_usage' => NULL,
+  'shipping' => NULL,
+  'source' => NULL,
+  'statement_descriptor' => NULL,
+  'statement_descriptor_suffix' => NULL,
+  'status' => 'succeeded',
+  'total_details' => 
+  array (
+    'amount_discount' => 0,
+    'amount_tax' => 0,
+  ),
+  'transfer_data' => NULL,
+  'transfer_group' => NULL,
+  'fee_history' => 
+  array (
+    0 => 
+    array (
+      'type' => 'base',
+      'percentage_rate' => 0.029,
+      'fixed_rate' => 30,
+      'currency' => 'usd',
+    ),
+  ),
+)
+2022-02-26T19:34:12+00:00 DEBUG Webhook recieved: payment_intent.succeeded
+2022-02-26T19:34:12+00:00 DEBUG Webhook body: array (
+  'id' => 'evt_3KXW1o2EExDbvmHH17MpMP8G',
+  'type' => 'payment_intent.succeeded',
+  'livemode' => false,
+  'account' => 'acct_1KN0mD2EExDbvmHH',
+  'data' => 
+  array (
+    'object' => 
+    array (
+      'id' => 'pi_3KXW1o2EExDbvmHH1FcDYs4z',
+      'object' => 'payment_intent',
+      'amount' => 2669,
+      'amount_capturable' => 0,
+      'amount_received' => 2669,
+      'application' => 'ca_Ex84e31yMTLaNU5ozQvi5woLclpIDVpX',
+      'application_fee_amount' => 107,
+      'automatic_payment_methods' => NULL,
+      'canceled_at' => NULL,
+      'cancellation_reason' => NULL,
+      'capture_method' => 'automatic',
+      'charges' => 
+      array (
+        'object' => 'list',
+        'data' => 
+        array (
+          0 => 
+          array (
+            'id' => 'ch_3KXW1o2EExDbvmHH1dZWMZJ6',
+            'object' => 'charge',
+            'amount' => 2669,
+            'amount_captured' => 2669,
+            'amount_refunded' => 0,
+            'application' => 'ca_Ex84e31yMTLaNU5ozQvi5woLclpIDVpX',
+            'application_fee' => 'fee_1KXW1p2EExDbvmHHAAZz97Vo',
+            'application_fee_amount' => 107,
+            'balance_transaction' => 'txn_3KXW1o2EExDbvmHH1Sw83CyA',
+            'billing_details' => 
+            array (
+              'address' => 
+              array (
+                'city' => '(redacted)',
+                'country' => '(redacted)',
+                'line1' => '(redacted)',
+                'line2' => '(redacted)',
+                'postal_code' => '(redacted)',
+                'state' => '(redacted)',
+              ),
+              'email' => '(redacted)',
+              'name' => '(redacted)',
+              'phone' => '(redacted)',
+            ),
+            'calculated_statement_descriptor' => 'STORE.BLACKBEAR.IO',
+            'captured' => true,
+            'created' => 1645904044,
+            'currency' => 'usd',
+            'customer' => 'cus_LDwTXZIIsHnSa1',
+            'description' => 'Online Payment for Order #33 for store.blackbear.io blog_id 202255454',
+            'destination' => NULL,
+            'dispute' => NULL,
+            'disputed' => false,
+            'failure_code' => NULL,
+            'failure_message' => NULL,
+            'fraud_details' => 
+            array (
+            ),
+            'invoice' => NULL,
+            'livemode' => false,
+            'metadata' => 
+            array (
+              'customer_name' => '(redacted)',
+              'customer_email' => '(redacted)',
+              'site_url' => 'https://store.blackbear.io',
+              'order_id' => '33',
+              'order_key' => 'wc_order_Upp0u5Jrd9H38',
+              'payment_type' => 'single',
+            ),
+            'on_behalf_of' => NULL,
+            'order' => NULL,
+            'outcome' => 
+            array (
+              'network_status' => 'approved_by_network',
+              'reason' => NULL,
+              'risk_level' => 'normal',
+              'risk_score' => 29,
+              'seller_message' => 'Payment complete.',
+              'type' => 'authorized',
+            ),
+            'paid' => true,
+            'payment_intent' => 'pi_3KXW1o2EExDbvmHH1FcDYs4z',
+            'payment_method' => 'pm_1KXW1j2EExDbvmHHw4Dk7CGE',
+            'payment_method_details' => 
+            array (
+              'card' => 
+              array (
+                'brand' => 'visa',
+                'checks' => 
+                array (
+                  'address_line1_check' => 'pass',
+                  'address_postal_code_check' => 'pass',
+                  'cvc_check' => 'pass',
+                ),
+                'country' => '(redacted)',
+                'exp_month' => 4,
+                'exp_year' => 2024,
+                'fingerprint' => '0SEufZLr8JkcLcfi',
+                'funding' => 'credit',
+                'installments' => NULL,
+                'last4' => '4242',
+                'network' => 'visa',
+                'three_d_secure' => NULL,
+                'wallet' => NULL,
+              ),
+              'type' => 'card',
+            ),
+            'receipt_email' => NULL,
+            'receipt_number' => NULL,
+            'receipt_url' => 'https://pay.stripe.com/receipts/acct_1KN0mD2EExDbvmHH/ch_3KXW1o2EExDbvmHH1dZWMZJ6/rcpt_LDxxUs4nJwTw3p3ANiAbWbUqBkQV2L9',
+            'refunded' => false,
+            'refunds' => 
+            array (
+              'object' => 'list',
+              'data' => 
+              array (
+              ),
+              'has_more' => false,
+              'total_count' => 0,
+              'url' => '/v1/charges/ch_3KXW1o2EExDbvmHH1dZWMZJ6/refunds',
+            ),
+            'review' => NULL,
+            'shipping' => NULL,
+            'source' => NULL,
+            'source_transfer' => NULL,
+            'statement_descriptor' => NULL,
+            'statement_descriptor_suffix' => NULL,
+            'status' => 'succeeded',
+            'transfer_data' => NULL,
+            'transfer_group' => NULL,
+            'level3' => 
+            array (
+              'customer_reference' => '33',
+              'line_items' => 
+              array (
+                0 => 
+                array (
+                  'discount_amount' => 0,
+                  'product_code' => '10',
+                  'product_description' => 'Day Pass',
+                  'quantity' => 1,
+                  'tax_amount' => 169,
+                  'unit_cost' => 2500,
+                ),
+              ),
+              'merchant_reference' => '33',
+              'shipping_amount' => 0,
+              'shipping_from_zip' => '28742',
+            ),
+          ),
+        ),
+        'has_more' => false,
+        'total_count' => 1,
+        'url' => '/v1/charges?payment_intent=pi_3KXW1o2EExDbvmHH1FcDYs4z',
+      ),
+      'client_secret' => '(redacted)',
+      'confirmation_method' => 'automatic',
+      'created' => 1645904044,
+      'currency' => 'usd',
+      'customer' => 'cus_LDwTXZIIsHnSa1',
+      'description' => 'Online Payment for Order #33 for store.blackbear.io blog_id 202255454',
+      'invoice' => NULL,
+      'last_payment_error' => NULL,
+      'livemode' => false,
+      'metadata' => 
+      array (
+        'customer_name' => '(redacted)',
+        'customer_email' => '(redacted)',
+        'site_url' => 'https://store.blackbear.io',
+        'order_id' => '33',
+        'order_key' => 'wc_order_Upp0u5Jrd9H38',
+        'payment_type' => 'single',
+      ),
+      'next_action' => NULL,
+      'on_behalf_of' => NULL,
+      'payment_method' => 'pm_1KXW1j2EExDbvmHHw4Dk7CGE',
+      'payment_method_options' => 
+      array (
+        'card' => 
+        array (
+          'installments' => NULL,
+          'network' => NULL,
+          'request_three_d_secure' => 'automatic',
+        ),
+      ),
+      'payment_method_types' => 
+      array (
+        0 => 'card',
+      ),
+      'processing' => NULL,
+      'receipt_email' => NULL,
+      'review' => NULL,
+      'setup_future_usage' => NULL,
+      'shipping' => NULL,
+      'source' => NULL,
+      'statement_descriptor' => NULL,
+      'statement_descriptor_suffix' => NULL,
+      'status' => 'succeeded',
+      'transfer_data' => NULL,
+      'transfer_group' => NULL,
+      'amount_subtotal' => 2669,
+      'level3' => 
+      array (
+        'customer_reference' => '33',
+        'line_items' => 
+        array (
+          0 => 
+          array (
+            'discount_amount' => 0,
+            'product_code' => '10',
+            'product_description' => 'Day Pass',
+            'quantity' => 1,
+            'tax_amount' => 169,
+            'unit_cost' => 2500,
+          ),
+        ),
+        'merchant_reference' => '33',
+        'shipping_amount' => 0,
+        'shipping_from_zip' => '28742',
+      ),
+      'total_details' => 
+      array (
+        'amount_discount' => 0,
+        'amount_tax' => 0,
+      ),
+    ),
+  ),
+)
+2022-02-26T19:34:14+00:00 INFO REQUEST POST https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/tracking/order
+2022-02-26T19:34:14+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/3.6.1',
+  'Idempotency-Key' => '9f08d627-b68f-46d5-a352-0a5da16f1eb2',
+)
+2022-02-26T19:34:14+00:00 INFO BODY: array (
+  'test_mode' => true,
+  'order_data' => 
+  array (
+    'id' => 33,
+    'parent_id' => 0,
+    'status' => 'processing',
+    'currency' => 'USD',
+    'version' => '6.1.1',
+    'prices_include_tax' => false,
+    'date_created' => 'WC_DateTime()',
+    'date_modified' => 'WC_DateTime()',
+    'discount_total' => '0',
+    'discount_tax' => '0',
+    'shipping_total' => '0',
+    'shipping_tax' => '0',
+    'cart_tax' => '1.69',
+    'total' => '26.69',
+    'total_tax' => '1.69',
+    'customer_id' => 0,
+    'order_key' => 'wc_order_Upp0u5Jrd9H38',
+    'billing' => 
+    array (
+      'first_name' => 'Jeff',
+      'last_name' => 'Frazier',
+      'company' => '',
+      'address_1' => '123 Any St',
+      'address_2' => '',
+      'city' => '(redacted)',
+      'state' => '(redacted)',
+      'postcode' => '28742',
+      'country' => '(redacted)',
+      'email' => '(redacted)',
+      'phone' => '(redacted)',
+    ),
+    'shipping' => 
+    array (
+      'first_name' => '',
+      'last_name' => '',
+      'company' => '',
+      'address_1' => '',
+      'address_2' => '',
+      'city' => '(redacted)',
+      'state' => '(redacted)',
+      'postcode' => '',
+      'country' => '(redacted)',
+      'phone' => '(redacted)',
+    ),
+    'payment_method' => 'woocommerce_payments',
+    'payment_method_title' => 'Credit card / debit card',
+    'transaction_id' => 'pi_3KXW1o2EExDbvmHH1FcDYs4z',
+    'customer_ip_address' => '24.246.140.208',
+    'customer_user_agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148',
+    'created_via' => 'checkout',
+    'customer_note' => '',
+    'date_completed' => NULL,
+    'date_paid' => 'WC_DateTime()',
+    'cart_hash' => '14683e6a62f76c85f8ca842fb458bcb9',
+    'number' => '33',
+    'meta_data' => 
+    array (
+      0 => 'WC_Meta_Data()',
+      1 => 'WC_Meta_Data()',
+      2 => 'WC_Meta_Data()',
+      3 => 'WC_Meta_Data()',
+      4 => 'WC_Meta_Data()',
+      5 => 'WC_Meta_Data()',
+      6 => 'WC_Meta_Data()',
+      7 => 'WC_Meta_Data()',
+    ),
+    'line_items' => 
+    array (
+      45 => 'WC_Order_Item_Product()',
+    ),
+    'tax_lines' => 
+    array (
+      46 => 'WC_Order_Item_Tax()',
+    ),
+    'shipping_lines' => 
+    array (
+    ),
+    'fee_lines' => 
+    array (
+    ),
+    'coupon_lines' => 
+    array (
+    ),
+    '_payment_method_id' => 'pm_1KXW1j2EExDbvmHHw4Dk7CGE',
+    '_stripe_customer_id' => 'cus_LDwTXZIIsHnSa1',
+  ),
+  'update' => false,
+)
+2022-02-26T19:34:14+00:00 INFO RESPONSE: array (
+  'result' => 'error',
+)
+2022-02-26T19:35:39+00:00 INFO REQUEST POST https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/customers/cus_LDwTXZIIsHnSa1
+2022-02-26T19:35:39+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/3.6.1',
+  'Idempotency-Key' => '494190ca-69fa-4a85-a3bc-3c03890e88d3',
+)
+2022-02-26T19:35:39+00:00 INFO BODY: array (
+  'test_mode' => true,
+  'name' => '(redacted)',
+  'description' => 'Name: Jeff Frazier, Guest',
+  'email' => '(redacted)',
+  'phone' => '(redacted)',
+  'address' => 
+  array (
+    'line1' => '(redacted)',
+    'line2' => '(redacted)',
+    'postal_code' => '(redacted)',
+    'city' => '(redacted)',
+    'state' => '(redacted)',
+    'country' => '(redacted)',
+  ),
+)
+2022-02-26T19:35:39+00:00 INFO RESPONSE: array (
+  'id' => 'cus_LDwTXZIIsHnSa1',
+  'object' => 'customer',
+  'address' => 
+  array (
+    'city' => '(redacted)',
+    'country' => '(redacted)',
+    'line1' => '(redacted)',
+    'line2' => '(redacted)',
+    'postal_code' => '(redacted)',
+    'state' => '(redacted)',
+  ),
+  'balance' => 0,
+  'created' => 1645898528,
+  'currency' => NULL,
+  'default_source' => NULL,
+  'delinquent' => false,
+  'description' => 'Name: Jeff Frazier, Guest',
+  'discount' => NULL,
+  'email' => '(redacted)',
+  'invoice_prefix' => '05C218AB',
+  'invoice_settings' => 
+  array (
+    'custom_fields' => NULL,
+    'default_payment_method' => NULL,
+    'footer' => NULL,
+  ),
+  'livemode' => false,
+  'metadata' => 'stdClass()',
+  'name' => '(redacted)',
+  'next_invoice_sequence' => 1,
+  'phone' => '(redacted)',
+  'preferred_locales' => 
+  array (
+  ),
+  'shipping' => NULL,
+  'tax_exempt' => 'none',
+)
+2022-02-26T19:35:39+00:00 INFO REQUEST POST https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/intentions
+2022-02-26T19:35:39+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/3.6.1',
+  'Idempotency-Key' => '42b1f85d-37c9-49ad-9459-d73063631f42',
+)
+2022-02-26T19:35:39+00:00 INFO BODY: array (
+  'test_mode' => true,
+  'amount' => 2669,
+  'currency' => 'usd',
+  'confirm' => 'true',
+  'payment_method' => 'pm_1KXW3J2EExDbvmHHJUXiSZWA',
+  'customer' => 'cus_LDwTXZIIsHnSa1',
+  'capture_method' => 'automatic',
+  'metadata' => 
+  array (
+    'customer_name' => '(redacted)',
+    'customer_email' => '(redacted)',
+    'site_url' => 'https://store.blackbear.io',
+    'order_id' => 34,
+    'order_key' => 'wc_order_WhGzTdYSSkMjq',
+    'payment_type' => 'WCPay\\Constants\\Payment_Type()',
+  ),
+  'level3' => 
+  array (
+    'merchant_reference' => '34',
+    'customer_reference' => '34',
+    'shipping_amount' => 0,
+    'line_items' => 
+    array (
+      0 => 'stdClass()',
+    ),
+    'shipping_from_zip' => '28742',
+  ),
+  'description' => 'Online Payment for Order #34 for store.blackbear.io blog_id 202255454',
+  'payment_method_types' => 
+  array (
+    0 => 'card',
+  ),
+)
+2022-02-26T19:35:41+00:00 INFO RESPONSE: array (
+  'id' => 'pi_3KXW3M2EExDbvmHH1WMBbfy9',
+  'object' => 'payment_intent',
+  'amount' => 2669,
+  'amount_capturable' => 0,
+  'amount_received' => 2669,
+  'amount_subtotal' => 2669,
+  'application' => 'ca_Ex84e31yMTLaNU5ozQvi5woLclpIDVpX',
+  'application_fee_amount' => 107,
+  'automatic_payment_methods' => NULL,
+  'canceled_at' => NULL,
+  'cancellation_reason' => NULL,
+  'capture_method' => 'automatic',
+  'charges' => 
+  array (
+    'object' => 'list',
+    'data' => 
+    array (
+      0 => 
+      array (
+        'id' => 'ch_3KXW3M2EExDbvmHH1LBu6BJN',
+        'object' => 'charge',
+        'amount' => 2669,
+        'amount_captured' => 2669,
+        'amount_refunded' => 0,
+        'application' => 'ca_Ex84e31yMTLaNU5ozQvi5woLclpIDVpX',
+        'application_fee' => 'fee_1KXW3M2EExDbvmHH0ZXZNG5l',
+        'application_fee_amount' => 107,
+        'balance_transaction' => 
+        array (
+          'id' => 'txn_3KXW3M2EExDbvmHH1ugVsAyQ',
+          'object' => 'balance_transaction',
+          'amount' => 2669,
+          'available_on' => 1646438400,
+          'created' => 1645904140,
+          'currency' => 'usd',
+          'description' => 'Online Payment for Order #34 for store.blackbear.io blog_id 202255454',
+          'exchange_rate' => NULL,
+          'fee' => 107,
+          'fee_details' => 
+          array (
+            0 => 
+            array (
+              'amount' => 107,
+              'application' => 'ca_Ex84e31yMTLaNU5ozQvi5woLclpIDVpX',
+              'currency' => 'usd',
+              'description' => 'WooCommerce Payments application fee',
+              'type' => 'application_fee',
+            ),
+          ),
+          'net' => 2562,
+          'reporting_category' => 'charge',
+          'source' => 'ch_3KXW3M2EExDbvmHH1LBu6BJN',
+          'status' => 'pending',
+          'type' => 'charge',
+        ),
+        'billing_details' => 
+        array (
+          'address' => 
+          array (
+            'city' => '(redacted)',
+            'country' => '(redacted)',
+            'line1' => '(redacted)',
+            'line2' => '(redacted)',
+            'postal_code' => '(redacted)',
+            'state' => '(redacted)',
+          ),
+          'email' => '(redacted)',
+          'name' => '(redacted)',
+          'phone' => '(redacted)',
+        ),
+        'calculated_statement_descriptor' => 'STORE.BLACKBEAR.IO',
+        'captured' => true,
+        'created' => 1645904140,
+        'currency' => 'usd',
+        'customer' => 'cus_LDwTXZIIsHnSa1',
+        'description' => 'Online Payment for Order #34 for store.blackbear.io blog_id 202255454',
+        'destination' => NULL,
+        'dispute' => NULL,
+        'disputed' => false,
+        'failure_code' => NULL,
+        'failure_message' => NULL,
+        'fraud_details' => 
+        array (
+        ),
+        'invoice' => NULL,
+        'level3' => 
+        array (
+          'customer_reference' => '34',
+          'line_items' => 
+          array (
+            0 => 
+            array (
+              'discount_amount' => 0,
+              'product_code' => '10',
+              'product_description' => 'Day Pass',
+              'quantity' => 1,
+              'tax_amount' => 169,
+              'unit_cost' => 2500,
+            ),
+          ),
+          'merchant_reference' => '34',
+          'shipping_amount' => 0,
+          'shipping_from_zip' => '28742',
+        ),
+        'livemode' => false,
+        'metadata' => 
+        array (
+          'customer_email' => '(redacted)',
+          'customer_name' => '(redacted)',
+          'order_id' => '34',
+          'order_key' => 'wc_order_WhGzTdYSSkMjq',
+          'payment_type' => 'single',
+          'site_url' => 'https://store.blackbear.io',
+        ),
+        'on_behalf_of' => NULL,
+        'order' => NULL,
+        'outcome' => 
+        array (
+          'network_status' => 'approved_by_network',
+          'reason' => NULL,
+          'risk_level' => 'normal',
+          'risk_score' => 2,
+          'seller_message' => 'Payment complete.',
+          'type' => 'authorized',
+        ),
+        'paid' => true,
+        'payment_intent' => 'pi_3KXW3M2EExDbvmHH1WMBbfy9',
+        'payment_method' => 'pm_1KXW3J2EExDbvmHHJUXiSZWA',
+        'payment_method_details' => 
+        array (
+          'card' => 
+          array (
+            'brand' => 'visa',
+            'checks' => 
+            array (
+              'address_line1_check' => 'pass',
+              'address_postal_code_check' => 'pass',
+              'cvc_check' => 'pass',
+            ),
+            'country' => '(redacted)',
+            'exp_month' => 4,
+            'exp_year' => 2024,
+            'fingerprint' => '0SEufZLr8JkcLcfi',
+            'funding' => 'credit',
+            'installments' => NULL,
+            'last4' => '4242',
+            'mandate' => NULL,
+            'network' => 'visa',
+            'three_d_secure' => NULL,
+            'wallet' => NULL,
+          ),
+          'type' => 'card',
+        ),
+        'receipt_email' => NULL,
+        'receipt_number' => NULL,
+        'receipt_url' => 'https://pay.stripe.com/receipts/acct_1KN0mD2EExDbvmHH/ch_3KXW3M2EExDbvmHH1LBu6BJN/rcpt_LDxztdxdXhad6SkjWppjcYxbBorl0ki',
+        'refunded' => false,
+        'refunds' => 
+        array (
+          'object' => 'list',
+          'data' => 
+          array (
+          ),
+          'has_more' => false,
+          'total_count' => 0,
+          'url' => '/v1/charges/ch_3KXW3M2EExDbvmHH1LBu6BJN/refunds',
+        ),
+        'review' => NULL,
+        'shipping' => NULL,
+        'source' => NULL,
+        'source_transfer' => NULL,
+        'statement_descriptor' => NULL,
+        'statement_descriptor_suffix' => NULL,
+        'status' => 'succeeded',
+        'transfer_data' => NULL,
+        'transfer_group' => NULL,
+      ),
+    ),
+    'has_more' => false,
+    'total_count' => 1,
+    'url' => '/v1/charges?payment_intent=pi_3KXW3M2EExDbvmHH1WMBbfy9',
+  ),
+  'client_secret' => '(redacted)',
+  'confirmation_method' => 'automatic',
+  'created' => 1645904140,
+  'currency' => 'usd',
+  'customer' => 'cus_LDwTXZIIsHnSa1',
+  'description' => 'Online Payment for Order #34 for store.blackbear.io blog_id 202255454',
+  'invoice' => NULL,
+  'last_payment_error' => NULL,
+  'level3' => 
+  array (
+    'customer_reference' => '34',
+    'line_items' => 
+    array (
+      0 => 
+      array (
+        'discount_amount' => 0,
+        'product_code' => '10',
+        'product_description' => 'Day Pass',
+        'quantity' => 1,
+        'tax_amount' => 169,
+        'unit_cost' => 2500,
+      ),
+    ),
+    'merchant_reference' => '34',
+    'shipping_amount' => 0,
+    'shipping_from_zip' => '28742',
+  ),
+  'livemode' => false,
+  'metadata' => 
+  array (
+    'customer_email' => '(redacted)',
+    'customer_name' => '(redacted)',
+    'order_id' => '34',
+    'order_key' => 'wc_order_WhGzTdYSSkMjq',
+    'payment_type' => 'single',
+    'site_url' => 'https://store.blackbear.io',
+  ),
+  'next_action' => NULL,
+  'on_behalf_of' => NULL,
+  'payment_method' => 'pm_1KXW3J2EExDbvmHHJUXiSZWA',
+  'payment_method_options' => 
+  array (
+    'card' => 
+    array (
+      'installments' => NULL,
+      'mandate_options' => NULL,
+      'network' => NULL,
+      'request_three_d_secure' => 'automatic',
+    ),
+  ),
+  'payment_method_types' => 
+  array (
+    0 => 'card',
+  ),
+  'processing' => NULL,
+  'receipt_email' => NULL,
+  'review' => NULL,
+  'setup_future_usage' => NULL,
+  'shipping' => NULL,
+  'source' => NULL,
+  'statement_descriptor' => NULL,
+  'statement_descriptor_suffix' => NULL,
+  'status' => 'succeeded',
+  'total_details' => 
+  array (
+    'amount_discount' => 0,
+    'amount_tax' => 0,
+  ),
+  'transfer_data' => NULL,
+  'transfer_group' => NULL,
+  'fee_history' => 
+  array (
+    0 => 
+    array (
+      'type' => 'base',
+      'percentage_rate' => 0.029,
+      'fixed_rate' => 30,
+      'currency' => 'usd',
+    ),
+  ),
+)
+2022-02-26T19:35:47+00:00 DEBUG Webhook recieved: payment_intent.succeeded
+2022-02-26T19:35:47+00:00 DEBUG Webhook body: array (
+  'id' => 'evt_3KXW3M2EExDbvmHH1JIVObFh',
+  'type' => 'payment_intent.succeeded',
+  'livemode' => false,
+  'account' => 'acct_1KN0mD2EExDbvmHH',
+  'data' => 
+  array (
+    'object' => 
+    array (
+      'id' => 'pi_3KXW3M2EExDbvmHH1WMBbfy9',
+      'object' => 'payment_intent',
+      'amount' => 2669,
+      'amount_capturable' => 0,
+      'amount_received' => 2669,
+      'application' => 'ca_Ex84e31yMTLaNU5ozQvi5woLclpIDVpX',
+      'application_fee_amount' => 107,
+      'automatic_payment_methods' => NULL,
+      'canceled_at' => NULL,
+      'cancellation_reason' => NULL,
+      'capture_method' => 'automatic',
+      'charges' => 
+      array (
+        'object' => 'list',
+        'data' => 
+        array (
+          0 => 
+          array (
+            'id' => 'ch_3KXW3M2EExDbvmHH1LBu6BJN',
+            'object' => 'charge',
+            'amount' => 2669,
+            'amount_captured' => 2669,
+            'amount_refunded' => 0,
+            'application' => 'ca_Ex84e31yMTLaNU5ozQvi5woLclpIDVpX',
+            'application_fee' => 'fee_1KXW3M2EExDbvmHH0ZXZNG5l',
+            'application_fee_amount' => 107,
+            'balance_transaction' => 'txn_3KXW3M2EExDbvmHH1ugVsAyQ',
+            'billing_details' => 
+            array (
+              'address' => 
+              array (
+                'city' => '(redacted)',
+                'country' => '(redacted)',
+                'line1' => '(redacted)',
+                'line2' => '(redacted)',
+                'postal_code' => '(redacted)',
+                'state' => '(redacted)',
+              ),
+              'email' => '(redacted)',
+              'name' => '(redacted)',
+              'phone' => '(redacted)',
+            ),
+            'calculated_statement_descriptor' => 'STORE.BLACKBEAR.IO',
+            'captured' => true,
+            'created' => 1645904140,
+            'currency' => 'usd',
+            'customer' => 'cus_LDwTXZIIsHnSa1',
+            'description' => 'Online Payment for Order #34 for store.blackbear.io blog_id 202255454',
+            'destination' => NULL,
+            'dispute' => NULL,
+            'disputed' => false,
+            'failure_code' => NULL,
+            'failure_message' => NULL,
+            'fraud_details' => 
+            array (
+            ),
+            'invoice' => NULL,
+            'livemode' => false,
+            'metadata' => 
+            array (
+              'order_key' => 'wc_order_WhGzTdYSSkMjq',
+              'site_url' => 'https://store.blackbear.io',
+              'order_id' => '34',
+              'customer_email' => '(redacted)',
+              'payment_type' => 'single',
+              'customer_name' => '(redacted)',
+            ),
+            'on_behalf_of' => NULL,
+            'order' => NULL,
+            'outcome' => 
+            array (
+              'network_status' => 'approved_by_network',
+              'reason' => NULL,
+              'risk_level' => 'normal',
+              'risk_score' => 2,
+              'seller_message' => 'Payment complete.',
+              'type' => 'authorized',
+            ),
+            'paid' => true,
+            'payment_intent' => 'pi_3KXW3M2EExDbvmHH1WMBbfy9',
+            'payment_method' => 'pm_1KXW3J2EExDbvmHHJUXiSZWA',
+            'payment_method_details' => 
+            array (
+              'card' => 
+              array (
+                'brand' => 'visa',
+                'checks' => 
+                array (
+                  'address_line1_check' => 'pass',
+                  'address_postal_code_check' => 'pass',
+                  'cvc_check' => 'pass',
+                ),
+                'country' => '(redacted)',
+                'exp_month' => 4,
+                'exp_year' => 2024,
+                'fingerprint' => '0SEufZLr8JkcLcfi',
+                'funding' => 'credit',
+                'installments' => NULL,
+                'last4' => '4242',
+                'network' => 'visa',
+                'three_d_secure' => NULL,
+                'wallet' => NULL,
+              ),
+              'type' => 'card',
+            ),
+            'receipt_email' => NULL,
+            'receipt_number' => NULL,
+            'receipt_url' => 'https://pay.stripe.com/receipts/acct_1KN0mD2EExDbvmHH/ch_3KXW3M2EExDbvmHH1LBu6BJN/rcpt_LDxztdxdXhad6SkjWppjcYxbBorl0ki',
+            'refunded' => false,
+            'refunds' => 
+            array (
+              'object' => 'list',
+              'data' => 
+              array (
+              ),
+              'has_more' => false,
+              'total_count' => 0,
+              'url' => '/v1/charges/ch_3KXW3M2EExDbvmHH1LBu6BJN/refunds',
+            ),
+            'review' => NULL,
+            'shipping' => NULL,
+            'source' => NULL,
+            'source_transfer' => NULL,
+            'statement_descriptor' => NULL,
+            'statement_descriptor_suffix' => NULL,
+            'status' => 'succeeded',
+            'transfer_data' => NULL,
+            'transfer_group' => NULL,
+            'level3' => 
+            array (
+              'customer_reference' => '34',
+              'line_items' => 
+              array (
+                0 => 
+                array (
+                  'discount_amount' => 0,
+                  'product_code' => '10',
+                  'product_description' => 'Day Pass',
+                  'quantity' => 1,
+                  'tax_amount' => 169,
+                  'unit_cost' => 2500,
+                ),
+              ),
+              'merchant_reference' => '34',
+              'shipping_amount' => 0,
+              'shipping_from_zip' => '28742',
+            ),
+          ),
+        ),
+        'has_more' => false,
+        'total_count' => 1,
+        'url' => '/v1/charges?payment_intent=pi_3KXW3M2EExDbvmHH1WMBbfy9',
+      ),
+      'client_secret' => '(redacted)',
+      'confirmation_method' => 'automatic',
+      'created' => 1645904140,
+      'currency' => 'usd',
+      'customer' => 'cus_LDwTXZIIsHnSa1',
+      'description' => 'Online Payment for Order #34 for store.blackbear.io blog_id 202255454',
+      'invoice' => NULL,
+      'last_payment_error' => NULL,
+      'livemode' => false,
+      'metadata' => 
+      array (
+        'order_key' => 'wc_order_WhGzTdYSSkMjq',
+        'site_url' => 'https://store.blackbear.io',
+        'order_id' => '34',
+        'customer_email' => '(redacted)',
+        'payment_type' => 'single',
+        'customer_name' => '(redacted)',
+      ),
+      'next_action' => NULL,
+      'on_behalf_of' => NULL,
+      'payment_method' => 'pm_1KXW3J2EExDbvmHHJUXiSZWA',
+      'payment_method_options' => 
+      array (
+        'card' => 
+        array (
+          'installments' => NULL,
+          'network' => NULL,
+          'request_three_d_secure' => 'automatic',
+        ),
+      ),
+      'payment_method_types' => 
+      array (
+        0 => 'card',
+      ),
+      'processing' => NULL,
+      'receipt_email' => NULL,
+      'review' => NULL,
+      'setup_future_usage' => NULL,
+      'shipping' => NULL,
+      'source' => NULL,
+      'statement_descriptor' => NULL,
+      'statement_descriptor_suffix' => NULL,
+      'status' => 'succeeded',
+      'transfer_data' => NULL,
+      'transfer_group' => NULL,
+      'amount_subtotal' => 2669,
+      'level3' => 
+      array (
+        'customer_reference' => '34',
+        'line_items' => 
+        array (
+          0 => 
+          array (
+            'discount_amount' => 0,
+            'product_code' => '10',
+            'product_description' => 'Day Pass',
+            'quantity' => 1,
+            'tax_amount' => 169,
+            'unit_cost' => 2500,
+          ),
+        ),
+        'merchant_reference' => '34',
+        'shipping_amount' => 0,
+        'shipping_from_zip' => '28742',
+      ),
+      'total_details' => 
+      array (
+        'amount_discount' => 0,
+        'amount_tax' => 0,
+      ),
+    ),
+  ),
+)
+2022-02-26T20:11:10+00:00 INFO REQUEST POST https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/tracking/order
+2022-02-26T20:11:10+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/3.6.1',
+  'Idempotency-Key' => '0dd4df4e-7244-403f-9bc2-f735205b6925',
+)
+2022-02-26T20:11:10+00:00 INFO BODY: array (
+  'test_mode' => true,
+  'order_data' => 
+  array (
+    'id' => 34,
+    'parent_id' => 0,
+    'status' => 'processing',
+    'currency' => 'USD',
+    'version' => '6.1.1',
+    'prices_include_tax' => false,
+    'date_created' => 'WC_DateTime()',
+    'date_modified' => 'WC_DateTime()',
+    'discount_total' => '0',
+    'discount_tax' => '0',
+    'shipping_total' => '0',
+    'shipping_tax' => '0',
+    'cart_tax' => '1.69',
+    'total' => '26.69',
+    'total_tax' => '1.69',
+    'customer_id' => 0,
+    'order_key' => 'wc_order_WhGzTdYSSkMjq',
+    'billing' => 
+    array (
+      'first_name' => 'Jeff',
+      'last_name' => 'Frazier',
+      'company' => '',
+      'address_1' => '123 Any St',
+      'address_2' => '',
+      'city' => '(redacted)',
+      'state' => '(redacted)',
+      'postcode' => '28742',
+      'country' => '(redacted)',
+      'email' => '(redacted)',
+      'phone' => '(redacted)',
+    ),
+    'shipping' => 
+    array (
+      'first_name' => '',
+      'last_name' => '',
+      'company' => '',
+      'address_1' => '',
+      'address_2' => '',
+      'city' => '(redacted)',
+      'state' => '(redacted)',
+      'postcode' => '',
+      'country' => '(redacted)',
+      'phone' => '(redacted)',
+    ),
+    'payment_method' => 'woocommerce_payments',
+    'payment_method_title' => 'Credit card / debit card',
+    'transaction_id' => 'pi_3KXW3M2EExDbvmHH1WMBbfy9',
+    'customer_ip_address' => '24.246.140.208',
+    'customer_user_agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148',
+    'created_via' => 'checkout',
+    'customer_note' => '',
+    'date_completed' => NULL,
+    'date_paid' => 'WC_DateTime()',
+    'cart_hash' => '14683e6a62f76c85f8ca842fb458bcb9',
+    'number' => '34',
+    'meta_data' => 
+    array (
+      0 => 'WC_Meta_Data()',
+      1 => 'WC_Meta_Data()',
+      2 => 'WC_Meta_Data()',
+      3 => 'WC_Meta_Data()',
+      4 => 'WC_Meta_Data()',
+      5 => 'WC_Meta_Data()',
+      6 => 'WC_Meta_Data()',
+      7 => 'WC_Meta_Data()',
+    ),
+    'line_items' => 
+    array (
+      47 => 'WC_Order_Item_Product()',
+    ),
+    'tax_lines' => 
+    array (
+      48 => 'WC_Order_Item_Tax()',
+    ),
+    'shipping_lines' => 
+    array (
+    ),
+    'fee_lines' => 
+    array (
+    ),
+    'coupon_lines' => 
+    array (
+    ),
+    '_payment_method_id' => 'pm_1KXW3J2EExDbvmHHJUXiSZWA',
+    '_stripe_customer_id' => 'cus_LDwTXZIIsHnSa1',
+  ),
+  'update' => false,
+)
+2022-02-26T20:11:11+00:00 INFO RESPONSE: array (
+  'result' => 'error',
+)
+2022-02-26T20:11:11+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/accounts?test_mode=0
+2022-02-26T20:11:11+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/3.6.1',
+)
+2022-02-26T20:11:13+00:00 INFO RESPONSE: array (
+  'account_id' => 'acct_1KN0mD2EExDbvmHH',
+  'email' => '(redacted)',
+  'live_publishable_key' => 'pk_live_iBIpeqzKOOx2Y8PFCRBfyMU000Q7xVG4Sn',
+  'test_publishable_key' => 'pk_test_51ETDmyFuiXB5oUVxwSobQMW5Tno1GclIq7ePZWzLeW4q8oa7Zb8hI5VfwI5sNT5nXuKYinLukNvGCXmsQXAoDGHG00MqHqlYHR',
+  'is_live' => true,
+  'has_pending_requirements' => false,
+  'has_overdue_requirements' => false,
+  'current_deadline' => NULL,
+  'status' => 'complete',
+  'capabilities' => 
+  array (
+    'bancontact_payments' => 'active',
+    'card_payments' => 'active',
+    'eps_payments' => 'active',
+    'giropay_payments' => 'active',
+    'ideal_payments' => 'active',
+    'p24_payments' => 'active',
+    'sepa_debit_payments' => 'active',
+    'sofort_payments' => 'active',
+    'tax_reporting_us_1099_k' => 'active',
+    'transfers' => 'active',
+    'acss_debit_payments' => 'unrequested',
+    'afterpay_clearpay_payments' => 'unrequested',
+    'klarna' => 'unrequested',
+    'link_payments' => 'unrequested',
+    'tax_reporting_us_1099_misc' => 'unrequested',
+    'us_bank_account_ach_payments' => 'unrequested',
+  ),
+  'capability_requirements' => 
+  array (
+    'acss_debit_payments' => 
+    array (
+    ),
+    'afterpay_clearpay_payments' => 
+    array (
+      0 => 'business_profile.support_phone',
+    ),
+    'bancontact_payments' => 
+    array (
+    ),
+    'card_payments' => 
+    array (
+    ),
+    'eps_payments' => 
+    array (
+    ),
+    'giropay_payments' => 
+    array (
+    ),
+    'ideal_payments' => 
+    array (
+    ),
+    'klarna' => 
+    array (
+    ),
+    'link_payments' => 
+    array (
+    ),
+    'p24_payments' => 
+    array (
+    ),
+    'sepa_debit_payments' => 
+    array (
+    ),
+    'sofort_payments' => 
+    array (
+    ),
+    'tax_reporting_us_1099_k' => 
+    array (
+    ),
+    'tax_reporting_us_1099_misc' => 
+    array (
+    ),
+    'transfers' => 
+    array (
+    ),
+    'us_bank_account_ach_payments' => 
+    array (
+    ),
+  ),
+  'payments_enabled' => true,
+  'deposits_status' => 'daily',
+  'statement_descriptor' => 'STORE.BLACKBEAR.IO',
+  'latest_tos_agreement' => 
+  array (
+    'date' => '2022-01-28 20:10:35',
+    'source' => 'signup',
+    'is_current_version' => true,
+  ),
+  'fees' => 
+  array (
+    'base' => 
+    array (
+      'percentage_rate' => 0.029,
+      'fixed_rate' => 30,
+      'currency' => 'usd',
+    ),
+    'discount' => 
+    array (
+    ),
+    'bancontact' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.014,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'card' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.029,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'card_present' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.026,
+        'fixed_rate' => 10,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'eps' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.018,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'ideal' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0,
+        'fixed_rate' => 80,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'giropay' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.014,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'p24' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.022,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'sofort' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.014,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'sepa_debit' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.008,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+        'fee_cap' => 600,
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+  ),
+  'capital' => 
+  array (
+    'has_active_loan' => false,
+    'has_previous_loans' => false,
+    'loans' => 
+    array (
+    ),
+  ),
+  'fraud_services' => 
+  array (
+    'stripe' => 
+    array (
+    ),
+    'sift' => 
+    array (
+      'beacon_key' => 'affbdadb36',
+      'sandbox_beacon_key' => '6ad0ad748b',
+    ),
+  ),
+  'store_currencies' => 
+  array (
+    'default' => 'usd',
+    'supported' => 
+    array (
+      0 => 'usd',
+    ),
+  ),
+  'customer_currencies' => 
+  array (
+    'supported' => 
+    array (
+      0 => 'usd',
+      1 => 'aed',
+      2 => 'afn',
+      3 => 'all',
+      4 => 'amd',
+      5 => 'ang',
+      6 => 'aoa',
+      7 => 'ars',
+      8 => 'aud',
+      9 => 'awg',
+      10 => 'azn',
+      11 => 'bam',
+      12 => 'bbd',
+      13 => 'bdt',
+      14 => 'bgn',
+      15 => 'bif',
+      16 => 'bmd',
+      17 => 'bnd',
+      18 => 'bob',
+      19 => 'brl',
+      20 => 'bsd',
+      21 => 'bwp',
+      22 => 'byn',
+      23 => 'bzd',
+      24 => 'cad',
+      25 => 'cdf',
+      26 => 'chf',
+      27 => 'clp',
+      28 => 'cny',
+      29 => 'cop',
+      30 => 'crc',
+      31 => 'cve',
+      32 => 'czk',
+      33 => 'djf',
+      34 => 'dkk',
+      35 => 'dop',
+      36 => 'dzd',
+      37 => 'egp',
+      38 => 'etb',
+      39 => 'eur',
+      40 => 'fjd',
+      41 => 'fkp',
+      42 => 'gbp',
+      43 => 'gel',
+      44 => 'gip',
+      45 => 'gmd',
+      46 => 'gnf',
+      47 => 'gtq',
+      48 => 'gyd',
+      49 => 'hkd',
+      50 => 'hnl',
+      51 => 'hrk',
+      52 => 'htg',
+      53 => 'huf',
+      54 => 'idr',
+      55 => 'ils',
+      56 => 'inr',
+      57 => 'isk',
+      58 => 'jmd',
+      59 => 'jpy',
+      60 => 'kes',
+      61 => 'kgs',
+      62 => 'khr',
+      63 => 'kmf',
+      64 => 'krw',
+      65 => 'kyd',
+      66 => 'kzt',
+      67 => 'lak',
+      68 => 'lbp',
+      69 => 'lkr',
+      70 => 'lrd',
+      71 => 'lsl',
+      72 => 'mad',
+      73 => 'mdl',
+      74 => 'mga',
+      75 => 'mkd',
+      76 => 'mmk',
+      77 => 'mnt',
+      78 => 'mop',
+      79 => 'mro',
+      80 => 'mur',
+      81 => 'mvr',
+      82 => 'mwk',
+      83 => 'mxn',
+      84 => 'myr',
+      85 => 'mzn',
+      86 => 'nad',
+      87 => 'ngn',
+      88 => 'nio',
+      89 => 'nok',
+      90 => 'npr',
+      91 => 'nzd',
+      92 => 'pab',
+      93 => 'pen',
+      94 => 'pgk',
+      95 => 'php',
+      96 => 'pkr',
+      97 => 'pln',
+      98 => 'pyg',
+      99 => 'qar',
+      100 => 'ron',
+      101 => 'rsd',
+      102 => 'rub',
+      103 => 'rwf',
+      104 => 'sar',
+      105 => 'sbd',
+      106 => 'scr',
+      107 => 'sek',
+      108 => 'sgd',
+      109 => 'shp',
+      110 => 'sll',
+      111 => 'sos',
+      112 => 'srd',
+      113 => 'std',
+      114 => 'szl',
+      115 => 'thb',
+      116 => 'tjs',
+      117 => 'top',
+      118 => 'try',
+      119 => 'ttd',
+      120 => 'twd',
+      121 => 'tzs',
+      122 => 'uah',
+      123 => 'ugx',
+      124 => 'uyu',
+      125 => 'uzs',
+      126 => 'vnd',
+      127 => 'vuv',
+      128 => 'wst',
+      129 => 'xaf',
+      130 => 'xcd',
+      131 => 'xof',
+      132 => 'xpf',
+      133 => 'yer',
+      134 => 'zar',
+      135 => 'zmw',
+    ),
+  ),
+  'country' => '(redacted)',
+  'instant_deposits_eligible' => false,
+  'card_present_eligible' => true,
+  'business_profile' => 
+  array (
+    'name' => '(redacted)',
+    'url' => 'https://store.blackbear.io',
+    'support_address' => 
+    array (
+    ),
+    'support_email' => NULL,
+    'support_phone' => NULL,
+  ),
+  'branding' => 
+  array (
+    'icon' => NULL,
+    'logo' => NULL,
+    'primary_color' => NULL,
+    'secondary_color' => NULL,
+  ),
+)

@@ -1,0 +1,857 @@
+# Translation of Themes - Storefront in Korean
+# This file is distributed under the same license as the Themes - Storefront package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-05-12 13:27:11+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ko_KR\n"
+"Project-Id-Version: Themes - Storefront\n"
+
+#. Description of the theme
+msgid "Storefront is the perfect theme for your next WooCommerce project. Designed and developed by WooCommerce Core developers, it features a bespoke integration with WooCommerce itself plus many of the most popular customer facing WooCommerce extensions. There are several layout & color options to personalise your shop, multiple widget regions, a responsive design and much more. Developers will love its lean and extensible codebase making it a joy to customize and extend. Looking for a WooCommerce theme? Look no further!"
+msgstr "스토어프론트는 다음 우커머스 프로젝트의 완벽한 테마입니다. 우커머스 코어 개발자들에 의해 디자인되고 개발되었습니다. 이것의 특징은 우커머스 자체와 주문 형식으로 통합되고 가장 인기 있는 수많은 우커머스 고객과 만나는 확장이 있습니다. 상점을 차별화하기 위한 여러 가지 배치와 색, 다수의 위젯 영역, 응답성이 있는 디자인과 기타 많은 것들이 있습니다. 개발자들은 가볍고 확장성이 우수한 코드베이스를 좋아하고 사용자 정의와 확장하는 것을 즐기게 될 것입니다. 우커머스 테마를 찾으시나요? 더 이상 찾을 필요가 없습니다!"
+
+#. Theme Name of the theme
+msgid "Storefront"
+msgstr "Storefront"
+
+#: inc/woocommerce/class-storefront-woocommerce.php:226
+msgid "breadcrumbs"
+msgstr "이동경로"
+
+#: inc/nux/class-storefront-nux-admin-inbox-messages-customize.php:35
+msgid "Visit the Storefront settings page to start setup and customization of your shop."
+msgstr "상점 설정을 위해 Storefront 설정 페이지를 방문해 보세요."
+
+#: inc/nux/class-storefront-nux-admin-inbox-messages-customize.php:34
+msgid "Design your store with Storefront 🎨"
+msgstr "Storefront로 상점 디자인하기 🎨"
+
+#: inc/nux/class-storefront-nux-admin.php:181
+msgid "Skip"
+msgstr "건너뛰기"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:732
+msgid "Cart"
+msgstr "장바구니"
+
+#. translators: conjunction of two alternative options user can choose (in
+#. missing plugin admin notice). Example: "Activate WooCommerce or learn more"
+#: inc/admin/class-storefront-plugin-install.php:115
+msgid "or"
+msgstr "또는"
+
+#: inc/storefront-template-functions.php:144
+msgid "Built with Storefront"
+msgstr "Storefront로 제작"
+
+#: inc/storefront-template-functions.php:144
+msgid "Storefront -  The perfect platform for your next WooCommerce project."
+msgstr "Storefront - 당신의 새로운 우커머스 프로젝트를 위한 완벽한 플랫폼입니다."
+
+#. translators: conjunction of two alternative options user can choose (in
+#. missing plugin admin notice). Example: "Activate WooCommerce or learn more"
+#: inc/admin/class-storefront-plugin-install.php:116
+msgid "learn more"
+msgstr "더 알아보기"
+
+#: inc/class-storefront.php:222
+msgid "Huge"
+msgstr "매우 큼"
+
+#: inc/class-storefront.php:217
+msgid "Large"
+msgstr "큼"
+
+#: inc/class-storefront.php:212
+msgid "Medium"
+msgstr "중간"
+
+#: inc/class-storefront.php:207
+msgid "Normal"
+msgstr "일반"
+
+#: inc/class-storefront.php:202
+msgid "Small"
+msgstr "작음"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1080
+msgid "You can change this text by editing the \"Welcome\" page via the \"Pages\" menu in your dashboard."
+msgstr "대시보드에서 페이지 하위 메뉴  \"모든 페이지\"에서 \"Welcome\" 페이지를 작성함으로 이 본문을 변경할 수 있습니다. "
+
+#: inc/nux/class-storefront-nux-starter-content.php:1076
+msgid "This is your homepage which is what most visitors will see when they first visit your shop."
+msgstr "대다수 방문자들이 처음 당신의 상점을 방문했을때 보게 될 당신의 홈페이지입니다."
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/storefront-template-functions.php:523
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "<span class=\"screen-reader-text\">%s</span> 편집하기"
+
+#: inc/storefront-template-functions.php:561
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] "태그:"
+
+#: inc/storefront-template-functions.php:555
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] "카테고리:"
+
+#. translators: %s: post date
+#: inc/storefront-template-functions.php:468
+msgid "Posted on %s"
+msgstr "작성일 %s"
+
+#: inc/storefront-template-functions.php:474
+msgid "by"
+msgstr "작성자"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:891
+msgid "Product Brands"
+msgstr "상품 브랜드"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:874
+msgid "Shop by Brand"
+msgstr "브랜드별 쇼핑"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:838
+msgid "You're viewing:"
+msgstr "보고 있는 상품:"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:774
+msgid "More products"
+msgstr "다른 상품"
+
+#: inc/storefront-template-functions.php:594
+msgid "Previous post:"
+msgstr "이전 글:"
+
+#: inc/storefront-template-functions.php:593
+msgid "Next post:"
+msgstr "다음 글:"
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:99
+msgid "Displays next and previous links on product pages. A product thumbnail is displayed with the title revealed on hover."
+msgstr "상품 페이지들 위에 다음과 이전 링크를 보입니다. 상품 축소판이 마우스 오버 중에 제목과 함께 보일 것입니다."
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:98
+msgid "Product Pagination"
+msgstr "상품 번호 매기기"
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:88
+msgid "A small content bar at the top of the browser window which includes relevant product information and an add-to-cart button. It slides into view once the standard add-to-cart button has scrolled out of view."
+msgstr "브라우저 창의 상단에 관련 제품 정보와 장바구니에 넣기 버튼이 있는 작은 내용표시줄이 있습니다. 표준 장바구니 버튼이 보이지 않게 되면 보이는 화면으로 미끄러져 내려옵니다."
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:87
+msgid "Sticky Add-To-Cart"
+msgstr "장바구기 담기 버튼 고정"
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:60
+msgid "Product Page"
+msgstr "상품 페이지"
+
+#: inc/customizer/class-storefront-customizer.php:293
+msgid "Hero text color"
+msgstr "배너 글자 색상"
+
+#: inc/customizer/class-storefront-customizer.php:269
+msgid "Hero heading color"
+msgstr "배너 제목 색상"
+
+#: inc/class-storefront.php:350
+msgid "Collapse child menu"
+msgstr "하위 메뉴 접기"
+
+#: inc/class-storefront.php:349
+msgid "Expand child menu"
+msgstr "하위 메뉴 펼치기"
+
+#: inc/storefront-template-functions.php:142
+msgid "Built with Storefront &amp; WooCommerce"
+msgstr "스토어프론트 &amp; 우커머스로 만들어졌습니다"
+
+#: inc/storefront-template-functions.php:142
+msgid "WooCommerce - The Best eCommerce Platform for WordPress"
+msgstr "우커머스 - 워드프레스를 위한 최고의 쇼핑몰 플랫폼"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:126
+msgid "Organize your menus by adding Pages, Categories, Tags, and Custom Links."
+msgstr "페이지, 카테고리, 태그와 개인 특화된 링크을 추가하여 메뉴를 구성하세요."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:125
+msgid "Customize your navigation menus"
+msgstr "내비게이션 메뉴를 구성하세요."
+
+#: inc/class-storefront.php:484
+msgid "Post Navigation"
+msgstr "댓글 탐색"
+
+#: comments.php:60
+msgid "Comment Navigation Below"
+msgstr "아래의 댓글 탐색"
+
+#: comments.php:40
+msgid "Comment Navigation Above"
+msgstr "위의 댓글 탐색"
+
+#: comments.php:21
+msgid "Post Comments"
+msgstr "글 댓글"
+
+#: 404.php:39
+msgid "Promoted Products"
+msgstr "프로모션 상품"
+
+#: inc/admin/class-storefront-admin.php:191
+#: inc/admin/class-storefront-plugin-install.php:62
+msgid "Activated"
+msgstr "활성화됨"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:576
+msgid "Best Selling Products"
+msgstr "최고 판매 상품"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:521
+msgid "On Sale Products"
+msgstr "판매중인 상품"
+
+#: inc/storefront-template-functions.php:310
+msgid "Edit this section"
+msgstr "섹션 수정하기"
+
+#: inc/nux/class-storefront-nux-starter-content.php:950
+msgid "Vneck Tshirt"
+msgstr " V넥 티셔츠"
+
+#: inc/nux/class-storefront-nux-starter-content.php:929
+msgid "Tshirt"
+msgstr "티셔츠"
+
+#: inc/nux/class-storefront-nux-starter-content.php:908
+msgid "Polo"
+msgstr "폴로 셔츠"
+
+#: inc/nux/class-storefront-nux-starter-content.php:887
+msgid "Long Sleeve Tee"
+msgstr "긴팔 티"
+
+#: inc/nux/class-storefront-nux-starter-content.php:865
+msgid "Hoodie"
+msgstr "후드티"
+
+#: inc/nux/class-storefront-nux-starter-content.php:844
+msgid "Hoodie with Zipper"
+msgstr "집업 후드티"
+
+#: inc/nux/class-storefront-nux-starter-content.php:822
+msgid "Hoodie with Pocket"
+msgstr "포켓 후드티"
+
+#: inc/nux/class-storefront-nux-starter-content.php:801
+msgid "Hoodie with Logo"
+msgstr "로고 후드티"
+
+#: inc/nux/class-storefront-nux-starter-content.php:780
+msgid "Sunglasses"
+msgstr "선글라스"
+
+#: inc/nux/class-storefront-nux-starter-content.php:758
+msgid "Cap"
+msgstr "야구모자"
+
+#: inc/nux/class-storefront-nux-starter-content.php:736
+msgid "Belt"
+msgstr "벨트"
+
+#: inc/nux/class-storefront-nux-starter-content.php:714
+msgid "Beanie"
+msgstr "비니"
+
+#: inc/nux/class-storefront-nux-starter-content.php:708
+msgid "Tshirts"
+msgstr "티셔츠"
+
+#: inc/nux/class-storefront-nux-starter-content.php:705
+msgid "Hoodies"
+msgstr "후드티"
+
+#: inc/nux/class-storefront-nux-starter-content.php:703
+#: inc/nux/class-storefront-nux-starter-content.php:706
+#: inc/nux/class-storefront-nux-starter-content.php:709
+msgid "A short category description"
+msgstr "카테고리 설명 요약"
+
+#: inc/nux/class-storefront-nux-starter-content.php:702
+msgid "Accessories"
+msgstr "액세서리"
+
+#: inc/nux/class-storefront-nux-starter-content.php:77
+msgid "This is a page with some basic contact information, such as an address and phone number. You might also try a plugin to add a contact form."
+msgstr "이 페이지는 기본적인 주소와 전화 번호 등의 연락처 정보를 담고 있습니다. 플러그인을 통해 연락처 정보를 추가할 수 있습니다."
+
+#: inc/nux/class-storefront-nux-starter-content.php:76
+msgid "Contact"
+msgstr "연락처"
+
+#: inc/nux/class-storefront-nux-starter-content.php:72
+msgid "You might be an artist who would like to introduce yourself and your work here or maybe you&rsquo;re a business with a mission to describe."
+msgstr "여기에 자신과 자신의 작품을 소개하기를 원하는 예술가나 아마도 설명하는 임무를 가진 사업가가 될 수도 있습니다."
+
+#: inc/nux/class-storefront-nux-starter-content.php:71
+msgid "About"
+msgstr "회사 소개"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1072
+msgid "Welcome"
+msgstr "환영합니다"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:147
+msgid "Done"
+msgstr "완료하기"
+
+#. translators: 1: open <strong> tag, 2: close <strong> tag, 3: 'End Of Line'
+#. symbol
+#: inc/nux/class-storefront-nux-guided-tour.php:145
+msgid "All set! Remember to %1$ssave & publish%2$s your changes when you're done.%3$sYou can return to your dashboard by clicking the X in the top left corner."
+msgstr "모두 됐습니다! 완료되면 변경 분을 %1$s저장 & 배포%2$s로 기억해합니다.%3$s상단 왼쪽 코너에 있는 X를 클릭하여 알림판으로 돌아갈 수 있습니다."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:138
+msgid "Choose colors for your button backgrounds and text. Once again, brand colors are good choices here."
+msgstr "버튼 배경과 문자를 위한 색상을 선택하세요. 여기의 브랜드 색상은 좋은 선택 입니다."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:137
+msgid "Color your buttons"
+msgstr "버튼 색칠하기"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:132
+msgid "In the typography panel you can specify an accent color which will be applied to things like links and star ratings. We recommend using your brand color for this setting."
+msgstr "타이포그래피 패널에서 링크와 별점과 같은 것들에 적용할 강조 색상을 설정할 수 있습니다. 이 설정을 위해 브랜드 색상을 이용할 것을 권합니다."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:131
+msgid "Choose your accent color"
+msgstr "강조색 선택하기"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:119
+msgid "Open the Site Identity Panel, then click the 'Select Logo' button to upload your logo."
+msgstr "사이트 정체성 패널을 열고, 다음 ‘로고 선택하기’ 버튼을 클릭하여 로고를 업로드하세요."
+
+#. translators: %s: 'End Of Line' symbol
+#: inc/nux/class-storefront-nux-guided-tour.php:111
+msgid "Here you can control the overall look and feel of your store.%sTo get started, let's add your logo"
+msgstr "여기에서 상점의 전체적인 외관과 느낌을 조절할 수 있습니다.%s시작하려면, 로고를 추가하세요."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:109
+msgid "Welcome to the Customizer"
+msgstr "사용자 정의 기능에 오신 것을 환영합니다"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:91
+msgid "Skip this step"
+msgstr "건너뛰기"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:89
+msgid "No thanks, skip the tour"
+msgstr "괜찮아요, 건너 뛸래요"
+
+#: inc/nux/class-storefront-nux-admin-inbox-messages-customize.php:42
+#: inc/nux/class-storefront-nux-admin.php:180
+#: inc/nux/class-storefront-nux-guided-tour.php:112
+msgid "Let's go!"
+msgstr "시작해봅시다!"
+
+#: inc/nux/class-storefront-nux-admin.php:174
+msgid "Add example products"
+msgstr "상품 예시 추가하기"
+
+#: inc/nux/class-storefront-nux-admin.php:164
+msgid "Create a homepage using Storefront's homepage template"
+msgstr "스토어프런트의 홈페이지 템플릿을 이용하여 홈페이지 만들기"
+
+#: inc/nux/class-storefront-nux-admin.php:162
+msgid "Apply the Storefront homepage template"
+msgstr "스토어프런트 홈페이지 템플릿 제출하기"
+
+#: inc/nux/class-storefront-nux-admin.php:140
+msgid "You've set up WooCommerce, now it's time to give it some style! Let's get started by entering the Customizer and adding your logo."
+msgstr "우커머스 설정을 모두 완료했습니다. 이제 약간의 스타일을 부여할 시간입니다. 사용자 정의로 들어가서 로고 추가를 시작하죠. "
+
+#: inc/nux/class-storefront-nux-admin.php:138
+msgid "Before you add your first product let's design your store. We'll add some example products for you. When you're ready let's get started by adding your logo."
+msgstr "첫 상품을 추가하기 전에 귀하의 상점을 디자인하세요. 약간의 예제를 추가할 것입니다. 준비되면 로고 추가를 시작하세요."
+
+#: inc/nux/class-storefront-nux-admin.php:134
+msgid "Design your store 🎨"
+msgstr "자신만의 상점을 디자인하세요 🎨"
+
+#: inc/nux/class-storefront-nux-admin.php:130
+msgid "Activate WooCommerce"
+msgstr "우커머스 활성화"
+
+#: inc/nux/class-storefront-nux-admin.php:130
+msgid "WooCommerce activated"
+msgstr "우커머스가 활성화되었습니다"
+
+#: inc/nux/class-storefront-nux-admin.php:129
+msgid "To enable eCommerce features you need to install the WooCommerce plugin."
+msgstr "전자상거래 기능을 활성화하려면 우커머스 플러그인을 설치할 필요가 있습니다."
+
+#: inc/nux/class-storefront-nux-admin.php:128
+msgid "Thanks for installing Storefront, you rock! 🤘"
+msgstr "스토어프론트를 설치해 주셔서 감사합니다. 잘하셨습니다! 🤘"
+
+#. translators: 1: column number, 2: row number
+#: inc/class-storefront.php:277
+msgid "Widgets added here will appear in column %1$d of footer row %2$d."
+msgstr "여기에 추가한 위젯은 하단 %2$d행의 %1$d열에 보일 것입니다."
+
+#. translators: 1: row number, 2: column number
+#: inc/class-storefront.php:274
+msgid "Footer Row %1$d - Column %2$d"
+msgstr "하단 %1$d행 - %2$d열"
+
+#. translators: 1: column number
+#: inc/class-storefront.php:271
+msgid "Widgets added here will appear in column %1$d of the footer."
+msgstr "여기에 추가한 위젯은 하단의  %1$d열에 나타날 것입니다."
+
+#. translators: 1: column number
+#: inc/class-storefront.php:268
+msgid "Footer Column %1$d"
+msgstr "하단  %1$d열"
+
+#: inc/admin/class-storefront-admin.php:224
+msgid "Learn more"
+msgstr "더 알아보기"
+
+#: inc/admin/class-storefront-admin.php:217
+#: inc/admin/class-storefront-plugin-install.php:96
+msgid "Install now"
+msgstr "지금 설치하기"
+
+#: inc/admin/class-storefront-admin.php:153
+msgid "Check 'em out"
+msgstr "구경하기"
+
+#: inc/admin/class-storefront-admin.php:149
+msgid "Of course they are all fully compatible with each Storefront extension."
+msgstr "물론 이들 모두 각 스토어프론트 확장과 완전히 호환합니다."
+
+#: inc/admin/class-storefront-admin.php:145
+msgid "Each has been designed to serve a different industry - from fashion to food."
+msgstr "각각은 패션에서부터 식품까지 다양한 산업에 적용되도록 디자인하였습니다."
+
+#: inc/admin/class-storefront-admin.php:141
+msgid "Quickly and easily transform your shops appearance with Storefront child themes."
+msgstr "스토어프론트 자식 테마로 상점 외양을 빠르고 쉽게 바꾸세요."
+
+#: inc/admin/class-storefront-admin.php:137
+msgid "Alternate designs"
+msgstr "다른 디자인"
+
+#: inc/admin/class-storefront-admin.php:133
+msgid "Read more and purchase"
+msgstr "더 읽어 보고 구입하기"
+
+#: inc/admin/class-storefront-admin.php:128
+msgid "Make it yours without touching code with the Storefront Extensions bundle. Express yourself, optimize conversions, delight customers."
+msgstr "스토어프론트 확장 프로그램 번들로 코드를 건드리지 않고 자신의 것으로 만드세요. 자신을 표현하고, 전환를 최적화하며, 고객을 즐겁게 하세요."
+
+#: inc/admin/class-storefront-admin.php:124
+msgid "All the tools you'll need to define your style and customize Storefront."
+msgstr "필요한 모든 도구들은 스타일을 정의하거나 스토어프론트를 사용자 정의하는데 필요합니다. "
+
+#: inc/admin/class-storefront-admin.php:118
+msgid "Storefront Extensions Bundle"
+msgstr "스토어프론트 확장 번들"
+
+#: inc/admin/class-storefront-admin.php:107
+msgid "Hello! You might be interested in the following Storefront extensions and designs."
+msgstr "안녕하세요! 다음의 스토어프론트 확장과 디자인에 흥미가 있을 수도 있습니다."
+
+#: inc/admin/class-storefront-admin.php:105
+msgid "One more thing... You might be interested in the following Storefront extensions and designs."
+msgstr "하나 더... 다음의 스토어프론트 확장과 다지인에 흥미가 있을 수도 있습니다."
+
+#. translators: 1: HTML, 2: HTML
+#: inc/admin/class-storefront-admin.php:104
+msgid "Setup complete %1$sYour Storefront adventure begins now 🚀%2$s "
+msgstr "설정 완료 %1$s스토어프론트 모험을 지금 시작합니다 🚀%2$s "
+
+#: inc/admin/class-storefront-admin.php:76
+msgid "Development blog"
+msgstr "개발 블로그"
+
+#: inc/admin/class-storefront-admin.php:75
+msgid "Documentation"
+msgstr "문서"
+
+#: inc/admin/class-storefront-admin.php:74
+msgid "Support"
+msgstr "지원"
+
+#: inc/class-storefront.php:255
+msgid "Widgets added to this region will appear beneath the header and above the main content."
+msgstr "이 영역에 추가한 위젯은 머리글 아래와 주 내용 위에 표시됩니다."
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:746
+msgid "My Account"
+msgstr "나의 계정"
+
+#: 404.php:25 inc/woocommerce/storefront-woocommerce-template-functions.php:716
+msgid "Search"
+msgstr "검색"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1047
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:555
+msgid "Best Sellers"
+msgstr "베스트 셀러"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1035
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:443
+msgid "Fan Favorites"
+msgstr "팬 즐겨찾기"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1106
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:387
+msgid "We Recommend"
+msgstr "다음을 권장합니다."
+
+#: inc/nux/class-storefront-nux-starter-content.php:1027
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:331
+msgid "New In"
+msgstr "신상품"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1019
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:276
+msgid "Shop by Category"
+msgstr "카테고리별 쇼핑"
+
+#: inc/storefront-template-functions.php:242
+msgid "Menu"
+msgstr "메뉴"
+
+#: inc/class-storefront.php:253
+msgid "Below Header"
+msgstr "머리글 아래"
+
+#. translators: %s: Storefront
+#: inc/customizer/class-storefront-customizer-control-more.php:36
+msgid "Enjoying %s?"
+msgstr "%s이(가) 재미있나요?"
+
+#. translators: %s: Automattic branding
+#: inc/admin/class-storefront-admin.php:162
+msgid "An %s project"
+msgstr "%s 프로젝트"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:640
+msgid "New In Store"
+msgstr "상점의 신상품"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:627
+msgid "On Sale Now"
+msgstr "할인 중"
+
+#: inc/storefront-template-functions.php:580
+msgctxt "Previous post"
+msgid "Previous"
+msgstr "이전"
+
+#: inc/storefront-template-functions.php:579
+msgctxt "Next post"
+msgid "Next"
+msgstr "다음"
+
+#: inc/customizer/class-storefront-customizer.php:308
+msgid "Header background image"
+msgstr "머리글 배경 이미지"
+
+#: 404.php:60 404.php:62
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:464
+msgid "Popular Products"
+msgstr "인기 상품"
+
+#: 404.php:22
+msgid "Nothing was found at this location. Try searching, or check out the links below."
+msgstr "이 곳에는 아무 것도 없는 것 같습니다. 검색하거나 아래 링크를 확인하세요."
+
+#. Template Name of the theme
+#: inc/nux/class-storefront-nux-starter-content.php:66
+msgid "Homepage"
+msgstr "홈페이지"
+
+#. Template Name of the theme
+msgid "Full width"
+msgstr "전체 너비"
+
+#. translators: %s: search term
+#: search.php:19
+msgid "Search Results for: %s"
+msgstr "검색 결과 : %s"
+
+#. translators: %d: number of items in cart
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:93
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d 품목"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:91
+msgid "View your shopping cart"
+msgstr "장바구니 보기"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1041
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:499
+msgid "On Sale"
+msgstr "세일 중"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:409
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:614
+msgid "Featured Products"
+msgstr "대표 상품"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:352
+msgid "Recent Products"
+msgstr "최근 상품"
+
+#: 404.php:45 404.php:47
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:297
+msgid "Product Categories"
+msgstr "상품 카테고리"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:83
+msgid "Next"
+msgstr "다음"
+
+#: inc/storefront-template-functions.php:483
+msgid "% Comments"
+msgstr "댓글 %개"
+
+#: inc/storefront-template-functions.php:483
+msgid "1 Comment"
+msgstr "댓글 한 개"
+
+#: inc/storefront-template-functions.php:483
+msgid "Leave a comment"
+msgstr "댓글 남기기"
+
+#. translators: used between list items, there is a space after the comma
+#. translators: used between list items, there is a space after the comma
+#: inc/storefront-template-functions.php:546
+#: inc/storefront-template-functions.php:549
+msgid ", "
+msgstr ", "
+
+#. translators: %s: post title
+#: inc/storefront-template-functions.php:418
+msgid "Continue reading %s"
+msgstr "%s 더보기"
+
+#: inc/storefront-template-functions.php:356
+#: inc/storefront-template-functions.php:427
+msgid "Pages:"
+msgstr "페이지:"
+
+#: inc/storefront-template-functions.php:298
+msgid "Skip to content"
+msgstr "컨텐츠로 건너뛰기"
+
+#: inc/storefront-template-functions.php:297
+msgid "Skip to navigation"
+msgstr "탐색으로 건너뛰기"
+
+#: inc/storefront-template-functions.php:273
+msgid "Secondary Navigation"
+msgstr "보조 탐색"
+
+#: inc/storefront-template-functions.php:241
+msgid "Primary Navigation"
+msgstr "기본 네비게이션"
+
+#: inc/storefront-template-functions.php:75
+msgid "Edit"
+msgstr "편집"
+
+#: inc/storefront-template-functions.php:48
+msgid "Your comment is awaiting moderation."
+msgstr "입력하신 댓글은 검토를 기다리고 있습니다."
+
+#: inc/class-storefront.php:247
+msgid "Sidebar"
+msgstr "사이드바"
+
+#: inc/class-storefront.php:97
+#: inc/nux/class-storefront-nux-starter-content.php:192
+msgid "Handheld Menu"
+msgstr "휴대용 메뉴"
+
+#: inc/class-storefront.php:96
+#: inc/nux/class-storefront-nux-starter-content.php:182
+msgid "Secondary Menu"
+msgstr "보조 메뉴"
+
+#: inc/class-storefront.php:95
+#: inc/nux/class-storefront-nux-starter-content.php:162
+msgid "Primary Menu"
+msgstr "주 메뉴"
+
+#: inc/customizer/class-storefront-customizer.php:663
+msgid "Looking for more options?"
+msgstr "더 많은 옵션을 찾고 계신가요?"
+
+#: inc/customizer/class-storefront-customizer.php:645
+msgid "More"
+msgstr "더"
+
+#: inc/customizer/class-storefront-customizer.php:628
+msgid "General Layout"
+msgstr "일반 배치"
+
+#: inc/customizer/class-storefront-customizer.php:608
+msgid "Layout"
+msgstr "레이아웃"
+
+#: inc/customizer/class-storefront-customizer.php:594
+msgid "Alternate button text color"
+msgstr "대체 버튼 텍스트 색"
+
+#: inc/customizer/class-storefront-customizer.php:570
+msgid "Alternate button background color"
+msgstr "대체 버튼 배경 색"
+
+#: inc/customizer/class-storefront-customizer.php:502
+msgid "Customize the look & feel of your website buttons."
+msgstr "웹사이트 버튼의 모양과 느낌을 사용자 지정합니다."
+
+#: inc/customizer/class-storefront-customizer.php:500
+msgid "Buttons"
+msgstr "버튼"
+
+#: inc/customizer/class-storefront-customizer.php:394
+msgid "Customize the look & feel of your website footer."
+msgstr "웹사이트 바닥글의 모양과 느낌을 사용자 지정합니다."
+
+#: inc/customizer/class-storefront-customizer.php:392
+msgid "Footer"
+msgstr "푸터"
+
+#: inc/customizer/class-storefront-customizer.php:378
+#: inc/customizer/class-storefront-customizer.php:486
+msgid "Link color"
+msgstr "링크 색상"
+
+#: inc/customizer/class-storefront-customizer.php:330
+#: inc/customizer/class-storefront-customizer.php:414
+#: inc/customizer/class-storefront-customizer.php:522
+msgid "Background color"
+msgstr "배경 색상"
+
+#: inc/customizer/class-storefront-customizer.php:197
+#: inc/customizer/class-storefront-customizer.php:438
+msgid "Heading color"
+msgstr "제목 색상"
+
+#: inc/customizer/class-storefront-customizer.php:221
+#: inc/customizer/class-storefront-customizer.php:354
+#: inc/customizer/class-storefront-customizer.php:462
+#: inc/customizer/class-storefront-customizer.php:546
+msgid "Text color"
+msgstr "글자 색상"
+
+#: inc/customizer/class-storefront-customizer.php:245
+msgid "Link / accent color"
+msgstr "링크/강조 색"
+
+#: inc/customizer/class-storefront-customizer.php:176
+msgid "Typography"
+msgstr "타이포그래피"
+
+#: inc/customizer/class-storefront-customizer.php:127
+msgid "Header"
+msgstr "헤더"
+
+#: inc/customizer/class-storefront-customizer.php:123
+msgid "Background"
+msgstr "배경"
+
+#. translators: 1: start <a> tag, 2: end <a> tag
+#: inc/customizer/class-storefront-customizer-control-more.php:43
+msgid "Why not leave us a review on %1$sWordPress.org%2$s?  We'd really appreciate it!"
+msgstr "%1$sWordPress.org%2$s에 리뷰를 남기면 어떠신가요?  정말 감사합니다!"
+
+#. translators: 1: Storefront, 2: start <a> tag, 3: Storefront, 4: end <a> tag
+#: inc/customizer/class-storefront-customizer-control-more.php:29
+msgid "There's a range of %1$s extensions available to put additional power in your hands. Check out the %2$s%3$s%4$s page in your dashboard for more information."
+msgstr "부가적인 능력을 귀하가 조작할 수 있게 하는 다양한 %1$s 확장 기능이 있습니다. 자세한 정보는 대시보드의 %2$s%3$s%4$s 페이지를 확인하세요."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:118
+msgid "Add your logo"
+msgstr "로고 추가하기"
+
+#: inc/nux/class-storefront-nux-admin.php:130
+msgid "Install WooCommerce"
+msgstr "우커머스 설치"
+
+#: inc/admin/class-storefront-admin.php:200
+#: inc/admin/class-storefront-plugin-install.php:75
+msgid "Activate"
+msgstr "활성화"
+
+#: content-none.php:34
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "찾고 있는 것을 찾을 수 없는 것 같습니다. 검색이 도움될 수도 있습니다."
+
+#: content-none.php:29
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "죄송하지만 검색어와 일치하는 것이 없습니다. 다른 검색어로 다시 시도해보세요."
+
+#. translators: 1: URL
+#: content-none.php:23
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "첫번째 글을 발행할 준비가 됐나요? <a href=\"%1$s\">여기서 시작하세요</a>."
+
+#: content-none.php:14
+msgid "Nothing Found"
+msgstr "찾지 못함"
+
+#: comments.php:72
+msgid "Comments are closed."
+msgstr "댓글은 닫혔습니다."
+
+#: comments.php:43 comments.php:63
+msgid "Newer Comments &rarr;"
+msgstr "새 댓글 &rarr;"
+
+#: comments.php:42 comments.php:62
+msgid "&larr; Older Comments"
+msgstr "&larr; 이전 댓글"
+
+#: comments.php:41 comments.php:61
+msgid "Comment navigation"
+msgstr "댓글 네비게이션"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:31
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "&ldquo;%2$s&rdquo;에 대한 %1$s개의 의견"
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "아차! 해당 페이지를 찾을 수 없습니다."
+
+#. Author of the theme
+msgid "Automattic"
+msgstr "오토매틱"
+
+#. Author URI of the theme
+msgid "https://woocommerce.com/"
+msgstr "https://woocommerce.com/"
+
+#. Theme URI of the theme
+msgid "https://woocommerce.com/storefront/"
+msgstr "https://woocommerce.com/storefront/"

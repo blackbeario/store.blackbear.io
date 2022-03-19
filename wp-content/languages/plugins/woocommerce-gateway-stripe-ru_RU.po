@@ -1,0 +1,491 @@
+# Translation of Plugins - WooCommerce Stripe Payment Gateway - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - WooCommerce Stripe Payment Gateway - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-01-08 10:28:50+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - WooCommerce Stripe Payment Gateway - Stable (latest release)\n"
+
+#: includes/admin/stripe-boleto-settings.php:10
+msgid "Customer Geography: Brazil"
+msgstr "География клиентов: Бразилия"
+
+#: includes/admin/class-wc-stripe-upe-compatibility-controller.php:74
+#: includes/admin/class-wc-stripe-upe-compatibility-controller.php:86
+msgid " and "
+msgstr " и "
+
+#: includes/class-wc-stripe-blocks-support.php:269 build/index.js:1
+#: build/upe_blocks.js:1
+msgid "Credit / Debit Card"
+msgstr "Кредитная/дебетовая карта"
+
+#: includes/class-wc-stripe-blocks-support.php:304
+msgid "Diners"
+msgstr "Diners"
+
+#: includes/class-wc-stripe-blocks-support.php:300
+msgid "JCB"
+msgstr "JCB"
+
+#: includes/class-wc-stripe-blocks-support.php:296
+msgid "Discover"
+msgstr "Discover"
+
+#: includes/class-wc-stripe-blocks-support.php:289
+msgid "Mastercard"
+msgstr "Mastercard"
+
+#: includes/class-wc-stripe-blocks-support.php:285
+msgid "American Express"
+msgstr "American Express"
+
+#: includes/class-wc-stripe-blocks-support.php:281
+msgid "Visa"
+msgstr "Visa"
+
+#: includes/admin/class-wc-stripe-inbox-notes.php:159 build/upe_settings.js:19
+msgid "Learn more"
+msgstr "Узнать больше"
+
+#: includes/admin/stripe-bancontact-settings.php:10
+msgid "Customer Geography: Belgium"
+msgstr "География клиентов: Бельгия"
+
+#: includes/admin/stripe-giropay-settings.php:10
+msgid "Customer Geography: Germany"
+msgstr "География клиентов: Германия"
+
+#: includes/admin/stripe-eps-settings.php:10
+msgid "Customer Geography: Austria"
+msgstr "География клиентов: Австрия"
+
+#: includes/admin/stripe-alipay-settings.php:10
+msgid "Customer Geography: China"
+msgstr "География клиентов: Китай"
+
+#: includes/admin/stripe-settings.php:146
+msgid "Custom"
+msgstr "Произвольно"
+
+#: includes/admin/stripe-settings.php:175 build/index.js:1
+#: build/upe_blocks.js:1
+msgid "Buy now"
+msgstr "Купить"
+
+#: includes/class-wc-stripe-helper.php:214 build/index.js:1
+#: build/upe_classic.js:1
+msgid "Invalid email address, please correct and try again."
+msgstr "Недопустимый адрес электронной почты. Измените его или повторите попытку."
+
+#: includes/abstracts/abstract-wc-stripe-payment-gateway.php:123
+msgid "Save payment information to my account for future purchases."
+msgstr "Сохранить платежные реквизиты в учетной записи для будущих покупок."
+
+#: includes/class-wc-gateway-stripe.php:287
+msgid "Card Code (CVC)"
+msgstr "Код проверки подлинности карты (CVC)"
+
+#: includes/class-wc-gateway-stripe.php:279 build/index.js:1
+msgid "Expiry Date"
+msgstr "Действительна до"
+
+#: includes/class-wc-gateway-stripe.php:268 build/index.js:1
+msgid "Card Number"
+msgstr "Номер карты"
+
+#: includes/class-wc-stripe-helper.php:209
+msgid "The card's expiration year is in the past"
+msgstr "Год действия карты неверен"
+
+#: includes/class-wc-stripe-helper.php:202 build/index.js:1
+#: build/upe_classic.js:1
+msgid "The card number is incomplete."
+msgstr "Номер карты неверен."
+
+#: includes/class-wc-stripe-helper.php:203
+msgid "The card's security code is incomplete."
+msgstr "Код безопасности карты неверен."
+
+#: includes/class-wc-stripe-helper.php:204
+msgid "The card's expiration date is incomplete."
+msgstr "Окончание срока действия карты неверно."
+
+#: includes/class-wc-stripe-customer.php:385
+msgid "Unable to add payment source."
+msgstr "Невозможно добавить карту."
+
+#: includes/admin/stripe-settings.php:142
+msgid "Default"
+msgstr "По умолчанию"
+
+#: includes/admin/stripe-settings.php:97
+msgid "Inline Credit Card Form"
+msgstr "Форма в одну строку"
+
+#: includes/class-wc-stripe-helper.php:217
+#: includes/class-wc-stripe-order-handler.php:93 build/index.js:1
+#: build/upe_classic.js:1
+msgid "Unable to process this payment, please try again or use alternative method."
+msgstr "Не удалось обработать платеж. Повторите попытку или используйте другой способ."
+
+#. translators: 1) card brand 2) last 4 digits
+#: includes/admin/class-wc-stripe-privacy.php:40
+#: includes/compat/trait-wc-stripe-subscriptions.php:579
+#: includes/compat/trait-wc-stripe-subscriptions.php:593
+msgid "N/A"
+msgstr "Н/Д"
+
+#: includes/admin/stripe-alipay-settings.php:23
+msgid "Enable Stripe Alipay"
+msgstr "Включить Stripe Alipay"
+
+#. translators: transaction id
+#: includes/abstracts/abstract-wc-stripe-payment-gateway.php:532
+msgid "Stripe charge awaiting payment: %s."
+msgstr "Stripe ожидает оплаты: %s."
+
+#. translators: 1) blog name 2) order number
+#: includes/abstracts/abstract-wc-stripe-payment-gateway.php:421
+#: includes/payment-methods/class-wc-stripe-upe-payment-gateway.php:528
+msgid "%1$s - Order %2$s"
+msgstr "%1$s - заказ %2$s"
+
+#. translators: 1) amount (including currency symbol) 2) transaction id 3)
+#. refund message
+#: includes/abstracts/abstract-wc-stripe-payment-gateway.php:1082
+msgid "Refunded %1$s - Refund ID: %2$s - Reason: %3$s"
+msgstr "Возвращено %1$s - код возврата: %2$s - причина: %3$s"
+
+#: includes/payment-methods/class-wc-stripe-payment-request.php:1833
+msgid "Discount"
+msgstr "Скидка"
+
+#: includes/payment-methods/class-wc-stripe-payment-request.php:427
+#: includes/payment-methods/class-wc-stripe-payment-request.php:1312
+#: includes/payment-methods/class-wc-stripe-payment-request.php:1826
+msgid "Shipping"
+msgstr "Доставка"
+
+#. Author of the plugin
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#. Author URI of the plugin
+msgid "https://woocommerce.com/"
+msgstr "https://woocommerce.com/"
+
+#: includes/class-wc-stripe-helper.php:211 build/index.js:1
+#: build/upe_classic.js:1
+msgid "There is no card on a customer that is being charged."
+msgstr "К клиенту не прикреплена карта для оплаты."
+
+#: includes/class-wc-stripe-helper.php:197 build/index.js:1
+#: build/upe_classic.js:1
+msgid "The card number is not a valid credit card number."
+msgstr "Номер карты не является верным номером для кредитной карты."
+
+#: includes/payment-methods/class-wc-stripe-payment-request.php:724
+msgid "Sorry, we're not accepting prepaid cards at this time."
+msgstr "Извините, но мы сейчас не принимаем карты предоплаты."
+
+#: includes/class-wc-stripe-helper.php:198
+msgid "The card's expiration month is invalid."
+msgstr "Месяц действия карты неверен."
+
+#: includes/class-wc-stripe-helper.php:199
+msgid "The card's expiration year is invalid."
+msgstr "Год действия карты неверен."
+
+#: includes/class-wc-stripe-helper.php:200
+msgid "The card's security code is invalid."
+msgstr "Код безопасности карты неверен."
+
+#: includes/class-wc-stripe-helper.php:201 build/index.js:1
+#: build/upe_classic.js:1
+msgid "The card number is incorrect."
+msgstr "Номер карты неверен."
+
+#: includes/class-wc-stripe-helper.php:205 build/index.js:1
+#: build/upe_classic.js:1
+msgid "The card has expired."
+msgstr "Карта истекла."
+
+#: includes/class-wc-stripe-helper.php:206
+msgid "The card's security code is incorrect."
+msgstr "Код безопасности карты неверен."
+
+#: includes/class-wc-stripe-helper.php:207
+msgid "The card's zip code failed validation."
+msgstr "Индекс карты не прошел проверку."
+
+#: includes/class-wc-stripe-helper.php:210 build/index.js:1
+#: build/upe_classic.js:1
+msgid "The card was declined."
+msgstr "Карта была отклонена."
+
+#: includes/class-wc-stripe-helper.php:212 build/index.js:1
+#: build/upe_classic.js:1
+msgid "An error occurred while processing the card."
+msgstr "Ошибка процессинга карты."
+
+#. translators: 1) int version 2) int version
+#: includes/admin/class-wc-stripe-admin-notices.php:154
+msgid "WooCommerce Stripe - The minimum PHP version required for this plugin is %1$s. You are running %2$s."
+msgstr "WooCommerce Stripe - минимально требуемая версия PHP для плагина %1$s. У Вас %2$s."
+
+#: includes/admin/class-wc-stripe-admin-notices.php:172
+msgid "WooCommerce Stripe - cURL is not installed."
+msgstr "WooCommerce Stripe - cURL не установлен."
+
+#: includes/compat/trait-wc-stripe-subscriptions.php:252
+msgid "Customer not found"
+msgstr "Клиент не найден"
+
+#: includes/compat/trait-wc-stripe-pre-orders.php:176
+msgid "Unable to store payment details. Please try again."
+msgstr "Не удалось сохранить данные платежа. Повторите попытку."
+
+#. translators: error message
+#: includes/compat/trait-wc-stripe-pre-orders.php:257
+msgid "Stripe Transaction Failed (%s)"
+msgstr "Ошибка транзакции Stripe (%s)"
+
+#: includes/admin/class-wc-stripe-privacy.php:11
+#: includes/class-wc-gateway-stripe.php:76
+#: includes/payment-methods/class-wc-stripe-upe-payment-gateway.php:94
+msgid "Stripe"
+msgstr "Stripe"
+
+#: includes/abstracts/abstract-wc-stripe-payment-gateway.php:1802
+msgid "Please accept the terms and conditions first"
+msgstr "Сначала примите условия и положения"
+
+#: includes/abstracts/abstract-wc-stripe-payment-gateway.php:1803
+msgid "Please fill in required checkout fields first"
+msgstr "Сначала заполните все обязательные поля"
+
+#: includes/abstracts/abstract-wc-stripe-payment-gateway.php:766
+msgid "Invalid payment method. Please input a new card number."
+msgstr "Недопустимый способ оплаты. Введите новый номер карты."
+
+#: includes/class-wc-stripe-order-handler.php:135
+#: includes/class-wc-stripe-webhook-handler.php:237
+#: includes/payment-methods/class-wc-gateway-stripe-sepa.php:331
+msgid "This card is no longer available and has been removed."
+msgstr "Эта карта больше не доступна и была удалена."
+
+#: includes/admin/stripe-alipay-settings.php:22
+#: includes/admin/stripe-bancontact-settings.php:22
+#: includes/admin/stripe-boleto-settings.php:23
+#: includes/admin/stripe-eps-settings.php:18
+#: includes/admin/stripe-giropay-settings.php:22
+#: includes/admin/stripe-ideal-settings.php:22
+#: includes/admin/stripe-multibanco-settings.php:18
+#: includes/admin/stripe-oxxo-settings.php:32
+#: includes/admin/stripe-p24-settings.php:18
+#: includes/admin/stripe-sepa-settings.php:22
+#: includes/admin/stripe-settings.php:10
+#: includes/admin/stripe-sofort-settings.php:22
+msgid "Enable/Disable"
+msgstr "Включить/Выключить"
+
+#: includes/admin/stripe-settings.php:11 build/upe_settings.js:5
+msgid "Enable Stripe"
+msgstr "Включить Stripe"
+
+#: includes/admin/stripe-alipay-settings.php:29
+#: includes/admin/stripe-bancontact-settings.php:29
+#: includes/admin/stripe-boleto-settings.php:30
+#: includes/admin/stripe-eps-settings.php:25
+#: includes/admin/stripe-giropay-settings.php:29
+#: includes/admin/stripe-ideal-settings.php:29
+#: includes/admin/stripe-multibanco-settings.php:25
+#: includes/admin/stripe-oxxo-settings.php:39
+#: includes/admin/stripe-p24-settings.php:25
+#: includes/admin/stripe-sepa-settings.php:29
+#: includes/admin/stripe-settings.php:17 includes/admin/stripe-settings.php:24
+#: includes/admin/stripe-sofort-settings.php:29
+msgid "Title"
+msgstr "Наименование"
+
+#: includes/admin/stripe-alipay-settings.php:31
+#: includes/admin/stripe-bancontact-settings.php:31
+#: includes/admin/stripe-boleto-settings.php:32
+#: includes/admin/stripe-eps-settings.php:27
+#: includes/admin/stripe-giropay-settings.php:31
+#: includes/admin/stripe-ideal-settings.php:31
+#: includes/admin/stripe-multibanco-settings.php:27
+#: includes/admin/stripe-oxxo-settings.php:41
+#: includes/admin/stripe-p24-settings.php:27
+#: includes/admin/stripe-sepa-settings.php:31
+#: includes/admin/stripe-settings.php:19
+#: includes/admin/stripe-sofort-settings.php:31
+msgid "This controls the title which the user sees during checkout."
+msgstr "Заголовок, который видит пользователь в процессе оформления заказа."
+
+#: includes/admin/stripe-alipay-settings.php:36
+#: includes/admin/stripe-bancontact-settings.php:36
+#: includes/admin/stripe-boleto-settings.php:37
+#: includes/admin/stripe-eps-settings.php:32
+#: includes/admin/stripe-giropay-settings.php:36
+#: includes/admin/stripe-ideal-settings.php:36
+#: includes/admin/stripe-multibanco-settings.php:32
+#: includes/admin/stripe-oxxo-settings.php:46
+#: includes/admin/stripe-p24-settings.php:32
+#: includes/admin/stripe-sepa-settings.php:36
+#: includes/admin/stripe-settings.php:31
+#: includes/admin/stripe-sofort-settings.php:36
+#: includes/payment-methods/class-wc-stripe-upe-payment-gateway.php:1156
+#: build/upe_settings.js:5 build/upe_settings.js:23
+msgid "Description"
+msgstr "Описание"
+
+#: includes/admin/stripe-settings.php:34
+msgid "Pay with your credit card via Stripe."
+msgstr "Оплата кредитной картой MasterCard с помощью системы Stripe."
+
+#: includes/admin/stripe-settings.php:42
+msgid "Test mode"
+msgstr "Тестовый режим"
+
+#: includes/admin/stripe-settings.php:43
+msgid "Enable Test Mode"
+msgstr "Включить тестовый режим"
+
+#: includes/admin/stripe-settings.php:45
+msgid "Place the payment gateway in test mode using test API keys."
+msgstr "Перевести платежный шлюз в тестовый режим с использованием тестовых ключей API."
+
+#: includes/admin/stripe-settings.php:71
+msgid "Live Secret Key"
+msgstr "Рабочий секретный ключ"
+
+#: includes/admin/stripe-settings.php:64
+msgid "Live Publishable Key"
+msgstr "Рабочий открытый ключ"
+
+#: includes/admin/stripe-alipay-settings.php:38
+#: includes/admin/stripe-bancontact-settings.php:38
+#: includes/admin/stripe-boleto-settings.php:39
+#: includes/admin/stripe-eps-settings.php:34
+#: includes/admin/stripe-giropay-settings.php:38
+#: includes/admin/stripe-ideal-settings.php:38
+#: includes/admin/stripe-multibanco-settings.php:34
+#: includes/admin/stripe-oxxo-settings.php:48
+#: includes/admin/stripe-p24-settings.php:34
+#: includes/admin/stripe-sepa-settings.php:38
+#: includes/admin/stripe-settings.php:33
+#: includes/admin/stripe-sofort-settings.php:38
+msgid "This controls the description which the user sees during checkout."
+msgstr "Описание, которое видит пользователь при оформлении заказа."
+
+#: includes/admin/stripe-settings.php:57
+msgid "Test Secret Key"
+msgstr "Тестовый секретный ключ"
+
+#: includes/admin/stripe-settings.php:50
+msgid "Test Publishable Key"
+msgstr "Тестовый открытый ключ"
+
+#: includes/admin/stripe-settings.php:111
+msgid "Capture"
+msgstr "Получение"
+
+#: includes/admin/stripe-settings.php:112
+msgid "Capture charge immediately"
+msgstr "Немедленно взимать платеж"
+
+#: includes/admin/stripe-settings.php:114
+msgid "Whether or not to immediately capture the charge. When unchecked, the charge issues an authorization and will need to be captured later. Uncaptured charges expire in 7 days."
+msgstr "Происходит ли немедленное взимание платежа. Если эта настройка отключена, платеж авторизуется и должен быть взят позже. Срок действия невзятых платежей истекает через 7 дней."
+
+#: includes/admin/stripe-settings.php:219
+msgid "Saved Cards"
+msgstr "Сохраненные карты"
+
+#: includes/admin/stripe-settings.php:220
+msgid "Enable Payment via Saved Cards"
+msgstr "Разрешить платежи через сохраненные карты"
+
+#: includes/admin/stripe-settings.php:222 build/upe_settings.js:5
+msgid "If enabled, users will be able to pay with a saved card during checkout. Card details are saved on Stripe servers, not on your store."
+msgstr "Если эта настройка включена, пользователи могут платить при оформлении сохраненными картами. Данные карт сохраняются на серверах Stripe, а не в вашем магазине."
+
+#: includes/admin/stripe-settings.php:227
+msgid "Logging"
+msgstr "Ведение журнала"
+
+#: includes/admin/stripe-settings.php:228
+msgid "Log debug messages"
+msgstr "Вести журнал отладочных сообщений"
+
+#: includes/admin/stripe-settings.php:230
+msgid "Save debug messages to the WooCommerce System Status log."
+msgstr "Сохранять отладочные сообщения в журнале состояния системы WooCommerce."
+
+#. translators: 1) link
+#: includes/admin/class-wc-stripe-admin-notices.php:185
+msgid "Stripe is almost ready. To get started, <a href=\"%s\">set your Stripe account keys</a>."
+msgstr "Функции Stripe почти готовы. Сначала <a href=\"%s\">задайте ключи аккаунта Stripe</a>."
+
+#: woocommerce-gateway-stripe.php:342 build/upe_settings.js:19
+msgid "Settings"
+msgstr "Настройки"
+
+#: woocommerce-gateway-stripe.php:358
+msgid "Docs"
+msgstr "Документация"
+
+#: woocommerce-gateway-stripe.php:359
+msgid "Support"
+msgstr "Тех.Поддержка"
+
+#. translators: transaction id
+#: includes/abstracts/abstract-wc-stripe-payment-gateway.php:539
+#: includes/class-wc-stripe-order-handler.php:294
+#: includes/class-wc-stripe-webhook-handler.php:407
+#: includes/class-wc-stripe-webhook-handler.php:460
+msgid "Stripe charge complete (Charge ID: %s)"
+msgstr "Платеж Stripe завершен (код платежа: %s)"
+
+#. Plugin Name of the plugin
+msgid "WooCommerce Stripe Gateway"
+msgstr "WooCommerce Stripe Gateway"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/woocommerce-gateway-stripe/"
+msgstr "https://wordpress.org/plugins/woocommerce-gateway-stripe/"
+
+#. Description of the plugin
+msgid "Take credit card payments on your store using Stripe."
+msgstr "Принимайте в своем магазине оплату кредитными картами с помощью Stripe."
+
+#: includes/admin/stripe-settings.php:20
+msgid "Credit Card (Stripe)"
+msgstr "Кредитная карта (Stripe)"
+
+#. translators: error message
+#: includes/class-wc-stripe-order-handler.php:237
+#: includes/class-wc-stripe-order-handler.php:252
+#: includes/class-wc-stripe-order-handler.php:268
+#: includes/class-wc-stripe-order-handler.php:283
+msgid "Unable to capture charge! %s"
+msgstr "Невозможно осуществить оплату! %s"
+
+#. translators: 1) card brand 2) last 4 digits
+#: includes/compat/trait-wc-stripe-subscriptions.php:593
+msgid "Via %1$s card ending in %2$s"
+msgstr "Через карту %1$s с окончанием номера на %2$s"
+
+#. translators: 1) amount (including currency symbol)
+#: includes/abstracts/abstract-wc-stripe-payment-gateway.php:338
+#: includes/payment-methods/class-wc-gateway-stripe-boleto.php:119
+#: includes/payment-methods/class-wc-gateway-stripe-oxxo.php:102
+msgid "Sorry, the minimum allowed order total is %1$s to use this payment method."
+msgstr "Минимальная сумма заказа для этого метода оплаты составляет %1$s."

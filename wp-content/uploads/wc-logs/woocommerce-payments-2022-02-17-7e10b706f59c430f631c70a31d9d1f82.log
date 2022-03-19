@@ -1,0 +1,4308 @@
+2022-02-17T01:44:34+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/accounts?test_mode=0
+2022-02-17T01:44:34+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/3.6.1',
+)
+2022-02-17T01:44:36+00:00 INFO RESPONSE: array (
+  'account_id' => 'acct_1KN0mD2EExDbvmHH',
+  'email' => '(redacted)',
+  'live_publishable_key' => 'pk_live_iBIpeqzKOOx2Y8PFCRBfyMU000Q7xVG4Sn',
+  'test_publishable_key' => 'pk_test_51ETDmyFuiXB5oUVxwSobQMW5Tno1GclIq7ePZWzLeW4q8oa7Zb8hI5VfwI5sNT5nXuKYinLukNvGCXmsQXAoDGHG00MqHqlYHR',
+  'is_live' => true,
+  'has_pending_requirements' => false,
+  'has_overdue_requirements' => false,
+  'current_deadline' => NULL,
+  'status' => 'complete',
+  'capabilities' => 
+  array (
+    'bancontact_payments' => 'active',
+    'card_payments' => 'active',
+    'eps_payments' => 'active',
+    'giropay_payments' => 'active',
+    'ideal_payments' => 'active',
+    'p24_payments' => 'active',
+    'sepa_debit_payments' => 'active',
+    'sofort_payments' => 'active',
+    'tax_reporting_us_1099_k' => 'active',
+    'transfers' => 'active',
+    'acss_debit_payments' => 'unrequested',
+    'afterpay_clearpay_payments' => 'unrequested',
+    'klarna' => 'unrequested',
+    'link_payments' => 'unrequested',
+    'tax_reporting_us_1099_misc' => 'unrequested',
+    'us_bank_account_ach_payments' => 'unrequested',
+  ),
+  'capability_requirements' => 
+  array (
+    'acss_debit_payments' => 
+    array (
+    ),
+    'afterpay_clearpay_payments' => 
+    array (
+      0 => 'business_profile.support_phone',
+    ),
+    'bancontact_payments' => 
+    array (
+    ),
+    'card_payments' => 
+    array (
+    ),
+    'eps_payments' => 
+    array (
+    ),
+    'giropay_payments' => 
+    array (
+    ),
+    'ideal_payments' => 
+    array (
+    ),
+    'klarna' => 
+    array (
+    ),
+    'link_payments' => 
+    array (
+    ),
+    'p24_payments' => 
+    array (
+    ),
+    'sepa_debit_payments' => 
+    array (
+    ),
+    'sofort_payments' => 
+    array (
+    ),
+    'tax_reporting_us_1099_k' => 
+    array (
+    ),
+    'tax_reporting_us_1099_misc' => 
+    array (
+    ),
+    'transfers' => 
+    array (
+    ),
+    'us_bank_account_ach_payments' => 
+    array (
+    ),
+  ),
+  'payments_enabled' => true,
+  'deposits_status' => 'daily',
+  'statement_descriptor' => 'STORE.BLACKBEAR.IO',
+  'latest_tos_agreement' => 
+  array (
+    'date' => '2022-01-28 20:10:35',
+    'source' => 'signup',
+    'is_current_version' => true,
+  ),
+  'fees' => 
+  array (
+    'base' => 
+    array (
+      'percentage_rate' => 0.029,
+      'fixed_rate' => 30,
+      'currency' => 'usd',
+    ),
+    'discount' => 
+    array (
+    ),
+    'bancontact' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.014,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'card' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.029,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'card_present' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.026,
+        'fixed_rate' => 10,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'eps' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.018,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'ideal' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0,
+        'fixed_rate' => 80,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'giropay' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.014,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'p24' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.022,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'sofort' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.014,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'sepa_debit' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.008,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+        'fee_cap' => 600,
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+  ),
+  'capital' => 
+  array (
+    'has_active_loan' => false,
+    'has_previous_loans' => false,
+    'loans' => 
+    array (
+    ),
+  ),
+  'fraud_services' => 
+  array (
+    'stripe' => 
+    array (
+    ),
+    'sift' => 
+    array (
+      'beacon_key' => 'affbdadb36',
+      'sandbox_beacon_key' => '6ad0ad748b',
+    ),
+  ),
+  'store_currencies' => 
+  array (
+    'default' => 'usd',
+    'supported' => 
+    array (
+      0 => 'usd',
+    ),
+  ),
+  'customer_currencies' => 
+  array (
+    'supported' => 
+    array (
+      0 => 'usd',
+      1 => 'aed',
+      2 => 'afn',
+      3 => 'all',
+      4 => 'amd',
+      5 => 'ang',
+      6 => 'aoa',
+      7 => 'ars',
+      8 => 'aud',
+      9 => 'awg',
+      10 => 'azn',
+      11 => 'bam',
+      12 => 'bbd',
+      13 => 'bdt',
+      14 => 'bgn',
+      15 => 'bif',
+      16 => 'bmd',
+      17 => 'bnd',
+      18 => 'bob',
+      19 => 'brl',
+      20 => 'bsd',
+      21 => 'bwp',
+      22 => 'byn',
+      23 => 'bzd',
+      24 => 'cad',
+      25 => 'cdf',
+      26 => 'chf',
+      27 => 'clp',
+      28 => 'cny',
+      29 => 'cop',
+      30 => 'crc',
+      31 => 'cve',
+      32 => 'czk',
+      33 => 'djf',
+      34 => 'dkk',
+      35 => 'dop',
+      36 => 'dzd',
+      37 => 'egp',
+      38 => 'etb',
+      39 => 'eur',
+      40 => 'fjd',
+      41 => 'fkp',
+      42 => 'gbp',
+      43 => 'gel',
+      44 => 'gip',
+      45 => 'gmd',
+      46 => 'gnf',
+      47 => 'gtq',
+      48 => 'gyd',
+      49 => 'hkd',
+      50 => 'hnl',
+      51 => 'hrk',
+      52 => 'htg',
+      53 => 'huf',
+      54 => 'idr',
+      55 => 'ils',
+      56 => 'inr',
+      57 => 'isk',
+      58 => 'jmd',
+      59 => 'jpy',
+      60 => 'kes',
+      61 => 'kgs',
+      62 => 'khr',
+      63 => 'kmf',
+      64 => 'krw',
+      65 => 'kyd',
+      66 => 'kzt',
+      67 => 'lak',
+      68 => 'lbp',
+      69 => 'lkr',
+      70 => 'lrd',
+      71 => 'lsl',
+      72 => 'mad',
+      73 => 'mdl',
+      74 => 'mga',
+      75 => 'mkd',
+      76 => 'mmk',
+      77 => 'mnt',
+      78 => 'mop',
+      79 => 'mro',
+      80 => 'mur',
+      81 => 'mvr',
+      82 => 'mwk',
+      83 => 'mxn',
+      84 => 'myr',
+      85 => 'mzn',
+      86 => 'nad',
+      87 => 'ngn',
+      88 => 'nio',
+      89 => 'nok',
+      90 => 'npr',
+      91 => 'nzd',
+      92 => 'pab',
+      93 => 'pen',
+      94 => 'pgk',
+      95 => 'php',
+      96 => 'pkr',
+      97 => 'pln',
+      98 => 'pyg',
+      99 => 'qar',
+      100 => 'ron',
+      101 => 'rsd',
+      102 => 'rub',
+      103 => 'rwf',
+      104 => 'sar',
+      105 => 'sbd',
+      106 => 'scr',
+      107 => 'sek',
+      108 => 'sgd',
+      109 => 'shp',
+      110 => 'sll',
+      111 => 'sos',
+      112 => 'srd',
+      113 => 'std',
+      114 => 'szl',
+      115 => 'thb',
+      116 => 'tjs',
+      117 => 'top',
+      118 => 'try',
+      119 => 'ttd',
+      120 => 'twd',
+      121 => 'tzs',
+      122 => 'uah',
+      123 => 'ugx',
+      124 => 'uyu',
+      125 => 'uzs',
+      126 => 'vnd',
+      127 => 'vuv',
+      128 => 'wst',
+      129 => 'xaf',
+      130 => 'xcd',
+      131 => 'xof',
+      132 => 'xpf',
+      133 => 'yer',
+      134 => 'zar',
+      135 => 'zmw',
+    ),
+  ),
+  'country' => '(redacted)',
+  'instant_deposits_eligible' => false,
+  'card_present_eligible' => true,
+  'business_profile' => 
+  array (
+    'name' => '(redacted)',
+    'url' => 'https://store.blackbear.io',
+    'support_address' => 
+    array (
+    ),
+    'support_email' => NULL,
+    'support_phone' => NULL,
+  ),
+  'branding' => 
+  array (
+    'icon' => NULL,
+    'logo' => NULL,
+    'primary_color' => NULL,
+    'secondary_color' => NULL,
+  ),
+)
+2022-02-17T01:44:36+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/currency/rates?test_mode=1&currency_from=USD
+2022-02-17T01:44:36+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/3.6.1',
+)
+2022-02-17T01:44:36+00:00 INFO RESPONSE: array (
+  'AED' => 3.6731,
+  'AFN' => 91.512397,
+  'ALL' => 106.730058,
+  'AMD' => 480.428146,
+  'ANG' => 1.80268,
+  'AOA' => 515.041,
+  'ARS' => 106.524983,
+  'AUD' => 1.390412,
+  'AWG' => 1.80025,
+  'AZN' => 1.7,
+  'BAM' => 1.718278,
+  'BBD' => 2,
+  'BDT' => 85.994642,
+  'BGN' => 1.718377,
+  'BHD' => 0.377018,
+  'BIF' => 2006.346149,
+  'BMD' => 1,
+  'BND' => 1.344475,
+  'BOB' => 6.876609,
+  'BRL' => 5.1373,
+  'BSD' => 1,
+  'BTC' => 2.3E-5,
+  'BTN' => 75.379117,
+  'BWP' => 11.49027,
+  'BYN' => 2.55682,
+  'BZD' => 2.016165,
+  'CAD' => 1.269669,
+  'CDF' => 2009.032417,
+  'CHF' => 0.921917,
+  'CLF' => 0.028922,
+  'CLP' => 801.180323,
+  'CNH' => 6.332775,
+  'CNY' => 6.3371,
+  'COP' => 3955.24603,
+  'CRC' => 639.446762,
+  'CUC' => 1,
+  'CUP' => 25.75,
+  'CVE' => 97.4,
+  'CZK' => 21.4135,
+  'DJF' => 178.087861,
+  'DKK' => 6.542259,
+  'DOP' => 56.83,
+  'DZD' => 140.495412,
+  'EGP' => 15.7111,
+  'ERN' => 15.00001,
+  'ETB' => 50.671249,
+  'EUR' => 0.87928,
+  'FJD' => 2.1336,
+  'FKP' => 0.736304,
+  'GBP' => 0.736304,
+  'GEL' => 2.99,
+  'GGP' => 0.736304,
+  'GHS' => 6.441436,
+  'GIP' => 0.736304,
+  'GMD' => 53.125,
+  'GNF' => 9001.284208,
+  'GTQ' => 7.69172,
+  'GYD' => 209.250995,
+  'HKD' => 7.800555,
+  'HNL' => 24.59728,
+  'HRK' => 6.6211,
+  'HTG' => 103.3613,
+  'HUF' => 312.068859,
+  'IDR' => 14278.880727,
+  'ILS' => 3.19012,
+  'IMP' => 0.736304,
+  'INR' => 74.9609,
+  'IQD' => 1460.326226,
+  'IRR' => 42250,
+  'ISK' => 124.52,
+  'JEP' => 0.736304,
+  'JMD' => 157.240539,
+  'JOD' => 0.709,
+  'JPY' => 115.39375,
+  'KES' => 113.669492,
+  'KGS' => 84.797752,
+  'KHR' => 4068.584844,
+  'KMF' => 432.850307,
+  'KPW' => 900,
+  'KRW' => 1196.760008,
+  'KWD' => 0.302599,
+  'KYD' => 0.83356,
+  'KZT' => 428.11395,
+  'LAK' => 11437.301713,
+  'LBP' => 1509.017414,
+  'LKR' => 202.287376,
+  'LRD' => 154,
+  'LSL' => 15.07595,
+  'LYD' => 4.591338,
+  'MAD' => 9.362053,
+  'MDL' => 17.823812,
+  'MGA' => 3982.46112,
+  'MKD' => 54.162983,
+  'MMK' => 1778.730496,
+  'MNT' => 2865.605582,
+  'MOP' => 8.037678,
+  'MUR' => 43.9,
+  'MVR' => 15.45,
+  'MWK' => 803.489941,
+  'MXN' => 20.297142,
+  'MYR' => 4.18526,
+  'MZN' => 63.842,
+  'NAD' => 15.14,
+  'NGN' => 416.015791,
+  'NIO' => 35.499926,
+  'NOK' => 8.902804,
+  'NPR' => 120.60782,
+  'NZD' => 1.497085,
+  'OMR' => 0.385011,
+  'PAB' => 1,
+  'PEN' => 3.791075,
+  'PGK' => 3.513946,
+  'PHP' => 51.400003,
+  'PKR' => 176.120465,
+  'PLN' => 3.960762,
+  'PYG' => 6956.046658,
+  'QAR' => 3.641,
+  'RON' => 4.3451,
+  'RSD' => 103.38,
+  'RUB' => 75.0695,
+  'RWF' => 1031.595204,
+  'SAR' => 3.752351,
+  'SBD' => 8.080841,
+  'SCR' => 13.620273,
+  'SDG' => 444,
+  'SEK' => 9.282468,
+  'SGD' => 1.343102,
+  'SHP' => 0.736304,
+  'SLL' => 11438.750022,
+  'SOS' => 580.764634,
+  'SRD' => 20.7315,
+  'SSP' => 130.26,
+  'STD' => 21146.190504,
+  'SVC' => 8.752032,
+  'SYP' => 2512,
+  'SZL' => 15.100674,
+  'THB' => 32.284,
+  'TJS' => 11.299244,
+  'TMT' => 3.51,
+  'TND' => 2.872502,
+  'TOP' => 2.254145,
+  'TRY' => 13.596197,
+  'TTD' => 6.792708,
+  'TWD' => 27.824201,
+  'TZS' => 2315,
+  'UAH' => 28.106391,
+  'UGX' => 3518.803368,
+  'USD' => 1,
+  'UYU' => 43.090708,
+  'UZS' => 10844.780638,
+  'VND' => 22753.129733,
+  'VUV' => 113.920207,
+  'WST' => 2.622912,
+  'XAF' => 576.769856,
+  'XAG' => 0.042399,
+  'XAU' => 0.000535,
+  'XCD' => 2.70255,
+  'XDR' => 0.713002,
+  'XOF' => 576.769856,
+  'XPD' => 0.000438,
+  'XPF' => 104.926012,
+  'XPT' => 0.000944,
+  'YER' => 250.249937,
+  'ZAR' => 15.016491,
+  'ZMW' => 17.929101,
+  'ZWL' => 322,
+)
+2022-02-17T01:44:36+00:00 DEBUG Saved currencies fetched from the server to the cache. Expiry: 2022-02-17 07:44:36
+2022-02-17T03:51:20+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/accounts?test_mode=0
+2022-02-17T03:51:20+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/3.6.1',
+)
+2022-02-17T03:51:22+00:00 INFO RESPONSE: array (
+  'account_id' => 'acct_1KN0mD2EExDbvmHH',
+  'email' => '(redacted)',
+  'live_publishable_key' => 'pk_live_iBIpeqzKOOx2Y8PFCRBfyMU000Q7xVG4Sn',
+  'test_publishable_key' => 'pk_test_51ETDmyFuiXB5oUVxwSobQMW5Tno1GclIq7ePZWzLeW4q8oa7Zb8hI5VfwI5sNT5nXuKYinLukNvGCXmsQXAoDGHG00MqHqlYHR',
+  'is_live' => true,
+  'has_pending_requirements' => false,
+  'has_overdue_requirements' => false,
+  'current_deadline' => NULL,
+  'status' => 'complete',
+  'capabilities' => 
+  array (
+    'bancontact_payments' => 'active',
+    'card_payments' => 'active',
+    'eps_payments' => 'active',
+    'giropay_payments' => 'active',
+    'ideal_payments' => 'active',
+    'p24_payments' => 'active',
+    'sepa_debit_payments' => 'active',
+    'sofort_payments' => 'active',
+    'tax_reporting_us_1099_k' => 'active',
+    'transfers' => 'active',
+    'acss_debit_payments' => 'unrequested',
+    'afterpay_clearpay_payments' => 'unrequested',
+    'klarna' => 'unrequested',
+    'link_payments' => 'unrequested',
+    'tax_reporting_us_1099_misc' => 'unrequested',
+    'us_bank_account_ach_payments' => 'unrequested',
+  ),
+  'capability_requirements' => 
+  array (
+    'acss_debit_payments' => 
+    array (
+    ),
+    'afterpay_clearpay_payments' => 
+    array (
+      0 => 'business_profile.support_phone',
+    ),
+    'bancontact_payments' => 
+    array (
+    ),
+    'card_payments' => 
+    array (
+    ),
+    'eps_payments' => 
+    array (
+    ),
+    'giropay_payments' => 
+    array (
+    ),
+    'ideal_payments' => 
+    array (
+    ),
+    'klarna' => 
+    array (
+    ),
+    'link_payments' => 
+    array (
+    ),
+    'p24_payments' => 
+    array (
+    ),
+    'sepa_debit_payments' => 
+    array (
+    ),
+    'sofort_payments' => 
+    array (
+    ),
+    'tax_reporting_us_1099_k' => 
+    array (
+    ),
+    'tax_reporting_us_1099_misc' => 
+    array (
+    ),
+    'transfers' => 
+    array (
+    ),
+    'us_bank_account_ach_payments' => 
+    array (
+    ),
+  ),
+  'payments_enabled' => true,
+  'deposits_status' => 'daily',
+  'statement_descriptor' => 'STORE.BLACKBEAR.IO',
+  'latest_tos_agreement' => 
+  array (
+    'date' => '2022-01-28 20:10:35',
+    'source' => 'signup',
+    'is_current_version' => true,
+  ),
+  'fees' => 
+  array (
+    'base' => 
+    array (
+      'percentage_rate' => 0.029,
+      'fixed_rate' => 30,
+      'currency' => 'usd',
+    ),
+    'discount' => 
+    array (
+    ),
+    'bancontact' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.014,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'card' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.029,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'card_present' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.026,
+        'fixed_rate' => 10,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'eps' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.018,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'ideal' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0,
+        'fixed_rate' => 80,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'giropay' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.014,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'p24' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.022,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'sofort' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.014,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'sepa_debit' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.008,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+        'fee_cap' => 600,
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+  ),
+  'capital' => 
+  array (
+    'has_active_loan' => false,
+    'has_previous_loans' => false,
+    'loans' => 
+    array (
+    ),
+  ),
+  'fraud_services' => 
+  array (
+    'stripe' => 
+    array (
+    ),
+    'sift' => 
+    array (
+      'beacon_key' => 'affbdadb36',
+      'sandbox_beacon_key' => '6ad0ad748b',
+    ),
+  ),
+  'store_currencies' => 
+  array (
+    'default' => 'usd',
+    'supported' => 
+    array (
+      0 => 'usd',
+    ),
+  ),
+  'customer_currencies' => 
+  array (
+    'supported' => 
+    array (
+      0 => 'usd',
+      1 => 'aed',
+      2 => 'afn',
+      3 => 'all',
+      4 => 'amd',
+      5 => 'ang',
+      6 => 'aoa',
+      7 => 'ars',
+      8 => 'aud',
+      9 => 'awg',
+      10 => 'azn',
+      11 => 'bam',
+      12 => 'bbd',
+      13 => 'bdt',
+      14 => 'bgn',
+      15 => 'bif',
+      16 => 'bmd',
+      17 => 'bnd',
+      18 => 'bob',
+      19 => 'brl',
+      20 => 'bsd',
+      21 => 'bwp',
+      22 => 'byn',
+      23 => 'bzd',
+      24 => 'cad',
+      25 => 'cdf',
+      26 => 'chf',
+      27 => 'clp',
+      28 => 'cny',
+      29 => 'cop',
+      30 => 'crc',
+      31 => 'cve',
+      32 => 'czk',
+      33 => 'djf',
+      34 => 'dkk',
+      35 => 'dop',
+      36 => 'dzd',
+      37 => 'egp',
+      38 => 'etb',
+      39 => 'eur',
+      40 => 'fjd',
+      41 => 'fkp',
+      42 => 'gbp',
+      43 => 'gel',
+      44 => 'gip',
+      45 => 'gmd',
+      46 => 'gnf',
+      47 => 'gtq',
+      48 => 'gyd',
+      49 => 'hkd',
+      50 => 'hnl',
+      51 => 'hrk',
+      52 => 'htg',
+      53 => 'huf',
+      54 => 'idr',
+      55 => 'ils',
+      56 => 'inr',
+      57 => 'isk',
+      58 => 'jmd',
+      59 => 'jpy',
+      60 => 'kes',
+      61 => 'kgs',
+      62 => 'khr',
+      63 => 'kmf',
+      64 => 'krw',
+      65 => 'kyd',
+      66 => 'kzt',
+      67 => 'lak',
+      68 => 'lbp',
+      69 => 'lkr',
+      70 => 'lrd',
+      71 => 'lsl',
+      72 => 'mad',
+      73 => 'mdl',
+      74 => 'mga',
+      75 => 'mkd',
+      76 => 'mmk',
+      77 => 'mnt',
+      78 => 'mop',
+      79 => 'mro',
+      80 => 'mur',
+      81 => 'mvr',
+      82 => 'mwk',
+      83 => 'mxn',
+      84 => 'myr',
+      85 => 'mzn',
+      86 => 'nad',
+      87 => 'ngn',
+      88 => 'nio',
+      89 => 'nok',
+      90 => 'npr',
+      91 => 'nzd',
+      92 => 'pab',
+      93 => 'pen',
+      94 => 'pgk',
+      95 => 'php',
+      96 => 'pkr',
+      97 => 'pln',
+      98 => 'pyg',
+      99 => 'qar',
+      100 => 'ron',
+      101 => 'rsd',
+      102 => 'rub',
+      103 => 'rwf',
+      104 => 'sar',
+      105 => 'sbd',
+      106 => 'scr',
+      107 => 'sek',
+      108 => 'sgd',
+      109 => 'shp',
+      110 => 'sll',
+      111 => 'sos',
+      112 => 'srd',
+      113 => 'std',
+      114 => 'szl',
+      115 => 'thb',
+      116 => 'tjs',
+      117 => 'top',
+      118 => 'try',
+      119 => 'ttd',
+      120 => 'twd',
+      121 => 'tzs',
+      122 => 'uah',
+      123 => 'ugx',
+      124 => 'uyu',
+      125 => 'uzs',
+      126 => 'vnd',
+      127 => 'vuv',
+      128 => 'wst',
+      129 => 'xaf',
+      130 => 'xcd',
+      131 => 'xof',
+      132 => 'xpf',
+      133 => 'yer',
+      134 => 'zar',
+      135 => 'zmw',
+    ),
+  ),
+  'country' => '(redacted)',
+  'instant_deposits_eligible' => false,
+  'card_present_eligible' => true,
+  'business_profile' => 
+  array (
+    'name' => '(redacted)',
+    'url' => 'https://store.blackbear.io',
+    'support_address' => 
+    array (
+    ),
+    'support_email' => NULL,
+    'support_phone' => NULL,
+  ),
+  'branding' => 
+  array (
+    'icon' => NULL,
+    'logo' => NULL,
+    'primary_color' => NULL,
+    'secondary_color' => NULL,
+  ),
+)
+2022-02-17T04:01:55+00:00 INFO REQUEST POST https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/customers
+2022-02-17T04:01:55+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/3.6.1',
+  'Idempotency-Key' => 'ac18c896-94e1-47e1-9100-2b83de771f41',
+)
+2022-02-17T04:01:55+00:00 INFO BODY: array (
+  'test_mode' => true,
+  'name' => '(redacted)',
+  'description' => 'Name: jeff frazier, Guest',
+  'email' => '(redacted)',
+  'phone' => '(redacted)',
+  'address' => 
+  array (
+    'line1' => '(redacted)',
+    'line2' => '(redacted)',
+    'postal_code' => '(redacted)',
+    'city' => '(redacted)',
+    'state' => '(redacted)',
+    'country' => '(redacted)',
+  ),
+  'session_id' => '202255454_db7ef69cb0b808b18acedd057df21c8f',
+)
+2022-02-17T04:01:55+00:00 INFO RESPONSE: array (
+  'id' => 'cus_LALtMPC9EZU9jZ',
+  'object' => 'customer',
+  'address' => 
+  array (
+    'city' => '(redacted)',
+    'country' => '(redacted)',
+    'line1' => '(redacted)',
+    'line2' => '(redacted)',
+    'postal_code' => '(redacted)',
+    'state' => '(redacted)',
+  ),
+  'balance' => 0,
+  'created' => 1645070515,
+  'currency' => NULL,
+  'default_source' => NULL,
+  'delinquent' => false,
+  'description' => 'Name: jeff frazier, Guest',
+  'discount' => NULL,
+  'email' => '(redacted)',
+  'invoice_prefix' => '1260EFE0',
+  'invoice_settings' => 
+  array (
+    'custom_fields' => NULL,
+    'default_payment_method' => NULL,
+    'footer' => NULL,
+  ),
+  'livemode' => false,
+  'metadata' => 'stdClass()',
+  'name' => '(redacted)',
+  'next_invoice_sequence' => 1,
+  'phone' => '(redacted)',
+  'preferred_locales' => 
+  array (
+  ),
+  'shipping' => NULL,
+  'tax_exempt' => 'none',
+)
+2022-02-17T04:01:55+00:00 INFO REQUEST POST https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/intentions
+2022-02-17T04:01:55+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/3.6.1',
+  'Idempotency-Key' => 'b9b13af9-f905-49f1-a93a-d644835dfb6c',
+)
+2022-02-17T04:01:55+00:00 INFO BODY: array (
+  'test_mode' => true,
+  'amount' => 2675,
+  'currency' => 'usd',
+  'confirm' => 'true',
+  'payment_method' => 'pm_1KU1Bi2EExDbvmHHCtg85n6b',
+  'customer' => 'cus_LALtMPC9EZU9jZ',
+  'capture_method' => 'automatic',
+  'metadata' => 
+  array (
+    'customer_name' => '(redacted)',
+    'customer_email' => '(redacted)',
+    'site_url' => 'https://store.blackbear.io',
+    'order_id' => 28,
+    'order_key' => 'wc_order_ZFRDAUyeO0mOV',
+    'payment_type' => 'WCPay\\Constants\\Payment_Type()',
+  ),
+  'level3' => 
+  array (
+    'merchant_reference' => '28',
+    'customer_reference' => '28',
+    'shipping_amount' => 0,
+    'line_items' => 
+    array (
+      0 => 'stdClass()',
+    ),
+    'shipping_from_zip' => '28742',
+  ),
+  'description' => 'Online Payment for Order #28 for store.blackbear.io blog_id 202255454',
+  'payment_method_types' => 
+  array (
+    0 => 'card',
+  ),
+)
+2022-02-17T04:01:58+00:00 INFO RESPONSE: array (
+  'id' => 'pi_3KU1Bo2EExDbvmHH14CYtTtG',
+  'object' => 'payment_intent',
+  'amount' => 2675,
+  'amount_capturable' => 0,
+  'amount_received' => 2675,
+  'amount_subtotal' => 2675,
+  'application' => 'ca_Ex84e31yMTLaNU5ozQvi5woLclpIDVpX',
+  'application_fee_amount' => 108,
+  'automatic_payment_methods' => NULL,
+  'canceled_at' => NULL,
+  'cancellation_reason' => NULL,
+  'capture_method' => 'automatic',
+  'charges' => 
+  array (
+    'object' => 'list',
+    'data' => 
+    array (
+      0 => 
+      array (
+        'id' => 'ch_3KU1Bo2EExDbvmHH1dqxTMWL',
+        'object' => 'charge',
+        'amount' => 2675,
+        'amount_captured' => 2675,
+        'amount_refunded' => 0,
+        'application' => 'ca_Ex84e31yMTLaNU5ozQvi5woLclpIDVpX',
+        'application_fee' => 'fee_1KU1Bp2EExDbvmHHOae91nom',
+        'application_fee_amount' => 108,
+        'balance_transaction' => 
+        array (
+          'id' => 'txn_3KU1Bo2EExDbvmHH160fzary',
+          'object' => 'balance_transaction',
+          'amount' => 2675,
+          'available_on' => 1645660800,
+          'created' => 1645070517,
+          'currency' => 'usd',
+          'description' => 'Online Payment for Order #28 for store.blackbear.io blog_id 202255454',
+          'exchange_rate' => NULL,
+          'fee' => 108,
+          'fee_details' => 
+          array (
+            0 => 
+            array (
+              'amount' => 108,
+              'application' => 'ca_Ex84e31yMTLaNU5ozQvi5woLclpIDVpX',
+              'currency' => 'usd',
+              'description' => 'WooCommerce Payments application fee',
+              'type' => 'application_fee',
+            ),
+          ),
+          'net' => 2567,
+          'reporting_category' => 'charge',
+          'source' => 'ch_3KU1Bo2EExDbvmHH1dqxTMWL',
+          'status' => 'pending',
+          'type' => 'charge',
+        ),
+        'billing_details' => 
+        array (
+          'address' => 
+          array (
+            'city' => '(redacted)',
+            'country' => '(redacted)',
+            'line1' => '(redacted)',
+            'line2' => '(redacted)',
+            'postal_code' => '(redacted)',
+            'state' => '(redacted)',
+          ),
+          'email' => '(redacted)',
+          'name' => '(redacted)',
+          'phone' => '(redacted)',
+        ),
+        'calculated_statement_descriptor' => 'STORE.BLACKBEAR.IO',
+        'captured' => true,
+        'created' => 1645070517,
+        'currency' => 'usd',
+        'customer' => 'cus_LALtMPC9EZU9jZ',
+        'description' => 'Online Payment for Order #28 for store.blackbear.io blog_id 202255454',
+        'destination' => NULL,
+        'dispute' => NULL,
+        'disputed' => false,
+        'failure_code' => NULL,
+        'failure_message' => NULL,
+        'fraud_details' => 
+        array (
+        ),
+        'invoice' => NULL,
+        'level3' => 
+        array (
+          'customer_reference' => '28',
+          'line_items' => 
+          array (
+            0 => 
+            array (
+              'discount_amount' => 0,
+              'product_code' => '10',
+              'product_description' => 'Day Pass',
+              'quantity' => 1,
+              'tax_amount' => 175,
+              'unit_cost' => 2500,
+            ),
+          ),
+          'merchant_reference' => '28',
+          'shipping_amount' => 0,
+          'shipping_from_zip' => '28742',
+        ),
+        'livemode' => false,
+        'metadata' => 
+        array (
+          'customer_name' => '(redacted)',
+          'customer_email' => '(redacted)',
+          'site_url' => 'https://store.blackbear.io',
+          'order_id' => '28',
+          'order_key' => 'wc_order_ZFRDAUyeO0mOV',
+          'payment_type' => 'single',
+        ),
+        'on_behalf_of' => NULL,
+        'order' => NULL,
+        'outcome' => 
+        array (
+          'network_status' => 'approved_by_network',
+          'reason' => NULL,
+          'risk_level' => 'normal',
+          'risk_score' => 64,
+          'seller_message' => 'Payment complete.',
+          'type' => 'authorized',
+        ),
+        'paid' => true,
+        'payment_intent' => 'pi_3KU1Bo2EExDbvmHH14CYtTtG',
+        'payment_method' => 'pm_1KU1Bi2EExDbvmHHCtg85n6b',
+        'payment_method_details' => 
+        array (
+          'card' => 
+          array (
+            'brand' => 'visa',
+            'checks' => 
+            array (
+              'address_line1_check' => 'pass',
+              'address_postal_code_check' => 'pass',
+              'cvc_check' => 'pass',
+            ),
+            'country' => '(redacted)',
+            'exp_month' => 4,
+            'exp_year' => 2024,
+            'fingerprint' => '0SEufZLr8JkcLcfi',
+            'funding' => 'credit',
+            'installments' => NULL,
+            'last4' => '4242',
+            'mandate' => NULL,
+            'network' => 'visa',
+            'three_d_secure' => NULL,
+            'wallet' => NULL,
+          ),
+          'type' => 'card',
+        ),
+        'receipt_email' => NULL,
+        'receipt_number' => NULL,
+        'receipt_url' => 'https://pay.stripe.com/receipts/acct_1KN0mD2EExDbvmHH/ch_3KU1Bo2EExDbvmHH1dqxTMWL/rcpt_LALtN8zEZ9H0nG1H7e8ieP780Xmebou',
+        'refunded' => false,
+        'refunds' => 
+        array (
+          'object' => 'list',
+          'data' => 
+          array (
+          ),
+          'has_more' => false,
+          'total_count' => 0,
+          'url' => '/v1/charges/ch_3KU1Bo2EExDbvmHH1dqxTMWL/refunds',
+        ),
+        'review' => NULL,
+        'shipping' => NULL,
+        'source' => NULL,
+        'source_transfer' => NULL,
+        'statement_descriptor' => NULL,
+        'statement_descriptor_suffix' => NULL,
+        'status' => 'succeeded',
+        'transfer_data' => NULL,
+        'transfer_group' => NULL,
+      ),
+    ),
+    'has_more' => false,
+    'total_count' => 1,
+    'url' => '/v1/charges?payment_intent=pi_3KU1Bo2EExDbvmHH14CYtTtG',
+  ),
+  'client_secret' => '(redacted)',
+  'confirmation_method' => 'automatic',
+  'created' => 1645070516,
+  'currency' => 'usd',
+  'customer' => 'cus_LALtMPC9EZU9jZ',
+  'description' => 'Online Payment for Order #28 for store.blackbear.io blog_id 202255454',
+  'invoice' => NULL,
+  'last_payment_error' => NULL,
+  'level3' => 
+  array (
+    'customer_reference' => '28',
+    'line_items' => 
+    array (
+      0 => 
+      array (
+        'discount_amount' => 0,
+        'product_code' => '10',
+        'product_description' => 'Day Pass',
+        'quantity' => 1,
+        'tax_amount' => 175,
+        'unit_cost' => 2500,
+      ),
+    ),
+    'merchant_reference' => '28',
+    'shipping_amount' => 0,
+    'shipping_from_zip' => '28742',
+  ),
+  'livemode' => false,
+  'metadata' => 
+  array (
+    'customer_name' => '(redacted)',
+    'customer_email' => '(redacted)',
+    'site_url' => 'https://store.blackbear.io',
+    'order_id' => '28',
+    'order_key' => 'wc_order_ZFRDAUyeO0mOV',
+    'payment_type' => 'single',
+  ),
+  'next_action' => NULL,
+  'on_behalf_of' => NULL,
+  'payment_method' => 'pm_1KU1Bi2EExDbvmHHCtg85n6b',
+  'payment_method_options' => 
+  array (
+    'card' => 
+    array (
+      'installments' => NULL,
+      'mandate_options' => NULL,
+      'network' => NULL,
+      'request_three_d_secure' => 'automatic',
+    ),
+  ),
+  'payment_method_types' => 
+  array (
+    0 => 'card',
+  ),
+  'processing' => NULL,
+  'receipt_email' => NULL,
+  'review' => NULL,
+  'setup_future_usage' => NULL,
+  'shipping' => NULL,
+  'source' => NULL,
+  'statement_descriptor' => NULL,
+  'statement_descriptor_suffix' => NULL,
+  'status' => 'succeeded',
+  'total_details' => 
+  array (
+    'amount_discount' => 0,
+    'amount_tax' => 0,
+  ),
+  'transfer_data' => NULL,
+  'transfer_group' => NULL,
+  'fee_history' => 
+  array (
+    0 => 
+    array (
+      'type' => 'base',
+      'percentage_rate' => 0.029,
+      'fixed_rate' => 30,
+      'currency' => 'usd',
+    ),
+  ),
+)
+2022-02-17T04:02:01+00:00 DEBUG Webhook recieved: payment_intent.succeeded
+2022-02-17T04:02:01+00:00 DEBUG Webhook body: array (
+  'id' => 'evt_3KU1Bo2EExDbvmHH1vcJsMJy',
+  'type' => 'payment_intent.succeeded',
+  'livemode' => false,
+  'account' => 'acct_1KN0mD2EExDbvmHH',
+  'data' => 
+  array (
+    'object' => 
+    array (
+      'id' => 'pi_3KU1Bo2EExDbvmHH14CYtTtG',
+      'object' => 'payment_intent',
+      'amount' => 2675,
+      'amount_capturable' => 0,
+      'amount_received' => 2675,
+      'application' => 'ca_Ex84e31yMTLaNU5ozQvi5woLclpIDVpX',
+      'application_fee_amount' => 108,
+      'automatic_payment_methods' => NULL,
+      'canceled_at' => NULL,
+      'cancellation_reason' => NULL,
+      'capture_method' => 'automatic',
+      'charges' => 
+      array (
+        'object' => 'list',
+        'data' => 
+        array (
+          0 => 
+          array (
+            'id' => 'ch_3KU1Bo2EExDbvmHH1dqxTMWL',
+            'object' => 'charge',
+            'amount' => 2675,
+            'amount_captured' => 2675,
+            'amount_refunded' => 0,
+            'application' => 'ca_Ex84e31yMTLaNU5ozQvi5woLclpIDVpX',
+            'application_fee' => 'fee_1KU1Bp2EExDbvmHHOae91nom',
+            'application_fee_amount' => 108,
+            'balance_transaction' => 'txn_3KU1Bo2EExDbvmHH160fzary',
+            'billing_details' => 
+            array (
+              'address' => 
+              array (
+                'city' => '(redacted)',
+                'country' => '(redacted)',
+                'line1' => '(redacted)',
+                'line2' => '(redacted)',
+                'postal_code' => '(redacted)',
+                'state' => '(redacted)',
+              ),
+              'email' => '(redacted)',
+              'name' => '(redacted)',
+              'phone' => '(redacted)',
+            ),
+            'calculated_statement_descriptor' => 'STORE.BLACKBEAR.IO',
+            'captured' => true,
+            'created' => 1645070517,
+            'currency' => 'usd',
+            'customer' => 'cus_LALtMPC9EZU9jZ',
+            'description' => 'Online Payment for Order #28 for store.blackbear.io blog_id 202255454',
+            'destination' => NULL,
+            'dispute' => NULL,
+            'disputed' => false,
+            'failure_code' => NULL,
+            'failure_message' => NULL,
+            'fraud_details' => 
+            array (
+            ),
+            'invoice' => NULL,
+            'livemode' => false,
+            'metadata' => 
+            array (
+              'customer_name' => '(redacted)',
+              'customer_email' => '(redacted)',
+              'site_url' => 'https://store.blackbear.io',
+              'order_id' => '28',
+              'order_key' => 'wc_order_ZFRDAUyeO0mOV',
+              'payment_type' => 'single',
+            ),
+            'on_behalf_of' => NULL,
+            'order' => NULL,
+            'outcome' => 
+            array (
+              'network_status' => 'approved_by_network',
+              'reason' => NULL,
+              'risk_level' => 'normal',
+              'risk_score' => 64,
+              'seller_message' => 'Payment complete.',
+              'type' => 'authorized',
+            ),
+            'paid' => true,
+            'payment_intent' => 'pi_3KU1Bo2EExDbvmHH14CYtTtG',
+            'payment_method' => 'pm_1KU1Bi2EExDbvmHHCtg85n6b',
+            'payment_method_details' => 
+            array (
+              'card' => 
+              array (
+                'brand' => 'visa',
+                'checks' => 
+                array (
+                  'address_line1_check' => 'pass',
+                  'address_postal_code_check' => 'pass',
+                  'cvc_check' => 'pass',
+                ),
+                'country' => '(redacted)',
+                'exp_month' => 4,
+                'exp_year' => 2024,
+                'fingerprint' => '0SEufZLr8JkcLcfi',
+                'funding' => 'credit',
+                'installments' => NULL,
+                'last4' => '4242',
+                'network' => 'visa',
+                'three_d_secure' => NULL,
+                'wallet' => NULL,
+              ),
+              'type' => 'card',
+            ),
+            'receipt_email' => NULL,
+            'receipt_number' => NULL,
+            'receipt_url' => 'https://pay.stripe.com/receipts/acct_1KN0mD2EExDbvmHH/ch_3KU1Bo2EExDbvmHH1dqxTMWL/rcpt_LALtN8zEZ9H0nG1H7e8ieP780Xmebou',
+            'refunded' => false,
+            'refunds' => 
+            array (
+              'object' => 'list',
+              'data' => 
+              array (
+              ),
+              'has_more' => false,
+              'total_count' => 0,
+              'url' => '/v1/charges/ch_3KU1Bo2EExDbvmHH1dqxTMWL/refunds',
+            ),
+            'review' => NULL,
+            'shipping' => NULL,
+            'source' => NULL,
+            'source_transfer' => NULL,
+            'statement_descriptor' => NULL,
+            'statement_descriptor_suffix' => NULL,
+            'status' => 'succeeded',
+            'transfer_data' => NULL,
+            'transfer_group' => NULL,
+            'level3' => 
+            array (
+              'customer_reference' => '28',
+              'line_items' => 
+              array (
+                0 => 
+                array (
+                  'discount_amount' => 0,
+                  'product_code' => '10',
+                  'product_description' => 'Day Pass',
+                  'quantity' => 1,
+                  'tax_amount' => 175,
+                  'unit_cost' => 2500,
+                ),
+              ),
+              'merchant_reference' => '28',
+              'shipping_amount' => 0,
+              'shipping_from_zip' => '28742',
+            ),
+          ),
+        ),
+        'has_more' => false,
+        'total_count' => 1,
+        'url' => '/v1/charges?payment_intent=pi_3KU1Bo2EExDbvmHH14CYtTtG',
+      ),
+      'client_secret' => '(redacted)',
+      'confirmation_method' => 'automatic',
+      'created' => 1645070516,
+      'currency' => 'usd',
+      'customer' => 'cus_LALtMPC9EZU9jZ',
+      'description' => 'Online Payment for Order #28 for store.blackbear.io blog_id 202255454',
+      'invoice' => NULL,
+      'last_payment_error' => NULL,
+      'livemode' => false,
+      'metadata' => 
+      array (
+        'customer_name' => '(redacted)',
+        'customer_email' => '(redacted)',
+        'site_url' => 'https://store.blackbear.io',
+        'order_id' => '28',
+        'order_key' => 'wc_order_ZFRDAUyeO0mOV',
+        'payment_type' => 'single',
+      ),
+      'next_action' => NULL,
+      'on_behalf_of' => NULL,
+      'payment_method' => 'pm_1KU1Bi2EExDbvmHHCtg85n6b',
+      'payment_method_options' => 
+      array (
+        'card' => 
+        array (
+          'installments' => NULL,
+          'network' => NULL,
+          'request_three_d_secure' => 'automatic',
+        ),
+      ),
+      'payment_method_types' => 
+      array (
+        0 => 'card',
+      ),
+      'processing' => NULL,
+      'receipt_email' => NULL,
+      'review' => NULL,
+      'setup_future_usage' => NULL,
+      'shipping' => NULL,
+      'source' => NULL,
+      'statement_descriptor' => NULL,
+      'statement_descriptor_suffix' => NULL,
+      'status' => 'succeeded',
+      'transfer_data' => NULL,
+      'transfer_group' => NULL,
+      'amount_subtotal' => 2675,
+      'level3' => 
+      array (
+        'customer_reference' => '28',
+        'line_items' => 
+        array (
+          0 => 
+          array (
+            'discount_amount' => 0,
+            'product_code' => '10',
+            'product_description' => 'Day Pass',
+            'quantity' => 1,
+            'tax_amount' => 175,
+            'unit_cost' => 2500,
+          ),
+        ),
+        'merchant_reference' => '28',
+        'shipping_amount' => 0,
+        'shipping_from_zip' => '28742',
+      ),
+      'total_details' => 
+      array (
+        'amount_discount' => 0,
+        'amount_tax' => 0,
+      ),
+    ),
+  ),
+)
+2022-02-17T04:11:22+00:00 INFO REQUEST POST https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/tracking/order
+2022-02-17T04:11:22+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/3.6.1',
+  'Idempotency-Key' => 'f1aafd07-484b-4d01-8f3f-5967fa0011f7',
+)
+2022-02-17T04:11:22+00:00 INFO BODY: array (
+  'test_mode' => true,
+  'order_data' => 
+  array (
+    'id' => 28,
+    'parent_id' => 0,
+    'status' => 'processing',
+    'currency' => 'USD',
+    'version' => '6.1.1',
+    'prices_include_tax' => false,
+    'date_created' => 'WC_DateTime()',
+    'date_modified' => 'WC_DateTime()',
+    'discount_total' => '0',
+    'discount_tax' => '0',
+    'shipping_total' => '0',
+    'shipping_tax' => '0',
+    'cart_tax' => '1.75',
+    'total' => '26.75',
+    'total_tax' => '1.75',
+    'customer_id' => 0,
+    'order_key' => 'wc_order_ZFRDAUyeO0mOV',
+    'billing' => 
+    array (
+      'first_name' => 'jeff',
+      'last_name' => 'frazier',
+      'company' => '',
+      'address_1' => '123 any st',
+      'address_2' => '',
+      'city' => '(redacted)',
+      'state' => '(redacted)',
+      'postcode' => '28805',
+      'country' => '(redacted)',
+      'email' => '(redacted)',
+      'phone' => '(redacted)',
+    ),
+    'shipping' => 
+    array (
+      'first_name' => '',
+      'last_name' => '',
+      'company' => '',
+      'address_1' => '',
+      'address_2' => '',
+      'city' => '(redacted)',
+      'state' => '(redacted)',
+      'postcode' => '',
+      'country' => '(redacted)',
+      'phone' => '(redacted)',
+    ),
+    'payment_method' => 'woocommerce_payments',
+    'payment_method_title' => 'Credit card / debit card',
+    'transaction_id' => 'pi_3KU1Bo2EExDbvmHH14CYtTtG',
+    'customer_ip_address' => '24.246.140.208',
+    'customer_user_agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148',
+    'created_via' => 'checkout',
+    'customer_note' => '',
+    'date_completed' => NULL,
+    'date_paid' => 'WC_DateTime()',
+    'cart_hash' => '0c3afbc1dfb46a7cd1bad4c6ed92fb35',
+    'number' => '28',
+    'meta_data' => 
+    array (
+      0 => 'WC_Meta_Data()',
+      1 => 'WC_Meta_Data()',
+      2 => 'WC_Meta_Data()',
+      3 => 'WC_Meta_Data()',
+      4 => 'WC_Meta_Data()',
+      5 => 'WC_Meta_Data()',
+      6 => 'WC_Meta_Data()',
+      7 => 'WC_Meta_Data()',
+    ),
+    'line_items' => 
+    array (
+      35 => 'WC_Order_Item_Product()',
+    ),
+    'tax_lines' => 
+    array (
+      36 => 'WC_Order_Item_Tax()',
+    ),
+    'shipping_lines' => 
+    array (
+    ),
+    'fee_lines' => 
+    array (
+    ),
+    'coupon_lines' => 
+    array (
+    ),
+    '_payment_method_id' => 'pm_1KU1Bi2EExDbvmHHCtg85n6b',
+    '_stripe_customer_id' => 'cus_LALtMPC9EZU9jZ',
+  ),
+  'update' => false,
+)
+2022-02-17T04:11:22+00:00 INFO RESPONSE: array (
+  'result' => 'error',
+)
+2022-02-17T07:39:17+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/accounts?test_mode=0
+2022-02-17T07:39:17+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/3.6.1',
+)
+2022-02-17T07:39:19+00:00 INFO RESPONSE: array (
+  'account_id' => 'acct_1KN0mD2EExDbvmHH',
+  'email' => '(redacted)',
+  'live_publishable_key' => 'pk_live_iBIpeqzKOOx2Y8PFCRBfyMU000Q7xVG4Sn',
+  'test_publishable_key' => 'pk_test_51ETDmyFuiXB5oUVxwSobQMW5Tno1GclIq7ePZWzLeW4q8oa7Zb8hI5VfwI5sNT5nXuKYinLukNvGCXmsQXAoDGHG00MqHqlYHR',
+  'is_live' => true,
+  'has_pending_requirements' => false,
+  'has_overdue_requirements' => false,
+  'current_deadline' => NULL,
+  'status' => 'complete',
+  'capabilities' => 
+  array (
+    'bancontact_payments' => 'active',
+    'card_payments' => 'active',
+    'eps_payments' => 'active',
+    'giropay_payments' => 'active',
+    'ideal_payments' => 'active',
+    'p24_payments' => 'active',
+    'sepa_debit_payments' => 'active',
+    'sofort_payments' => 'active',
+    'tax_reporting_us_1099_k' => 'active',
+    'transfers' => 'active',
+    'acss_debit_payments' => 'unrequested',
+    'afterpay_clearpay_payments' => 'unrequested',
+    'klarna' => 'unrequested',
+    'link_payments' => 'unrequested',
+    'tax_reporting_us_1099_misc' => 'unrequested',
+    'us_bank_account_ach_payments' => 'unrequested',
+  ),
+  'capability_requirements' => 
+  array (
+    'acss_debit_payments' => 
+    array (
+    ),
+    'afterpay_clearpay_payments' => 
+    array (
+      0 => 'business_profile.support_phone',
+    ),
+    'bancontact_payments' => 
+    array (
+    ),
+    'card_payments' => 
+    array (
+    ),
+    'eps_payments' => 
+    array (
+    ),
+    'giropay_payments' => 
+    array (
+    ),
+    'ideal_payments' => 
+    array (
+    ),
+    'klarna' => 
+    array (
+    ),
+    'link_payments' => 
+    array (
+    ),
+    'p24_payments' => 
+    array (
+    ),
+    'sepa_debit_payments' => 
+    array (
+    ),
+    'sofort_payments' => 
+    array (
+    ),
+    'tax_reporting_us_1099_k' => 
+    array (
+    ),
+    'tax_reporting_us_1099_misc' => 
+    array (
+    ),
+    'transfers' => 
+    array (
+    ),
+    'us_bank_account_ach_payments' => 
+    array (
+    ),
+  ),
+  'payments_enabled' => true,
+  'deposits_status' => 'daily',
+  'statement_descriptor' => 'STORE.BLACKBEAR.IO',
+  'latest_tos_agreement' => 
+  array (
+    'date' => '2022-01-28 20:10:35',
+    'source' => 'signup',
+    'is_current_version' => true,
+  ),
+  'fees' => 
+  array (
+    'base' => 
+    array (
+      'percentage_rate' => 0.029,
+      'fixed_rate' => 30,
+      'currency' => 'usd',
+    ),
+    'discount' => 
+    array (
+    ),
+    'bancontact' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.014,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'card' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.029,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'card_present' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.026,
+        'fixed_rate' => 10,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'eps' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.018,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'ideal' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0,
+        'fixed_rate' => 80,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'giropay' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.014,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'p24' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.022,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'sofort' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.014,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'sepa_debit' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.008,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+        'fee_cap' => 600,
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+  ),
+  'capital' => 
+  array (
+    'has_active_loan' => false,
+    'has_previous_loans' => false,
+    'loans' => 
+    array (
+    ),
+  ),
+  'fraud_services' => 
+  array (
+    'stripe' => 
+    array (
+    ),
+    'sift' => 
+    array (
+      'beacon_key' => 'affbdadb36',
+      'sandbox_beacon_key' => '6ad0ad748b',
+    ),
+  ),
+  'store_currencies' => 
+  array (
+    'default' => 'usd',
+    'supported' => 
+    array (
+      0 => 'usd',
+    ),
+  ),
+  'customer_currencies' => 
+  array (
+    'supported' => 
+    array (
+      0 => 'usd',
+      1 => 'aed',
+      2 => 'afn',
+      3 => 'all',
+      4 => 'amd',
+      5 => 'ang',
+      6 => 'aoa',
+      7 => 'ars',
+      8 => 'aud',
+      9 => 'awg',
+      10 => 'azn',
+      11 => 'bam',
+      12 => 'bbd',
+      13 => 'bdt',
+      14 => 'bgn',
+      15 => 'bif',
+      16 => 'bmd',
+      17 => 'bnd',
+      18 => 'bob',
+      19 => 'brl',
+      20 => 'bsd',
+      21 => 'bwp',
+      22 => 'byn',
+      23 => 'bzd',
+      24 => 'cad',
+      25 => 'cdf',
+      26 => 'chf',
+      27 => 'clp',
+      28 => 'cny',
+      29 => 'cop',
+      30 => 'crc',
+      31 => 'cve',
+      32 => 'czk',
+      33 => 'djf',
+      34 => 'dkk',
+      35 => 'dop',
+      36 => 'dzd',
+      37 => 'egp',
+      38 => 'etb',
+      39 => 'eur',
+      40 => 'fjd',
+      41 => 'fkp',
+      42 => 'gbp',
+      43 => 'gel',
+      44 => 'gip',
+      45 => 'gmd',
+      46 => 'gnf',
+      47 => 'gtq',
+      48 => 'gyd',
+      49 => 'hkd',
+      50 => 'hnl',
+      51 => 'hrk',
+      52 => 'htg',
+      53 => 'huf',
+      54 => 'idr',
+      55 => 'ils',
+      56 => 'inr',
+      57 => 'isk',
+      58 => 'jmd',
+      59 => 'jpy',
+      60 => 'kes',
+      61 => 'kgs',
+      62 => 'khr',
+      63 => 'kmf',
+      64 => 'krw',
+      65 => 'kyd',
+      66 => 'kzt',
+      67 => 'lak',
+      68 => 'lbp',
+      69 => 'lkr',
+      70 => 'lrd',
+      71 => 'lsl',
+      72 => 'mad',
+      73 => 'mdl',
+      74 => 'mga',
+      75 => 'mkd',
+      76 => 'mmk',
+      77 => 'mnt',
+      78 => 'mop',
+      79 => 'mro',
+      80 => 'mur',
+      81 => 'mvr',
+      82 => 'mwk',
+      83 => 'mxn',
+      84 => 'myr',
+      85 => 'mzn',
+      86 => 'nad',
+      87 => 'ngn',
+      88 => 'nio',
+      89 => 'nok',
+      90 => 'npr',
+      91 => 'nzd',
+      92 => 'pab',
+      93 => 'pen',
+      94 => 'pgk',
+      95 => 'php',
+      96 => 'pkr',
+      97 => 'pln',
+      98 => 'pyg',
+      99 => 'qar',
+      100 => 'ron',
+      101 => 'rsd',
+      102 => 'rub',
+      103 => 'rwf',
+      104 => 'sar',
+      105 => 'sbd',
+      106 => 'scr',
+      107 => 'sek',
+      108 => 'sgd',
+      109 => 'shp',
+      110 => 'sll',
+      111 => 'sos',
+      112 => 'srd',
+      113 => 'std',
+      114 => 'szl',
+      115 => 'thb',
+      116 => 'tjs',
+      117 => 'top',
+      118 => 'try',
+      119 => 'ttd',
+      120 => 'twd',
+      121 => 'tzs',
+      122 => 'uah',
+      123 => 'ugx',
+      124 => 'uyu',
+      125 => 'uzs',
+      126 => 'vnd',
+      127 => 'vuv',
+      128 => 'wst',
+      129 => 'xaf',
+      130 => 'xcd',
+      131 => 'xof',
+      132 => 'xpf',
+      133 => 'yer',
+      134 => 'zar',
+      135 => 'zmw',
+    ),
+  ),
+  'country' => '(redacted)',
+  'instant_deposits_eligible' => false,
+  'card_present_eligible' => true,
+  'business_profile' => 
+  array (
+    'name' => '(redacted)',
+    'url' => 'https://store.blackbear.io',
+    'support_address' => 
+    array (
+    ),
+    'support_email' => NULL,
+    'support_phone' => NULL,
+  ),
+  'branding' => 
+  array (
+    'icon' => NULL,
+    'logo' => NULL,
+    'primary_color' => NULL,
+    'secondary_color' => NULL,
+  ),
+)
+2022-02-17T07:46:40+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/currency/rates?test_mode=1&currency_from=USD
+2022-02-17T07:46:40+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/3.6.1',
+)
+2022-02-17T07:46:40+00:00 INFO RESPONSE: array (
+  'AED' => 3.67305,
+  'AFN' => 91.601981,
+  'ALL' => 106.694771,
+  'AMD' => 480.387389,
+  'ANG' => 1.802759,
+  'AOA' => 515.041,
+  'ARS' => 106.529279,
+  'AUD' => 1.391527,
+  'AWG' => 1.80025,
+  'AZN' => 1.7,
+  'BAM' => 1.718376,
+  'BBD' => 2,
+  'BDT' => 85.999556,
+  'BGN' => 1.723785,
+  'BHD' => 0.376973,
+  'BIF' => 1998.963378,
+  'BMD' => 1,
+  'BND' => 1.344257,
+  'BOB' => 6.877002,
+  'BRL' => 5.1372,
+  'BSD' => 1,
+  'BTC' => 2.3E-5,
+  'BTN' => 74.98786,
+  'BWP' => 11.490775,
+  'BYN' => 2.556955,
+  'BZD' => 2.016254,
+  'CAD' => 1.27042,
+  'CDF' => 2002.864216,
+  'CHF' => 0.921332,
+  'CLF' => 0.028922,
+  'CLP' => 798.05,
+  'CNH' => 6.333506,
+  'CNY' => 6.336,
+  'COP' => 3960.806393,
+  'CRC' => 639.475125,
+  'CUC' => 1,
+  'CUP' => 25.75,
+  'CVE' => 97.4,
+  'CZK' => 21.462499,
+  'DJF' => 178.070696,
+  'DKK' => 6.55159,
+  'DOP' => 56.765066,
+  'DZD' => 140.526809,
+  'EGP' => 15.7133,
+  'ERN' => 15.00001,
+  'ETB' => 50.763833,
+  'EUR' => 0.880548,
+  'FJD' => 2.1336,
+  'FKP' => 0.736201,
+  'GBP' => 0.736201,
+  'GEL' => 2.99,
+  'GGP' => 0.736201,
+  'GHS' => 6.401859,
+  'GIP' => 0.736201,
+  'GMD' => 53.125,
+  'GNF' => 9001.568968,
+  'GTQ' => 7.692159,
+  'GYD' => 209.262974,
+  'HKD' => 7.80075,
+  'HNL' => 24.627481,
+  'HRK' => 6.631,
+  'HTG' => 103.3613,
+  'HUF' => 312.73,
+  'IDR' => 14315.18557,
+  'ILS' => 3.19012,
+  'IMP' => 0.736201,
+  'INR' => 75.095112,
+  'IQD' => 1459.9424,
+  'IRR' => 42250,
+  'ISK' => 124.68,
+  'JEP' => 0.736201,
+  'JMD' => 157.247388,
+  'JOD' => 0.709,
+  'JPY' => 115.235325,
+  'KES' => 113.65,
+  'KGS' => 84.797752,
+  'KHR' => 4067.919951,
+  'KMF' => 432.850307,
+  'KPW' => 900,
+  'KRW' => 1197.734258,
+  'KWD' => 0.302459,
+  'KYD' => 0.833608,
+  'KZT' => 428.076349,
+  'LAK' => 11447.727172,
+  'LBP' => 1512.049199,
+  'LKR' => 202.267884,
+  'LRD' => 154,
+  'LSL' => 15.076745,
+  'LYD' => 4.595766,
+  'MAD' => 9.360956,
+  'MDL' => 17.955008,
+  'MGA' => 3982.615528,
+  'MKD' => 54.134428,
+  'MMK' => 1778.529823,
+  'MNT' => 2865.605582,
+  'MOP' => 8.036831,
+  'MUR' => 43.480002,
+  'MVR' => 15.45,
+  'MWK' => 803.518668,
+  'MXN' => 20.293581,
+  'MYR' => 4.1875,
+  'MZN' => 63.842,
+  'NAD' => 15.14,
+  'NGN' => 416.12,
+  'NIO' => 35.46321,
+  'NOK' => 8.901614,
+  'NPR' => 119.992454,
+  'NZD' => 1.495871,
+  'OMR' => 0.384976,
+  'PAB' => 1,
+  'PEN' => 3.801842,
+  'PGK' => 3.512858,
+  'PHP' => 51.305498,
+  'PKR' => 176.348021,
+  'PLN' => 3.974872,
+  'PYG' => 6956.441443,
+  'QAR' => 3.641,
+  'RON' => 4.3518,
+  'RSD' => 103.54,
+  'RUB' => 75.701625,
+  'RWF' => 1040.038923,
+  'SAR' => 3.752411,
+  'SBD' => 8.080841,
+  'SCR' => 13.666024,
+  'SDG' => 444,
+  'SEK' => 9.30935,
+  'SGD' => 1.344148,
+  'SHP' => 0.736201,
+  'SLL' => 11438.750022,
+  'SOS' => 578.632862,
+  'SRD' => 20.7315,
+  'SSP' => 130.26,
+  'STD' => 21146.190504,
+  'SVC' => 8.752531,
+  'SYP' => 2512,
+  'SZL' => 15.075119,
+  'THB' => 32.255,
+  'TJS' => 11.298251,
+  'TMT' => 3.51,
+  'TND' => 2.872502,
+  'TOP' => 2.254145,
+  'TRY' => 13.5812,
+  'TTD' => 6.793096,
+  'TWD' => 27.8795,
+  'TZS' => 2313,
+  'UAH' => 28.107627,
+  'UGX' => 3519.027685,
+  'USD' => 1,
+  'UYU' => 43.090708,
+  'UZS' => 10840.226655,
+  'VND' => 22784.234493,
+  'VUV' => 113.920207,
+  'WST' => 2.622912,
+  'XAF' => 577.601904,
+  'XAG' => 0.042553,
+  'XAU' => 0.000533,
+  'XCD' => 2.70255,
+  'XDR' => 0.713002,
+  'XOF' => 577.601904,
+  'XPD' => 0.000432,
+  'XPF' => 105.077378,
+  'XPT' => 0.000938,
+  'YER' => 250.249937,
+  'ZAR' => 15.012892,
+  'ZMW' => 17.92989,
+  'ZWL' => 322,
+)
+2022-02-17T07:46:40+00:00 DEBUG Saved currencies fetched from the server to the cache. Expiry: 2022-02-17 13:46:40
+2022-02-17T15:19:24+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/accounts?test_mode=0
+2022-02-17T15:19:24+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/3.6.1',
+)
+2022-02-17T15:19:26+00:00 INFO RESPONSE: array (
+  'account_id' => 'acct_1KN0mD2EExDbvmHH',
+  'email' => '(redacted)',
+  'live_publishable_key' => 'pk_live_iBIpeqzKOOx2Y8PFCRBfyMU000Q7xVG4Sn',
+  'test_publishable_key' => 'pk_test_51ETDmyFuiXB5oUVxwSobQMW5Tno1GclIq7ePZWzLeW4q8oa7Zb8hI5VfwI5sNT5nXuKYinLukNvGCXmsQXAoDGHG00MqHqlYHR',
+  'is_live' => true,
+  'has_pending_requirements' => false,
+  'has_overdue_requirements' => false,
+  'current_deadline' => NULL,
+  'status' => 'complete',
+  'capabilities' => 
+  array (
+    'bancontact_payments' => 'active',
+    'card_payments' => 'active',
+    'eps_payments' => 'active',
+    'giropay_payments' => 'active',
+    'ideal_payments' => 'active',
+    'p24_payments' => 'active',
+    'sepa_debit_payments' => 'active',
+    'sofort_payments' => 'active',
+    'tax_reporting_us_1099_k' => 'active',
+    'transfers' => 'active',
+    'acss_debit_payments' => 'unrequested',
+    'afterpay_clearpay_payments' => 'unrequested',
+    'klarna' => 'unrequested',
+    'link_payments' => 'unrequested',
+    'tax_reporting_us_1099_misc' => 'unrequested',
+    'us_bank_account_ach_payments' => 'unrequested',
+  ),
+  'capability_requirements' => 
+  array (
+    'acss_debit_payments' => 
+    array (
+    ),
+    'afterpay_clearpay_payments' => 
+    array (
+      0 => 'business_profile.support_phone',
+    ),
+    'bancontact_payments' => 
+    array (
+    ),
+    'card_payments' => 
+    array (
+    ),
+    'eps_payments' => 
+    array (
+    ),
+    'giropay_payments' => 
+    array (
+    ),
+    'ideal_payments' => 
+    array (
+    ),
+    'klarna' => 
+    array (
+    ),
+    'link_payments' => 
+    array (
+    ),
+    'p24_payments' => 
+    array (
+    ),
+    'sepa_debit_payments' => 
+    array (
+    ),
+    'sofort_payments' => 
+    array (
+    ),
+    'tax_reporting_us_1099_k' => 
+    array (
+    ),
+    'tax_reporting_us_1099_misc' => 
+    array (
+    ),
+    'transfers' => 
+    array (
+    ),
+    'us_bank_account_ach_payments' => 
+    array (
+    ),
+  ),
+  'payments_enabled' => true,
+  'deposits_status' => 'daily',
+  'statement_descriptor' => 'STORE.BLACKBEAR.IO',
+  'latest_tos_agreement' => 
+  array (
+    'date' => '2022-01-28 20:10:35',
+    'source' => 'signup',
+    'is_current_version' => true,
+  ),
+  'fees' => 
+  array (
+    'base' => 
+    array (
+      'percentage_rate' => 0.029,
+      'fixed_rate' => 30,
+      'currency' => 'usd',
+    ),
+    'discount' => 
+    array (
+    ),
+    'bancontact' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.014,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'card' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.029,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'card_present' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.026,
+        'fixed_rate' => 10,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'eps' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.018,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'ideal' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0,
+        'fixed_rate' => 80,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'giropay' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.014,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'p24' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.022,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'sofort' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.014,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'sepa_debit' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.008,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+        'fee_cap' => 600,
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+  ),
+  'capital' => 
+  array (
+    'has_active_loan' => false,
+    'has_previous_loans' => false,
+    'loans' => 
+    array (
+    ),
+  ),
+  'fraud_services' => 
+  array (
+    'stripe' => 
+    array (
+    ),
+    'sift' => 
+    array (
+      'beacon_key' => 'affbdadb36',
+      'sandbox_beacon_key' => '6ad0ad748b',
+    ),
+  ),
+  'store_currencies' => 
+  array (
+    'default' => 'usd',
+    'supported' => 
+    array (
+      0 => 'usd',
+    ),
+  ),
+  'customer_currencies' => 
+  array (
+    'supported' => 
+    array (
+      0 => 'usd',
+      1 => 'aed',
+      2 => 'afn',
+      3 => 'all',
+      4 => 'amd',
+      5 => 'ang',
+      6 => 'aoa',
+      7 => 'ars',
+      8 => 'aud',
+      9 => 'awg',
+      10 => 'azn',
+      11 => 'bam',
+      12 => 'bbd',
+      13 => 'bdt',
+      14 => 'bgn',
+      15 => 'bif',
+      16 => 'bmd',
+      17 => 'bnd',
+      18 => 'bob',
+      19 => 'brl',
+      20 => 'bsd',
+      21 => 'bwp',
+      22 => 'byn',
+      23 => 'bzd',
+      24 => 'cad',
+      25 => 'cdf',
+      26 => 'chf',
+      27 => 'clp',
+      28 => 'cny',
+      29 => 'cop',
+      30 => 'crc',
+      31 => 'cve',
+      32 => 'czk',
+      33 => 'djf',
+      34 => 'dkk',
+      35 => 'dop',
+      36 => 'dzd',
+      37 => 'egp',
+      38 => 'etb',
+      39 => 'eur',
+      40 => 'fjd',
+      41 => 'fkp',
+      42 => 'gbp',
+      43 => 'gel',
+      44 => 'gip',
+      45 => 'gmd',
+      46 => 'gnf',
+      47 => 'gtq',
+      48 => 'gyd',
+      49 => 'hkd',
+      50 => 'hnl',
+      51 => 'hrk',
+      52 => 'htg',
+      53 => 'huf',
+      54 => 'idr',
+      55 => 'ils',
+      56 => 'inr',
+      57 => 'isk',
+      58 => 'jmd',
+      59 => 'jpy',
+      60 => 'kes',
+      61 => 'kgs',
+      62 => 'khr',
+      63 => 'kmf',
+      64 => 'krw',
+      65 => 'kyd',
+      66 => 'kzt',
+      67 => 'lak',
+      68 => 'lbp',
+      69 => 'lkr',
+      70 => 'lrd',
+      71 => 'lsl',
+      72 => 'mad',
+      73 => 'mdl',
+      74 => 'mga',
+      75 => 'mkd',
+      76 => 'mmk',
+      77 => 'mnt',
+      78 => 'mop',
+      79 => 'mro',
+      80 => 'mur',
+      81 => 'mvr',
+      82 => 'mwk',
+      83 => 'mxn',
+      84 => 'myr',
+      85 => 'mzn',
+      86 => 'nad',
+      87 => 'ngn',
+      88 => 'nio',
+      89 => 'nok',
+      90 => 'npr',
+      91 => 'nzd',
+      92 => 'pab',
+      93 => 'pen',
+      94 => 'pgk',
+      95 => 'php',
+      96 => 'pkr',
+      97 => 'pln',
+      98 => 'pyg',
+      99 => 'qar',
+      100 => 'ron',
+      101 => 'rsd',
+      102 => 'rub',
+      103 => 'rwf',
+      104 => 'sar',
+      105 => 'sbd',
+      106 => 'scr',
+      107 => 'sek',
+      108 => 'sgd',
+      109 => 'shp',
+      110 => 'sll',
+      111 => 'sos',
+      112 => 'srd',
+      113 => 'std',
+      114 => 'szl',
+      115 => 'thb',
+      116 => 'tjs',
+      117 => 'top',
+      118 => 'try',
+      119 => 'ttd',
+      120 => 'twd',
+      121 => 'tzs',
+      122 => 'uah',
+      123 => 'ugx',
+      124 => 'uyu',
+      125 => 'uzs',
+      126 => 'vnd',
+      127 => 'vuv',
+      128 => 'wst',
+      129 => 'xaf',
+      130 => 'xcd',
+      131 => 'xof',
+      132 => 'xpf',
+      133 => 'yer',
+      134 => 'zar',
+      135 => 'zmw',
+    ),
+  ),
+  'country' => '(redacted)',
+  'instant_deposits_eligible' => false,
+  'card_present_eligible' => true,
+  'business_profile' => 
+  array (
+    'name' => '(redacted)',
+    'url' => 'https://store.blackbear.io',
+    'support_address' => 
+    array (
+    ),
+    'support_email' => NULL,
+    'support_phone' => NULL,
+  ),
+  'branding' => 
+  array (
+    'icon' => NULL,
+    'logo' => NULL,
+    'primary_color' => NULL,
+    'secondary_color' => NULL,
+  ),
+)
+2022-02-17T15:19:26+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/currency/rates?test_mode=1&currency_from=USD
+2022-02-17T15:19:26+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/3.6.1',
+)
+2022-02-17T15:19:26+00:00 INFO RESPONSE: array (
+  'AED' => 3.6731,
+  'AFN' => 92.000005,
+  'ALL' => 106.79,
+  'AMD' => 480.387389,
+  'ANG' => 1.801163,
+  'AOA' => 515.041,
+  'ARS' => 106.665641,
+  'AUD' => 1.389555,
+  'AWG' => 1.80025,
+  'AZN' => 1.7,
+  'BAM' => 1.719804,
+  'BBD' => 2,
+  'BDT' => 85.922466,
+  'BGN' => 1.720595,
+  'BHD' => 0.377049,
+  'BIF' => 2019,
+  'BMD' => 1,
+  'BND' => 1.343111,
+  'BOB' => 6.880894,
+  'BRL' => 5.1814,
+  'BSD' => 1,
+  'BTC' => 2.4E-5,
+  'BTN' => 74.934868,
+  'BWP' => 11.45475,
+  'BYN' => 2.571466,
+  'BZD' => 2.014535,
+  'CAD' => 1.270068,
+  'CDF' => 2015,
+  'CHF' => 0.92021,
+  'CLF' => 0.028996,
+  'CLP' => 800.64,
+  'CNH' => 6.337831,
+  'CNY' => 6.3379,
+  'COP' => 3966.697119,
+  'CRC' => 638.67573,
+  'CUC' => 1,
+  'CUP' => 25.75,
+  'CVE' => 97.4,
+  'CZK' => 21.471909,
+  'DJF' => 177.922727,
+  'DKK' => 6.548992,
+  'DOP' => 56.83,
+  'DZD' => 140.715381,
+  'EGP' => 15.7189,
+  'ERN' => 15.00001,
+  'ETB' => 50.525,
+  'EUR' => 0.880324,
+  'FJD' => 2.1475,
+  'FKP' => 0.73442,
+  'GBP' => 0.73442,
+  'GEL' => 2.99,
+  'GGP' => 0.73442,
+  'GHS' => 6.5,
+  'GIP' => 0.73442,
+  'GMD' => 53.125,
+  'GNF' => 8999,
+  'GTQ' => 7.685503,
+  'GYD' => 208.992684,
+  'HKD' => 7.800205,
+  'HNL' => 24.59,
+  'HRK' => 6.6312,
+  'HTG' => 103.278116,
+  'HUF' => 314.613921,
+  'IDR' => 14347.526148,
+  'ILS' => 3.20313,
+  'IMP' => 0.73442,
+  'INR' => 75.080454,
+  'IQD' => 1460.5,
+  'IRR' => 42250,
+  'ISK' => 124.48,
+  'JEP' => 0.73442,
+  'JMD' => 156.699969,
+  'JOD' => 0.709,
+  'JPY' => 114.943333,
+  'KES' => 113.65,
+  'KGS' => 84.799702,
+  'KHR' => 4067,
+  'KMF' => 432.850154,
+  'KPW' => 900,
+  'KRW' => 1198.37175,
+  'KWD' => 0.302404,
+  'KYD' => 0.832879,
+  'KZT' => 428.799515,
+  'LAK' => 11444.752526,
+  'LBP' => 1514,
+  'LKR' => 202.625281,
+  'LRD' => 154.000004,
+  'LSL' => 15.06,
+  'LYD' => 4.585,
+  'MAD' => 9.3645,
+  'MDL' => 17.834945,
+  'MGA' => 3979.718219,
+  'MKD' => 54.179893,
+  'MMK' => 1776.958729,
+  'MNT' => 2865.605582,
+  'MOP' => 8.030603,
+  'MUR' => 43.154382,
+  'MVR' => 15.45,
+  'MWK' => 803.5,
+  'MXN' => 20.343027,
+  'MYR' => 4.18525,
+  'MZN' => 63.850001,
+  'NAD' => 15.06,
+  'NGN' => 415.87,
+  'NIO' => 35.434757,
+  'NOK' => 8.92791,
+  'NPR' => 119.896094,
+  'NZD' => 1.491768,
+  'OMR' => 0.384918,
+  'PAB' => 1,
+  'PEN' => 3.744246,
+  'PGK' => 3.515,
+  'PHP' => 51.336004,
+  'PKR' => 175.75,
+  'PLN' => 3.985792,
+  'PYG' => 6939.443105,
+  'QAR' => 3.641,
+  'RON' => 4.3517,
+  'RSD' => 103.505,
+  'RUB' => 76.3785,
+  'RWF' => 1019,
+  'SAR' => 3.752666,
+  'SBD' => 8.080841,
+  'SCR' => 12.955266,
+  'SDG' => 444,
+  'SEK' => 9.370723,
+  'SGD' => 1.344086,
+  'SHP' => 0.73442,
+  'SLL' => 11423.74999,
+  'SOS' => 584,
+  'SRD' => 20.6345,
+  'SSP' => 130.26,
+  'STD' => 21146.190504,
+  'SVC' => 8.744818,
+  'SYP' => 2512,
+  'SZL' => 14.968807,
+  'THB' => 32.12,
+  'TJS' => 11.278485,
+  'TMT' => 3.51,
+  'TND' => 2.8725,
+  'TOP' => 2.254145,
+  'TRY' => 13.60914,
+  'TTD' => 6.782676,
+  'TWD' => 27.886185,
+  'TZS' => 2314,
+  'UAH' => 28.318399,
+  'UGX' => 3507.985373,
+  'USD' => 1,
+  'UYU' => 43.035069,
+  'UZS' => 10850,
+  'VND' => 22784.234493,
+  'VUV' => 113.920207,
+  'WST' => 2.622912,
+  'XAF' => 577.454894,
+  'XAG' => 0.042127,
+  'XAU' => 0.000528,
+  'XCD' => 2.70255,
+  'XDR' => 0.7129,
+  'XOF' => 577.454894,
+  'XPD' => 0.000423,
+  'XPF' => 105.050634,
+  'XPT' => 0.000926,
+  'YER' => 250.249937,
+  'ZAR' => 15.010532,
+  'ZMW' => 17.489965,
+  'ZWL' => 322,
+)
+2022-02-17T15:19:26+00:00 DEBUG Saved currencies fetched from the server to the cache. Expiry: 2022-02-17 21:19:26
+2022-02-17T17:52:52+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/accounts?test_mode=0
+2022-02-17T17:52:52+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/3.6.1',
+)
+2022-02-17T17:52:54+00:00 INFO RESPONSE: array (
+  'account_id' => 'acct_1KN0mD2EExDbvmHH',
+  'email' => '(redacted)',
+  'live_publishable_key' => 'pk_live_iBIpeqzKOOx2Y8PFCRBfyMU000Q7xVG4Sn',
+  'test_publishable_key' => 'pk_test_51ETDmyFuiXB5oUVxwSobQMW5Tno1GclIq7ePZWzLeW4q8oa7Zb8hI5VfwI5sNT5nXuKYinLukNvGCXmsQXAoDGHG00MqHqlYHR',
+  'is_live' => true,
+  'has_pending_requirements' => false,
+  'has_overdue_requirements' => false,
+  'current_deadline' => NULL,
+  'status' => 'complete',
+  'capabilities' => 
+  array (
+    'bancontact_payments' => 'active',
+    'card_payments' => 'active',
+    'eps_payments' => 'active',
+    'giropay_payments' => 'active',
+    'ideal_payments' => 'active',
+    'p24_payments' => 'active',
+    'sepa_debit_payments' => 'active',
+    'sofort_payments' => 'active',
+    'tax_reporting_us_1099_k' => 'active',
+    'transfers' => 'active',
+    'acss_debit_payments' => 'unrequested',
+    'afterpay_clearpay_payments' => 'unrequested',
+    'klarna' => 'unrequested',
+    'link_payments' => 'unrequested',
+    'tax_reporting_us_1099_misc' => 'unrequested',
+    'us_bank_account_ach_payments' => 'unrequested',
+  ),
+  'capability_requirements' => 
+  array (
+    'acss_debit_payments' => 
+    array (
+    ),
+    'afterpay_clearpay_payments' => 
+    array (
+      0 => 'business_profile.support_phone',
+    ),
+    'bancontact_payments' => 
+    array (
+    ),
+    'card_payments' => 
+    array (
+    ),
+    'eps_payments' => 
+    array (
+    ),
+    'giropay_payments' => 
+    array (
+    ),
+    'ideal_payments' => 
+    array (
+    ),
+    'klarna' => 
+    array (
+    ),
+    'link_payments' => 
+    array (
+    ),
+    'p24_payments' => 
+    array (
+    ),
+    'sepa_debit_payments' => 
+    array (
+    ),
+    'sofort_payments' => 
+    array (
+    ),
+    'tax_reporting_us_1099_k' => 
+    array (
+    ),
+    'tax_reporting_us_1099_misc' => 
+    array (
+    ),
+    'transfers' => 
+    array (
+    ),
+    'us_bank_account_ach_payments' => 
+    array (
+    ),
+  ),
+  'payments_enabled' => true,
+  'deposits_status' => 'daily',
+  'statement_descriptor' => 'STORE.BLACKBEAR.IO',
+  'latest_tos_agreement' => 
+  array (
+    'date' => '2022-01-28 20:10:35',
+    'source' => 'signup',
+    'is_current_version' => true,
+  ),
+  'fees' => 
+  array (
+    'base' => 
+    array (
+      'percentage_rate' => 0.029,
+      'fixed_rate' => 30,
+      'currency' => 'usd',
+    ),
+    'discount' => 
+    array (
+    ),
+    'bancontact' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.014,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'card' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.029,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'card_present' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.026,
+        'fixed_rate' => 10,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'eps' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.018,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'ideal' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0,
+        'fixed_rate' => 80,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'giropay' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.014,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'p24' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.022,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'sofort' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.014,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'sepa_debit' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.008,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+        'fee_cap' => 600,
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+  ),
+  'capital' => 
+  array (
+    'has_active_loan' => false,
+    'has_previous_loans' => false,
+    'loans' => 
+    array (
+    ),
+  ),
+  'fraud_services' => 
+  array (
+    'stripe' => 
+    array (
+    ),
+    'sift' => 
+    array (
+      'beacon_key' => 'affbdadb36',
+      'sandbox_beacon_key' => '6ad0ad748b',
+    ),
+  ),
+  'store_currencies' => 
+  array (
+    'default' => 'usd',
+    'supported' => 
+    array (
+      0 => 'usd',
+    ),
+  ),
+  'customer_currencies' => 
+  array (
+    'supported' => 
+    array (
+      0 => 'usd',
+      1 => 'aed',
+      2 => 'afn',
+      3 => 'all',
+      4 => 'amd',
+      5 => 'ang',
+      6 => 'aoa',
+      7 => 'ars',
+      8 => 'aud',
+      9 => 'awg',
+      10 => 'azn',
+      11 => 'bam',
+      12 => 'bbd',
+      13 => 'bdt',
+      14 => 'bgn',
+      15 => 'bif',
+      16 => 'bmd',
+      17 => 'bnd',
+      18 => 'bob',
+      19 => 'brl',
+      20 => 'bsd',
+      21 => 'bwp',
+      22 => 'byn',
+      23 => 'bzd',
+      24 => 'cad',
+      25 => 'cdf',
+      26 => 'chf',
+      27 => 'clp',
+      28 => 'cny',
+      29 => 'cop',
+      30 => 'crc',
+      31 => 'cve',
+      32 => 'czk',
+      33 => 'djf',
+      34 => 'dkk',
+      35 => 'dop',
+      36 => 'dzd',
+      37 => 'egp',
+      38 => 'etb',
+      39 => 'eur',
+      40 => 'fjd',
+      41 => 'fkp',
+      42 => 'gbp',
+      43 => 'gel',
+      44 => 'gip',
+      45 => 'gmd',
+      46 => 'gnf',
+      47 => 'gtq',
+      48 => 'gyd',
+      49 => 'hkd',
+      50 => 'hnl',
+      51 => 'hrk',
+      52 => 'htg',
+      53 => 'huf',
+      54 => 'idr',
+      55 => 'ils',
+      56 => 'inr',
+      57 => 'isk',
+      58 => 'jmd',
+      59 => 'jpy',
+      60 => 'kes',
+      61 => 'kgs',
+      62 => 'khr',
+      63 => 'kmf',
+      64 => 'krw',
+      65 => 'kyd',
+      66 => 'kzt',
+      67 => 'lak',
+      68 => 'lbp',
+      69 => 'lkr',
+      70 => 'lrd',
+      71 => 'lsl',
+      72 => 'mad',
+      73 => 'mdl',
+      74 => 'mga',
+      75 => 'mkd',
+      76 => 'mmk',
+      77 => 'mnt',
+      78 => 'mop',
+      79 => 'mro',
+      80 => 'mur',
+      81 => 'mvr',
+      82 => 'mwk',
+      83 => 'mxn',
+      84 => 'myr',
+      85 => 'mzn',
+      86 => 'nad',
+      87 => 'ngn',
+      88 => 'nio',
+      89 => 'nok',
+      90 => 'npr',
+      91 => 'nzd',
+      92 => 'pab',
+      93 => 'pen',
+      94 => 'pgk',
+      95 => 'php',
+      96 => 'pkr',
+      97 => 'pln',
+      98 => 'pyg',
+      99 => 'qar',
+      100 => 'ron',
+      101 => 'rsd',
+      102 => 'rub',
+      103 => 'rwf',
+      104 => 'sar',
+      105 => 'sbd',
+      106 => 'scr',
+      107 => 'sek',
+      108 => 'sgd',
+      109 => 'shp',
+      110 => 'sll',
+      111 => 'sos',
+      112 => 'srd',
+      113 => 'std',
+      114 => 'szl',
+      115 => 'thb',
+      116 => 'tjs',
+      117 => 'top',
+      118 => 'try',
+      119 => 'ttd',
+      120 => 'twd',
+      121 => 'tzs',
+      122 => 'uah',
+      123 => 'ugx',
+      124 => 'uyu',
+      125 => 'uzs',
+      126 => 'vnd',
+      127 => 'vuv',
+      128 => 'wst',
+      129 => 'xaf',
+      130 => 'xcd',
+      131 => 'xof',
+      132 => 'xpf',
+      133 => 'yer',
+      134 => 'zar',
+      135 => 'zmw',
+    ),
+  ),
+  'country' => '(redacted)',
+  'instant_deposits_eligible' => false,
+  'card_present_eligible' => true,
+  'business_profile' => 
+  array (
+    'name' => '(redacted)',
+    'url' => 'https://store.blackbear.io',
+    'support_address' => 
+    array (
+    ),
+    'support_email' => NULL,
+    'support_phone' => NULL,
+  ),
+  'branding' => 
+  array (
+    'icon' => NULL,
+    'logo' => NULL,
+    'primary_color' => NULL,
+    'secondary_color' => NULL,
+  ),
+)
+2022-02-17T20:05:33+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/accounts?test_mode=0
+2022-02-17T20:05:33+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/3.6.1',
+)
+2022-02-17T20:05:35+00:00 INFO RESPONSE: array (
+  'account_id' => 'acct_1KN0mD2EExDbvmHH',
+  'email' => '(redacted)',
+  'live_publishable_key' => 'pk_live_iBIpeqzKOOx2Y8PFCRBfyMU000Q7xVG4Sn',
+  'test_publishable_key' => 'pk_test_51ETDmyFuiXB5oUVxwSobQMW5Tno1GclIq7ePZWzLeW4q8oa7Zb8hI5VfwI5sNT5nXuKYinLukNvGCXmsQXAoDGHG00MqHqlYHR',
+  'is_live' => true,
+  'has_pending_requirements' => false,
+  'has_overdue_requirements' => false,
+  'current_deadline' => NULL,
+  'status' => 'complete',
+  'capabilities' => 
+  array (
+    'bancontact_payments' => 'active',
+    'card_payments' => 'active',
+    'eps_payments' => 'active',
+    'giropay_payments' => 'active',
+    'ideal_payments' => 'active',
+    'p24_payments' => 'active',
+    'sepa_debit_payments' => 'active',
+    'sofort_payments' => 'active',
+    'tax_reporting_us_1099_k' => 'active',
+    'transfers' => 'active',
+    'acss_debit_payments' => 'unrequested',
+    'afterpay_clearpay_payments' => 'unrequested',
+    'klarna' => 'unrequested',
+    'link_payments' => 'unrequested',
+    'tax_reporting_us_1099_misc' => 'unrequested',
+    'us_bank_account_ach_payments' => 'unrequested',
+  ),
+  'capability_requirements' => 
+  array (
+    'acss_debit_payments' => 
+    array (
+    ),
+    'afterpay_clearpay_payments' => 
+    array (
+      0 => 'business_profile.support_phone',
+    ),
+    'bancontact_payments' => 
+    array (
+    ),
+    'card_payments' => 
+    array (
+    ),
+    'eps_payments' => 
+    array (
+    ),
+    'giropay_payments' => 
+    array (
+    ),
+    'ideal_payments' => 
+    array (
+    ),
+    'klarna' => 
+    array (
+    ),
+    'link_payments' => 
+    array (
+    ),
+    'p24_payments' => 
+    array (
+    ),
+    'sepa_debit_payments' => 
+    array (
+    ),
+    'sofort_payments' => 
+    array (
+    ),
+    'tax_reporting_us_1099_k' => 
+    array (
+    ),
+    'tax_reporting_us_1099_misc' => 
+    array (
+    ),
+    'transfers' => 
+    array (
+    ),
+    'us_bank_account_ach_payments' => 
+    array (
+    ),
+  ),
+  'payments_enabled' => true,
+  'deposits_status' => 'daily',
+  'statement_descriptor' => 'STORE.BLACKBEAR.IO',
+  'latest_tos_agreement' => 
+  array (
+    'date' => '2022-01-28 20:10:35',
+    'source' => 'signup',
+    'is_current_version' => true,
+  ),
+  'fees' => 
+  array (
+    'base' => 
+    array (
+      'percentage_rate' => 0.029,
+      'fixed_rate' => 30,
+      'currency' => 'usd',
+    ),
+    'discount' => 
+    array (
+    ),
+    'bancontact' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.014,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'card' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.029,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'card_present' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.026,
+        'fixed_rate' => 10,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'eps' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.018,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'ideal' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0,
+        'fixed_rate' => 80,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'giropay' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.014,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'p24' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.022,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'sofort' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.014,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'sepa_debit' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.008,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+        'fee_cap' => 600,
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+  ),
+  'capital' => 
+  array (
+    'has_active_loan' => false,
+    'has_previous_loans' => false,
+    'loans' => 
+    array (
+    ),
+  ),
+  'fraud_services' => 
+  array (
+    'stripe' => 
+    array (
+    ),
+    'sift' => 
+    array (
+      'beacon_key' => 'affbdadb36',
+      'sandbox_beacon_key' => '6ad0ad748b',
+    ),
+  ),
+  'store_currencies' => 
+  array (
+    'default' => 'usd',
+    'supported' => 
+    array (
+      0 => 'usd',
+    ),
+  ),
+  'customer_currencies' => 
+  array (
+    'supported' => 
+    array (
+      0 => 'usd',
+      1 => 'aed',
+      2 => 'afn',
+      3 => 'all',
+      4 => 'amd',
+      5 => 'ang',
+      6 => 'aoa',
+      7 => 'ars',
+      8 => 'aud',
+      9 => 'awg',
+      10 => 'azn',
+      11 => 'bam',
+      12 => 'bbd',
+      13 => 'bdt',
+      14 => 'bgn',
+      15 => 'bif',
+      16 => 'bmd',
+      17 => 'bnd',
+      18 => 'bob',
+      19 => 'brl',
+      20 => 'bsd',
+      21 => 'bwp',
+      22 => 'byn',
+      23 => 'bzd',
+      24 => 'cad',
+      25 => 'cdf',
+      26 => 'chf',
+      27 => 'clp',
+      28 => 'cny',
+      29 => 'cop',
+      30 => 'crc',
+      31 => 'cve',
+      32 => 'czk',
+      33 => 'djf',
+      34 => 'dkk',
+      35 => 'dop',
+      36 => 'dzd',
+      37 => 'egp',
+      38 => 'etb',
+      39 => 'eur',
+      40 => 'fjd',
+      41 => 'fkp',
+      42 => 'gbp',
+      43 => 'gel',
+      44 => 'gip',
+      45 => 'gmd',
+      46 => 'gnf',
+      47 => 'gtq',
+      48 => 'gyd',
+      49 => 'hkd',
+      50 => 'hnl',
+      51 => 'hrk',
+      52 => 'htg',
+      53 => 'huf',
+      54 => 'idr',
+      55 => 'ils',
+      56 => 'inr',
+      57 => 'isk',
+      58 => 'jmd',
+      59 => 'jpy',
+      60 => 'kes',
+      61 => 'kgs',
+      62 => 'khr',
+      63 => 'kmf',
+      64 => 'krw',
+      65 => 'kyd',
+      66 => 'kzt',
+      67 => 'lak',
+      68 => 'lbp',
+      69 => 'lkr',
+      70 => 'lrd',
+      71 => 'lsl',
+      72 => 'mad',
+      73 => 'mdl',
+      74 => 'mga',
+      75 => 'mkd',
+      76 => 'mmk',
+      77 => 'mnt',
+      78 => 'mop',
+      79 => 'mro',
+      80 => 'mur',
+      81 => 'mvr',
+      82 => 'mwk',
+      83 => 'mxn',
+      84 => 'myr',
+      85 => 'mzn',
+      86 => 'nad',
+      87 => 'ngn',
+      88 => 'nio',
+      89 => 'nok',
+      90 => 'npr',
+      91 => 'nzd',
+      92 => 'pab',
+      93 => 'pen',
+      94 => 'pgk',
+      95 => 'php',
+      96 => 'pkr',
+      97 => 'pln',
+      98 => 'pyg',
+      99 => 'qar',
+      100 => 'ron',
+      101 => 'rsd',
+      102 => 'rub',
+      103 => 'rwf',
+      104 => 'sar',
+      105 => 'sbd',
+      106 => 'scr',
+      107 => 'sek',
+      108 => 'sgd',
+      109 => 'shp',
+      110 => 'sll',
+      111 => 'sos',
+      112 => 'srd',
+      113 => 'std',
+      114 => 'szl',
+      115 => 'thb',
+      116 => 'tjs',
+      117 => 'top',
+      118 => 'try',
+      119 => 'ttd',
+      120 => 'twd',
+      121 => 'tzs',
+      122 => 'uah',
+      123 => 'ugx',
+      124 => 'uyu',
+      125 => 'uzs',
+      126 => 'vnd',
+      127 => 'vuv',
+      128 => 'wst',
+      129 => 'xaf',
+      130 => 'xcd',
+      131 => 'xof',
+      132 => 'xpf',
+      133 => 'yer',
+      134 => 'zar',
+      135 => 'zmw',
+    ),
+  ),
+  'country' => '(redacted)',
+  'instant_deposits_eligible' => false,
+  'card_present_eligible' => true,
+  'business_profile' => 
+  array (
+    'name' => '(redacted)',
+    'url' => 'https://store.blackbear.io',
+    'support_address' => 
+    array (
+    ),
+    'support_email' => NULL,
+    'support_phone' => NULL,
+  ),
+  'branding' => 
+  array (
+    'icon' => NULL,
+    'logo' => NULL,
+    'primary_color' => NULL,
+    'secondary_color' => NULL,
+  ),
+)

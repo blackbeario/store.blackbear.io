@@ -1,0 +1,853 @@
+# Translation of Plugins - WooCommerce Square - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - WooCommerce Square - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-12-07 02:36:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - WooCommerce Square - Stable (latest release)\n"
+
+#: includes/Settings.php:163
+msgid "After enabling you’ll see a new Sandbox settings section with two fields; Sandbox Application ID & Sandbox Access Token."
+msgstr "有効にすると、2つのフィールドを持つ新しいサンドボックス設定セクションが表示されます。 サンドボックスアプリケーション ID とサンドボックスアクセストークン。"
+
+#: includes/Settings.php:161
+msgid "Enable to set the plugin in sandbox mode."
+msgstr "プラグインをサンドボックスモードで設定できるようにします。"
+
+#: includes/Settings.php:160
+msgid "Enable Sandbox Mode"
+msgstr "サンドボックスモードを有効化"
+
+#: includes/Emails/Access_Token_Email.php:113
+msgid "In order to continue accepting payments, please disconnect and re-connect your site at "
+msgstr "引き続き支払いを受け入れるには、サイトを切断して再接続してください"
+
+#. translators: Placeholders: %1$s - opening <a> HTML link tag, %2$s - closing
+#. </a> HTML link tag
+#: includes/Emails/Access_Token_Email.php:99
+msgid "In order to continue accepting payments, please %1$sdisconnect and re-connect your site%2$s."
+msgstr "引き続き支払いを受け入れるには、%1$sサイトをいったん切断してから再接続%2$sしてください。"
+
+#: includes/Emails/Access_Token_Email.php:49
+msgctxt "Square connection problems email body."
+msgid "Heads up! There may be a problem with your connection to Square."
+msgstr "注意喚起! Square への接続に問題がある可能性があります。"
+
+#: includes/Emails/Access_Token_Email.php:48
+msgctxt "Email heading"
+msgid "There was a problem with your Square Access Token"
+msgstr "Square Access Token に問題がありました"
+
+#: includes/Emails/Access_Token_Email.php:47
+msgctxt "Email subject"
+msgid "[WooCommerce] There was a problem with your Square Access Token"
+msgstr "[WooCommerce] Square Access Token に問題がありました"
+
+#: includes/Emails/Access_Token_Email.php:46
+msgid "This email is sent when problems with Access Token are encountered"
+msgstr "このメールは、アクセストークンに問題が発生したときに送信されます"
+
+#: includes/Emails/Access_Token_Email.php:45
+msgid "Square Access Token problems"
+msgstr "Square Access Token の問題"
+
+#: includes/Handlers/Products.php:306
+msgid "This product"
+msgstr "この商品"
+
+#. translators: Placeholder: %s - product name
+#: includes/Handlers/Products.php:72
+msgid "%s has multiple variation attributes and cannot be synced with Square."
+msgstr "複数のバリエーション属性を持つ %s を Square と同期することはできません。"
+
+#. translators: Placeholder: %s - product name
+#: includes/Handlers/Products.php:68
+msgid "Please add an SKU to sync %s with Square. The SKU must match the item's SKU in your Square account."
+msgstr "この %s を Square と同期するには、SKU を追加してください。SKU は、Square アカウントのアイテムの SKU と一致する必要があります。"
+
+#. translators: Placeholder: %s category ID
+#: includes/Handlers/Product.php:178
+msgid "Square category with id (%s) was not imported to your Store. Please run Import Products from Square settings."
+msgstr "id (%s) の Square カテゴリはストアにインポートされませんでした。 Square 設定から商品をインポートを実行してください。"
+
+#: includes/Sync/Interval_Polling.php:101
+msgid "Updated data for %d category."
+msgid_plural "Updated data for %d categories."
+msgstr[0] "%dカテゴリのデータを更新しました。"
+
+#: includes/Settings.php:246
+msgid "Run an import to create new products in this WooCommerce store for each new product created in Square that has a unique SKU not existing in here. Needs to be run each time new items are created in Square."
+msgstr "ここに存在しない一意の SKU を持つ Square で作成された新しい商品ごとに、インポートを実行して、この WooCommerce ストアに新しい商品を作成します。 Square で新しいアイテムが作成されるたびに実行する必要があります。"
+
+#: includes/Settings.php:188
+msgid "Access Token for the Sandbox Test Account, see the details in the Sandbox Test Account section. Make sure you use the correct Sandbox Access Token for your application. For a given Sandbox Test Account, each Authorized Application is assigned a different Access Token."
+msgstr "サンドボックステストアカウントのアクセストークンについては、「サンドボックステストアカウント」セクションの詳細をご覧ください。 アプリケーションに正しいサンドボックスアクセストークンを使用していることを確認してください。 特定のサンドボックステストアカウントについて、各承認済みアプリケーションには異なるアクセストークンが割り当てられます。"
+
+#: includes/Settings.php:186
+msgid "Sandbox Access Token"
+msgstr "サンドボックスアクセストークン"
+
+#: includes/Settings.php:181
+msgid "Application ID for the Sandbox Application, see the details in the My Applications section."
+msgstr "サンドボックスアプリケーションのアプリケーション ID。「マイアプリケーション」セクションの詳細を参照してください。"
+
+#: includes/Settings.php:179
+msgid "Sandbox Application ID"
+msgstr "サンドボックスアプリケーション ID"
+
+#. translators: Placeholders: %1$s - URL.
+#: includes/Settings.php:172
+msgid "Sandbox details can be created at: %s"
+msgstr "サンドボックスの詳細は、次の場所で作成できます。: %s"
+
+#: includes/Settings.php:168
+msgid "Sandbox settings"
+msgstr "サンドボックス設定"
+
+#. translators: Placeholders: %1$s - <strong> tag, %2$s - </strong> tag, %3$s -
+#. <a> tag, %4$s - </a> tag
+#: includes/Plugin.php:528
+msgid "%1$sWooCommerce Square:%2$s Automatic refreshing of the connection to Square is inactive. Please disconnect and reconnect to resolve."
+msgstr "%1$sWooCommerce Square:%2$s Square への接続の自動更新は無効です。 解決するには、切断して再接続してください。"
+
+#: includes/Sync/Product_Import.php:637
+msgid "Items with variable pricing cannot be imported."
+msgstr "変動価格の項目はインポートできません。"
+
+#. translators: Placeholders: %1$s - Square item name, %2$s - Square item
+#. variation name, %3$s - failure reason
+#: includes/Sync/Product_Import.php:563
+msgid "Could not import \"%1$s - %2$s\" from Square. %3$s"
+msgstr "Square から \"%1$s - %2$s\"がインポートできませんでした。%3$s"
+
+#: includes/Handlers/Connection.php:115
+msgid "Square Error: We could not connect to Square. No access token was given.!"
+msgstr "Square Error: スクエアに接続できませんでした。 アクセストークンが与えられませんでした。！"
+
+#: includes/Gateway/API/Requests/Orders.php:302
+#: includes/Gateway/API/Requests/Orders.php:348
+msgid "Adjustment"
+msgstr "調整"
+
+#: includes/Settings.php:231
+msgid "Enable to sync product inventory with Square"
+msgstr "商品在庫を Square との同期を有効にする"
+
+#. translators: Placeholders: %1$s - <strong> tag, %2$s - </strong> tag, %3$s -
+#. <a> tag, %4$s - </a> tag
+#: includes/Settings.php:200
+msgid "Select a location to link to this site. Only %1$sactive%2$s %3$slocations%4$s that support credit card processing in Square can be linked."
+msgstr "このサイトにリンクする場所を選択します。Square でのクレジットカード処理をサポートする%1$sactive%2$s %3$slocations%4$sのみがリンクできます。"
+
+#. translators: Placeholders: %1$s - <strong> tag, %2$s - </strong> tag
+#: includes/Admin.php:205
+msgid "Inventory is %1$salways fetched from Square%2$s periodically to account for sales from other channels."
+msgstr "他のチャネルからの売上を計上するため、%1$s在庫は常にSquareから定期的に取得%2$sされます。"
+
+#: includes/Admin.php:202 includes/Settings.php:233
+msgid "Inventory is fetched from Square periodically and updated in WooCommerce"
+msgstr "在庫は定期的にSquare から取得され、 WooCommerce で更新されます"
+
+#: includes/Admin.php:199
+msgid "Enable to push inventory changes to Square"
+msgstr "在庫の変更を [Square] にプッシュできるようにする"
+
+#: includes/Admin.php:198
+msgid "Enable to fetch inventory changes from Square"
+msgstr "Square から在庫変更をフェッチできるようにする"
+
+#: includes/Settings.php:355
+msgid "Import all products from Square"
+msgstr "Square からすべての商品をインポート"
+
+#: includes/Settings.php:321
+msgid "Please choose a location"
+msgstr "場所を選択してください"
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: includes/Settings.php:273
+msgid "Log debug messages to the %1$sWooCommerce status log%2$s"
+msgstr "%1$sWooCommerce ステータスログ%2$sにデバッグ メッセージをログに記録する"
+
+#: includes/Settings.php:256
+msgid "Connection"
+msgstr "接続"
+
+#: includes/Settings.php:240
+msgid "Products not found in Square will be hidden in the WooCommerce product catalog."
+msgstr "Square にない商品は、WooCommerce 商品カタログに表示されません。"
+
+#: includes/Settings.php:238
+msgid "Hide synced products when not found in Square"
+msgstr "Square にない場合は同期商品を非表示にする"
+
+#: includes/Settings.php:237
+msgid "Handle missing products"
+msgstr "不足している商品の取り扱い"
+
+#: includes/Settings.php:222
+msgid "Do not sync product data"
+msgstr "商品データを同期しない"
+
+#. translators: Placeholders: %1$s - <strong> tag, %2$s - </strong> tag, %3$s -
+#. <a> tag, %4$s - </a> tag
+#: includes/Settings.php:215
+msgid "Choose where you will update data for synced products. Inventory in Square is %1$salways%2$s checked for adjustments when sync is enabled. %3$sClick here%4$s to read more about choosing a system of record."
+msgstr "同期された商品のデータを更新する場所を選択します。 同期が有効な場合、Squareの在庫は%1$s常に%2$s調整がチェックされます。記録システムの選択の詳細については、%3$sここをクリックして%4$sください。"
+
+#: includes/Settings.php:210
+msgid "Product system of record"
+msgstr "商品システムの記録"
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: includes/Settings.php:142
+msgid "Sync your products and inventory and also accept credit and debit card payments at checkout. %1$sClick here%2$s to configure payments."
+msgstr "商品と在庫を同期し、チェックアウト時にクレジットカードとデビットカードの支払いも受け入れます。%1$sここをクリックして%2$s支払いを設定します。"
+
+#: includes/Gateway.php:685
+msgid "Customer Profiles"
+msgstr "顧客プロファイル"
+
+#: includes/Gateway.php:467
+msgid "Could not find original transaction tender. Please refund this transaction from your Square dashboard."
+msgstr "元のトランザクション支払/入金が見つかりませんでした。この取引は、Square ダッシュボードから払い戻してください。"
+
+#: includes/Gateway.php:81
+msgid "Allow customers to use Square to securely pay with their credit cards"
+msgstr "顧客が Square を使用してクレジットカードで安全に支払えるようにする"
+
+#. translators: Placeholder: %s - sync job ID
+#: includes/AJAX.php:284
+msgid "No sync job in progress found %s"
+msgstr "同期ジョブが見つかりませんでした %s"
+
+#. translators: Placeholder: %s - error message
+#: includes/AJAX.php:239
+msgid "An error occurred. %s"
+msgstr "エラーが発生しました。%s"
+
+#: includes/AJAX.php:227
+msgid "Could not unsync product."
+msgstr "商品の同期を解除できませんでした。"
+
+#: includes/AJAX.php:215
+msgid "Could not resolve record."
+msgstr "レコードを解決できませんでした。"
+
+#: includes/AJAX.php:205
+msgid "Could not delete record."
+msgstr "レコードを削除できませんでした。"
+
+#: includes/AJAX.php:197
+msgid "Could not delete records."
+msgstr "レコードを削除できませんでした。"
+
+#: includes/AJAX.php:151
+msgid "Your products are being imported in the background! This may take some time to complete."
+msgstr "商品はバックグラウンドでインポートされています!完了までに時間がかかる場合があります。"
+
+#: includes/AJAX.php:148
+msgid "Could not start import. Please try again."
+msgstr "インポートを開始できませんでした。もう一度やり直してください。"
+
+#. translators: Placeholders: %s = help text
+#: includes/AJAX.php:130
+msgid "Error finding item in Square. %s"
+msgstr "Square でアイテムを見つけるエラーです。%s"
+
+#. translators: Placeholders: %1$s = error message, %2$s = help text
+#: includes/AJAX.php:125
+msgid "Unable to fetch inventory: %1$s. %2$s"
+msgstr "在庫を取得できません: %1$s. %2$s"
+
+#: includes/AJAX.php:112
+msgid "Please mark product as un-synced and save, then synced again."
+msgstr "商品を同期していないとマークして保存してから、もう一度同期してください。"
+
+#: includes/Plugin.php:591
+msgid "Heads up! Your store currency is %1$s but your configured Square business location currency is %2$s, so payments cannot be processed. Please %3$schoose a different business location%4$s or change your %5$sshop currency%6$s."
+msgstr "注意喚起！店舗通貨は %1$s ですが、設定済みの Square ビジネスロケーション通貨は %2$s なので、支払いを処理できません。%3$s別のビジネス拠点を選択%4$sするか、%5$sショップの通貨%6$sを変更してください。"
+
+#: includes/Plugin.php:560
+msgid "%1$sWooCommerce Square:%2$s Product prices are entered inclusive of tax, but Square does not support syncing tax-inclusive prices. Please make sure your Square tax rates match your WooCommerce tax rates."
+msgstr "%1$sWooCommerce Square:%2$s 商品価格は税込みで入力されますが、 Square は税込価格の同期をサポートしていません。 Square 税率が WooCommerce の税率と一致していることを確認してください。"
+
+#. translators: Placeholders: %1$s - <strong> tag, %2$s - </strong> tag, %3$s -
+#. <a> tag, %4$s - </a> tag
+#: includes/Plugin.php:485
+msgid "%1$sWooCommerce Square:%2$s It looks like your site does not support background processing, which means large numbers of products may not sync successfully with Square. %3$sRead more here%4$s on how to resolve this."
+msgstr "%1$sWooCommerce Square:%2$s それはあなたのサイトがバックグラウンド処理をサポートしていないように見えます, これは、商品の多くが Square と正常に同期しない可能性があることを意味します。これを解決する方法については、%3$sこちらをご覧%4$sください。"
+
+#. translators: Placeholders: %1$s - <strong> tag, %2$s - </strong> tag, %3$s -
+#. 2-character country code, %4$s - comma separated list of 2-character country
+#. codes
+#: includes/Plugin.php:458
+msgid "%1$sWooCommerce Square:%2$s Your base country is %3$s, but Square can’t accept transactions from merchants outside of %4$s."
+msgstr "%1$sWooCommerce Square:%2$s あなたの基本国は%3$sですが、 Square は%4$s以外の販売者からの取引を受け付けることはできません。"
+
+#. translators: Placeholders: %1$s - plugin name, %2$ - plugin version number,
+#. %3$s - opening <a> HTML link tag, %4$s - closing </a> HTML link tag,  %5$s -
+#. opening <a> HTML link tag, %6$s - closing </a> HTML link tag
+#: includes/Plugin.php:418
+msgid "%1$s has been updated to version %2$s. In order to continue syncing product inventory, please make sure to disconnect and reconnect with Square from the %3$splugin settings%4$s and re-sync your products. Read more in the %5$supdated documentation%6$s."
+msgstr "%1$s がバージョン %2$s に更新されました。商品在庫の同期を続けるには、%3$sプラグイン設定%4$sから Square を切断して再接続し、商品を再同期してください。詳細については、%5$s更新されたドキュメント%6$s を参照してください。"
+
+#. translators: Placeholders: %1$s - plugin name
+#: includes/Plugin.php:394
+msgid "Thanks for installing %1$s!"
+msgstr "%1$s をインストールしていただきありがとうございます。"
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: includes/Plugin.php:386
+msgid "To get started, %1$sconnect with Square &raquo;%2$s"
+msgstr "開始するには、%1$s Square に接続してください &raquo;%2$s"
+
+#: includes/Plugin.php:380
+msgid "To get started, connect with Square."
+msgstr "開始するには、Square に接続します。"
+
+#: includes/Plugin.php:363
+msgid "Heads up! Square is configured to sync product inventory, but WooCommerce stock management is disabled. Please %1$senable stock management%2$s to ensure product inventory counts are kept in sync."
+msgstr "注意喚起！Square は商品在庫を同期するように構成されていますが、WooCommerce の在庫管理は無効になっています。%1$s在庫管理を有効%2$sにして、商品の在庫数が確実に同期されるようにしてください。"
+
+#. translators: Placeholders: %1$s - <strong> tag, %2$s - </strong> tag, %3$s -
+#. <a> tag, %4$s - </a> tag
+#: includes/Plugin.php:348
+msgid "%1$sNo products%2$s are marked \"sync with Square\". %3$sUpdate your products to sync data &raquo;%4$s"
+msgstr "「Square と同期」とマークされている%1$s商品はありません。 %2$s%3$s商品を更新してデータを同期する &raquo;%4$s"
+
+#. translators: Placeholders: %1$s - <strong> tag, %2$s - product count, %3$s -
+#. </strong> tag, %4$s - <a> tag, %5$s - </a> tag
+#: includes/Plugin.php:336
+msgid "%1$s%2$d products%3$s are marked \"sync with Square\". %4$sStart a new sync now &raquo;%5$s"
+msgstr "%1$s%2$d 商品%3$sは「Squareと同期」とマークされています。 %4$s今すぐ新しい同期を開始 &raquo;%5$s"
+
+#: includes/Plugin.php:330
+msgid "You are ready to sync products!"
+msgstr "商品を同期する準備が整いました。"
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: includes/Plugin.php:320
+msgid "Visit the %1$splugin settings%2$s to set your business location."
+msgstr "%1$sプラグイン設定%2$sにアクセスして、ビジネスの場所を設定します。"
+
+#: includes/Plugin.php:314
+msgid "To get started, set your business location."
+msgstr "開始するには、ビジネスの場所を設定します。"
+
+#: includes/Plugin.php:307
+msgid "You are connected to Square!"
+msgstr "Square に接続されています!"
+
+#: includes/Plugin.php:290
+msgid "Heads up! There may be a problem with your connection to Square. In order to continue accepting payments, please %1$sdisconnect and re-connect your site%2$s."
+msgstr "注意喚起! Square への接続に問題がある可能性があります。 引き続き支払いを受け付けるには、%1$sサイトを切断して再接続してください。%2$s"
+
+#: includes/Utilities/Encryption_Utility.php:145
+msgid "Data must be a non-empty string"
+msgstr "データは空でない文字列である必要があります"
+
+#: includes/Utilities/Encryption_Utility.php:141
+msgid "No decryption method available"
+msgstr "復号化方法は使用できません"
+
+#: includes/Utilities/Encryption_Utility.php:118
+msgid "Could not generate encryption vector."
+msgstr "暗号化ベクトルを生成できませんでした。"
+
+#: includes/Utilities/Encryption_Utility.php:106
+#: includes/Utilities/Encryption_Utility.php:149
+msgid "Encryption key must be a string"
+msgstr "暗号化キーは文字列である必要があります"
+
+#: includes/Utilities/Encryption_Utility.php:102
+msgid "Data must be a non-empty string or array"
+msgstr "データは空でない文字列または配列である必要があります"
+
+#: includes/Utilities/Encryption_Utility.php:98
+msgid "No encryption method available"
+msgstr "使用できる暗号化方式がありません"
+
+#: includes/Utilities/Encryption_Utility.php:73
+msgid "%1$s encryption is not available on this site. %2$s will be used instead."
+msgstr "このサイトでは%1$sの暗号化を使用できません。代わりに%2$sが使用されます。"
+
+#: includes/Utilities/Encryption_Utility.php:56
+msgid "Encryption is not supported on this site."
+msgstr "このサイトでは暗号化はサポートされていません。"
+
+#. translators: Placeholder: %s - product ID
+#: includes/Sync/Manual_Synchronization.php:1141
+msgid "Product %s could not be updated in Square."
+msgstr "Square で商品 %s を更新できませんでした。"
+
+#: includes/Sync/Records/Record.php:562
+msgid "Unlink"
+msgstr "リンク解除"
+
+#: includes/Sync/Records/Record.php:553
+msgid "Ignore"
+msgstr "無視"
+
+#: includes/Sync/Records/Record.php:545
+msgid "Delete"
+msgstr "削除"
+
+#. translators: Placeholder: %s - product name
+#: includes/Sync/Records/Record.php:374
+msgid "%s not found in Square."
+msgstr "%s は Square に見つかりません。"
+
+#: includes/Sync/Records/Record.php:208
+msgid "Alert"
+msgstr "アラート"
+
+#: includes/Sync/Records/Record.php:207
+msgid "Notice"
+msgstr "通知"
+
+#: includes/Sync/Records/Record.php:206
+msgid "Info"
+msgstr "情報"
+
+#: includes/Admin.php:196
+msgid "Imported"
+msgstr "インポート済み"
+
+#: includes/Admin.php:194
+msgid "Skipped"
+msgstr "スキップ済み"
+
+#: includes/Admin.php:193
+msgid "No records found"
+msgstr "記録が見つかりません"
+
+#: includes/Admin.php:192 includes/Sync/Records/Record.php:209
+msgid "Resolved"
+msgstr "解決済み"
+
+#: includes/Admin.php:145
+msgid "Fetch stock from Square"
+msgstr "Square から在庫を取得する"
+
+#: includes/Admin.php:144
+msgid "Managed by Square"
+msgstr "Square によって管理される"
+
+#. translators: Placeholders: %s - additional action
+#: includes/Emails/Sync_Completed.php:131
+msgid "The sync job has failed. Check sync records, or %s."
+msgstr "同期ジョブが失敗しました。 同期レコード、または%sを確認してください。"
+
+#: includes/Emails/Sync_Completed.php:126 includes/Settings.php:269
+msgid "Enable Logging"
+msgstr "ログを有効にする"
+
+#: includes/Emails/Sync_Completed.php:124
+msgid "Inspect status logs"
+msgstr "ステータスログの検査"
+
+#. translators: Placeholders: %1$s - opening <a> HTML link tag, %2$s - closing
+#. </a> HTML link tag, %3$s - additional action
+#: includes/Emails/Sync_Completed.php:115
+msgid "The sync job has failed. %1$sClick for more details%2$s, or %3$s."
+msgstr "同期ジョブに失敗しました。%1$s詳細をクリック%2$sまたは%3$sしてください。"
+
+#. translators: Placeholders: %1$s - opening <a> HTML link tag, %2$s - closing
+#. </a> HTML link tag
+#: includes/Emails/Sync_Completed.php:107
+msgid "%1$sEnable logging%2$s"
+msgstr "%1$sログを有効にする%2$s"
+
+#. translators: Placeholders: %1$s - opening <a> HTML link tag, %2$s - closing
+#. </a> HTML link tag
+#: includes/Emails/Access_Token_Email.php:107
+#: includes/Emails/Sync_Completed.php:100
+msgid "%1$sInspect status logs%2$s"
+msgstr "%1$sステータスログを検査する%2$s"
+
+#: includes/Emails/Sync_Completed.php:70
+msgid "Square sync failed"
+msgstr "Square 同期に失敗しました"
+
+#. translatorsPlaceholder: %s default email address
+#: includes/Emails/Base_Email.php:117
+msgid "Enter recipients (comma separated) for this email. Defaults to admin email: %s"
+msgstr "このメールの受信者 (コンマ区切り) を入力します。既定の管理者メール: %s"
+
+#: includes/Emails/Base_Email.php:114
+msgid "Recipient(s)"
+msgstr "受信者"
+
+#. translators: Placeholder: %s - default email subject text
+#: includes/Emails/Base_Email.php:103
+msgid "This controls the email subject line. Leave blank to use the default subject: %s"
+msgstr "これにより、メールの件名行が制御されます。既定の件名を使用するには空白のままにします: %s"
+
+#: includes/Emails/Sync_Completed.php:49
+msgctxt "Email body with merge tag placeholders"
+msgid "Square sync completed for {site_title} at {sync_completed_date} {sync_completed_time}."
+msgstr "{sync_completed_date} {sync_completed_time} で {site_title} の Square 同期が完了しました。"
+
+#: includes/Emails/Sync_Completed.php:48
+msgctxt "Email heading with merge tag placeholder"
+msgid "Square sync completed for {product_count}"
+msgstr "{product_count} の Square 同期が完了しました。"
+
+#: includes/Emails/Sync_Completed.php:47
+msgctxt "Email subject"
+msgid "[WooCommerce] Square sync completed"
+msgstr "[WooCommerce] Square の同期が完了しました"
+
+#: includes/Emails/Sync_Completed.php:46
+msgid "This email is sent once a manual sync has been completed between WooCommerce and Square"
+msgstr "このメールは、WooCommerce と Square の間で手動同期が完了すると送信されます。"
+
+#: includes/Emails/Sync_Completed.php:45
+msgid "Square sync completed"
+msgstr "Square の同期が完了しました"
+
+#: includes/Gateway/API/Requests/Orders.php:84
+#: includes/Gateway/Digital_Wallet.php:425
+msgid "Discount"
+msgstr "割引"
+
+#: includes/Gateway.php:245 includes/Gateway/Blocks_Handler.php:137
+#: includes/Gateway/Digital_Wallet.php:209
+#: includes/Gateway/Payment_Form.php:240
+msgid "An error occurred, please try again or try an alternate form of payment."
+msgstr "エラーが発生した場合は、もう一度お試しください。"
+
+#: includes/Gateway/Payment_Form.php:182
+#: assets/blocks/credit-card/component-card-fields.js:58 build/index.js:1
+msgid "Postal code"
+msgstr "郵便番号"
+
+#: includes/Admin/Sync_Page.php:394
+msgid "Start sync"
+msgstr "同期の開始"
+
+#. translators: Placeholders: %1$s - the system of record name (e.g. Square or
+#. WooCommerce), %3%s - unordered HTML list of additional information item(s)
+#: includes/Admin/Sync_Page.php:385
+msgid "You are about to sync products with Square. %1$s is your system of record. For all products synced with Square: %2$s"
+msgstr "商品を Square と同期しようとしている。%1$s はレコードのシステムです。Square と同期されたすべての商品: %2$s"
+
+#: includes/Admin/Sync_Page.php:378
+msgid "If a match is not found, a new product will be created in Square."
+msgstr "一致が見つからない場合は、新しい商品が Square で作成されます。"
+
+#: includes/Admin/Sync_Page.php:375
+msgid "If a match is not found in Square, the product will be skipped in the sync."
+msgstr "Square で一致が見つからない場合、商品は同期でスキップされます。"
+
+#: includes/Admin/Sync_Page.php:373
+msgid "If a match is not found in Square, the product will be hidden from the catalog in WooCommerce."
+msgstr "一致が Square で見つからない場合、商品は WooCommerce のカタログから非表示になります。"
+
+#: includes/Admin/Sync_Page.php:369
+msgid "If a match is found in WooCommerce, product data in Square will be overwritten with WooCommerce data."
+msgstr "一致が WooCommerce で見つかった場合、 Square の商品データは WooCommerce データで上書きされます。"
+
+#: includes/Admin/Sync_Page.php:367
+msgid "If a match is found in Square, product data in WooCommerce will be overwritten with Square data."
+msgstr "一致が Square で見つかった場合、WooCommerce の商品データは Square データで上書きされます。"
+
+#: includes/Admin/Sync_Page.php:357
+msgid "Sync products with Square"
+msgstr "商品を Square と同期する"
+
+#: includes/Admin/Sync_Page.php:325
+msgid "No records found."
+msgstr "レコードが見つかりません。"
+
+#: includes/Admin/Sync_Page.php:294 includes/Admin/Sync_Page.php:335
+msgid "Message"
+msgstr "メッセージ"
+
+#: includes/Admin/Sync_Page.php:293 includes/Admin/Sync_Page.php:334
+msgid "Status"
+msgstr "ステータス"
+
+#: includes/Admin/Sync_Page.php:292 includes/Admin/Sync_Page.php:333
+msgctxt "Date - Time"
+msgid "Time"
+msgstr "時間"
+
+#: includes/Admin/Sync_Page.php:287
+msgctxt "Delete all records"
+msgid "Clear history"
+msgstr "履歴を消去"
+
+#: includes/Admin/Sync_Page.php:259
+msgid "Sync now"
+msgstr "今すぐ同期"
+
+#: includes/Admin/Sync_Page.php:227
+msgid "Not synced yet."
+msgstr "まだ同期されていません。"
+
+#: includes/Admin/Sync_Page.php:212
+msgid "Syncing now&hellip;"
+msgstr "今すぐ同期&hellip;"
+
+#: includes/Admin/Sync_Page.php:210
+msgid "Importing now&hellip;"
+msgstr "今すぐインポート&hellip;"
+
+#. translators: Placeholder: %d number of products synced with Square
+#. translators: Placeholder: %d products count
+#: includes/Admin/Sync_Page.php:192 includes/Emails/Sync_Completed.php:207
+msgid "%d product"
+msgid_plural "%d products"
+msgstr[0] "%d 商品"
+
+#: includes/Admin/Sync_Page.php:182 includes/Admin/Sync_Page.php:295
+#: includes/Admin/Sync_Page.php:336
+msgid "Actions"
+msgstr "アクション"
+
+#: includes/Admin/Sync_Page.php:181
+msgid "Next sync"
+msgstr "次の同期"
+
+#: includes/Admin/Sync_Page.php:180
+msgid "Latest sync"
+msgstr "最新の同期"
+
+#: includes/Admin/Sync_Page.php:179
+msgid "Synced products"
+msgstr "同期された商品"
+
+#. translators: Placeholder: %s - reason text
+#: includes/Admin/Sync_Page.php:172
+msgid "Product sync between WooCommerce and Square is currently unavailable. %s"
+msgstr "WooCommerce と Square 間の商品同期は現在利用できません。 %s"
+
+#: includes/Admin/Sync_Page.php:167
+msgid "A sync is currently in progress. Please try again later."
+msgstr "同期は現在進行中です。後でもう一度やり直してください。"
+
+#: includes/Admin/Sync_Page.php:165
+msgid "There are currently no products marked to be synced with Square."
+msgstr "現在、Square と同期するようにマークされている商品はありません。"
+
+#: includes/Admin/Sync_Page.php:161
+msgid "Please connect to Square to enable product sync."
+msgstr "商品の同期を有効にするには、Square に接続してください。"
+
+#. translators: Placeholders: %1$s - opening <strong> HTML tag, %2$s closing
+#. </strong> HTML tag
+#: includes/Admin/Sync_Page.php:126
+msgid "%1$sNo chosen system of record.%2$s Products will not be synced between Square and WooCommerce."
+msgstr "%1$s選択された記録システムはありません。%2$s 商品は Square と WooCommerce の間で同期されません。"
+
+#. translators: Placeholders: %1$s, %3$s - opening <strong> HTML tag, %2$s,
+#. %4$s - closing </strong> HTML tag
+#: includes/Admin/Sync_Page.php:109
+msgid "%1$sWooCommerce%2$s is the system of record. The following data from WooCommerce will overwrite Square data for synced products: %3$sname, price, inventory, category, image%4$s."
+msgstr "%1$sWooCommerce%2$s は記録のシステムです。WooCommerce の次のデータは、同期された商品の Square データを上書きします: %3$s名前、価格、在庫、カテゴリ、画像%4$s。"
+
+#. translators: Placeholders: %1$s - opening <strong> HTML tag, %2$s closing
+#. </strong> HTML tag
+#: includes/Admin/Sync_Page.php:94
+msgid "%1$sProduct images%2$s will be imported from Square if no featured image is set in WooCommerce."
+msgstr "%1$s商品画像%2$sは、WooCommerce で注目の画像が設定されていない場合、 Square からインポートされます。"
+
+#. translators: Placeholders: %1$s, %3$s - opening <strong> HTML tag, %2$s,
+#. $4%s - closing </strong> HTML tag
+#: includes/Admin/Sync_Page.php:80
+msgid "%1$sSquare%2$s is the system of record. The following data from Square will overwrite WooCommerce data for synced products: %3$sname, price, description, category, inventory%4$s."
+msgstr "%1$sSquare%2$s はレコードのシステムです。Square の次のデータは、同期商品の WooCommerce データを上書きします: %3$s名前、価格、説明、カテゴリー、在庫%4$s。"
+
+#: includes/Admin/Sync_Page.php:54
+msgid "Sync records"
+msgstr "レコードの同期"
+
+#. translators: Placeholder: %1$s - date (localized), %2$s - time (localized),
+#. %3$s - opening <a> HTML link tag, %4$s closing </a> HTML link tag
+#: includes/Handlers/Products.php:677
+msgid "The product catalog visibility has been set to \"hidden\", as a matching product could not be found in Square on %1$s at %2$s. %3$sCheck sync records%4$s."
+msgstr "一致する商品が %2$s の %1$s の Square で見つからなかったため、製品カタログの可視性は「非表示」に設定されました。%3$s同期レコードを確認してください。%4$s"
+
+#: includes/Handlers/Products.php:297
+msgid "No change"
+msgstr "変化なし"
+
+#: includes/Handlers/Products.php:293
+msgid "Sync with Square?"
+msgstr "Square と同期しますか?"
+
+#: includes/Handlers/Products.php:257
+msgid "Sync with Square"
+msgstr "Square と同期"
+
+#: includes/Handlers/Products.php:252
+msgid "Send product data to Square"
+msgstr "商品データを Square に送信する"
+
+#: includes/Handlers/Products.php:252
+msgid "Update product data with Square data"
+msgstr "Square データを使用して商品データを更新する"
+
+#: includes/Admin.php:143 includes/Handlers/Products.php:177
+msgid "Synced with Square"
+msgstr "Square と同期"
+
+#: includes/Admin/Settings_Page.php:190 includes/Settings.php:244
+msgid "Import Products"
+msgstr "商品をインポート"
+
+#: includes/Admin/Settings_Page.php:189 includes/Admin/Sync_Page.php:393
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: includes/Admin/Settings_Page.php:175 includes/Admin/Sync_Page.php:359
+msgid "Close modal window"
+msgstr "モーダルウィンドウを閉じる"
+
+#: includes/Admin/Settings_Page.php:173
+msgid "Import Products From Square"
+msgstr "Square から商品をインポート"
+
+#: includes/Admin/Settings_Page.php:146 includes/Admin/Sync_Page.php:50
+msgid "Update"
+msgstr "更新"
+
+#: includes/Admin/Settings_Page.php:145
+msgid "Settings"
+msgstr "設定"
+
+#: includes/Handlers/Product.php:312
+msgid "Product not synced with Square"
+msgstr "Square と同期されていない商品"
+
+#: includes/Handlers/Connection.php:179
+msgid "Disconnected successfully"
+msgstr "正常に切断されました"
+
+#: includes/Handlers/Connection.php:103 includes/Handlers/Connection.php:171
+msgid "Sorry, you do not have permission to manage the Square connection."
+msgstr "Square 接続を管理する権限がありません。"
+
+#. translators: Placeholder: %d number of products processed
+#: includes/Handlers/Sync.php:329
+msgid "Updated data for %d product."
+msgid_plural "Updated data for %d products."
+msgstr[0] "%d 商品のデータを更新しました。"
+
+#: includes/Handlers/Background_Job.php:365
+msgid "Success! You can now sync your products."
+msgstr "成功！これで、商品を同期できます。"
+
+#: includes/Handlers/Background_Job.php:346
+msgid "This tool will clear any ongoing Square product syncs."
+msgstr "このツールは、進行中の Square 商品の同期をクリアします。"
+
+#: includes/Handlers/Background_Job.php:345
+msgid "Clear"
+msgstr "クリア"
+
+#: includes/Handlers/Background_Job.php:344
+msgid "Clear Square Sync"
+msgstr "Square の同期をクリア"
+
+#: includes/Admin/Privacy.php:93
+msgid "Square User Data Erased."
+msgstr "Square のユーザーデータが消去されました。"
+
+#. translators: Placeholder: %1$s - <a> tag, %2$s - </a> tag
+#: includes/Admin/Privacy.php:61
+msgid "By using this extension, you may be storing personal data or sharing data with an external service. %1$sLearn more about how this works, including what you may want to include in your privacy policy.%2$s"
+msgstr "この拡張機能を使用すると、個人データを保存したり、外部サービスとデータを共有したりする可能性があります。%1$sプライバシー ポリシーに含めるものなど、このしくみについて詳しく知る。%2$s"
+
+#: includes/Admin/Privacy.php:47
+msgid "WooCommerce Square Customer Data"
+msgstr "WooCommerce Square 顧客データ"
+
+#. Author URI of the plugin
+msgid "https://www.woocommerce.com/"
+msgstr "https://www.woocommerce.com/"
+
+#. Author of the plugin
+#: includes/Settings.php:224 includes/Settings.php:760
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#. Description of the plugin
+msgid "Adds ability to sync inventory between WooCommerce and Square POS. In addition, you can also make purchases through the Square payment gateway."
+msgstr "WooCommerce と Square POS の在庫の同期機能を追加します。さらに、 Square 決済ゲートウェイ経由の購入をすることができます。"
+
+#. Plugin URI of the plugin
+msgid "https://woocommerce.com/products/square/"
+msgstr "https://woocommerce.com/products/square/"
+
+#. Plugin Name of the plugin
+#: includes/Plugin.php:900
+msgid "WooCommerce Square"
+msgstr "WooCommerce Square"
+
+#: includes/Gateway.php:594
+msgid "Description"
+msgstr "説明"
+
+#: includes/Gateway.php:587
+msgid "Title"
+msgstr "タイトル"
+
+#. translators: Placeholders: %1$s - variation ID, %2$s - product name
+#: includes/Sync/Product_Import.php:926
+msgid "Variation #%1$s of %2$s"
+msgstr "%2$s のバリエーション %1$s"
+
+#: includes/Sync/Product_Import.php:734 includes/Sync/Product_Import.php:1011
+msgid "The SKU already exists on another product"
+msgstr "その SKU はすでに他の商品で使われています"
+
+#. translators: Placeholders: %s - comma separated list of valid product types
+#: includes/Sync/Product_Import.php:1311
+msgid "Invalid product type - the product type must be any of these: %s"
+msgstr "無効な商品タイプ - 商品タイプは、これらのいずれかでなければなりません: %s"
+
+#. translators: Placeholders: %s - missing parameter name
+#: includes/Sync/Product_Import.php:1305
+msgid "Missing parameter %s"
+msgstr "パラメーター %s がありません"
+
+#: includes/Handlers/Products.php:299
+msgid "No"
+msgstr "いいえ"
+
+#: includes/Handlers/Products.php:300
+msgid "Yes"
+msgstr "はい"
+
+#: includes/Handlers/Connection.php:386
+msgid "Connect with Square"
+msgstr "Square に接続"
+
+#: includes/Handlers/Connection.php:406
+msgid "Disconnect from Square"
+msgstr "Square から切断"
+
+#: includes/Settings.php:230
+msgid "Sync inventory"
+msgstr "在庫の同期"
+
+#: includes/Settings.php:195
+msgid "Business location"
+msgstr "会社の住所"
+
+#: includes/Settings.php:149
+msgid "Connect with Square to start syncing your products and inventory and also accept credit and debit card payments at checkout."
+msgstr "Square と接続して商品と在庫の同期を開始し、チェックアウト時にクレジットカードやデビットカードでの支払いを受け付けます。"
+
+#: includes/Admin/Privacy.php:45 includes/Admin/Settings_Page.php:55
+#: includes/Gateway.php:80 includes/Settings.php:223 includes/Settings.php:757
+msgid "Square"
+msgstr "Square"

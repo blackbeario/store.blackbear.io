@@ -1,0 +1,1132 @@
+# Translation of Plugins - WooCommerce Square - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - WooCommerce Square - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-09-29 09:01:23+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - WooCommerce Square - Stable (latest release)\n"
+
+#. translators: 1: product name
+#: includes/Gateway/Digital_Wallet.php:299
+msgid "You cannot purchase \"%1$s\" because it is currently not available."
+msgstr "Je kunt \"%1$s\" niet kopen omdat het momenteel niet beschikbaar is."
+
+#. translators: %1$s - opening bold HTML tag, %2$s - closing bold HTML tag,
+#. %3$s - version number
+#: includes/Gateway/Blocks_Handler.php:298
+msgid "%1$sWarning!%2$s Some Square + Checkout Block features do not work with your version of WooCommerce Blocks (%3$s). Please update to the latest version of WooCommerce Blocks or WooCommerce to fix these issues."
+msgstr "%1$sWaarschuwing!%2$s Sommige vierkant + afreken blok functies werken niet met je versie van WooCommerce Blocks (%3$s). Update naar de laatste versie van WooCommerce Blocks of WooCommerce om deze problemen op te lossen."
+
+#: includes/Gateway/Blocks_Handler.php:152
+msgid "Credit Card"
+msgstr "Kredietkaart"
+
+#. translators: Context (product, cart, checkout or page)
+#: includes/Gateway/Digital_Wallet.php:468
+msgid "Empty payment request data for %s."
+msgstr "Lege betalingsaanvraag gegevens voor %s."
+
+#: includes/Gateway/Digital_Wallet.php:796
+msgid "Unable to verify domain with Apple Pay - missing access token."
+msgstr "Kan domein niet verifiëren met Apple Pay - toegang token ontbreekt."
+
+#: includes/Gateway.php:799
+msgid "Select any digital wallet buttons you don't want to be displayed on your store."
+msgstr "Selecteer een digitale portemonnee knop die je niet in je winkel wil laten zien."
+
+#: includes/Gateway.php:798
+msgid "Hide Digital Wallet Buttons"
+msgstr "Verberg digitale portemonnee knoppen"
+
+#: includes/Gateway.php:787
+msgid "Select the color of the Google Pay button."
+msgstr "Selecteer de kleur van de Google Pay knop."
+
+#: includes/Gateway.php:786
+msgid "Google Pay Button Color"
+msgstr "Kleur van Google Pay knop"
+
+#: includes/Gateway.php:774
+msgid "Select the color of the Apple Pay button."
+msgstr "Selecteer de kleur van de Apple Pay knop."
+
+#: includes/Gateway.php:773
+msgid "Apple Pay Button Color"
+msgstr "Kleur van Apple Pay knop"
+
+#: includes/Gateway.php:761
+msgid "Select which text is displayed on the digital wallet buttons."
+msgstr "Selecteer welke tekst wordt weergegeven op de digitale portemonnee knoppen."
+
+#: includes/Gateway.php:760
+msgid "This setting only applies to the Apple Pay button. When Google Pay is available, the Google Pay button will always have the \"Buy with\" button text."
+msgstr "Deze instelling is alleen van toepassing op de Apple Pay knop. Als Google Pay beschikbaar is, heeft de Google Pay knop altijd de tekst \"Koop met\" op de knop."
+
+#: includes/Gateway.php:759
+msgid "Button Type"
+msgstr "Knoptype"
+
+#: includes/Gateway.php:755
+msgid "Enable digital wallets"
+msgstr "Schakel digitale portefeuilles in"
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: includes/Gateway.php:752
+msgid "Allow customers to pay with Apple Pay or Google Pay from your Product, Cart and Checkout pages. Read more about the availablity of digital wallets in our %1$sdocumentation%2$s."
+msgstr "Sta klanten toe om met Apple Pay of Google Pay te betalen vanaf je product-, winkelwagen- en afrekenpagina's. Lees meer over de beschikbaarheid van digitale portefeuilles in onze %1$sdocumentatie%2$s."
+
+#: includes/Gateway.php:745
+msgid "Take payments on your store with Apple Pay and Google Pay."
+msgstr "Accepteer betalingen in je winkel met Apple Pay en Google Pay."
+
+#: includes/Gateway.php:744
+msgid "Digital Wallet Settings"
+msgstr "Instellingen voor digitale portemonnee"
+
+#: includes/Gateway.php:686
+msgid "Check to enable tokenization and allow customers to securely save their payment details for future checkout."
+msgstr "Vink aan om tokenisatie in te schakelen en klanten in staat te stellen hun betalingsgegevens veilig op te slaan voor toekomstige betalingen."
+
+#. translators: show debugging information on both checkout page and in the log
+#: includes/Gateway.php:649
+msgid "Both"
+msgstr "Beide"
+
+#: includes/Gateway.php:647
+msgid "Save to Log"
+msgstr "Opslaan in log"
+
+#: includes/Gateway.php:646
+msgid "Show on Checkout Page"
+msgstr "Weergeven op afrekenpagina"
+
+#: includes/Gateway.php:645
+msgid "Off"
+msgstr "Uit"
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: includes/Gateway.php:642
+msgid "Show Detailed Error Messages and API requests/responses on the checkout page and/or save them to the %1$sdebug log%2$s"
+msgstr "Toon gedetailleerde foutmeldingen en API aanvragen/antwoorden op de afrekenpagina en/of sla ze op in het %1$sdebug log%2$s"
+
+#: includes/Gateway.php:639
+msgid "Debug Mode"
+msgstr "Fout opsporingsmodus"
+
+#: includes/Gateway.php:632
+msgid "Check to enable detailed decline messages to the customer during checkout when possible, rather than a generic decline message."
+msgstr "Schakel dit selectievak in, om indien mogelijk gedetailleerde weigeringsberichten aan de klant tijdens het afrekenen in te schakelen, in plaats van een algemeen weigeringsbericht."
+
+#: includes/Gateway.php:630
+msgid "Detailed Decline Messages"
+msgstr "Gedetailleerde weigeringsberichten"
+
+#: includes/Gateway.php:623
+msgid "Advanced Settings"
+msgstr "Geavanceerde instellingen"
+
+#: includes/Gateway.php:596
+msgid "Payment method description that the customer will see during checkout."
+msgstr "Beschrijving van de betalingsmethode die de klant ziet tijdens het afrekenen."
+
+#: includes/Gateway.php:589
+msgid "Payment method title that the customer will see during checkout."
+msgstr "De titel van de betalingsmethode die de klant ziet tijdens het afrekenen."
+
+#: includes/Gateway.php:581
+msgid "Enable this gateway"
+msgstr "Schakel deze gateway in"
+
+#: includes/Gateway/Digital_Wallet.php:662
+msgid "Empty cart"
+msgstr "Lege winkelwagen"
+
+#: includes/Gateway/Digital_Wallet.php:433
+msgid "Fees"
+msgstr "Vergoedingen"
+
+#: includes/Gateway/Digital_Wallet.php:409
+msgid "Shipping"
+msgstr "Verzenden"
+
+#: includes/Gateway/Digital_Wallet.php:367
+msgid "Pending"
+msgstr "In afwachting"
+
+#: includes/Gateway/Digital_Wallet.php:356
+msgid "This payment method cannot be used for multiple shipments."
+msgstr "Deze betaalmethode kan niet worden gebruikt voor meerdere zendingen."
+
+#: includes/Gateway/Digital_Wallet.php:321
+#: includes/Gateway/Digital_Wallet.php:417
+msgid "Tax"
+msgstr "Belasting"
+
+#. translators: 1: product name 2: quantity in stock
+#: includes/Gateway/Digital_Wallet.php:294
+msgid "You cannot add that amount of \"%1$s\"; to the cart because there is not enough stock (%2$s remaining)."
+msgstr "Je kunt dat bedrag van \"%1$s\"; niet optellen bij de winkelwagen omdat er niet genoeg voorraad is (%2$s resterend)."
+
+#. translators: product ID
+#: includes/Gateway/Digital_Wallet.php:278
+msgid "Product with the ID (%d) cannot be found."
+msgstr "Product met ID (%d) is niet gevonden."
+
+#: includes/Gateway/Digital_Wallet.php:178
+msgid "OR"
+msgstr "Of"
+
+#. Translators: %1$s: opening bold tags, %2$s: closing strong/bold tags, %3$s:
+#. expected location of apple pay verification file, %4$s: opening href tag
+#. with link to Square documentation, %5$s: closing href tag
+#: includes/Gateway/Digital_Wallet.php:130
+msgid "Apple Pay is not available with Square - there was a problem with registering your store domain with Square/Apple Pay. %1$sView the Square logs%2$s to find out what caused the registration to fail."
+msgstr "Apple Pay is niet beschikbaar bij Square - er was een probleem bij het registreren van je winkeldomein bij Square/Apple Pay. %1$sBekijk de Square logs%2$s om erachter te komen waardoor de registratie is mislukt."
+
+#. Translators: %1$s: expected location of apple pay verification file, %2$s:
+#. opening href tag with link to Square documentation, %3$s: closing href tag
+#: includes/Gateway/Digital_Wallet.php:114
+msgid "Apple Pay is not available with Square. We cannot confirm the Apple Pay domain verification file is at the expected location: %1$s. For more information, please read our documentation on %2$sSetting up Apple Pay%3$s."
+msgstr "Apple Pay is niet beschikbaar bij Square. We kunnen niet bevestigen dat het Apple Pay-domeinverificatiebestand zich op de verwachte locatie bevindt: %1$s. Lees onze documentatie op voor meer informatie %2$sApple Pay instellen%3$s."
+
+#: includes/Sync/Product_Import.php:641
+msgid "Variations with missing SKUs cannot be imported."
+msgstr "Variaties met ontbrekende SKU's kunnen niet worden geïmporteerd."
+
+#: includes/Sync/Interval_Polling.php:111
+msgid "Product category data could not be updated from Square. Invalid API response."
+msgstr "Productcategoriegegevens konden niet geüpdatet worden vanuit Square. Ongeldig API-antwoord."
+
+#. translators: Placeholders: %1$s - Square item name, %2$s - Failure reason
+#: includes/Sync/Product_Import.php:1362
+msgid "Could not update %1$s from Square. %2$s"
+msgstr "Kan %1$s niet updaten vanaf Square. %2$s"
+
+#: includes/Admin/Settings_Page.php:185
+msgid "Update existing products during import."
+msgstr "Update bestaande producten tijdens het importeren."
+
+#. translators: Placeholders: %1$s - <a> tag linking to WooCommerce Square
+#. docs, %2%s - closing </a> tag
+#: includes/Admin/Settings_Page.php:184
+msgid "Doing so will update existing WooCommerce products with the latest information from Square. %1$sView Documentation%2$s."
+msgstr "Als je dit doet, worden bestaande WooCommerce-producten geüpdatet met de nieuwste informatie van Square. %1$sBekijk documentatie%2$s."
+
+#: includes/Admin/Settings_Page.php:182
+msgid "Do you wish to import existing product updates from Square?"
+msgstr "Wil je bestaande productupdates van Square importeren?"
+
+#. translators: Placeholders: %1$s - <strong>, %2%s - </strong>
+#: includes/Admin/Settings_Page.php:180
+msgid "You are about to import all new products, variations and categories from Square. This will create a new product in WooCommerce for every product retrieved from Square. If you have products in the trash from the previous imports, these will be ignored in the import."
+msgstr "Je staat op het punt alle nieuwe producten, variaties en categorieën van Square te importeren. Hiermee wordt een nieuw product in WooCommerce gemaakt voor elk product dat uit Square wordt opgehaald. Als je producten uit de vorige importen in de prullenbak hebt staan, worden deze bij de import genegeerd."
+
+#: includes/Gateway.php:1083
+msgid " An error occurred, please try again or try an alternate form of payment."
+msgstr " Er is een fout opgetreden, probeer het opnieuw of probeer een alternatieve vorm van betaling."
+
+#. translators: Placeholders: %1$s - plugin name, %2$s - <a> tag, %3$s - </a>
+#. tag, %4$s - <a> tag, %5$s - </a> tag
+#: includes/Lifecycle.php:195
+msgid "Are you having a great experience with %1$s so far? Please consider %2$sleaving a review%3$s! If things aren't going quite as expected, we're happy to help -- please %4$sreach out to our support team%5$s."
+msgstr "Heb je tot nu toe een geweldige ervaring met %1$s? Overweeg alsjeblieft %2$seen beoordeling achter te laten%3$s! Als de zaken niet helemaal gaan zoals verwacht, helpen we je graag - neem alsjeblieft %4$scontact op met ons ondersteuning team%5$s."
+
+#: includes/Lifecycle.php:188
+msgid "Fantastic"
+msgstr "Fantastisch"
+
+#: includes/Lifecycle.php:187
+msgid "Great"
+msgstr "Top"
+
+#: includes/Lifecycle.php:186
+msgid "Congratulations"
+msgstr "Gefeliciteerd"
+
+#: includes/Lifecycle.php:185
+msgid "Awesome"
+msgstr "Geweldig"
+
+#: includes/Admin.php:195
+msgid "Updated"
+msgstr "Geactualiseerd"
+
+#: includes/AJAX.php:322
+msgid "Stock must be fetched from Square before editing stock quantity"
+msgstr "Voorraad moet van Square worden opgehaald voordat de voorraadhoeveelheid wordt bewerkt"
+
+#: includes/Admin/Sync_Page.php:163
+msgid "Please set the business location to enable product sync."
+msgstr "Stel de bedrijfslocatie in om productsynchronisatie in te schakelen."
+
+#: includes/Settings.php:163
+msgid "After enabling you’ll see a new Sandbox settings section with two fields; Sandbox Application ID & Sandbox Access Token."
+msgstr "Na het inschakelen zie je een nieuw Sandbox-instellingengedeelte met twee velden; Sandbox-toepassings-ID en toegangstoken voor sandbox."
+
+#: includes/Settings.php:161
+msgid "Enable to set the plugin in sandbox mode."
+msgstr "Schakel dit in om de plugin in de sandbox-modus te zetten."
+
+#: includes/Settings.php:160
+msgid "Enable Sandbox Mode"
+msgstr "Sandbox-modus inschakelen"
+
+#: includes/Emails/Access_Token_Email.php:113
+msgid "In order to continue accepting payments, please disconnect and re-connect your site at "
+msgstr "Als je betalingen wil blijven accepteren, koppelt je je site los en sluit je deze opnieuw aan op"
+
+#. translators: Placeholders: %1$s - opening <a> HTML link tag, %2$s - closing
+#. </a> HTML link tag
+#: includes/Emails/Access_Token_Email.php:99
+msgid "In order to continue accepting payments, please %1$sdisconnect and re-connect your site%2$s."
+msgstr "Als je betalingen wil blijven accepteren, moet je %1$sdconnect loskoppelen en je site%2$s opnieuw verbinden."
+
+#: includes/Emails/Access_Token_Email.php:49
+msgctxt "Square connection problems email body."
+msgid "Heads up! There may be a problem with your connection to Square."
+msgstr "Let op! Mogelijk is er een probleem met je verbinding met Square."
+
+#: includes/Emails/Access_Token_Email.php:48
+msgctxt "Email heading"
+msgid "There was a problem with your Square Access Token"
+msgstr "Er is een probleem met je Square Access Token"
+
+#: includes/Emails/Access_Token_Email.php:47
+msgctxt "Email subject"
+msgid "[WooCommerce] There was a problem with your Square Access Token"
+msgstr "[WooCommerce] Er is een probleem met je Square Access Token"
+
+#: includes/Emails/Access_Token_Email.php:46
+msgid "This email is sent when problems with Access Token are encountered"
+msgstr "Deze e-mail wordt verzonden wanneer er problemen met Access Token worden aangetroffen"
+
+#: includes/Emails/Access_Token_Email.php:45
+msgid "Square Access Token problems"
+msgstr "Problemen met Square Access Token"
+
+#: includes/Handlers/Products.php:306
+msgid "This product"
+msgstr "Dit product"
+
+#. translators: Placeholder: %s - product name
+#: includes/Handlers/Products.php:72
+msgid "%s has multiple variation attributes and cannot be synced with Square."
+msgstr "%s hebt meerdere variatiekenmerken en kan niet worden gesynchroniseerd met Square."
+
+#. translators: Placeholder: %s - product name
+#: includes/Handlers/Products.php:70
+msgid "Please add an SKU to every variation of %s for syncing with Square. Each SKU must be unique and match the corresponding item's SKU in your Square account."
+msgstr "Voeg een SKU toe aan elke variatie van %s voor synchronisatie met Square. Elke SKU moet uniek zijn en overeenkomen met de overeenkomstige artikel SKU in je Square account."
+
+#. translators: Placeholder: %s - product name
+#: includes/Handlers/Products.php:68
+msgid "Please add an SKU to sync %s with Square. The SKU must match the item's SKU in your Square account."
+msgstr "Voeg een SKU toe om %s te synchroniseren met Square. De SKU moet overeenkomen met de SKU van het artikel in je Square-account."
+
+#. translators: Placeholder: %s category ID
+#: includes/Handlers/Product.php:178
+msgid "Square category with id (%s) was not imported to your Store. Please run Import Products from Square settings."
+msgstr "Square categorie met id (%s) is niet geïmporteerd in je winkel. Voer import producten via Square instellingen uit."
+
+#: includes/Sync/Interval_Polling.php:101
+msgid "Updated data for %d category."
+msgid_plural "Updated data for %d categories."
+msgstr[0] "Bijgewerkte gegevens voor %d categorie."
+msgstr[1] "Bijgewerkte gegevens voor %d categorieën."
+
+#: includes/Settings.php:246
+msgid "Run an import to create new products in this WooCommerce store for each new product created in Square that has a unique SKU not existing in here. Needs to be run each time new items are created in Square."
+msgstr "Voer een import uit om nieuwe producten in deze WooCommerce-winkel te maken voor elk nieuw product gemaakt in Square met een unieke SKJe die hier niet bestaat. Moet elke keer dat er nieuwe items worden gemaakt in Square worden uitgevoerd."
+
+#: includes/Settings.php:188
+msgid "Access Token for the Sandbox Test Account, see the details in the Sandbox Test Account section. Make sure you use the correct Sandbox Access Token for your application. For a given Sandbox Test Account, each Authorized Application is assigned a different Access Token."
+msgstr "Toegangstoken voor het Sandbox-testaccount, zie de details in het gedeelte Sandbox-testaccount. Zorg ervoor dat je de juiste Sandbox-toegangstoken gebruikt voor je toepassing. Voor een gegeven Sandbox-testaccount krijgt elke geautoriseerde applicatie een ander toegangstoken toegewezen."
+
+#: includes/Settings.php:186
+msgid "Sandbox Access Token"
+msgstr "Sandbox-toegangstoken"
+
+#: includes/Settings.php:181
+msgid "Application ID for the Sandbox Application, see the details in the My Applications section."
+msgstr "Toepassings-ID voor de Sandbox-toepassing, zie de details in het gedeelte Mijn toepassingen."
+
+#: includes/Settings.php:179
+msgid "Sandbox Application ID"
+msgstr "Sandbox-app-ID"
+
+#. translators: Placeholders: %1$s - URL.
+#: includes/Settings.php:172
+msgid "Sandbox details can be created at: %s"
+msgstr "Sandbox-details kunnen worden gemaakt op: %s"
+
+#: includes/Settings.php:168
+msgid "Sandbox settings"
+msgstr "Sandbox-instellingen"
+
+#. translators: Placeholders: %1$s - <strong> tag, %2$s - </strong> tag, %3$s -
+#. <a> tag, %4$s - </a> tag
+#: includes/Plugin.php:528
+msgid "%1$sWooCommerce Square:%2$s Automatic refreshing of the connection to Square is inactive. Please disconnect and reconnect to resolve."
+msgstr "%1$sWooCommerce Square:%2$s Het automatisch vernieuwen van de verbinding met Square is inactief. Ontkoppel en maak opnieuw verbinding om op te lossen."
+
+#: includes/Sync/Product_Import.php:637
+msgid "Items with variable pricing cannot be imported."
+msgstr "Artikelen met variabele prijzen kunnen niet worden geïmporteerd."
+
+#. translators: Placeholders: %1$s - Square item name, %2$s - Square item
+#. variation name, %3$s - failure reason
+#: includes/Sync/Product_Import.php:563
+msgid "Could not import \"%1$s - %2$s\" from Square. %3$s"
+msgstr "Kan \"%1$s -%2$s\" niet importeren uit Square. %3$s"
+
+#. translators: Placeholders: %1$s - Square item name, %2$s - failure reason
+#: includes/Sync/Product_Import.php:608
+msgid "Could not import \"%1$s\" from Square. %2$s"
+msgstr "Kon \"%1$s\" niet importeren uit Square. %2$s"
+
+#. translators: Placeholders: %1$s - Square item name, %2$s - Failure reason
+#: includes/Sync/Product_Import.php:1365
+msgid "Could not import %1$s from Square. %2$s"
+msgstr "Kan %1$s niet importeren uit Square. %2$s"
+
+#: includes/Handlers/Connection.php:115
+msgid "Square Error: We could not connect to Square. No access token was given.!"
+msgstr "Square-fout: we konden geen verbinding maken met Square. Er is geen toegangstoken gegeven.!"
+
+#: includes/Gateway/API/Requests/Orders.php:302
+#: includes/Gateway/API/Requests/Orders.php:348
+msgid "Adjustment"
+msgstr "Aanpassing"
+
+#: includes/Settings.php:231
+msgid "Enable to sync product inventory with Square"
+msgstr "Schakel in om productvoorraad te synchroniseren met Square"
+
+#. translators: Placeholders: %1$s - <strong> tag, %2$s - </strong> tag, %3$s -
+#. <a> tag, %4$s - </a> tag
+#: includes/Settings.php:200
+msgid "Select a location to link to this site. Only %1$sactive%2$s %3$slocations%4$s that support credit card processing in Square can be linked."
+msgstr "Selecteer een locatie om naar deze site te linken. Alleen %1$sactive%2$s %3$slocations %4$s die creditcardverwerking in Square ondersteunen, kunnen worden gekoppeld."
+
+#. translators: Placeholders: %1$s - <strong> tag, %2$s - </strong> tag
+#: includes/Admin.php:205
+msgid "Inventory is %1$salways fetched from Square%2$s periodically to account for sales from other channels."
+msgstr "Voorraad is %1$salways die periodiek wordt opgehaald van Square%2$s om rekening te houden met verkopen via andere kanalen."
+
+#: includes/Admin.php:202 includes/Settings.php:233
+msgid "Inventory is fetched from Square periodically and updated in WooCommerce"
+msgstr "Voorraad wordt periodiek opgehaald uit Square en bijgewerkt in WooCommerce"
+
+#: includes/Admin.php:199
+msgid "Enable to push inventory changes to Square"
+msgstr "Inschakelen om voorraadwijzigingen naar Square te pushen"
+
+#: includes/Admin.php:198
+msgid "Enable to fetch inventory changes from Square"
+msgstr "Inschakelen om voorraadwijzigingen op te halen van Square"
+
+#: includes/Settings.php:355
+msgid "Import all products from Square"
+msgstr "Importeer alle producten van Square"
+
+#: includes/Settings.php:321
+msgid "Please choose a location"
+msgstr "Kies een locatie"
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: includes/Settings.php:273
+msgid "Log debug messages to the %1$sWooCommerce status log%2$s"
+msgstr "Log debugberichten in het %1$sWooCommerce-statuslogboek%2$s"
+
+#: includes/Settings.php:256
+msgid "Connection"
+msgstr "Verbinding"
+
+#: includes/Settings.php:240
+msgid "Products not found in Square will be hidden in the WooCommerce product catalog."
+msgstr "Producten die niet in Square worden gevonden, worden verborgen in de WooCommerce-productcatalogus."
+
+#: includes/Settings.php:238
+msgid "Hide synced products when not found in Square"
+msgstr "Gesynchroniseerde producten verbergen wanneer ze niet worden gevonden in Square"
+
+#: includes/Settings.php:237
+msgid "Handle missing products"
+msgstr "Omgaan met ontbrekende producten"
+
+#: includes/Settings.php:222
+msgid "Do not sync product data"
+msgstr "Productgegevens niet synchroniseren"
+
+#. translators: Placeholders: %1$s - <strong> tag, %2$s - </strong> tag, %3$s -
+#. <a> tag, %4$s - </a> tag
+#: includes/Settings.php:215
+msgid "Choose where you will update data for synced products. Inventory in Square is %1$salways%2$s checked for adjustments when sync is enabled. %3$sClick here%4$s to read more about choosing a system of record."
+msgstr "Kies waar je gegevens voor gesynchroniseerde producten wil bijwerken. Voorraad in Square is %1$salways%2$s gecontroleerd op aanpassingen wanneer synchronisatie is ingeschakeld. %3$sKlik hier%4$s om meer te lezen over het kiezen van een recordsysteem."
+
+#: includes/Settings.php:210
+msgid "Product system of record"
+msgstr "Productsysteem van record"
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: includes/Settings.php:142
+msgid "Sync your products and inventory and also accept credit and debit card payments at checkout. %1$sClick here%2$s to configure payments."
+msgstr "Synchroniseer je producten en inventaris en accepteer ook creditcard- en debetkaartbetalingen bij het afrekenen. %1$sKlik hier%2$s om betalingen te configureren."
+
+#: includes/Gateway.php:685
+msgid "Customer Profiles"
+msgstr "Klantprofielen"
+
+#: includes/Gateway.php:467
+msgid "Could not find original transaction tender. Please refund this transaction from your Square dashboard."
+msgstr "Kon de oorspronkelijke transactiemelding niet vinden. Gelieve deze transactie terug te betalen via je Square-dashboard."
+
+#: includes/Gateway.php:443
+msgid "Refunds must be made within %s of the original payment date."
+msgstr "Terugbetalingen moeten plaatsvinden binnen %s dagen na de oorspronkelijke betalingsdatum."
+
+#: includes/Gateway.php:81
+msgid "Allow customers to use Square to securely pay with their credit cards"
+msgstr "Sta klanten toe om Square te gebruiken om veilig te betalen met hun creditcards"
+
+#. translators: Placeholder: %s - sync job ID
+#: includes/AJAX.php:284
+msgid "No sync job in progress found %s"
+msgstr "Geen synchronisatietaak die bezig is gevonden %s"
+
+#. translators: Placeholder: %s - error message
+#: includes/AJAX.php:239
+msgid "An error occurred. %s"
+msgstr "Er is een fout opgetreden. %s"
+
+#: includes/AJAX.php:227
+msgid "Could not unsync product."
+msgstr "Kan product niet ontkoppelen."
+
+#: includes/AJAX.php:215
+msgid "Could not resolve record."
+msgstr "Kan record niet oplossen."
+
+#: includes/AJAX.php:205
+msgid "Could not delete record."
+msgstr "Kan record niet verwijderen."
+
+#: includes/AJAX.php:197
+msgid "Could not delete records."
+msgstr "Kan records niet verwijderen."
+
+#: includes/AJAX.php:151
+msgid "Your products are being imported in the background! This may take some time to complete."
+msgstr "Je producten worden op de achtergrond geïmporteerd! Dit kan even duren."
+
+#: includes/AJAX.php:148
+msgid "Could not start import. Please try again."
+msgstr "Kan import niet starten. Probeer het alsjeblieft opnieuw."
+
+#. translators: Placeholders: %s = help text
+#: includes/AJAX.php:130
+msgid "Error finding item in Square. %s"
+msgstr "Fout bij het vinden van item in Square. %s"
+
+#. translators: Placeholders: %1$s = error message, %2$s = help text
+#: includes/AJAX.php:125
+msgid "Unable to fetch inventory: %1$s. %2$s"
+msgstr "Kan voorraad niet ophalen: %1$s. %2$s"
+
+#: includes/AJAX.php:112
+msgid "Please mark product as un-synced and save, then synced again."
+msgstr "Markeer het product als niet-gesynchroniseerd en sla het op en synchroniseer het opnieuw."
+
+#: includes/Plugin.php:591
+msgid "Heads up! Your store currency is %1$s but your configured Square business location currency is %2$s, so payments cannot be processed. Please %3$schoose a different business location%4$s or change your %5$sshop currency%6$s."
+msgstr "Let op! De valuta van je winkel is %1$s, maar de geconfigureerde valuta van de Square-bedrijfslocatie is %2$s, dus betalingen kunnen niet worden verwerkt. Kies %3$svoor een andere bedrijfslocatie%4$s of wijzig je %5$swinkel-valuta%6$s."
+
+#: includes/Plugin.php:560
+msgid "%1$sWooCommerce Square:%2$s Product prices are entered inclusive of tax, but Square does not support syncing tax-inclusive prices. Please make sure your Square tax rates match your WooCommerce tax rates."
+msgstr "%1$sWooCommerce Square:%2$s Productprijzen zijn inclusief btw ingevoerd, maar Square biedt geen ondersteuning voor het synchroniseren van prijzen inclusief btw. Zorg ervoor dat je Square-belastingtarieven overeenkomen met je WooCommerce-belastingtarieven."
+
+#. translators: Placeholders: %1$s - <strong> tag, %2$s - </strong> tag, %3$s -
+#. <a> tag, %4$s - </a> tag
+#: includes/Plugin.php:485
+msgid "%1$sWooCommerce Square:%2$s It looks like your site does not support background processing, which means large numbers of products may not sync successfully with Square. %3$sRead more here%4$s on how to resolve this."
+msgstr "%1$sWooCommerce Square:%2$s Het lijkt erop dat je site geen achtergrondverwerking ondersteunt, wat betekent dat grote aantallen producten mogelijk niet succesvol worden gesynchroniseerd met Square. %3$sLees hier meer%4$s over hoe je dit kan oplossen."
+
+#. translators: Placeholders: %1$s - <strong> tag, %2$s - </strong> tag, %3$s -
+#. 2-character country code, %4$s - comma separated list of 2-character country
+#. codes
+#: includes/Plugin.php:458
+msgid "%1$sWooCommerce Square:%2$s Your base country is %3$s, but Square can’t accept transactions from merchants outside of %4$s."
+msgstr "%1$sWooCommerce Square:%2$s Je basisland is %3$s, maar Square accepteert geen transacties van verkopers buiten %4$s."
+
+#. translators: Placeholders: %1$s - plugin name, %2$ - plugin version number,
+#. %3$s - opening <a> HTML link tag, %4$s - closing </a> HTML link tag,  %5$s -
+#. opening <a> HTML link tag, %6$s - closing </a> HTML link tag
+#: includes/Plugin.php:418
+msgid "%1$s has been updated to version %2$s. In order to continue syncing product inventory, please make sure to disconnect and reconnect with Square from the %3$splugin settings%4$s and re-sync your products. Read more in the %5$supdated documentation%6$s."
+msgstr "%1$s is geüpdatet naar versie%2$s. Om door te gaan met het synchroniseren van de productvoorraad, moet je de verbinding verbreken en opnieuw met Square verbinden vanuit %3$splugin-instellingen %4$s en je producten opnieuw synchroniseren. Lees meer in de %5$sbijgewerkte documentatie%6$s."
+
+#. translators: Placeholders: %1$s - plugin name
+#: includes/Plugin.php:394
+msgid "Thanks for installing %1$s!"
+msgstr "Bedankt voor het installeren van %1$s!"
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: includes/Plugin.php:386
+msgid "To get started, %1$sconnect with Square &raquo;%2$s"
+msgstr "Om te beginnen, %1$sverbind met Square &raquo;%2$s"
+
+#: includes/Plugin.php:380
+msgid "To get started, connect with Square."
+msgstr "Maak verbinding met Square om te beginnen."
+
+#: includes/Plugin.php:363
+msgid "Heads up! Square is configured to sync product inventory, but WooCommerce stock management is disabled. Please %1$senable stock management%2$s to ensure product inventory counts are kept in sync."
+msgstr "Let op! Square is geconfigureerd om productvoorraad te synchroniseren, maar voorraadbeheer van WooCommerce is uitgeschakeld. Gelieve %1$svoorraadbeheer inschakelen%2$s om ervoor te zorgen dat het product voorraad aantal synchroon blijft."
+
+#. translators: Placeholders: %1$s - <strong> tag, %2$s - </strong> tag, %3$s -
+#. <a> tag, %4$s - </a> tag
+#: includes/Plugin.php:348
+msgid "%1$sNo products%2$s are marked \"sync with Square\". %3$sUpdate your products to sync data &raquo;%4$s"
+msgstr "%1$sGeen producten%2$s zijn gemarkeerd \"sync with Square\". %3$sUpdate je producten om je gegevens te synchroniseren &raquo;%4$s"
+
+#. translators: Placeholders: %1$s - <strong> tag, %2$s - product count, %3$s -
+#. </strong> tag, %4$s - <a> tag, %5$s - </a> tag
+#: includes/Plugin.php:336
+msgid "%1$s%2$d products%3$s are marked \"sync with Square\". %4$sStart a new sync now &raquo;%5$s"
+msgstr "%1$s%2$d producten%3$s zijn gemarkeerd \"sync with Square\". %4$sStart een nieuwe sync nu &raquo;%5$s"
+
+#: includes/Plugin.php:330
+msgid "You are ready to sync products!"
+msgstr "Je bent klaar om producten te synchroniseren!"
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: includes/Plugin.php:320
+msgid "Visit the %1$splugin settings%2$s to set your business location."
+msgstr "Ga naar de %1$splugin instellingen%2$s om je bedrijfslocatie in te stellen."
+
+#: includes/Plugin.php:314
+msgid "To get started, set your business location."
+msgstr "Stel om te beginnen je bedrijfslocatie in."
+
+#: includes/Plugin.php:307
+msgid "You are connected to Square!"
+msgstr "Je bent verbonden met Square!"
+
+#: includes/Plugin.php:290
+msgid "Heads up! There may be a problem with your connection to Square. In order to continue accepting payments, please %1$sdisconnect and re-connect your site%2$s."
+msgstr "Let op! Mogelijk is er een probleem met je verbinding met Square. Als je betalingen wil blijven accepteren, moet je %1$sverbreken en je site opnieuw verbinden%2$s."
+
+#: includes/Utilities/Encryption_Utility.php:145
+msgid "Data must be a non-empty string"
+msgstr "Gegevens moeten een niet-lege string zijn"
+
+#: includes/Utilities/Encryption_Utility.php:141
+msgid "No decryption method available"
+msgstr "Geen decoderingsmethode beschikbaar"
+
+#: includes/Utilities/Encryption_Utility.php:118
+msgid "Could not generate encryption vector."
+msgstr "Kan geen encryptie vector genereren."
+
+#: includes/Utilities/Encryption_Utility.php:106
+#: includes/Utilities/Encryption_Utility.php:149
+msgid "Encryption key must be a string"
+msgstr "Coderingssleutel moet een string zijn"
+
+#: includes/Utilities/Encryption_Utility.php:102
+msgid "Data must be a non-empty string or array"
+msgstr "Gegevens moeten een niet-lege string of array zijn"
+
+#: includes/Utilities/Encryption_Utility.php:98
+msgid "No encryption method available"
+msgstr "Geen encryptie smethode beschikbaar"
+
+#: includes/Utilities/Encryption_Utility.php:73
+msgid "%1$s encryption is not available on this site. %2$s will be used instead."
+msgstr "%1$s encryptie is niet beschikbaar op deze site. In plaats daarvan wordt %2$s gebruikt."
+
+#: includes/Utilities/Encryption_Utility.php:56
+msgid "Encryption is not supported on this site."
+msgstr "Versleuteling wordt niet ondersteund op deze site."
+
+#. translators: Placeholder: %s - product ID
+#: includes/Sync/Manual_Synchronization.php:1141
+msgid "Product %s could not be updated in Square."
+msgstr "Product %s kan niet geüpdatet worden in Square."
+
+#: includes/Sync/Records/Record.php:562
+msgid "Unlink"
+msgstr "Ontkoppelen"
+
+#: includes/Sync/Records/Record.php:553
+msgid "Ignore"
+msgstr "Negeren"
+
+#: includes/Sync/Records/Record.php:545
+msgid "Delete"
+msgstr "Verwijderen"
+
+#. translators: Placeholder: %s - product name
+#: includes/Sync/Records/Record.php:374
+msgid "%s not found in Square."
+msgstr "%s is niet gevonden in Square."
+
+#: includes/Sync/Records/Record.php:208
+msgid "Alert"
+msgstr "Waarschuwing"
+
+#: includes/Sync/Records/Record.php:207
+msgid "Notice"
+msgstr "Merk op"
+
+#: includes/Sync/Records/Record.php:206
+msgid "Info"
+msgstr "Info"
+
+#: includes/Admin.php:196
+msgid "Imported"
+msgstr "Geïmporteerd"
+
+#: includes/Admin.php:194
+msgid "Skipped"
+msgstr "Overgeslagen"
+
+#: includes/Admin.php:193
+msgid "No records found"
+msgstr "Geen records gevonden"
+
+#: includes/Admin.php:192 includes/Sync/Records/Record.php:209
+msgid "Resolved"
+msgstr "Opgelost"
+
+#: includes/Admin.php:145
+msgid "Fetch stock from Square"
+msgstr "Voorraad ophalen van Square"
+
+#: includes/Admin.php:144
+msgid "Managed by Square"
+msgstr "Beheerd door Square"
+
+#. translators: Placeholders: %s - additional action
+#: includes/Emails/Sync_Completed.php:131
+msgid "The sync job has failed. Check sync records, or %s."
+msgstr "De synchronisatietaak is mislukt. Controleer synchronisatie records of %s."
+
+#: includes/Emails/Sync_Completed.php:126 includes/Settings.php:269
+msgid "Enable Logging"
+msgstr "Schakel logging in"
+
+#: includes/Emails/Sync_Completed.php:124
+msgid "Inspect status logs"
+msgstr "Status logs inspecteren"
+
+#. translators: Placeholders: %1$s - opening <a> HTML link tag, %2$s - closing
+#. </a> HTML link tag, %3$s - additional action
+#: includes/Emails/Sync_Completed.php:115
+msgid "The sync job has failed. %1$sClick for more details%2$s, or %3$s."
+msgstr "De synchronisatietaak is mislukt. %1$sKlik voor meer informatie%2$s of %3$s."
+
+#. translators: Placeholders: %1$s - opening <a> HTML link tag, %2$s - closing
+#. </a> HTML link tag
+#: includes/Emails/Sync_Completed.php:107
+msgid "%1$sEnable logging%2$s"
+msgstr "%1$sSchakel logging in%2$s"
+
+#. translators: Placeholders: %1$s - opening <a> HTML link tag, %2$s - closing
+#. </a> HTML link tag
+#: includes/Emails/Access_Token_Email.php:107
+#: includes/Emails/Sync_Completed.php:100
+msgid "%1$sInspect status logs%2$s"
+msgstr "%1$sInspect status logs%2$s"
+
+#: includes/Emails/Sync_Completed.php:70
+msgid "Square sync failed"
+msgstr "Square synchronisatie is mislukt"
+
+#. translatorsPlaceholder: %s default email address
+#: includes/Emails/Base_Email.php:117
+msgid "Enter recipients (comma separated) for this email. Defaults to admin email: %s"
+msgstr "Voer ontvangers in (gescheiden door komma's) voor deze e-mail. Standaard ingesteld op e-mailadres van beheerder: %s"
+
+#: includes/Emails/Base_Email.php:114
+msgid "Recipient(s)"
+msgstr "Ontvanger(s)"
+
+#. translators: Placeholder: %s - default email subject text
+#: includes/Emails/Base_Email.php:103
+msgid "This controls the email subject line. Leave blank to use the default subject: %s"
+msgstr "Dit bepaalt de onderwerpregel van de e-mail. Laat leeg om het standaardonderwerp te gebruiken: %s"
+
+#: includes/Emails/Sync_Completed.php:49
+msgctxt "Email body with merge tag placeholders"
+msgid "Square sync completed for {site_title} at {sync_completed_date} {sync_completed_time}."
+msgstr "Square synchronisatie voltooid voor {site_title} op {sync_completed_date} {sync_completed_time}."
+
+#: includes/Emails/Sync_Completed.php:48
+msgctxt "Email heading with merge tag placeholder"
+msgid "Square sync completed for {product_count}"
+msgstr "Square synchronisatie voltooid voor {product_count}"
+
+#: includes/Emails/Sync_Completed.php:47
+msgctxt "Email subject"
+msgid "[WooCommerce] Square sync completed"
+msgstr "[WooCommerce] Square-synchronisatie voltooid"
+
+#: includes/Emails/Sync_Completed.php:46
+msgid "This email is sent once a manual sync has been completed between WooCommerce and Square"
+msgstr "Deze e-mail wordt verzonden zodra een handmatige synchronisatie tussen WooCommerce en Square is voltooid"
+
+#: includes/Emails/Sync_Completed.php:45
+msgid "Square sync completed"
+msgstr "Square synchronisatie voltooid"
+
+#: includes/Gateway/API/Requests/Orders.php:84
+#: includes/Gateway/Digital_Wallet.php:425
+msgid "Discount"
+msgstr "Korting"
+
+#: includes/Gateway.php:245 includes/Gateway/Blocks_Handler.php:137
+#: includes/Gateway/Digital_Wallet.php:209
+#: includes/Gateway/Payment_Form.php:240
+msgid "An error occurred, please try again or try an alternate form of payment."
+msgstr "Er is een fout opgetreden. Probeer het opnieuw of probeer een andere betaalmethode."
+
+#: includes/Gateway/Payment_Form.php:182
+#: assets/blocks/credit-card/component-card-fields.js:58 build/index.js:1
+msgid "Postal code"
+msgstr "Postcode"
+
+#: includes/Admin/Sync_Page.php:394
+msgid "Start sync"
+msgstr "Synchronisatie starten"
+
+#. translators: Placeholders: %1$s - the system of record name (e.g. Square or
+#. WooCommerce), %3%s - unordered HTML list of additional information item(s)
+#: includes/Admin/Sync_Page.php:385
+msgid "You are about to sync products with Square. %1$s is your system of record. For all products synced with Square: %2$s"
+msgstr "Je staat op het punt producten te synchroniseren met Square. %1$s is je registratiesysteem. Voor alle producten die zijn gesynchroniseerd met Square: %2$s"
+
+#: includes/Admin/Sync_Page.php:378
+msgid "If a match is not found, a new product will be created in Square."
+msgstr "Als er geen overeenkomst wordt gevonden, wordt er een nieuw product gemaakt in Square."
+
+#: includes/Admin/Sync_Page.php:375
+msgid "If a match is not found in Square, the product will be skipped in the sync."
+msgstr "Als er geen overeenkomst wordt gevonden in Square, wordt het product overgeslagen tijdens de synchronisatie."
+
+#: includes/Admin/Sync_Page.php:373
+msgid "If a match is not found in Square, the product will be hidden from the catalog in WooCommerce."
+msgstr "Als er geen overeenkomst wordt gevonden in Square, wordt het product verborgen in de catalogus in WooCommerce."
+
+#: includes/Admin/Sync_Page.php:369
+msgid "If a match is found in WooCommerce, product data in Square will be overwritten with WooCommerce data."
+msgstr "Als er een overeenkomst wordt gevonden in WooCommerce, worden productgegevens in Square overschreven door WooCommerce-gegevens."
+
+#: includes/Admin/Sync_Page.php:367
+msgid "If a match is found in Square, product data in WooCommerce will be overwritten with Square data."
+msgstr "Als er een overeenkomst wordt gevonden in Square, worden productgegevens in WooCommerce overschreven door Square-gegevens."
+
+#: includes/Admin/Sync_Page.php:357
+msgid "Sync products with Square"
+msgstr "Producten synchroniseren met Square"
+
+#: includes/Admin/Sync_Page.php:325
+msgid "No records found."
+msgstr "Geen records gevonden."
+
+#: includes/Admin/Sync_Page.php:294 includes/Admin/Sync_Page.php:335
+msgid "Message"
+msgstr "Bericht"
+
+#: includes/Admin/Sync_Page.php:293 includes/Admin/Sync_Page.php:334
+msgid "Status"
+msgstr "Status"
+
+#: includes/Admin/Sync_Page.php:292 includes/Admin/Sync_Page.php:333
+msgctxt "Date - Time"
+msgid "Time"
+msgstr "Tijd"
+
+#: includes/Admin/Sync_Page.php:287
+msgctxt "Delete all records"
+msgid "Clear history"
+msgstr "Geschiedenis wissen"
+
+#: includes/Admin/Sync_Page.php:259
+msgid "Sync now"
+msgstr "Synchroniseer nu"
+
+#: includes/Admin/Sync_Page.php:227
+msgid "Not synced yet."
+msgstr "Nog niet gesynchroniseerd."
+
+#: includes/Admin/Sync_Page.php:212
+msgid "Syncing now&hellip;"
+msgstr "Synchroniseer nu&hellip;"
+
+#: includes/Admin/Sync_Page.php:210
+msgid "Importing now&hellip;"
+msgstr "Nu importeren&hellip;"
+
+#. translators: Placeholder: %d number of products synced with Square
+#. translators: Placeholder: %d products count
+#: includes/Admin/Sync_Page.php:192 includes/Emails/Sync_Completed.php:207
+msgid "%d product"
+msgid_plural "%d products"
+msgstr[0] "%d product"
+msgstr[1] "%d producten"
+
+#: includes/Admin/Sync_Page.php:182 includes/Admin/Sync_Page.php:295
+#: includes/Admin/Sync_Page.php:336
+msgid "Actions"
+msgstr "Acties"
+
+#: includes/Admin/Sync_Page.php:181
+msgid "Next sync"
+msgstr "Volgende synchronisatie"
+
+#: includes/Admin/Sync_Page.php:180
+msgid "Latest sync"
+msgstr "Laatste synchronisatie"
+
+#: includes/Admin/Sync_Page.php:179
+msgid "Synced products"
+msgstr "Gesynchroniseerde producten"
+
+#. translators: Placeholder: %s - reason text
+#: includes/Admin/Sync_Page.php:172
+msgid "Product sync between WooCommerce and Square is currently unavailable. %s"
+msgstr "Productsynchronisatie tussen WooCommerce en Square is momenteel niet beschikbaar. %s"
+
+#: includes/Admin/Sync_Page.php:167
+msgid "A sync is currently in progress. Please try again later."
+msgstr "Er wordt momenteel gesynchroniseerd. Probeer het later opnieuw."
+
+#: includes/Admin/Sync_Page.php:165
+msgid "There are currently no products marked to be synced with Square."
+msgstr "Er zijn momenteel geen producten gemarkeerd om te worden gesynchroniseerd met Square."
+
+#: includes/Admin/Sync_Page.php:161
+msgid "Please connect to Square to enable product sync."
+msgstr "Maak verbinding met Square om productsynchronisatie in te schakelen."
+
+#. translators: Placeholders: %1$s - opening <strong> HTML tag, %2$s closing
+#. </strong> HTML tag
+#: includes/Admin/Sync_Page.php:126
+msgid "%1$sNo chosen system of record.%2$s Products will not be synced between Square and WooCommerce."
+msgstr "%1$sGeen gekozen registratiesysteem.%2$s producten worden niet gesynchroniseerd tussen Square en WooCommerce."
+
+#. translators: Placeholders: %1$s, %3$s - opening <strong> HTML tag, %2$s,
+#. %4$s - closing </strong> HTML tag
+#: includes/Admin/Sync_Page.php:109
+msgid "%1$sWooCommerce%2$s is the system of record. The following data from WooCommerce will overwrite Square data for synced products: %3$sname, price, inventory, category, image%4$s."
+msgstr "%1$sWooCommerce%2$s is het geregistreerde systeem. De volgende gegevens van WooCommerce overschrijven Square-gegevens voor gesynchroniseerde producten: %3$snaam, prijs, inventaris, categorie, afbeelding%4$s ."
+
+#. translators: Placeholders: %1$s - opening <strong> HTML tag, %2$s closing
+#. </strong> HTML tag
+#: includes/Admin/Sync_Page.php:94
+msgid "%1$sProduct images%2$s will be imported from Square if no featured image is set in WooCommerce."
+msgstr "%1$sProductafbeeldingen%2$s worden geïmporteerd uit Square als er geen uitgelichte afbeelding is ingesteld in WooCommerce."
+
+#. translators: Placeholders: %1$s, %3$s - opening <strong> HTML tag, %2$s,
+#. $4%s - closing </strong> HTML tag
+#: includes/Admin/Sync_Page.php:80
+msgid "%1$sSquare%2$s is the system of record. The following data from Square will overwrite WooCommerce data for synced products: %3$sname, price, description, category, inventory%4$s."
+msgstr "%1$sSquare%2$s is het systeem van registratie. De volgende gegevens van Square overschrijven WooCommerce-gegevens voor gesynchroniseerde producten: %3$snaam, prijs, beschrijving, categorie, inventaris%4$s ."
+
+#: includes/Admin/Sync_Page.php:54
+msgid "Sync records"
+msgstr "Records synchroniseren"
+
+#. translators: Placeholder: %1$s - date (localized), %2$s - time (localized),
+#. %3$s - opening <a> HTML link tag, %4$s closing </a> HTML link tag
+#: includes/Handlers/Products.php:677
+msgid "The product catalog visibility has been set to \"hidden\", as a matching product could not be found in Square on %1$s at %2$s. %3$sCheck sync records%4$s."
+msgstr "De zichtbaarheid van de productcatalogus is ingesteld op \"hidden\", omdat een overeenkomend product niet kon worden gevonden in Square op %1$s op %2$s. %3$sCheck sync-records%4$s ."
+
+#: includes/Handlers/Products.php:297
+msgid "No change"
+msgstr "Geen wijziging"
+
+#: includes/Handlers/Products.php:293
+msgid "Sync with Square?"
+msgstr "Synchroniseren met Square?"
+
+#: includes/Handlers/Products.php:257
+msgid "Sync with Square"
+msgstr "Synchroniseren met Square"
+
+#: includes/Handlers/Products.php:252
+msgid "Send product data to Square"
+msgstr "Productgegevens naar Square verzenden"
+
+#: includes/Handlers/Products.php:252
+msgid "Update product data with Square data"
+msgstr "Productgegevens bijwerken met Square data"
+
+#: includes/Admin.php:143 includes/Handlers/Products.php:177
+msgid "Synced with Square"
+msgstr "Gesynchroniseerd met Square"
+
+#: includes/Admin/Settings_Page.php:190 includes/Settings.php:244
+msgid "Import Products"
+msgstr "Producten importeren"
+
+#: includes/Admin/Settings_Page.php:189 includes/Admin/Sync_Page.php:393
+msgid "Cancel"
+msgstr "Annuleer"
+
+#: includes/Admin/Settings_Page.php:175 includes/Admin/Sync_Page.php:359
+msgid "Close modal window"
+msgstr "Modal venster sluiten"
+
+#: includes/Admin/Settings_Page.php:173
+msgid "Import Products From Square"
+msgstr "Producten importeren vanaf Square"
+
+#: includes/Admin/Settings_Page.php:146 includes/Admin/Sync_Page.php:50
+msgid "Update"
+msgstr "Update"
+
+#: includes/Admin/Settings_Page.php:145
+msgid "Settings"
+msgstr "Instellingen"
+
+#: includes/Handlers/Product.php:312
+msgid "Product not synced with Square"
+msgstr "Product niet gesynchroniseerd met Square"
+
+#: includes/Handlers/Connection.php:179
+msgid "Disconnected successfully"
+msgstr "Verbinding met succes verbroken"
+
+#: includes/Handlers/Connection.php:103 includes/Handlers/Connection.php:171
+msgid "Sorry, you do not have permission to manage the Square connection."
+msgstr "Je hebt geen toestemming om de Square-verbinding te beheren."
+
+#. translators: Placeholder: %d number of products processed
+#: includes/Handlers/Sync.php:329
+msgid "Updated data for %d product."
+msgid_plural "Updated data for %d products."
+msgstr[0] "Gegevens geüpdatet voor %d product."
+msgstr[1] "Gegevens geüpdatet voor %d producten."
+
+#: includes/Handlers/Background_Job.php:365
+msgid "Success! You can now sync your products."
+msgstr "Succes! Je kan je producten nu synchroniseren."
+
+#: includes/Handlers/Background_Job.php:346
+msgid "This tool will clear any ongoing Square product syncs."
+msgstr "Deze tool wist alle lopende Square-product synchronisaties."
+
+#: includes/Handlers/Background_Job.php:345
+msgid "Clear"
+msgstr "Wissen"
+
+#: includes/Handlers/Background_Job.php:344
+msgid "Clear Square Sync"
+msgstr "Square synchronisatie wissen"
+
+#: includes/Admin/Privacy.php:93
+msgid "Square User Data Erased."
+msgstr "Square gebruikersgegevens gewist."
+
+#. translators: Placeholder: %1$s - <a> tag, %2$s - </a> tag
+#: includes/Admin/Privacy.php:61
+msgid "By using this extension, you may be storing personal data or sharing data with an external service. %1$sLearn more about how this works, including what you may want to include in your privacy policy.%2$s"
+msgstr "Door deze extensie te gebruiken, sla je mogelijk persoonlijke gegevens op of deel je gegevens met een externe service. %1$sMeer informatie over hoe dit werkt, inclusief wat je mogelijk in je privacybeleid wil opnemen.%2$s"
+
+#: includes/Admin/Privacy.php:47
+msgid "WooCommerce Square Customer Data"
+msgstr "Klantgegevens van WooCommerce Square"
+
+#. Author URI of the plugin
+msgid "https://www.woocommerce.com/"
+msgstr "https://www.woocommerce.com/"
+
+#. Author of the plugin
+#: includes/Settings.php:224 includes/Settings.php:760
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#. Description of the plugin
+msgid "Adds ability to sync inventory between WooCommerce and Square POS. In addition, you can also make purchases through the Square payment gateway."
+msgstr "Voegt de mogelijkheid toe om inventaris te synchroniseren tussen WooCommerce en Square POS. Daarnaast kan je ook aankopen doen via de Square-betalingsgateway."
+
+#. Plugin URI of the plugin
+msgid "https://woocommerce.com/products/square/"
+msgstr "https://woocommerce.com/products/square/"
+
+#. Plugin Name of the plugin
+#: includes/Plugin.php:900
+msgid "WooCommerce Square"
+msgstr "WooCommerce Square"
+
+#: includes/Gateway.php:594
+msgid "Description"
+msgstr "Beschrijving"
+
+#: includes/Gateway.php:587
+msgid "Title"
+msgstr "Titel"
+
+#: includes/Gateway.php:580 includes/Gateway.php:750
+msgid "Enable / Disable"
+msgstr "Inschakelen/uitschakelen"
+
+#. translators: Placeholders: %1$s - variation ID, %2$s - product name
+#: includes/Sync/Product_Import.php:926
+msgid "Variation #%1$s of %2$s"
+msgstr "Variant #%1$s van %2$s"
+
+#: includes/Sync/Product_Import.php:734 includes/Sync/Product_Import.php:1011
+msgid "The SKU already exists on another product"
+msgstr "De SKU bestaat al op een ander product"
+
+#. translators: Placeholders: %s - comma separated list of valid product types
+#: includes/Sync/Product_Import.php:1311
+msgid "Invalid product type - the product type must be any of these: %s"
+msgstr "Ongeldig producttype - het producttype moet een van deze zijn: %s"
+
+#. translators: Placeholders: %s - missing parameter name
+#: includes/Sync/Product_Import.php:1305
+msgid "Missing parameter %s"
+msgstr "Parameter %s ontbreekt"
+
+#: includes/Handlers/Products.php:299
+msgid "No"
+msgstr "Nee"
+
+#: includes/Handlers/Products.php:300
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/Handlers/Connection.php:386
+msgid "Connect with Square"
+msgstr "Verbinden met Square"
+
+#: includes/Handlers/Connection.php:406
+msgid "Disconnect from Square"
+msgstr "Verbinding met Square verbreken"
+
+#: includes/Settings.php:230
+msgid "Sync inventory"
+msgstr "Voorraad synchroniseren"
+
+#: includes/Settings.php:195
+msgid "Business location"
+msgstr "Bedrijfslocatie"
+
+#: includes/Settings.php:149
+msgid "Connect with Square to start syncing your products and inventory and also accept credit and debit card payments at checkout."
+msgstr "Maak verbinding met Square om te beginnen met het synchroniseren van je producten en inventaris en accepteer ook creditcard- en pinbetalingen bij het afrekenen."
+
+#: includes/Admin/Privacy.php:45 includes/Admin/Settings_Page.php:55
+#: includes/Gateway.php:80 includes/Settings.php:223 includes/Settings.php:757
+msgid "Square"
+msgstr "Square"

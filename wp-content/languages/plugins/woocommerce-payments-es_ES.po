@@ -1,0 +1,269 @@
+# Translation of Plugins - WooCommerce Payments - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - WooCommerce Payments - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-01-31 21:30:52+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - WooCommerce Payments - Stable (latest release)\n"
+
+#: includes/in-person-payments/templates/html-in-person-payment-receipt.php:128
+msgid "SKU"
+msgstr "SKU"
+
+#: includes/class-wc-payments-status.php:76
+msgid "Version"
+msgstr "Versión"
+
+#: includes/class-wc-payments-status.php:83
+msgid "No"
+msgstr "No"
+
+#: includes/class-wc-payments-status.php:83
+msgid "Yes"
+msgstr "Sí"
+
+#: includes/class-wc-payment-gateway-wcpay.php:1012
+msgid "Credit / Debit Card"
+msgstr "Tarjeta de Crédito / Débito"
+
+#: includes/multi-currency/SettingsOnboardCta.php:60
+msgid "Get started"
+msgstr "Iniciar"
+
+#: includes/compat/subscriptions/class-wc-payments-email-failed-renewal-authentication.php:118
+msgid "Enable this email notification"
+msgstr "Activar este aviso por correo electrónico"
+
+#: includes/class-wc-payments-utils.php:226
+msgid "Switzerland"
+msgstr "Suiza"
+
+#: includes/class-wc-payments-utils.php:238
+msgid "Singapore"
+msgstr "Singapur"
+
+#: includes/class-wc-payments-utils.php:237
+msgid "Portugal"
+msgstr "Portugal"
+
+#: includes/class-wc-payments-utils.php:236
+msgid "Poland"
+msgstr "Polonia"
+
+#: includes/class-wc-payments-utils.php:234
+msgid "Netherlands"
+msgstr "Países Bajos"
+
+#: includes/class-wc-payments-utils.php:231
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+#: includes/class-wc-payments-utils.php:224
+msgid "Belgium"
+msgstr "Bélgica"
+
+#: includes/class-wc-payments-utils.php:222
+msgid "Austria"
+msgstr "Austria"
+
+#: includes/multi-currency/AdminNotices.php:70
+msgid "Action failed. Please refresh the page and retry."
+msgstr "Error en la acción. Por favor, recarga la página y vuelve a intentarlo."
+
+#: includes/subscriptions/templates/html-subscriptions-plugin-notice.php:14
+#: dist/index.js:2
+msgid "Are you sure?"
+msgstr "¿Estás seguro?"
+
+#: includes/payment-methods/class-upe-payment-gateway.php:487
+msgid "Payment method successfully added."
+msgstr "Método de pago añadido correctamente."
+
+#: includes/class-wc-payments-utils.php:232
+msgid "Ireland"
+msgstr "Irlanda"
+
+#: includes/multi-currency/CurrencySwitcherWidget.php:56
+msgid "Title"
+msgstr "Título"
+
+#: includes/class-wc-payments-utils.php:239
+msgid "United States (US)"
+msgstr "Estados Unidos (EEUU)"
+
+#: includes/class-wc-payments-utils.php:230
+msgid "United Kingdom (UK)"
+msgstr "Reino Unido (UK)"
+
+#: includes/class-wc-payments-utils.php:228
+msgid "Spain"
+msgstr "España"
+
+#: includes/class-wc-payments-utils.php:235
+msgid "New Zealand"
+msgstr "Nueva Zelanda"
+
+#: includes/class-wc-payments-utils.php:233
+msgid "Italy"
+msgstr "Italia"
+
+#: includes/class-wc-payments-utils.php:227
+msgid "Germany"
+msgstr "Alemania"
+
+#: includes/class-wc-payments-utils.php:229
+msgid "France"
+msgstr "Francia"
+
+#: includes/class-wc-payments-utils.php:225
+msgid "Canada"
+msgstr "Canadá"
+
+#: includes/class-wc-payments-utils.php:223
+msgid "Australia"
+msgstr "Australia"
+
+#: includes/multi-currency/MultiCurrency.php:827 dist/index.js:2
+msgid "Dismiss"
+msgstr "Descartar"
+
+#: includes/subscriptions/templates/html-subscriptions-plugin-notice.php:47
+#: dist/index.js:2 dist/multi-currency.js:2 dist/settings.js:2
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: includes/notes/class-wc-payments-notes-qualitative-feedback.php:56
+msgid "Share feedback"
+msgstr "Compartir comentarios"
+
+#: includes/class-wc-payments-status.php:52
+msgid "Clear"
+msgstr "Limpiar"
+
+#: includes/class-wc-payment-gateway-wcpay.php:272 dist/settings.js:2
+msgid "Checkout"
+msgstr "Finalizar compra"
+
+#: includes/class-wc-payment-gateway-wcpay.php:271 dist/settings.js:2
+msgid "Cart"
+msgstr "Carrito"
+
+#: includes/admin/class-wc-payments-admin.php:82 dist/index.js:2
+msgid "Overview"
+msgstr "Resumen"
+
+#. translators: 1: payment method likely credit card, 2: last 4 digit.
+#: includes/compat/subscriptions/trait-wc-payment-gateway-wcpay-subscriptions.php:525
+#: includes/compat/subscriptions/trait-wc-payment-gateway-wcpay-subscriptions.php:544
+#: includes/compat/subscriptions/trait-wc-payment-gateway-wcpay-subscriptions.php:585
+#: includes/compat/subscriptions/trait-wc-payment-gateway-wcpay-subscriptions.php:593
+msgid "%1$s ending in %2$s"
+msgstr "%1$s terminada en %2$s"
+
+#: includes/class-wc-payment-gateway-wcpay.php:255
+msgid "Buy now"
+msgstr "Comprar ahora"
+
+#: includes/class-wc-payments-payment-request-button-handler.php:675
+msgid "OR"
+msgstr "O"
+
+#: includes/class-wc-payments-payment-request-button-handler.php:1361
+#: includes/in-person-payments/templates/html-in-person-payment-receipt.php:145
+#: dist/index.js:2
+msgid "Discount"
+msgstr "Descuento"
+
+#: includes/class-wc-payments-payment-request-button-handler.php:258
+#: includes/class-wc-payments-payment-request-button-handler.php:946
+#: includes/class-wc-payments-payment-request-button-handler.php:1347
+#: includes/in-person-payments/templates/html-in-person-payment-receipt.php:154
+msgid "Tax"
+msgstr "Impuesto"
+
+#: includes/class-wc-payments-payment-request-button-handler.php:266
+#: includes/class-wc-payments-payment-request-button-handler.php:954
+#: includes/class-wc-payments-payment-request-button-handler.php:1354
+msgid "Shipping"
+msgstr "Envío"
+
+#: includes/class-wc-payment-gateway-wcpay.php:291
+msgid "Default"
+msgstr "Por defecto"
+
+#: includes/notes/class-wc-payments-notes-set-https-for-checkout.php:51
+#: dist/index.js:2
+msgid "Force secure checkout"
+msgstr "Forzar el pago seguro"
+
+#: includes/notes/class-wc-payments-notes-set-https-for-checkout.php:59
+#: includes/notes/class-wc-payments-notes-set-up-refund-policy.php:43
+msgid "Read more"
+msgstr "Leer más"
+
+#: includes/class-wc-payment-gateway-wcpay.php:671
+msgid "Save payment information to my account for future purchases."
+msgstr "Guardar la información de pago en mi cuenta para futuras compras."
+
+#. Plugin Name of the plugin
+#: includes/admin/class-wc-payments-admin-sections-overwrite.php:65
+#: includes/admin/class-wc-payments-admin.php:145
+#: includes/admin/class-wc-payments-admin.php:207
+#: includes/admin/class-wc-payments-admin.php:244
+#: includes/class-wc-payment-gateway-wcpay.php:144
+#: includes/class-wc-payments-status.php:69 includes/class-wc-payments.php:324
+#: includes/payment-methods/class-upe-payment-gateway.php:76
+#: includes/payment-methods/class-upe-payment-gateway.php:78
+#: woocommerce-payments.php:81 woocommerce-payments.php:186 dist/index.js:2
+#: dist/settings.js:2 dist/upe-blocks-checkout.js:1
+msgid "WooCommerce Payments"
+msgstr "WooCommerce Payments"
+
+#: includes/class-wc-payments-utils.php:346
+#: includes/wc-payment-api/class-wc-payments-api-client.php:684 dist/index.js:2
+msgid "Order #"
+msgstr "Pedido #"
+
+#: includes/class-wc-payments-payment-request-button-handler.php:273
+#: includes/class-wc-payments-payment-request-button-handler.php:961
+#: dist/index.js:2
+msgid "Pending"
+msgstr "Pendiente"
+
+#. translators: This will be used to indicate an unknown value for an ID.
+#: includes/class-wc-payment-gateway-wcpay.php:2177
+#: includes/payment-methods/class-cc-payment-method.php:47 dist/index.js:2
+msgid "unknown"
+msgstr "desconocido"
+
+#: includes/admin/class-wc-payments-admin.php:158 dist/index.js:2
+msgid "Connect"
+msgstr "Conectar"
+
+#. Author of the plugin
+msgid "Automattic"
+msgstr "Automattic"
+
+#. Author URI of the plugin
+msgid "https://woocommerce.com/"
+msgstr "https://woocommerce.com/"
+
+#: includes/class-wc-payment-gateway-wcpay.php:194
+msgid "Debug log"
+msgstr "Registro de depuración"
+
+#: includes/admin/class-wc-payments-admin.php:140
+#: includes/admin/class-wc-payments-admin.php:202 dist/index.js:2
+msgid "Payments"
+msgstr "Pagos"
+
+#: includes/admin/class-wc-payments-admin.php:247
+#: includes/admin/class-wc-payments-admin.php:689
+#: includes/class-wc-payments.php:362
+msgid "Settings"
+msgstr "Ajustes"

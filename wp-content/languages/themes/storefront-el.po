@@ -1,0 +1,861 @@
+# Translation of Themes - Storefront in Greek
+# This file is distributed under the same license as the Themes - Storefront package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-06-28 19:57:14+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: el_GR\n"
+"Project-Id-Version: Themes - Storefront\n"
+
+#. Description of the theme
+msgid "Storefront is the perfect theme for your next WooCommerce project. Designed and developed by WooCommerce Core developers, it features a bespoke integration with WooCommerce itself plus many of the most popular customer facing WooCommerce extensions. There are several layout & color options to personalise your shop, multiple widget regions, a responsive design and much more. Developers will love its lean and extensible codebase making it a joy to customize and extend. Looking for a WooCommerce theme? Look no further!"
+msgstr "Το Storefront είναι το τέλειο θέμα για το επόμενο WooCommerce κατάστημα σου. Έχει σχεδιαστεί και αναπτυχθεί από την ίδια τη WooThemes με χαρακτηριστικά όπως την απόλυτη ενσωμάτωση του με το νούμερο 1 στην αγορά WooCommerce πρόσθετο, διάφορες επιλογές σε χρώματα και διάταξη για εξατομίκευση του eshop σου, πολλαπλές μικροεφαρμογές ανά περιοχή, responsive design και πολλά άλλα. Οι developers θα αγαπήσουν τον καθαρό και επεκτάσιμο πηγαίο κώδικα του, δουλεύοντας ευχάριστα πάνω στην προσαρμογή του.  Αναζητάς ένα WooCommerce θέμα εμφάνισης; Μόλις το βρήκες!"
+
+#. Theme Name of the theme
+msgid "Storefront"
+msgstr "Storefront"
+
+#: inc/woocommerce/class-storefront-woocommerce.php:226
+msgid "breadcrumbs"
+msgstr "Διαδρομές"
+
+#: inc/nux/class-storefront-nux-admin-inbox-messages-customize.php:35
+msgid "Visit the Storefront settings page to start setup and customization of your shop."
+msgstr "Επισκεφθείτε του Storefront τις ρυθμίσεις για να ξεκινήσετε να στήσετε και να προσαρμόσετε το δικό σας κατάστημα."
+
+#: inc/nux/class-storefront-nux-admin-inbox-messages-customize.php:34
+msgid "Design your store with Storefront 🎨"
+msgstr "Σχεδιάστε το κατάστημα σας με το Storefront "
+
+#: inc/nux/class-storefront-nux-admin.php:181
+msgid "Skip"
+msgstr "Παραλέιψτε"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:732
+msgid "Cart"
+msgstr "Καλάθι"
+
+#. translators: conjunction of two alternative options user can choose (in
+#. missing plugin admin notice). Example: "Activate WooCommerce or learn more"
+#: inc/admin/class-storefront-plugin-install.php:115
+msgid "or"
+msgstr "ή"
+
+#: inc/storefront-template-functions.php:144
+msgid "Built with Storefront"
+msgstr "Φτιάχτηκε με το Storefront"
+
+#: inc/storefront-template-functions.php:144
+msgid "Storefront -  The perfect platform for your next WooCommerce project."
+msgstr "Storefront - Η τέλεια πλατφόρμα για το επόμενο WooCommerce εγχείρημά σας."
+
+#. translators: conjunction of two alternative options user can choose (in
+#. missing plugin admin notice). Example: "Activate WooCommerce or learn more"
+#: inc/admin/class-storefront-plugin-install.php:116
+msgid "learn more"
+msgstr "μάθετε περισσότερα"
+
+#: inc/class-storefront.php:222
+msgid "Huge"
+msgstr "Τεράστιος"
+
+#: inc/class-storefront.php:217
+msgid "Large"
+msgstr "Μεγάλο"
+
+#: inc/class-storefront.php:212
+msgid "Medium"
+msgstr "Μεσαίο"
+
+#: inc/class-storefront.php:207
+msgid "Normal"
+msgstr "Κανονικός"
+
+#: inc/class-storefront.php:202
+msgid "Small"
+msgstr "Μικρό"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1080
+msgid "You can change this text by editing the \"Welcome\" page via the \"Pages\" menu in your dashboard."
+msgstr "Μπορείτε να αλλάξετε αυτό το κείμενο επεξεργάζοντας τη σελίδα \"Καλώς ορίσατε\" μέσω του μενού \"Σελίδες\" στον πίνακα ελέγχου."
+
+#: inc/nux/class-storefront-nux-starter-content.php:1076
+msgid "This is your homepage which is what most visitors will see when they first visit your shop."
+msgstr "Αυτή είναι η αρχική σελίδα σας την οποία οι περισσότεροι επισκέπτες θα βλέπουν όταν θα επισκέπτονται για πρώτη φορά το κατάστημά σας."
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/storefront-template-functions.php:523
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Επεξεργασία του <span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#: inc/storefront-template-functions.php:561
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] "Ετικέτα:"
+msgstr[1] "Ετικέτες:"
+
+#: inc/storefront-template-functions.php:555
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] "Κατηγορία:"
+msgstr[1] "Κατηγορίες:"
+
+#. translators: %s: post date
+#: inc/storefront-template-functions.php:468
+msgid "Posted on %s"
+msgstr "Δημοσιεύθηκε την %s"
+
+#: inc/storefront-template-functions.php:474
+msgid "by"
+msgstr "από"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:891
+msgid "Product Brands"
+msgstr "Κατασκευαστές προϊόντων"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:874
+msgid "Shop by Brand"
+msgstr "Αγορές ανά μάρκα"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:838
+msgid "You're viewing:"
+msgstr "Βλέπετε:"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:774
+msgid "More products"
+msgstr "Περισσότερα προϊόντα"
+
+#: inc/storefront-template-functions.php:594
+msgid "Previous post:"
+msgstr "Προηγούμενο άρθρο:"
+
+#: inc/storefront-template-functions.php:593
+msgid "Next post:"
+msgstr "Επόμενο άρθρο:"
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:99
+msgid "Displays next and previous links on product pages. A product thumbnail is displayed with the title revealed on hover."
+msgstr "Εμφανίζει τον σύνδεσμο \"Επόμενο\" και \"Προηγούμενο\" μέσα στις σελίδες των προϊόντων. Εμφανίζεται μικρογραφία του προϊόντος μαζί με τον τίτλο του, όταν περνάει το ποντίκι από πάνω."
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:98
+msgid "Product Pagination"
+msgstr "Σελιδοποίηση προϊόντων"
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:88
+msgid "A small content bar at the top of the browser window which includes relevant product information and an add-to-cart button. It slides into view once the standard add-to-cart button has scrolled out of view."
+msgstr "Μια μικρή μπάρα περιεχομένου στην κορυφή του περιηγητή (browser) που περιέχει πληροφορίες σχετικές με το προϊόν και κουμπί για προσθήκη στο καλάθι. Εμφανίζεται όταν το κανονικό κουμπί \"Προσθήκη στο καλάθι\" φεύγει εκτός οθόνης (scrolled out)."
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:87
+msgid "Sticky Add-To-Cart"
+msgstr "Καρφιτσωμένο \"Προσθήκη στο Καλάθι\""
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:60
+msgid "Product Page"
+msgstr "Σελίδα προϊόντος"
+
+#: inc/customizer/class-storefront-customizer.php:293
+msgid "Hero text color"
+msgstr "Χρώμα κειμένου Hero"
+
+#: inc/customizer/class-storefront-customizer.php:269
+msgid "Hero heading color"
+msgstr "Χρώμα επικεφαλίδας Hero"
+
+#: inc/class-storefront.php:350
+msgid "Collapse child menu"
+msgstr "Σύμπτυξη υπο-μενού"
+
+#: inc/class-storefront.php:349
+msgid "Expand child menu"
+msgstr "Επέκταση υπό-μενού"
+
+#: inc/storefront-template-functions.php:142
+msgid "Built with Storefront &amp; WooCommerce"
+msgstr "Δημιουργήθηκε με Storefront &amp; WooCommerce"
+
+#: inc/storefront-template-functions.php:142
+msgid "WooCommerce - The Best eCommerce Platform for WordPress"
+msgstr "WooCommerce - Η καλύτερη eCommerce πλατφόρμα για WordPress"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:126
+msgid "Organize your menus by adding Pages, Categories, Tags, and Custom Links."
+msgstr "Οργανώστε τα μενού σας προσθέτοντας Σελίδες, Κατηγορίες, Ετικέτες και Προσαρμοσμένους Συνδέσμους."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:125
+msgid "Customize your navigation menus"
+msgstr "Παραμετροποιείστε τα μενού πλοήγησης σας"
+
+#: inc/class-storefront.php:484
+msgid "Post Navigation"
+msgstr "Πλοήγηση άρθρων"
+
+#: comments.php:60
+msgid "Comment Navigation Below"
+msgstr "Πλοήγηση σχολίων παρακάτω"
+
+#: comments.php:40
+msgid "Comment Navigation Above"
+msgstr "Πλοήγηση σχολίων παραπάνω"
+
+#: comments.php:21
+msgid "Post Comments"
+msgstr "Σχόλια Άρθρων"
+
+#: 404.php:39
+msgid "Promoted Products"
+msgstr "Προωθημένα Προϊόντα"
+
+#: inc/admin/class-storefront-admin.php:191
+#: inc/admin/class-storefront-plugin-install.php:62
+msgid "Activated"
+msgstr "Ενεργοποιήθηκε"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:576
+msgid "Best Selling Products"
+msgstr "Κορυφαία σε πωλήσεις Προϊόντα"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:521
+msgid "On Sale Products"
+msgstr "Προϊόντα σε Έκπτωση"
+
+#: inc/storefront-template-functions.php:310
+msgid "Edit this section"
+msgstr "Επεξεργαστείτε αυτήν την ενότητα."
+
+#: inc/nux/class-storefront-nux-starter-content.php:950
+msgid "Vneck Tshirt"
+msgstr "Μπλούζα Tshirt με λαιμόκοψη V"
+
+#: inc/nux/class-storefront-nux-starter-content.php:929
+msgid "Tshirt"
+msgstr "Μπλούζα Τshirt"
+
+#: inc/nux/class-storefront-nux-starter-content.php:908
+msgid "Polo"
+msgstr "Μπλούζα Πόλο"
+
+#: inc/nux/class-storefront-nux-starter-content.php:887
+msgid "Long Sleeve Tee"
+msgstr "Μακρυμάνικη Μπλούζα"
+
+#: inc/nux/class-storefront-nux-starter-content.php:865
+msgid "Hoodie"
+msgstr "Φούτερ με κουκούλα"
+
+#: inc/nux/class-storefront-nux-starter-content.php:844
+msgid "Hoodie with Zipper"
+msgstr "Φούτερ με κουκούλα και φερμουάρ"
+
+#: inc/nux/class-storefront-nux-starter-content.php:822
+msgid "Hoodie with Pocket"
+msgstr "Φούτερ με κουκούλα και τσέπη"
+
+#: inc/nux/class-storefront-nux-starter-content.php:801
+msgid "Hoodie with Logo"
+msgstr "Φούτερ με κουκούλα και λογότυπο"
+
+#: inc/nux/class-storefront-nux-starter-content.php:780
+msgid "Sunglasses"
+msgstr "Γυαλιά ηλίου"
+
+#: inc/nux/class-storefront-nux-starter-content.php:758
+msgid "Cap"
+msgstr "Καπέλο"
+
+#: inc/nux/class-storefront-nux-starter-content.php:736
+msgid "Belt"
+msgstr "Ζώνη"
+
+#: inc/nux/class-storefront-nux-starter-content.php:714
+msgid "Beanie"
+msgstr "Σκούφος"
+
+#: inc/nux/class-storefront-nux-starter-content.php:708
+msgid "Tshirts"
+msgstr "Μπλούζες Tshirt"
+
+#: inc/nux/class-storefront-nux-starter-content.php:705
+msgid "Hoodies"
+msgstr "Φούτερ με κουκούλα"
+
+#: inc/nux/class-storefront-nux-starter-content.php:703
+#: inc/nux/class-storefront-nux-starter-content.php:706
+#: inc/nux/class-storefront-nux-starter-content.php:709
+msgid "A short category description"
+msgstr "Σύντομη περιγραφή κατηγορίας"
+
+#: inc/nux/class-storefront-nux-starter-content.php:702
+msgid "Accessories"
+msgstr "Αξεσουάρ"
+
+#: inc/nux/class-storefront-nux-starter-content.php:77
+msgid "This is a page with some basic contact information, such as an address and phone number. You might also try a plugin to add a contact form."
+msgstr "Αυτή είναι μια σελίδα με βασικές πληροφορίες επικοινωνίας, όπως μια διεύθυνση και ένα τηλέφωνο. Μπορείτε, επίσης, να δοκιμάσετε κάποιο πρόσθετο για να προσθέσετε μια φόρμα επικοινωνίας."
+
+#: inc/nux/class-storefront-nux-starter-content.php:76
+msgid "Contact"
+msgstr "Επικοινωνία"
+
+#: inc/nux/class-storefront-nux-starter-content.php:72
+msgid "You might be an artist who would like to introduce yourself and your work here or maybe you&rsquo;re a business with a mission to describe."
+msgstr "Ίσως είστε ένας καλλιτέχνης που θέλει να παρουσιάσει τον εαυτό του και τις δουλειές του εδώ ή είστε μια επιχείρηση που θέλει να περιγράψει την αποστολή της."
+
+#: inc/nux/class-storefront-nux-starter-content.php:71
+msgid "About"
+msgstr "Σχετικά"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1072
+msgid "Welcome"
+msgstr "Καλώς Ήλθατε"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:147
+msgid "Done"
+msgstr "Έγινε"
+
+#. translators: 1: open <strong> tag, 2: close <strong> tag, 3: 'End Of Line'
+#. symbol
+#: inc/nux/class-storefront-nux-guided-tour.php:145
+msgid "All set! Remember to %1$ssave & publish%2$s your changes when you're done.%3$sYou can return to your dashboard by clicking the X in the top left corner."
+msgstr "Όλα έτοιμα! Θυμηθείτε %1$sνα αποθηκεύσετε και να αποθηκεύσετε%2$s τις αλλαγές όταν τελειώσετε.%3$sΜπορείτε να επιστρέψετε στον Πίνακα Ελέγχου κλικάροντας στο Χ στην πάνω δεξιά γωνία."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:138
+msgid "Choose colors for your button backgrounds and text. Once again, brand colors are good choices here."
+msgstr "Επιλέξτε χρώματα για το φόντο και κείμενο των κουμπιών σας. Ξανά, η επιλογή των χρωμάτων της εταιρίας σας είναι καλές επιλογές."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:137
+msgid "Color your buttons"
+msgstr "Χρωματίστε τα κουμπιά σας"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:132
+msgid "In the typography panel you can specify an accent color which will be applied to things like links and star ratings. We recommend using your brand color for this setting."
+msgstr "Στον πίνακα επεξεργασίας κειμένου μπορείτε να ορίσετε ένα χρώμα έμφασης το οποίο θα εφαρμοστεί σε συνδέσμους και κριτικές. Προτείνουμε να κάνετε χρήση των χρωμάτων της εταιρικής σας ταυτότητας για την ρύθμιση αυτή."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:131
+msgid "Choose your accent color"
+msgstr "Επιλέξτε το χρώμα έμφασης σας"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:119
+msgid "Open the Site Identity Panel, then click the 'Select Logo' button to upload your logo."
+msgstr "Ανοίξτε τον Πίνακα Ταυτότητας Ιστοτόπου και κλικάρετε το κουμπί \"Επιλέξτε Λογότυπο\" για να ανεβάσετε το λογότυπό σας."
+
+#. translators: %s: 'End Of Line' symbol
+#: inc/nux/class-storefront-nux-guided-tour.php:111
+msgid "Here you can control the overall look and feel of your store.%sTo get started, let's add your logo"
+msgstr "Εδώ μπορείτε να παραμετροποιήσετε την συνολική εικόνα και αισθητική του καταστήματός σας.%sΓια να ξεκινήσετε, προσθέστε το λογότυπό σας."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:109
+msgid "Welcome to the Customizer"
+msgstr "Καλώς ήλθατε στον προσαρμογέα"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:91
+msgid "Skip this step"
+msgstr "Παράλειψη βήματος"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:89
+msgid "No thanks, skip the tour"
+msgstr "Όχι, ευχαριστώ. Παράληψη περιήγησης"
+
+#: inc/nux/class-storefront-nux-admin-inbox-messages-customize.php:42
+#: inc/nux/class-storefront-nux-admin.php:180
+#: inc/nux/class-storefront-nux-guided-tour.php:112
+msgid "Let's go!"
+msgstr "Πάμε!"
+
+#: inc/nux/class-storefront-nux-admin.php:174
+msgid "Add example products"
+msgstr "Πρόσθεσε ενδεικτικά προϊοντα"
+
+#: inc/nux/class-storefront-nux-admin.php:164
+msgid "Create a homepage using Storefront's homepage template"
+msgstr "Δημιουργία αρχικής με την χρήση πρότυπου αρχικής του Storefront"
+
+#: inc/nux/class-storefront-nux-admin.php:162
+msgid "Apply the Storefront homepage template"
+msgstr "Εφαρμογή πρότυπου αρχικής σελίδας του Storefront"
+
+#: inc/nux/class-storefront-nux-admin.php:140
+msgid "You've set up WooCommerce, now it's time to give it some style! Let's get started by entering the Customizer and adding your logo."
+msgstr "Έχετε εγκαταστήσει το WooCommerce, ήρθε η ώρα να του δώσετε λίγο χαρακτήρα! Ας αρχίσουμε πηγαίνοντας στον Προσαρμογέα και προσθέτοντας το λογότυπό σας."
+
+#: inc/nux/class-storefront-nux-admin.php:138
+msgid "Before you add your first product let's design your store. We'll add some example products for you. When you're ready let's get started by adding your logo."
+msgstr "Προτού προσθέσετε το πρώτο σας προϊόν ας σχεδιάσουμε το κατάστημά σας. Θα προσθέσουμε κάποια ενδεικτικά προϊόντα. Όταν είστε έτοιμοι ας ξεκινήσουμε από την προσθήκη του λογότυπου σας."
+
+#: inc/nux/class-storefront-nux-admin.php:134
+msgid "Design your store 🎨"
+msgstr "Σχεδιάστε το κατάστημά σας 🎨"
+
+#: inc/nux/class-storefront-nux-admin.php:130
+msgid "Activate WooCommerce"
+msgstr "Ενεργοποίηση WooCommerce"
+
+#: inc/nux/class-storefront-nux-admin.php:130
+msgid "WooCommerce activated"
+msgstr "Η ενεργοποίηση του WooCommerce πραγματοποιήθηκε"
+
+#: inc/nux/class-storefront-nux-admin.php:129
+msgid "To enable eCommerce features you need to install the WooCommerce plugin."
+msgstr "Για την ενεργοποίηση δυνατοτήτων eCommerce θα πρέπει να εγκαταστήσετε το πρόσθετο WooCommerce."
+
+#: inc/nux/class-storefront-nux-admin.php:128
+msgid "Thanks for installing Storefront, you rock! 🤘"
+msgstr "Ευχαριστούμε για την εγκατάσταση του Storefront! 🤘"
+
+#. translators: 1: column number, 2: row number
+#: inc/class-storefront.php:277
+msgid "Widgets added here will appear in column %1$d of footer row %2$d."
+msgstr "Οι μικροεφαρμογές που προστίθενται εδώ θα εμφανίζονται στην στήλη %1$d της γραμμής %2$d του υποσέλιδου."
+
+#. translators: 1: row number, 2: column number
+#: inc/class-storefront.php:274
+msgid "Footer Row %1$d - Column %2$d"
+msgstr "Γραμμή υποσέλιδου %1$d - Στήλη %2$d"
+
+#. translators: 1: column number
+#: inc/class-storefront.php:271
+msgid "Widgets added here will appear in column %1$d of the footer."
+msgstr "Οι μικροεφαρμογές που προστίθενται εδώ θα εμφανίζονται στην στήλη %1$d του υποσέλιδου."
+
+#. translators: 1: column number
+#: inc/class-storefront.php:268
+msgid "Footer Column %1$d"
+msgstr "Στήλη υποσέλιδου %1$d"
+
+#: inc/admin/class-storefront-admin.php:224
+msgid "Learn more"
+msgstr "Μάθετε περισσότερα"
+
+#: inc/admin/class-storefront-admin.php:217
+#: inc/admin/class-storefront-plugin-install.php:96
+msgid "Install now"
+msgstr "Εγκατάσταση τώρα"
+
+#: inc/admin/class-storefront-admin.php:153
+msgid "Check 'em out"
+msgstr "Τσέκαρε τα"
+
+#: inc/admin/class-storefront-admin.php:149
+msgid "Of course they are all fully compatible with each Storefront extension."
+msgstr "Φυσικά, είναι όλα πλήρως συμβατά με κάθε επέκταση του Storefront."
+
+#: inc/admin/class-storefront-admin.php:145
+msgid "Each has been designed to serve a different industry - from fashion to food."
+msgstr "Το καθένα έχει σχεδιαστεί για να ταιριάζει σε διαφορετική βιομηχανία - από μόδα μέχρι φαγητό."
+
+#: inc/admin/class-storefront-admin.php:141
+msgid "Quickly and easily transform your shops appearance with Storefront child themes."
+msgstr "Γρήγορα και εύκολα, μετατρέψτε την εικόνα του καταστήματος σας με τα θυγατρικά θέματα του Storefront. "
+
+#: inc/admin/class-storefront-admin.php:137
+msgid "Alternate designs"
+msgstr "Εναλλακτικά σχέδια"
+
+#: inc/admin/class-storefront-admin.php:133
+msgid "Read more and purchase"
+msgstr "Διαβάστε περισσότερα και αγοράστε"
+
+#: inc/admin/class-storefront-admin.php:128
+msgid "Make it yours without touching code with the Storefront Extensions bundle. Express yourself, optimize conversions, delight customers."
+msgstr "Παραμετροποίηστε το χωρίς να αγγίξετε γραμμή κώδικα με το πακέτο Επεκτάσεων Storefront. Εκφραστείτε, βελτιστοποιείστε τις μετατροπές, ικανοποιείστε τους πελάτες σας."
+
+#: inc/admin/class-storefront-admin.php:124
+msgid "All the tools you'll need to define your style and customize Storefront."
+msgstr "Όλα τα εργαλεία που θα χρειαστείτε για να διαμορφώσετε και να παραμετροποιήσετε το Storefront."
+
+#: inc/admin/class-storefront-admin.php:118
+msgid "Storefront Extensions Bundle"
+msgstr "Πακέτο επεκτάσεων του Storefront"
+
+#: inc/admin/class-storefront-admin.php:107
+msgid "Hello! You might be interested in the following Storefront extensions and designs."
+msgstr "Γειά! Μπορεί να σας ενδιαφέρουν τα ακόλουθα πρόσθετα και σχέδια του Storefront."
+
+#: inc/admin/class-storefront-admin.php:105
+msgid "One more thing... You might be interested in the following Storefront extensions and designs."
+msgstr "Κάτι ακόμα... Μπορεί να σας ενδιαφέρουν οι ακόλουθες επεκτάσεις και σχέδια Storefront."
+
+#. translators: 1: HTML, 2: HTML
+#: inc/admin/class-storefront-admin.php:104
+msgid "Setup complete %1$sYour Storefront adventure begins now 🚀%2$s "
+msgstr "Η εγκατάσταση ολοκληρώθηκε %1$s Η Storefront περιπέτεια σας ξεκινάει τώρα 🚀%2$s"
+
+#: inc/admin/class-storefront-admin.php:76
+msgid "Development blog"
+msgstr "Blog προγραμματιστών"
+
+#: inc/admin/class-storefront-admin.php:75
+msgid "Documentation"
+msgstr "Τεκμηρίωση"
+
+#: inc/admin/class-storefront-admin.php:74
+msgid "Support"
+msgstr "Yποστήριξη"
+
+#: inc/class-storefront.php:255
+msgid "Widgets added to this region will appear beneath the header and above the main content."
+msgstr "Οι μικροεφαρμογές που προστίθενται σε αυτή την περιοχή θα εμφανίζονται κάτω από την κεφαλίδα και επάνω από το κύριο περιεχόμενο."
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:746
+msgid "My Account"
+msgstr "Ο λογαριασμός μου"
+
+#: 404.php:25 inc/woocommerce/storefront-woocommerce-template-functions.php:716
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1047
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:555
+msgid "Best Sellers"
+msgstr "Με Περισσότερες Πωλήσεις"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1035
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:443
+msgid "Fan Favorites"
+msgstr "Αγαπημένα χρηστών"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1106
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:387
+msgid "We Recommend"
+msgstr "Προτείνουμε"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1027
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:331
+msgid "New In"
+msgstr "Νέα στο"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1019
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:276
+msgid "Shop by Category"
+msgstr "Αγορές κατά κατηγορία"
+
+#: inc/storefront-template-functions.php:242
+msgid "Menu"
+msgstr "Μενού"
+
+#: inc/class-storefront.php:253
+msgid "Below Header"
+msgstr "Κάτω από την Κεφαλίδα"
+
+#. translators: %s: Storefront
+#: inc/customizer/class-storefront-customizer-control-more.php:36
+msgid "Enjoying %s?"
+msgstr "Σας αρέσει το %s;"
+
+#. translators: %s: Automattic branding
+#: inc/admin/class-storefront-admin.php:162
+msgid "An %s project"
+msgstr "Ένα έργο %s"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:640
+msgid "New In Store"
+msgstr "Νέα στο κατάστημα"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:627
+msgid "On Sale Now"
+msgstr "Σε Έκπτωση Τώρα"
+
+#: inc/storefront-template-functions.php:580
+msgctxt "Previous post"
+msgid "Previous"
+msgstr "Προηγούμενο"
+
+#: inc/storefront-template-functions.php:579
+msgctxt "Next post"
+msgid "Next"
+msgstr "Επόμενο"
+
+#: inc/customizer/class-storefront-customizer.php:308
+msgid "Header background image"
+msgstr "Εικόνα φόντου κεφαλίδας"
+
+#: 404.php:60 404.php:62
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:464
+msgid "Popular Products"
+msgstr "Δημοφιλή προϊόντα"
+
+#: 404.php:22
+msgid "Nothing was found at this location. Try searching, or check out the links below."
+msgstr "Δεν βρέθηκε τίποτα σε αυτή την τοποθεσία. Δοκιμάστε να κάνετε αναζήτηση ή ελέγξτε τις παρακάτω συνδέσεις."
+
+#. Template Name of the theme
+#: inc/nux/class-storefront-nux-starter-content.php:66
+msgid "Homepage"
+msgstr "Αρχική Σελίδα"
+
+#. Template Name of the theme
+msgid "Full width"
+msgstr "Πλήρες πλάτος"
+
+#. translators: %s: search term
+#: search.php:19
+msgid "Search Results for: %s"
+msgstr "Αποτελέσματα για %s"
+
+#. translators: %d: number of items in cart
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:93
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d τεμάχιο"
+msgstr[1] "%d τεμάχια"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:91
+msgid "View your shopping cart"
+msgstr "Δες το καλάθι αγορών σου"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1041
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:499
+msgid "On Sale"
+msgstr "Σε προφορά"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:409
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:614
+msgid "Featured Products"
+msgstr "Προβεβλημένα Προϊόντα"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:352
+msgid "Recent Products"
+msgstr "Πρόσφατα προϊόντα"
+
+#: 404.php:45 404.php:47
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:297
+msgid "Product Categories"
+msgstr "Κατηγορίες Προϊόντων"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:83
+msgid "Next"
+msgstr "Επόμενη"
+
+#: inc/storefront-template-functions.php:483
+msgid "% Comments"
+msgstr "% σχόλια"
+
+#: inc/storefront-template-functions.php:483
+msgid "1 Comment"
+msgstr "1 σχόλιο"
+
+#: inc/storefront-template-functions.php:483
+msgid "Leave a comment"
+msgstr "Σχολιάστε"
+
+#. translators: used between list items, there is a space after the comma
+#. translators: used between list items, there is a space after the comma
+#: inc/storefront-template-functions.php:546
+#: inc/storefront-template-functions.php:549
+msgid ", "
+msgstr ","
+
+#. translators: %s: post title
+#: inc/storefront-template-functions.php:418
+msgid "Continue reading %s"
+msgstr "Συνεχίστε την ανάγνωση %s"
+
+#: inc/storefront-template-functions.php:356
+#: inc/storefront-template-functions.php:427
+msgid "Pages:"
+msgstr "Σελίδες:"
+
+#: inc/storefront-template-functions.php:298
+msgid "Skip to content"
+msgstr "Μετάβαση σε περιεχόμενο"
+
+#: inc/storefront-template-functions.php:297
+msgid "Skip to navigation"
+msgstr "Απευθείας μετάβαση στην πλοήγηση"
+
+#: inc/storefront-template-functions.php:273
+msgid "Secondary Navigation"
+msgstr "Δευτερεύουσα πλοήγηση"
+
+#: inc/storefront-template-functions.php:241
+msgid "Primary Navigation"
+msgstr "Βασική Πλοήγηση"
+
+#: inc/storefront-template-functions.php:75
+msgid "Edit"
+msgstr "Αλλαγή"
+
+#: inc/storefront-template-functions.php:48
+msgid "Your comment is awaiting moderation."
+msgstr "Το σχόλιό σας αναμένει έγκριση."
+
+#: inc/class-storefront.php:247
+msgid "Sidebar"
+msgstr "Πλευρική στήλη"
+
+#: inc/class-storefront.php:97
+#: inc/nux/class-storefront-nux-starter-content.php:192
+msgid "Handheld Menu"
+msgstr "Μενού για συσκευές χειρός"
+
+#: inc/class-storefront.php:96
+#: inc/nux/class-storefront-nux-starter-content.php:182
+msgid "Secondary Menu"
+msgstr "Υπομενού"
+
+#: inc/class-storefront.php:95
+#: inc/nux/class-storefront-nux-starter-content.php:162
+msgid "Primary Menu"
+msgstr "Κύριο μενού"
+
+#: inc/customizer/class-storefront-customizer.php:663
+msgid "Looking for more options?"
+msgstr "Αναζητάτε περισσότερες επιλογές;"
+
+#: inc/customizer/class-storefront-customizer.php:645
+msgid "More"
+msgstr "Περισσότερα"
+
+#: inc/customizer/class-storefront-customizer.php:628
+msgid "General Layout"
+msgstr "Γενική διάταξη"
+
+#: inc/customizer/class-storefront-customizer.php:608
+msgid "Layout"
+msgstr "Διαρρύθμιση"
+
+#: inc/customizer/class-storefront-customizer.php:594
+msgid "Alternate button text color"
+msgstr "Εναλλακτικό χρώμα κειμένου κουμπιών"
+
+#: inc/customizer/class-storefront-customizer.php:570
+msgid "Alternate button background color"
+msgstr "Εναλλακτικό χρώμα φόντου κουμπιών"
+
+#: inc/customizer/class-storefront-customizer.php:502
+msgid "Customize the look & feel of your website buttons."
+msgstr "Προσαρμόστε την όψη και αίσθηση των κουμπιών του ιστότοπού σας."
+
+#: inc/customizer/class-storefront-customizer.php:500
+msgid "Buttons"
+msgstr "Κουμπιά"
+
+#: inc/customizer/class-storefront-customizer.php:394
+msgid "Customize the look & feel of your website footer."
+msgstr "Προσαρμόστε την εμφάνιση και την αίσθηση του υποσέλιδου του ιστοτόπου σας."
+
+#: inc/customizer/class-storefront-customizer.php:392
+msgid "Footer"
+msgstr "Υποσέλιδο"
+
+#: inc/customizer/class-storefront-customizer.php:378
+#: inc/customizer/class-storefront-customizer.php:486
+msgid "Link color"
+msgstr "Χρώμα συνδέσμου"
+
+#: inc/customizer/class-storefront-customizer.php:330
+#: inc/customizer/class-storefront-customizer.php:414
+#: inc/customizer/class-storefront-customizer.php:522
+msgid "Background color"
+msgstr "Χρώμα υπόβαθρου"
+
+#: inc/customizer/class-storefront-customizer.php:197
+#: inc/customizer/class-storefront-customizer.php:438
+msgid "Heading color"
+msgstr "Χρώμα Επικεφαλίδας"
+
+#: inc/customizer/class-storefront-customizer.php:221
+#: inc/customizer/class-storefront-customizer.php:354
+#: inc/customizer/class-storefront-customizer.php:462
+#: inc/customizer/class-storefront-customizer.php:546
+msgid "Text color"
+msgstr "Χρώμα κειμένου"
+
+#: inc/customizer/class-storefront-customizer.php:245
+msgid "Link / accent color"
+msgstr "Χρώμα συνδέσμων / τονισμού"
+
+#: inc/customizer/class-storefront-customizer.php:176
+msgid "Typography"
+msgstr "Τυπογραφία"
+
+#: inc/customizer/class-storefront-customizer.php:127
+msgid "Header"
+msgstr "Κεφαλίδα"
+
+#: inc/customizer/class-storefront-customizer.php:123
+msgid "Background"
+msgstr "Φόντο"
+
+#. translators: 1: start <a> tag, 2: end <a> tag
+#: inc/customizer/class-storefront-customizer-control-more.php:43
+msgid "Why not leave us a review on %1$sWordPress.org%2$s?  We'd really appreciate it!"
+msgstr "Γιατί να μην %sαφήσετε μια κριτική%s στο WordPress.org;  Θα το εκτιμήσουμε ιδιαίτερα!"
+
+#. translators: 1: Storefront, 2: start <a> tag, 3: Storefront, 4: end <a> tag
+#: inc/customizer/class-storefront-customizer-control-more.php:29
+msgid "There's a range of %1$s extensions available to put additional power in your hands. Check out the %2$s%3$s%4$s page in your dashboard for more information."
+msgstr "Υπάρχουν διαθέσιμες αρκετές επεκτάσεις για το %s, οι οποίες σας προσφέρουν περισσότερες δυνατότητες. Δείτε τη σελίδα %s%s%s στον πίνακα ελέγχου σας για περισσότερες πληροφορίες."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:118
+msgid "Add your logo"
+msgstr "Προσθέστε το λογότυπο σας"
+
+#: inc/nux/class-storefront-nux-admin.php:130
+msgid "Install WooCommerce"
+msgstr "Εγκατάσταση WooCommerce"
+
+#: inc/admin/class-storefront-admin.php:200
+#: inc/admin/class-storefront-plugin-install.php:75
+msgid "Activate"
+msgstr "Ενεργοποίηση"
+
+#: content-none.php:34
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Φαίνεται ότι δεν βρήκαμε αυτό που ζητούσατε. Αν θέλετε, δοκιμάστε την αναζήτηση."
+
+#: content-none.php:29
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Λυπάμαι, αλλά τίποτα δεν βρέθηκε που ταιριάζει στους όρους αναζήτησης. Παρακαλώ προσπαθήστε ξανά με άλλες λέξεις κλειδιά."
+
+#. translators: 1: URL
+#: content-none.php:23
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Έτοιμοι για την πρώτη σας δημοσίευση; <a href=\"%1$s\">Πάμε</a>!"
+
+#: content-none.php:14
+msgid "Nothing Found"
+msgstr "Κανένα αποτέλεσμα"
+
+#: comments.php:72
+msgid "Comments are closed."
+msgstr "Τα σχόλια είναι κλειστά."
+
+#: comments.php:43 comments.php:63
+msgid "Newer Comments &rarr;"
+msgstr "Νεότερα σχόλια →"
+
+#: comments.php:42 comments.php:62
+msgid "&larr; Older Comments"
+msgstr "← Παλαιότερα σχόλια"
+
+#: comments.php:41 comments.php:61
+msgid "Comment navigation"
+msgstr "Πλοήγηση σχολίων"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:31
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Μία σκέψη στο&ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s σκέψεις στο &ldquo;%2$s&rdquo;"
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ωπα! Αυτή η σελίδα δε βρέθηκε."
+
+#. Author of the theme
+msgid "Automattic"
+msgstr "Automattic"
+
+#. Author URI of the theme
+msgid "https://woocommerce.com/"
+msgstr "https://woocommerce.com/"
+
+#. Theme URI of the theme
+msgid "https://woocommerce.com/storefront/"
+msgstr "https://woocommerce.com/storefront/"

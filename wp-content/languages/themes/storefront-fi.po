@@ -1,0 +1,841 @@
+# Translation of Themes - Storefront in Finnish
+# This file is distributed under the same license as the Themes - Storefront package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-10-30 11:07:43+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: fi\n"
+"Project-Id-Version: Themes - Storefront\n"
+
+#. Description of the theme
+msgid "Storefront is the perfect theme for your next WooCommerce project. Designed and developed by WooCommerce Core developers, it features a bespoke integration with WooCommerce itself plus many of the most popular customer facing WooCommerce extensions. There are several layout & color options to personalise your shop, multiple widget regions, a responsive design and much more. Developers will love its lean and extensible codebase making it a joy to customize and extend. Looking for a WooCommerce theme? Look no further!"
+msgstr "Storefront on täydellinen teema seuraavalle WooCommerce projektillesi. Sen on suunnitellut ja kehittänyt WooCommercen ytimen tekijät, sen ominaisuuksiin kuuluu mm. täydellinen yhteensopivuus WooCommerce verkkokauppalisäosan kanssa ja monia suosituimpia julkisen puolen WooCommerce lisäosia. Saatavilla on useita asettelu- ja värivaihtoehtoja joilla kaupan voi yksilödä, useita vimpainalueita, mukautuva ulkoasu ja paljon muuta. Kehittäjät rakastavat sen niukkaa ja laajennettavaa koodia joten sitä on ilo mukauttaa ja laajentaa. Etsitkö WooCommerce teemaa? Löysit etsimäsi!"
+
+#. Theme Name of the theme
+msgid "Storefront"
+msgstr "Storefront"
+
+#. translators: conjunction of two alternative options user can choose (in
+#. missing plugin admin notice). Example: "Activate WooCommerce or learn more"
+#: inc/admin/class-storefront-plugin-install.php:115
+msgid "or"
+msgstr "tai"
+
+#: inc/storefront-template-functions.php:144
+msgid "Built with Storefront"
+msgstr "Tehty Storefront -teemalla"
+
+#: inc/storefront-template-functions.php:144
+msgid "Storefront -  The perfect platform for your next WooCommerce project."
+msgstr "Storefront - Täydellinen alusta seuraavalle WooCommerce projektille."
+
+#. translators: conjunction of two alternative options user can choose (in
+#. missing plugin admin notice). Example: "Activate WooCommerce or learn more"
+#: inc/admin/class-storefront-plugin-install.php:116
+msgid "learn more"
+msgstr "opi lisää"
+
+#: inc/class-storefront.php:222
+msgid "Huge"
+msgstr "Todella suuri"
+
+#: inc/class-storefront.php:217
+msgid "Large"
+msgstr "Suuri"
+
+#: inc/class-storefront.php:212
+msgid "Medium"
+msgstr "Keskikokoinen"
+
+#: inc/class-storefront.php:207
+msgid "Normal"
+msgstr "Normaali"
+
+#: inc/class-storefront.php:202
+msgid "Small"
+msgstr "Pieni"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1080
+msgid "You can change this text by editing the \"Welcome\" page via the \"Pages\" menu in your dashboard."
+msgstr "Voit muuttaa tätä tekstiä muokkaalla \"Etusivu\" -sivua ohjausnäkymän valikosta \"Sivut\"."
+
+#: inc/nux/class-storefront-nux-starter-content.php:1076
+msgid "This is your homepage which is what most visitors will see when they first visit your shop."
+msgstr "Tämä on etusivu jonka suurin osa kävijöistä näkee kun ensiksi vierailevat kaupassa."
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/storefront-template-functions.php:523
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Muokkaa <span class=\"screen-reader-text\">%s</span>"
+
+#: inc/storefront-template-functions.php:561
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] "Avainsana:"
+msgstr[1] "Avainsanat:"
+
+#: inc/storefront-template-functions.php:555
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] "Osasto:"
+msgstr[1] "Osastot:"
+
+#. translators: %s: post date
+#: inc/storefront-template-functions.php:468
+msgid "Posted on %s"
+msgstr "Julkaistu %s"
+
+#: inc/storefront-template-functions.php:474
+msgid "by"
+msgstr "tehnyt"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:891
+msgid "Product Brands"
+msgstr "Brändit"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:874
+msgid "Shop by Brand"
+msgstr "Osta brändin mukaan"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:838
+msgid "You're viewing:"
+msgstr "Katselet:"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:774
+msgid "More products"
+msgstr "Lisää tuotteita"
+
+#: inc/storefront-template-functions.php:594
+msgid "Previous post:"
+msgstr "Edellinen artikkeli"
+
+#: inc/storefront-template-functions.php:593
+msgid "Next post:"
+msgstr "Seuraava artikkeli:"
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:99
+msgid "Displays next and previous links on product pages. A product thumbnail is displayed with the title revealed on hover."
+msgstr "Näyttää tuotesivulla linkin seuraavaan ja edelliseen. Tuotteen pienoiskuva näytetään ja otsikko tulee näkyviin osoitettaessa."
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:98
+msgid "Product Pagination"
+msgstr "Tuotteiden sivutus"
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:88
+msgid "A small content bar at the top of the browser window which includes relevant product information and an add-to-cart button. It slides into view once the standard add-to-cart button has scrolled out of view."
+msgstr "Pieni sisältöpalkki selainikkunan ylälaidassa jossa näkyy tuotteeseen liittyvää tietoa ja Lisää ostoskoriin -painike. Se tulee näkyviin kun vakio Lisää ostoskoriin -painike ei enää näy sivua vieritettäessä."
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:87
+msgid "Sticky Add-To-Cart"
+msgstr "Paikallaan pysyvä Lisää ostoskoriin"
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:60
+msgid "Product Page"
+msgstr "Tuotesivu"
+
+#: inc/customizer/class-storefront-customizer.php:293
+msgid "Hero text color"
+msgstr "Hero tekstin väri"
+
+#: inc/customizer/class-storefront-customizer.php:269
+msgid "Hero heading color"
+msgstr "Hero otsikon väri"
+
+#: inc/class-storefront.php:350
+msgid "Collapse child menu"
+msgstr "Piilota alemman tason valikko"
+
+#: inc/class-storefront.php:349
+msgid "Expand child menu"
+msgstr "Laajenna alemman tason valikko"
+
+#: inc/storefront-template-functions.php:142
+msgid "Built with Storefront &amp; WooCommerce"
+msgstr "Rakenne Storefront &amp; WooCommerce"
+
+#: inc/storefront-template-functions.php:142
+msgid "WooCommerce - The Best eCommerce Platform for WordPress"
+msgstr "WooCommerce -  Paras verkkokauppa-alusta WordPressille"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:126
+msgid "Organize your menus by adding Pages, Categories, Tags, and Custom Links."
+msgstr "Järjestä valikot lisäämällä sivuja, osastoja/kategorioita, avainsanoja ja mukautettuja linkkejä."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:125
+msgid "Customize your navigation menus"
+msgstr "Mukauta valikko navigaatiota"
+
+#: inc/class-storefront.php:484
+msgid "Post Navigation"
+msgstr "Artikkelien navigointi"
+
+#: comments.php:60
+msgid "Comment Navigation Below"
+msgstr "Kommenttien navigointi alla"
+
+#: comments.php:40
+msgid "Comment Navigation Above"
+msgstr "Kommenttien navigointi yllä"
+
+#: comments.php:21
+msgid "Post Comments"
+msgstr "Kommentit"
+
+#: 404.php:39
+msgid "Promoted Products"
+msgstr "Mainostetut tuotteet"
+
+#: inc/admin/class-storefront-admin.php:191
+#: inc/admin/class-storefront-plugin-install.php:62
+msgid "Activated"
+msgstr "Käytössä"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:576
+msgid "Best Selling Products"
+msgstr "Parhaiten myydyt tuotteet"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:521
+msgid "On Sale Products"
+msgstr "Tarjouksessa olevat tuotteet"
+
+#: inc/storefront-template-functions.php:310
+msgid "Edit this section"
+msgstr "Muokkaa tätä aluetta"
+
+#: inc/nux/class-storefront-nux-starter-content.php:950
+msgid "Vneck Tshirt"
+msgstr "V-kaula T-paita"
+
+#: inc/nux/class-storefront-nux-starter-content.php:929
+msgid "Tshirt"
+msgstr "T-paita"
+
+#: inc/nux/class-storefront-nux-starter-content.php:908
+msgid "Polo"
+msgstr "Poolopaita"
+
+#: inc/nux/class-storefront-nux-starter-content.php:887
+msgid "Long Sleeve Tee"
+msgstr "Pitkähihainen T-paita"
+
+#: inc/nux/class-storefront-nux-starter-content.php:865
+msgid "Hoodie"
+msgstr "Huppari"
+
+#: inc/nux/class-storefront-nux-starter-content.php:844
+msgid "Hoodie with Zipper"
+msgstr "Huppari jossa vetoketju"
+
+#: inc/nux/class-storefront-nux-starter-content.php:822
+msgid "Hoodie with Pocket"
+msgstr "Huppari jossa tasku"
+
+#: inc/nux/class-storefront-nux-starter-content.php:801
+msgid "Hoodie with Logo"
+msgstr "Huppari jossa logo"
+
+#: inc/nux/class-storefront-nux-starter-content.php:780
+msgid "Sunglasses"
+msgstr "Aurinkolasit"
+
+#: inc/nux/class-storefront-nux-starter-content.php:758
+msgid "Cap"
+msgstr "Lippis"
+
+#: inc/nux/class-storefront-nux-starter-content.php:736
+msgid "Belt"
+msgstr "Vyö"
+
+#: inc/nux/class-storefront-nux-starter-content.php:714
+msgid "Beanie"
+msgstr "Pipo"
+
+#: inc/nux/class-storefront-nux-starter-content.php:708
+msgid "Tshirts"
+msgstr "T-paidat"
+
+#: inc/nux/class-storefront-nux-starter-content.php:705
+msgid "Hoodies"
+msgstr "Hupparit"
+
+#: inc/nux/class-storefront-nux-starter-content.php:703
+#: inc/nux/class-storefront-nux-starter-content.php:706
+#: inc/nux/class-storefront-nux-starter-content.php:709
+msgid "A short category description"
+msgstr "Lyhyt osaston kuvaus"
+
+#: inc/nux/class-storefront-nux-starter-content.php:702
+msgid "Accessories"
+msgstr "Tarvikkeet"
+
+#: inc/nux/class-storefront-nux-starter-content.php:77
+msgid "This is a page with some basic contact information, such as an address and phone number. You might also try a plugin to add a contact form."
+msgstr "Tällä sivulla on joitakin yleisiä yhteystietoja kuten osoite ja puhelinnumero. Voit myös kokeilla jotain lisäosaa jolla lisäät yhteydenottolomakkeen."
+
+#: inc/nux/class-storefront-nux-starter-content.php:76
+msgid "Contact"
+msgstr "Yhteydenotto"
+
+#: inc/nux/class-storefront-nux-starter-content.php:72
+msgid "You might be an artist who would like to introduce yourself and your work here or maybe you&rsquo;re a business with a mission to describe."
+msgstr "Olet ehkä taiteilija joka haluaa kertoa tässä itsestään ja töistään. Tai ehkä olet yritys joka haluaa kuvailla yritysvisionsa."
+
+#: inc/nux/class-storefront-nux-starter-content.php:71
+msgid "About"
+msgstr "Tietoja"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1072
+msgid "Welcome"
+msgstr "Tervetuloa"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:147
+msgid "Done"
+msgstr "Valmis"
+
+#. translators: 1: open <strong> tag, 2: close <strong> tag, 3: 'End Of Line'
+#. symbol
+#: inc/nux/class-storefront-nux-guided-tour.php:145
+msgid "All set! Remember to %1$ssave & publish%2$s your changes when you're done.%3$sYou can return to your dashboard by clicking the X in the top left corner."
+msgstr "Kaikki valmista! Muista %1$stallentaa & julkaista%2$s tekemäsi muutoksen kun olet valmis.%3$sPääset takaisin hallintapaneeliin klikkaamalla X vasemmassa yläkulmassa."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:138
+msgid "Choose colors for your button backgrounds and text. Once again, brand colors are good choices here."
+msgstr "Valitse painikkeiden taustan ja tekstin värit. Myös tässä, brändin/yrityksen värit ovat hyvä valinta."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:137
+msgid "Color your buttons"
+msgstr "Painikkeiden väri"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:132
+msgid "In the typography panel you can specify an accent color which will be applied to things like links and star ratings. We recommend using your brand color for this setting."
+msgstr "Tekstin muotoilu panelissa voit valita korostusvärin jota käytetään esim. linkeissä ja arvostelutähdissä. Suosittelemme, että käytät tässä brändin/yrityksen värejä."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:131
+msgid "Choose your accent color"
+msgstr "Valitse korostusväri"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:119
+msgid "Open the Site Identity Panel, then click the 'Select Logo' button to upload your logo."
+msgstr "Avaa sivuston identiteetti paneli, sitten klikkaa 'Valitse logo' painiketta ja siirrä logo palvelimelle."
+
+#. translators: %s: 'End Of Line' symbol
+#: inc/nux/class-storefront-nux-guided-tour.php:111
+msgid "Here you can control the overall look and feel of your store.%sTo get started, let's add your logo"
+msgstr "Tässä voit hallita kaupan yleistä ilmettä ja tuntumaa.%sAloitetaan lisäämällä logo."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:109
+msgid "Welcome to the Customizer"
+msgstr "Tervetuloa Mukauttimeen"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:91
+msgid "Skip this step"
+msgstr "Ohita tämä askel"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:89
+msgid "No thanks, skip the tour"
+msgstr "Ei kiitos, ohita esittelykierros"
+
+#: inc/nux/class-storefront-nux-admin-inbox-messages-customize.php:42
+#: inc/nux/class-storefront-nux-admin.php:180
+#: inc/nux/class-storefront-nux-guided-tour.php:112
+msgid "Let's go!"
+msgstr "Aloitetaan!"
+
+#: inc/nux/class-storefront-nux-admin.php:174
+msgid "Add example products"
+msgstr "Lisää esimerkkituotteita"
+
+#: inc/nux/class-storefront-nux-admin.php:164
+msgid "Create a homepage using Storefront's homepage template"
+msgstr "Luo etusivu Storefront etusivun mallinetta käyttäen."
+
+#: inc/nux/class-storefront-nux-admin.php:162
+msgid "Apply the Storefront homepage template"
+msgstr "Käytä Storefront etusivun mallinetta"
+
+#: inc/nux/class-storefront-nux-admin.php:140
+msgid "You've set up WooCommerce, now it's time to give it some style! Let's get started by entering the Customizer and adding your logo."
+msgstr "Olet asentanut WooCommercen, nyt on oikea hetki lisätä siihen tyyliä! Aloitetaan siirtymällä Mukauttimeen ja lisätään logo."
+
+#: inc/nux/class-storefront-nux-admin.php:138
+msgid "Before you add your first product let's design your store. We'll add some example products for you. When you're ready let's get started by adding your logo."
+msgstr "Ennen kuin lisäät ensimmäisen tuotteen, muotoillaan kauppa. Lisäämme kauppaan joitakin esimerkkituotteita. Kun olet valmis, aloitetaan lisäämällä logo."
+
+#: inc/nux/class-storefront-nux-admin.php:134
+msgid "Design your store 🎨"
+msgstr "Muotoile kauppa"
+
+#: inc/nux/class-storefront-nux-admin.php:130
+msgid "Activate WooCommerce"
+msgstr "Ota WooCommerce käyttöön"
+
+#: inc/nux/class-storefront-nux-admin.php:130
+msgid "WooCommerce activated"
+msgstr "WooCommerce käytössä"
+
+#: inc/nux/class-storefront-nux-admin.php:129
+msgid "To enable eCommerce features you need to install the WooCommerce plugin."
+msgstr "Verkkokaupan toimintoja varten on asennettava WooCommerce lisäosa."
+
+#: inc/nux/class-storefront-nux-admin.php:128
+msgid "Thanks for installing Storefront, you rock! 🤘"
+msgstr "Kiitos Storefrontin asentamisesta, jytäät!"
+
+#. translators: 1: column number, 2: row number
+#: inc/class-storefront.php:277
+msgid "Widgets added here will appear in column %1$d of footer row %2$d."
+msgstr "Tässä lisätyt vimpaimet näkyvät sarakkeessa %1$d alapalkin rivillä %2$d."
+
+#. translators: 1: row number, 2: column number
+#: inc/class-storefront.php:274
+msgid "Footer Row %1$d - Column %2$d"
+msgstr "Alapalkin rivi %1$d - sarake %2$d"
+
+#. translators: 1: column number
+#: inc/class-storefront.php:271
+msgid "Widgets added here will appear in column %1$d of the footer."
+msgstr "Tässä lisätyt vimpaimet näkyvät alapalkissa, sarake %1$d."
+
+#. translators: 1: column number
+#: inc/class-storefront.php:268
+msgid "Footer Column %1$d"
+msgstr "Alapalkin sarake %1$d"
+
+#: inc/admin/class-storefront-admin.php:224
+msgid "Learn more"
+msgstr "Lue lisää"
+
+#: inc/admin/class-storefront-admin.php:217
+#: inc/admin/class-storefront-plugin-install.php:96
+msgid "Install now"
+msgstr "Asenna nyt"
+
+#: inc/admin/class-storefront-admin.php:153
+msgid "Check 'em out"
+msgstr "Tutustu niihin"
+
+#: inc/admin/class-storefront-admin.php:149
+msgid "Of course they are all fully compatible with each Storefront extension."
+msgstr "Tietysti ne kaikki ovat täysin yhteensopivia kaikkien Storefront laajennusten kanssa."
+
+#: inc/admin/class-storefront-admin.php:145
+msgid "Each has been designed to serve a different industry - from fashion to food."
+msgstr "Jokainen on suunniteltu palvelemaan eri alaa - muodista ruokiin."
+
+#: inc/admin/class-storefront-admin.php:141
+msgid "Quickly and easily transform your shops appearance with Storefront child themes."
+msgstr "Muunna kaupan ulkoasua nopeasti ja helposti Storefront teeman alateemoilla."
+
+#: inc/admin/class-storefront-admin.php:137
+msgid "Alternate designs"
+msgstr "Vaihtele muotoiluja"
+
+#: inc/admin/class-storefront-admin.php:133
+msgid "Read more and purchase"
+msgstr "Lue lisää ja osta"
+
+#: inc/admin/class-storefront-admin.php:128
+msgid "Make it yours without touching code with the Storefront Extensions bundle. Express yourself, optimize conversions, delight customers."
+msgstr "Tee siitä omasi koskematta koodiin: käytä Storefront Extensions (-laajennukset) nippua. Ilmaise itseäsi, optimoi keskusteluja, ilahduta asiakkaita."
+
+#: inc/admin/class-storefront-admin.php:124
+msgid "All the tools you'll need to define your style and customize Storefront."
+msgstr "Kaikki työkalut joita tarvitset kun määrität tyylisi ja mukautat Storefront teemaa."
+
+#: inc/admin/class-storefront-admin.php:118
+msgid "Storefront Extensions Bundle"
+msgstr "Storefront Extensions Bundle (-laajennukset nippu)"
+
+#: inc/admin/class-storefront-admin.php:107
+msgid "Hello! You might be interested in the following Storefront extensions and designs."
+msgstr "Hei! Voit olla kiinnostunut näistä Storefront laajennuksista ja muotoiluista."
+
+#: inc/admin/class-storefront-admin.php:105
+msgid "One more thing... You might be interested in the following Storefront extensions and designs."
+msgstr "Vielä yksi asia... Voit olla kiinnostunut näistä Storefront laajennuksista ja muotoiluista."
+
+#. translators: 1: HTML, 2: HTML
+#: inc/admin/class-storefront-admin.php:104
+msgid "Setup complete %1$sYour Storefront adventure begins now 🚀%2$s "
+msgstr "Asetukset valmiit %1$sStorefront seikkailusi alkaa nyt 🚀%2$s "
+
+#: inc/admin/class-storefront-admin.php:76
+msgid "Development blog"
+msgstr "Kehitysblogi"
+
+#: inc/admin/class-storefront-admin.php:75
+msgid "Documentation"
+msgstr "Ohjeet"
+
+#: inc/admin/class-storefront-admin.php:74
+msgid "Support"
+msgstr "Tuki"
+
+#: inc/class-storefront.php:255
+msgid "Widgets added to this region will appear beneath the header and above the main content."
+msgstr "Tähän alueeseen liitetyt vimpaimet näkyvät otsakkeen alla ja pääsisällön yläpuolella."
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:746
+msgid "My Account"
+msgstr "Oma tili"
+
+#: 404.php:25 inc/woocommerce/storefront-woocommerce-template-functions.php:716
+msgid "Search"
+msgstr "Haku"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1047
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:555
+msgid "Best Sellers"
+msgstr "Eniten myydyt"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1035
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:443
+msgid "Fan Favorites"
+msgstr "Seuraajien suosikit"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1106
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:387
+msgid "We Recommend"
+msgstr "Suosittelemme"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1027
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:331
+msgid "New In"
+msgstr "Uutta"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1019
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:276
+msgid "Shop by Category"
+msgstr "Käytä tuoteosastoja"
+
+#: inc/storefront-template-functions.php:242
+msgid "Menu"
+msgstr "Valikko"
+
+#: inc/class-storefront.php:253
+msgid "Below Header"
+msgstr "Otsakkeen alla"
+
+#. translators: %s: Storefront
+#: inc/customizer/class-storefront-customizer-control-more.php:36
+msgid "Enjoying %s?"
+msgstr "Nautitko %s?"
+
+#. translators: %s: Automattic branding
+#: inc/admin/class-storefront-admin.php:162
+msgid "An %s project"
+msgstr "%s projekti"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:640
+msgid "New In Store"
+msgstr "Uutta"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:627
+msgid "On Sale Now"
+msgstr "Alennuksessa"
+
+#: inc/storefront-template-functions.php:580
+msgctxt "Previous post"
+msgid "Previous"
+msgstr "Edellinen"
+
+#: inc/storefront-template-functions.php:579
+msgctxt "Next post"
+msgid "Next"
+msgstr "Seuraava"
+
+#: inc/customizer/class-storefront-customizer.php:308
+msgid "Header background image"
+msgstr "Otsakkeen taustakuva"
+
+#: 404.php:60 404.php:62
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:464
+msgid "Popular Products"
+msgstr "Suosittuja tuotteita"
+
+#: 404.php:22
+msgid "Nothing was found at this location. Try searching, or check out the links below."
+msgstr "Mitään ei löytynyt tässä sijainnissa. Kokeile hakutoimintoa tai tutustu alla oleviin linkkeihin."
+
+#. Template Name of the theme
+#: inc/nux/class-storefront-nux-starter-content.php:66
+msgid "Homepage"
+msgstr "Etusivu"
+
+#. Template Name of the theme
+msgid "Full width"
+msgstr "Täysi leveys"
+
+#. translators: %s: search term
+#: search.php:19
+msgid "Search Results for: %s"
+msgstr "Hakutulokset kohteelle: %s"
+
+#. translators: %d: number of items in cart
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:93
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d tuote"
+msgstr[1] "%d tuotetta"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:91
+msgid "View your shopping cart"
+msgstr "Katso ostoskori"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1041
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:499
+msgid "On Sale"
+msgstr "Alennettu hinta"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:409
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:614
+msgid "Featured Products"
+msgstr "Esittelyssä olevat tuotteet"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:352
+msgid "Recent Products"
+msgstr "Uudet tuotteet"
+
+#: 404.php:45 404.php:47
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:297
+msgid "Product Categories"
+msgstr "Tuoteosastot"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:83
+msgid "Next"
+msgstr "Seuraava"
+
+#: inc/storefront-template-functions.php:483
+msgid "% Comments"
+msgstr "% kommenttia"
+
+#: inc/storefront-template-functions.php:483
+msgid "1 Comment"
+msgstr "1 kommentti"
+
+#: inc/storefront-template-functions.php:483
+msgid "Leave a comment"
+msgstr "Jätä kommentti"
+
+#. translators: used between list items, there is a space after the comma
+#. translators: used between list items, there is a space after the comma
+#: inc/storefront-template-functions.php:546
+#: inc/storefront-template-functions.php:549
+msgid ", "
+msgstr ", "
+
+#. translators: %s: post title
+#: inc/storefront-template-functions.php:418
+msgid "Continue reading %s"
+msgstr "Jatka artikkeliin %s"
+
+#: inc/storefront-template-functions.php:356
+#: inc/storefront-template-functions.php:427
+msgid "Pages:"
+msgstr "Sivut:"
+
+#: inc/storefront-template-functions.php:298
+msgid "Skip to content"
+msgstr "Siirry sisältöön"
+
+#: inc/storefront-template-functions.php:297
+msgid "Skip to navigation"
+msgstr "Siirry navigointiin"
+
+#: inc/storefront-template-functions.php:273
+msgid "Secondary Navigation"
+msgstr "Toissijainen navigointi"
+
+#: inc/storefront-template-functions.php:241
+msgid "Primary Navigation"
+msgstr "Ensisijainen navigointi"
+
+#: inc/storefront-template-functions.php:75
+msgid "Edit"
+msgstr "Muokkaa"
+
+#: inc/storefront-template-functions.php:48
+msgid "Your comment is awaiting moderation."
+msgstr "Kommenttisi on arvioitavana."
+
+#: inc/class-storefront.php:247
+msgid "Sidebar"
+msgstr "Sivupalkki"
+
+#: inc/class-storefront.php:97
+#: inc/nux/class-storefront-nux-starter-content.php:192
+msgid "Handheld Menu"
+msgstr "Valikko mobiililaitteille "
+
+#: inc/class-storefront.php:96
+#: inc/nux/class-storefront-nux-starter-content.php:182
+msgid "Secondary Menu"
+msgstr "Toissijainen valikko"
+
+#: inc/class-storefront.php:95
+#: inc/nux/class-storefront-nux-starter-content.php:162
+msgid "Primary Menu"
+msgstr "Ensisijainen valikko"
+
+#: inc/customizer/class-storefront-customizer.php:663
+msgid "Looking for more options?"
+msgstr "Etsitkö lisää muokkausvaihtoehtoja?"
+
+#: inc/customizer/class-storefront-customizer.php:645
+msgid "More"
+msgstr "Lisää"
+
+#: inc/customizer/class-storefront-customizer.php:628
+msgid "General Layout"
+msgstr "Asettelu"
+
+#: inc/customizer/class-storefront-customizer.php:608
+msgid "Layout"
+msgstr "Asettelu"
+
+#: inc/customizer/class-storefront-customizer.php:594
+msgid "Alternate button text color"
+msgstr "Vaihtuva painikkeen tekstin väri"
+
+#: inc/customizer/class-storefront-customizer.php:570
+msgid "Alternate button background color"
+msgstr "Vaihtuva painikkeen taustaväri"
+
+#: inc/customizer/class-storefront-customizer.php:502
+msgid "Customize the look & feel of your website buttons."
+msgstr "Muokkaa painikkeiden ulkoasua"
+
+#: inc/customizer/class-storefront-customizer.php:500
+msgid "Buttons"
+msgstr "Painikkeet"
+
+#: inc/customizer/class-storefront-customizer.php:394
+msgid "Customize the look & feel of your website footer."
+msgstr "Muokkaa verkkokaupan alapalkin ulkoasua."
+
+#: inc/customizer/class-storefront-customizer.php:392
+msgid "Footer"
+msgstr "Alapalkki"
+
+#: inc/customizer/class-storefront-customizer.php:378
+#: inc/customizer/class-storefront-customizer.php:486
+msgid "Link color"
+msgstr "Linkin väri"
+
+#: inc/customizer/class-storefront-customizer.php:330
+#: inc/customizer/class-storefront-customizer.php:414
+#: inc/customizer/class-storefront-customizer.php:522
+msgid "Background color"
+msgstr "Taustaväri"
+
+#: inc/customizer/class-storefront-customizer.php:197
+#: inc/customizer/class-storefront-customizer.php:438
+msgid "Heading color"
+msgstr "Otsakkeen väri"
+
+#: inc/customizer/class-storefront-customizer.php:221
+#: inc/customizer/class-storefront-customizer.php:354
+#: inc/customizer/class-storefront-customizer.php:462
+#: inc/customizer/class-storefront-customizer.php:546
+msgid "Text color"
+msgstr "Tekstin väri"
+
+#: inc/customizer/class-storefront-customizer.php:245
+msgid "Link / accent color"
+msgstr "Linkin / korostuksen väri"
+
+#: inc/customizer/class-storefront-customizer.php:176
+msgid "Typography"
+msgstr "Tekstin muotoilu"
+
+#: inc/customizer/class-storefront-customizer.php:127
+msgid "Header"
+msgstr "Otsake"
+
+#: inc/customizer/class-storefront-customizer.php:123
+msgid "Background"
+msgstr "Tausta"
+
+#. translators: 1: start <a> tag, 2: end <a> tag
+#: inc/customizer/class-storefront-customizer-control-more.php:43
+msgid "Why not leave us a review on %1$sWordPress.org%2$s?  We'd really appreciate it!"
+msgstr "Mitä jos antaisit tuotearvion meille %1$sWordPress.org%2$s -sivustolla? Todella arvostaisimme sitä!"
+
+#. translators: 1: Storefront, 2: start <a> tag, 3: Storefront, 4: end <a> tag
+#: inc/customizer/class-storefront-customizer-control-more.php:29
+msgid "There's a range of %1$s extensions available to put additional power in your hands. Check out the %2$s%3$s%4$s page in your dashboard for more information."
+msgstr "Useita tehokkaita %1$s laajennuksia on saatavilla joilla saat lisätehoa käyttöösi. Katso hallintapanelissa olevalta  %2$s%3$s%4$s page -sivulta lisätietoja."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:118
+msgid "Add your logo"
+msgstr "Lisää logosi"
+
+#: inc/nux/class-storefront-nux-admin.php:130
+msgid "Install WooCommerce"
+msgstr "Asenna WooCommerce"
+
+#: inc/admin/class-storefront-admin.php:200
+#: inc/admin/class-storefront-plugin-install.php:75
+msgid "Activate"
+msgstr "Ota käyttöön"
+
+#: content-none.php:34
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Emme valitettavasti löytäneet etsimääsi. Ehkä hakutoiminnosta on apua."
+
+#: content-none.php:29
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Pahoittelut mutta mitään ei löytynyt hakuehdoillasi. Kokeile uudelleen joillakin toisilla hakusanoilla."
+
+#. translators: 1: URL
+#: content-none.php:23
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Oletko valmis julkaisemaan ensimmäisen kirjoituksesi? <a href=\"%1$s\">Aloita tästä</a>."
+
+#: content-none.php:14
+msgid "Nothing Found"
+msgstr "Mitään ei löytynyt."
+
+#: comments.php:72
+msgid "Comments are closed."
+msgstr "Kommentointi on suljettu."
+
+#: comments.php:43 comments.php:63
+msgid "Newer Comments &rarr;"
+msgstr "Uudemmat kommentit &rarr;"
+
+#: comments.php:42 comments.php:62
+msgid "&larr; Older Comments"
+msgstr "&larr; Vanhemmat kommentit"
+
+#: comments.php:41 comments.php:61
+msgid "Comment navigation"
+msgstr "Kommenttien selaus"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:31
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s ajatus kohteelle &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s ajatusta kohteelle &ldquo;%2$s&rdquo;"
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Hups! Etsimääsi sivua ei löytynyt."
+
+#. Author of the theme
+msgid "Automattic"
+msgstr "Automattic"
+
+#. Author URI of the theme
+msgid "https://woocommerce.com/"
+msgstr "https://woocommerce.com/"
+
+#. Theme URI of the theme
+msgid "https://woocommerce.com/storefront/"
+msgstr "https://woocommerce.com/storefront/"
